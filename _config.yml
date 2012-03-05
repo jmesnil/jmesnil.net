@@ -11,6 +11,9 @@ linked_list:
   link: &#9755;
   post: &#9873;
 
+s3:
+  url: https://s3.amazonaws.com/weblog.jmesnil.net
+
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
