@@ -1,12 +1,21 @@
 <div id="page">
 	
-  <h1 class="emphnext">{{ page.title }}</h1>
+  {% if page.link %}
+  <h1 class="emphnext"><a href="{{ page.link }}">{{ page.title }} {{ site.linked_list.link }}</a></h1>
+  {% else %}
+  <h1 class="emphnext"><a href="{{ page.url }}">{{ site.linked_list.post }} {{ page.title }}</a></h1>
+  {% endif %}
+
   <ul class="tag_box inline">
   {% assign tags_list = page.tags %}
   {% include JB/tags_list %}
   </ul>
 
   {{ content }}
+
+  {% if page.link %}
+  <a href="{{ page.url }}" rel="bookmark" title="Permanent link to {{ page.title }}">{{ site.linked_list.post }}</a>
+  {% endif %}
 
   <address class="signature">
     <a class="author" href="{{ HOME_PATH }}">{{ site.author.name }}</a> 
