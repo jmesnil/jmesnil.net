@@ -1,0 +1,18 @@
+---
+date: '2006-05-06 17:47:21'
+layout: post
+slug: pearl-jam
+status: publish
+title: ⚑ Pearl Jam
+wordpress_id: '134'
+tags:
+- music
+---
+
+![Pearl Jam](http://images.amazon.com/images/P/B000ETQRCM.01._AA240_SCLZZZZZZZ_V53137127_.jpg "Pearl Jam")
+
+Great new album from Pearl Jam.  
+It's been a long wait for this one but it's worth it.
+If you need to be convinced, a clip of "Life Wasted" can be watched on [Amazon](http://www.amazon.com/gp/product/B000ETQRCM/qid=1146933877/sr=1-1/ref=sr_1_1/103-3269618-8187012?s=music&v;=glance&n;=5174).
+
+Enjoy the music and the lyrics!

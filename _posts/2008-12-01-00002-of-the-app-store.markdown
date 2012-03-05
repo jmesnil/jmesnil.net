@@ -1,0 +1,25 @@
+---
+date: '2008-12-01 21:52:26'
+layout: post
+slug: 00002-of-the-app-store
+status: publish
+title: ⚑ 0.0002% of the App Store
+wordpress_id: '402'
+tags:
+- apple
+- iphone
+- tangtouch
+---
+
+![icon.png](http://jmesnil.net/weblog/wp-content/uploads/2008/10/icon1.png)
+
+[TangTouch][tangtouch] and [TangTouch Lite][tangtouch-lite] are displayed in the grey area at the top of the iPhone shell, below the last two __0__  of __10,000+__
+
+[![icon.png](http://farm4.static.flickr.com/3250/3074199062_1761f0412f.jpg?v=0)](http://www.flickr.com/photos/tap-tap-tap/3074199062/)
+
+[via [Daniel Jalkut][jalkut]]
+
+[tangtouch]: http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=292658907&mt;=8
+[tangtouch-lite]: http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=292657700&mt;=8
+[jalkut]: http://www.red-sweater.com/blog/648/10000-apps
+

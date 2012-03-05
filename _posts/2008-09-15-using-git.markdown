@@ -1,0 +1,46 @@
+---
+date: '2008-09-15 12:40:11'
+layout: post
+slug: using-git
+status: publish
+title: ⚑ Using Git
+wordpress_id: '301'
+tags:
+- git
+---
+
+[![Git logo](http://git.or.cz/git-logo.png)](http://git.or.cz/)
+
+I have switched from [Subversion][svn] to [Git][git] a few months ago as the version control system for all my private projects and some of my [public][jmx-js] [projects][jmx4r] and I've not looked back.
+
+The setup can not be simpler ([git init][git-init] in the project directory) and [gitweb is easy to setup][gitweb-setup] to browse the repository and its history.
+
+Git is simple to [use][git-cheatsheet], simple to learn (with good [in-depth][git-bottom-up] and [user][git-doc] documentation) and _fast_.
+
+When I am learning new languages or frameworks, I tend to use an exploratory mode made of trials and errors. I found that the workflow of Git (simple branch creations and merges, stashes, reset) corresponds better to this approach than Subversion (which works best with an upfront design).
+
+One of its great features compared to Subversion is that it distinguishes between the author and the committer.  
+In Subversion, when an user submits a patch and I apply it, I'm both the committer and the author (I mention the user in the commit message and/or the header's files but as far as Subversion is concerned, the user does not exist).  
+In Git, when I apply the patch, I'm only the committer, the user is the author of the commit and will remain so in the history, in [git blame][git-blame], etc. (as an example, here is [a commit][0afd64f463] where I am the committer and Clay McClure is the author).
+This feature is very important for open source projects where your reputation comes from the code you write, even if it is only through patches.
+
+The only area where Git is lacking behind Subversion is the tools. However I don't mind using a shell and [Vim][vim] for most of the simple and frequent tasks. For advanced ones, [gitk][gitk] and 
+[Textmate][textmate] are good enough for my needs.
+
+I continue to use Subversion for my professional work but for my personal projects, Git is now my main choice (the only exception being [Eclipse][eclipse] projects but as soon as there is a Git plug-in which is good enough, I'll switch too).
+
+[git]: http://git.or.cz/
+[svn]: http://subversion.tigris.org/
+[jmx-js]: http://github.com/jmesnil/jmx-js/tree
+[jmx4r]: http://github.com/jmesnil/jmx4r/tree
+[gitweb-setup]: http://jmesnil.net/weblog/2008/07/31/gitweb-setup-on-mac-os-x/
+[git-doc]: http://www.kernel.org/pub/software/scm/git/docs/
+[git-bottom-up]: http://www.newartisans.com/blog_files/git.from.bottom.up.php
+[textmate]: http://macromates.com/
+[vim]: http://www.vim.org/
+[git-blame]: http://www.kernel.org/pub/software/scm/git/docs/git-blame.html
+[git-init]: http://www.kernel.org/pub/software/scm/git/docs/git-init.html
+[gitk]: http://www.kernel.org/pub/software/scm/git/docs/gitk.html
+[git-cheatsheet]: http://zrusin.blogspot.com/2007/09/git-cheat-sheet.html
+[0afd64f463]: http://github.com/jmesnil/jmx4r/commit/0afd64f463
+[eclipse]: http://eclipse.org/

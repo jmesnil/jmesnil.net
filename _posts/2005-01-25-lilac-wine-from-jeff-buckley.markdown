@@ -1,0 +1,81 @@
+---
+date: '2005-01-25 14:41:18'
+layout: post
+slug: lilac-wine-from-jeff-buckley
+status: publish
+title: ⚑ Lilac Wine from Jeff Buckley
+wordpress_id: '67'
+tags:
+- misc
+---
+
+> 
+I lost myself on a cool damp night  
+
+I gave myself in that misty light  
+
+Was hypnotized by a strange delight  
+
+Under a lilac tree  
+
+  
+
+I made wine from the lilac tree  
+
+Put my heart in its recipe  
+
+It makes me see what I want to see  
+
+And be what I want to be  
+
+  
+
+When I think more than I want to think  
+
+Do things I never should do  
+
+I drink much more that I ought to drink  
+
+Because it brings me back you  
+
+  
+
+Lilac wine is sweet and heady,  
+
+Like my love  
+
+Lilac wine, I feel unsteady,  
+
+Like my love  
+
+  
+
+Listen to me, I cannot see clearly  
+
+Isn't that she, coming to me  
+
+Nearly here  
+
+  
+
+Lilac wine is sweet and heady,  
+
+Where's my love  
+
+Lilac wine, I feel unsteady,  
+
+Where's my love  
+
+  
+
+Listen to me, why is everything so hazy  
+
+Isn't that she, or am I just going crazy, dear  
+
+  
+
+Lilac wine, I feel unready for my love  
+
+Feel unready, for my love.  
+
+

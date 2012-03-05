@@ -1,0 +1,24 @@
+---
+date: '2004-06-11 11:43:41'
+layout: post
+slug: tiger-15-on-tiger-104
+status: publish
+title: ⚑ Tiger 1.5 on Tiger 10.4
+wordpress_id: '18'
+tags:
+- apple
+- java
+- macosx
+---
+
+I've been very slow and I've just realized today that the next version of Java 1.5 and MacOS X 10.4 share the same codename "tiger".  
+
+It's also quite funny that they will be officially presented at the **same place** (Moscone Center, San Francisco) at the **same time** (June 28)  but at **two different events** ([JavaOne](http://java.sun.com/javaone/) for Java, [WWDC](http://www.apple.com/pr/library/2004/may/04wwdc.html) for MacOS X).
+
+
+
+
+
+I hope that in the keynotes on Tiger (MacOS X), Steve Jobs will announce the availability of Tiger (Java) soon. I've ordered a PowerBook recently and the only thing which annoys me as a Java developer is that I won't be able to play with Java 1.5 on my new toy...  
+
+Steve, if you hear me, don't wait too long before releasing Tiger 1.5 on Tiger 10.4? ;-)

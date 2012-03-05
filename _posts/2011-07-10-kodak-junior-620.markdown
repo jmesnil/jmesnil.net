@@ -1,0 +1,28 @@
+---
+date: '2011-07-10 15:30:56'
+layout: post
+slug: kodak-junior-620
+status: publish
+title: ⚑ Kodak Junior 620
+wordpress_id: '1701'
+tags:
+- photo
+---
+
+While talking about photography with my father, he told me that he still had an "old" camera from my grandfather and, lo and behold!, he showed me a folding camera: the [Kodak Junior 620][kodak].
+
+
+![Kodak Junior 620](http://farm7.static.flickr.com/6126/5921672819_8fe893bb36_z.jpg)
+[My grandfather's Kodak Junior 620](http://www.flickr.com/photos/jmesnil/5921672819/)
+
+
+I have not found a serial number and I don't know exactly which series it is but Kodak Junior 620 cameras were manufactured between 1935 and 1939 (depending on the series).
+
+My grandfather's model has a Kodak Anastigmat f/7.7 lens and the shutter speeds are 1/25, 1/75, T, and B.
+The camera is in pretty good shape (except for a bit of leather skin that I need to glue) and if I buy a 620 film roll, I could shoot like my grandfather did when he got it.  
+I even found its [user manual][manual] to use it properly (I have never owned a camera with roll film).
+
+What a family treasure to discover!
+
+[kodak]: http://vieilalbum.com/KodakJuniorsix20US.htm
+[manual]: http://www.cameramanuals.org/kodak_pdf/kodak_junior_six-20_six-16_iii.pdf

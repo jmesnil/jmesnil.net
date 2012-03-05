@@ -1,0 +1,38 @@
+---
+date: '2007-10-01 14:15:27'
+layout: post
+slug: hire-me
+status: publish
+title: ⚑ Hire Me
+wordpress_id: '153'
+tags:
+- misc
+---
+
+**Update** (Oct., 1st): A huge thank you to everyone that has mailed, phoned, or linked to me over the past several weeks. I was contacted by great people at companies with very interesting and cool things and it was a tough decision to choose among all these great offers.  
+
+But I finally took the decision and starting today I'm working for [Red Hat][rh] in the [JBoss][jboss] division. 
+
+<strike>
+It is now official: I've been notified by my employer of my layoff (French R&D; office closing down, cost reduction and all).
+
+The good news is that I'll have more time to work on [jmx4r][jmx4r] and [eclipse-jmx][e-jmx] and publish articles on this weblog.  
+But, as fun as it sounds, it won't pay the bills, so I need to find a new job.
+
+Please hire [me][me].
+
+If you are unable to hire me, please do me a favor and link to this entry. 
+
+My resume is available in [PDF][cv-pdf] or [Word][cv-word].
+</strike>
+
+Thank you.
+
+
+[e-jmx]:   http://code.google.com/p/eclipse-jmx/
+[jmx4r]:   http://code.google.com/p/jmx4r/
+[me]:      mailto:jmesnil@gmail.com
+[cv-pdf]:  http://jmesnil.net/downloads/jmesnil-en.pdf
+[cv-word]: http://jmesnil.net/downloads/jmesnil-en.doc
+[rh]:      http://www.redhat.com
+[jboss]:   http://labs.jboss.com/
