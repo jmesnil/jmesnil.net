@@ -9,10 +9,10 @@ tags:
 - apple
 ---
 
-
-![Steve Jobs](http://images.apple.com/home/images/t_hero.png)
-Steve Jobs 1955-2011
-
+<figure>
+![Steve Jobs]({{ BASE_PATH }}/assets/images/SteveJobs1955-2011.jpg)
+  <figcaption>Steve Jobs 1955-2011</figcaption>
+</figure>
 
 [Steve Jobs][stanford]:
 
