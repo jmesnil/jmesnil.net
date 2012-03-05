@@ -3,8 +3,9 @@ date: '2011-10-19 16:17:44'
 layout: post
 slug: matias-duarte-on-the-philosophy-of-android-and-an-in-depth-look-at-ice-cream-sandwich
 status: publish
-title: ⚑ Matias Duarte on the philosophy of Android, and an in-depth look at Ice Cream
+title: Matias Duarte on the philosophy of Android, and an in-depth look at Ice Cream
   Sandwich
+link: http://thisismynext.com/2011/10/18/exclusive-matias-duarte-ice-cream-sandwich-galaxy-nexus/
 wordpress_id: '1808'
 tags:
 - iphone

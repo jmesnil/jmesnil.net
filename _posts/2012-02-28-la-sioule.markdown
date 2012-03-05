@@ -3,7 +3,7 @@ date: '2012-02-28 08:59:14'
 layout: post
 slug: la-sioule
 status: publish
-title: ⚑ La Sioule
+title: La Sioule
 wordpress_id: '1870'
 tags:
 - photo

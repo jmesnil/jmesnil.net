@@ -3,7 +3,7 @@ date: '2011-10-03 17:57:15'
 layout: post
 slug: brumes-matinales
 status: publish
-title: ⚑ Brumes Matinales
+title: Brumes Matinales
 wordpress_id: '1780'
 tags:
 - photo

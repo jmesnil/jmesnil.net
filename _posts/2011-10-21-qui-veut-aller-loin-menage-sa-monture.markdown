@@ -3,7 +3,7 @@ date: '2011-10-21 10:25:48'
 layout: post
 slug: qui-veut-aller-loin-menage-sa-monture
 status: publish
-title: ⚑ Qui Veut Aller Loin Ménage Sa Monture
+title: Qui Veut Aller Loin Ménage Sa Monture
 wordpress_id: '1816'
 tags:
 - misc

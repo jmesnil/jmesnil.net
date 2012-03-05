@@ -3,7 +3,7 @@ date: '2011-10-06 07:53:10'
 layout: post
 slug: steve-jobs-1955-2011
 status: publish
-title: '⚑ Steve Jobs: 1955 - 2011'
+title: 'Steve Jobs: 1955 - 2011'
 wordpress_id: '1790'
 tags:
 - apple

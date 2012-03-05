@@ -3,7 +3,7 @@ date: '2011-10-03 16:48:19'
 layout: post
 slug: creative-commons-licenses-for-photographs-on-the-web
 status: publish
-title: ⚑ Creative Commons licenses for photographs on the Web
+title: Creative Commons licenses for photographs on the Web
 wordpress_id: '1762'
 tags:
 - photo

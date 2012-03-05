@@ -3,7 +3,7 @@ date: '2012-01-25 11:23:13'
 layout: post
 slug: apple-profits-and-humanity-losses
 status: publish
-title: ⚑ Apple Profits and Humanity Losses
+title: Apple Profits and Humanity Losses
 wordpress_id: '1855'
 tags:
 - misc

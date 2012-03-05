@@ -3,7 +3,7 @@ date: '2011-11-03 23:06:06'
 layout: post
 slug: stomp-websocket-converted-to-coffeescript
 status: publish
-title: ⚑ stomp-websocket converted to CoffeeScript
+title: stomp-websocket converted to CoffeeScript
 wordpress_id: '1827'
 tags:
 - misc
