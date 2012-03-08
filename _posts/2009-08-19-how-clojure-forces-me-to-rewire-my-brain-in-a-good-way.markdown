@@ -17,8 +17,7 @@ I was confronted with a simple challenge recently.
 I had a map containing HTTP parameters, all of the values being either strings or `nil`:
 
 
-    
-    
+{% highlight clojure %}    
     ;; my HTTP parameters
     user=>(def params {:a "true" :b nil :c "false" :d "3"})
     #'user/params
@@ -28,6 +27,7 @@ I had a map containing HTTP parameters, all of the values being either strings o
     -> nil
     user=>(params :d)
     -> "3"
+{% endhighlight %}    
     
 
 
@@ -43,33 +43,27 @@ If you are not familiar with Clojure:
 I have a map with values which are either strings or nil.  
 But I want to persist these parameters in my storage with _types_. For example, values of `:a` and `:b` must be stored as booleans, and value of `:d` as a double.
 
-
-    
-    
+{% highlight clojure %}    
     ; I want to persist:
     (def persisted-params {:a true :b nil :c false :d 3.0})
-    
+{% endhighlight %}    
 
 
 
-How can I do that using Clojure?1
+How can I do that using Clojure?<sup id="fnr1-2009-08-19"><a href="#fn1-2009-08-19">1</a></sup>
 
 First, I want a function which will return the map with the value of
 a key replaced by a boolean if the value is not nil:
 
-
-    
-    
+{% highlight clojure %}    
     (defn to-b
       "replace the value of key in the map by a Boolean instance if the value is not nil"
       [map key]
       (if (not (nil? (map key)))
         (assoc map key (Boolean. (map key)))
         map))
+{% endhighlight %}    
     
-
-
-
 Once you know the Clojure idioms, the code is straightforward: 
 
 > if the value of key in the map  - `(map key)` - is not nil, returns the map with the key associated to the value - `(Boolean. (map key))` -, else return the map unchanged - `map` -.
@@ -80,39 +74,32 @@ Another Clojure idiom:
 
 Let's try it:
 
-
-    
-    
+{% highlight clojure %}    
     user=> (to-b params :a)
     -> {:a true, :b nil, :c "false", :d "3"}
     user=> (to-b params :b)
     -> {:a "true", :b nil, :c "false", :d "3"}
     user=> (to-b params :c)
     -> {:a "true", :b nil, :c false, :d "3"}
+{% endhighlight %}    
     
 
 
 
-It works: when we call it on :a it changes its value from the String `"true"` to the boolean `true`. It does the same for `:c` but it did not change the value of `:b` which is `nil`.
+It works: when we call it on `:a` it changes its value from the String `"true"` to the boolean `true`. It does the same for `:c` but it did not change the value of `:b` which is `nil`.
 
 Second step is to call this function, not for a single key, but for a list of keys and returns the map where all the values corresponding to the keys' list have been "booleanified". Clojure provides a basic function for that: `reduce`.
 
-
-    
-    
+{% highlight clojure %}    
     (defn booleanify [map klist]
       "Replace all the non-nil values in the map for the keys in klist by their Boolean equivalent"
       (reduce to-b map klist))
-    
-
-
+{% endhighlight %}    
 
 Starting with `map` as the initial value, `reduce` will return the result of applying `to-b` to to the map and the first item of `klist`, then apply `to-b` to that result and the 2nd item, etc.
 This works as we expect:
 
-
-    
-    
+{% highlight clojure %}    
     ; booleanify nothing
     user=> (booleanify params [])        
     -> {:a "true", :b nil, :c "false", :d "3"}
@@ -124,7 +111,7 @@ This works as we expect:
     ; booleanify values of :a :b & :c
     user=> (booleanify params [:a :b :c])
     -> {:a true, :b nil, :c false, :d "3"}
-    
+{% endhighlight %}    
 
 
 
@@ -136,9 +123,7 @@ How can I leverage what I have just done for the booleans?
 This is very similar to my previous problem, the only changing part is the function used to modify the value.
 Let's rewrite `booleanify` using a more general function `modify-values`:
 
-
-    
-    
+{% highlight clojure %}    
     (defn modify-values [map fun klist]
       "Apply a fun to the non-nil values in the map for the keys in klist"
       (reduce
@@ -151,8 +136,7 @@ Let's rewrite `booleanify` using a more general function `modify-values`:
     ; booleanify call modify-values with a anonymous function to create booleans:
     (defn booleanify [map klist]
       (modify-values map #(Boolean. %) klist))
-    
-
+{% endhighlight %}    
 
 
 Another Clojure idiom:
@@ -163,27 +147,19 @@ This is "almost" plain english: to booleanify a list, we modify the values in ma
 
 It is now straightforward to "doublify" `:d`:
 
-
-    
-    
+{% highlight clojure %}    
     (defn doublify [map klist]
       (modify-values map #(Double. %) klist))
-    
-
-
+{% endhighlight %}    
 
 This works as expected:
 
-
-    
-    
+{% highlight clojure %}    
     user=> (doublify params [:d])
     -> {:a "true", :b nil, :c "false", :d 3.0}
+{% endhighlight %}    
     
-
-
-
-I like the way `modify-values` is written, it _almost_ reads like English2:
+I like the way `modify-values` is written, it _almost_ reads like English<sup id="fnr2-2009-08-19"><a href="#fn2-2009-08-19">2</a></sup>:
 
 > accumulate - `reduce` - in the map the  association  - `assoc` - of the key - `k` - and a new value - `(fun (m k)))` - or the unchanged map - `m` - if the value is nil, and do this for all the keys in the list - `klist` -.
 
@@ -207,9 +183,7 @@ With Clojure, it is more difficult.
 
 To complement this exerice, I wrote a solution in Java too:
 
-
-    
-    
+{% highlight java %}    
     public class MapTest extends TestCase {
     
        public void testMap() {
@@ -262,7 +236,7 @@ To complement this exerice, I wrote a solution in Java too:
        private interface Modifyable {
           public Object modify(Object original);
        }
-    
+{% endhighlight %}   
 
 
 
@@ -270,7 +244,7 @@ I find Clojure code more simple, elegant *and* powerful than the corresponding J
 I would have _designed_ the code differently to avoid that challenge in the first place (e.g. using explicit parameters instead of a Map and typify at the top of the chain).
 
 
-I also find interesting that the declarative language (Clojure) is closer to the natural language (English) I used to describe the problem and, still, my first instinct is to translate it in an imperative language (Java) first3.
+I also find interesting that the declarative language (Clojure) is closer to the natural language (English) I used to describe the problem and, still, my first instinct is to translate it in an imperative language (Java) first<sup id="fnr3-2009-08-19"><a href="#fn3-2009-08-19">3</a></sup>.
 
 
 I sometimes uses this type of "functional" Java code in test cases when I want to have common code and a simple change in behavior in many tests but I rarely use it in production code.
@@ -282,10 +256,9 @@ But the important part of this exercise is to increase my ability to solve probl
 
 ---
 
-1. That I find this a _challenge_ really shows my inexperience with Clojure and functional languages... ↩
-2. English is not my native language. As you can see, I am very open-minded on what reads like English!  ↩
-3. I am reading [Gödel, Bach, Escher][geb] and pay lot of attention these days to the relations between languages. ↩
-
+1. <a id="fn1-2009-08-19"></a>That I find this a _challenge_ really shows my inexperience with Clojure and functional languages...&nbsp;<a href="#fnr1-2009-08-19"  class="footnoteBackLink"  title="Jump back to footnote  in the text.">&#8617;</a>
+2. <a id="fn2-2009-08-19"></a>English is not my native language. As you can see, I am very open-minded on what reads like English! &nbsp;<a href="#fnr2-2009-08-19"  class="footnoteBackLink"  title="Jump back to footnote  in the text.">&#8617;</a>
+3. <a id="fn3-2009-08-19"></a>I am reading [Gödel, Bach, Escher][geb] and pay lot of attention these days to the relations between languages.&nbsp;<a href="#fnr3-2009-08-19"  class="footnoteBackLink"  title="Jump back to footnote  in the text.">&#8617;</a>
 
 [clojure]: http://clojure.org/
 [compojure]: http://github.com/weavejester/compojure/
