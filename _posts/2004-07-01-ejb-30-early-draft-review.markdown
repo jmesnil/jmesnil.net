@@ -3,7 +3,7 @@ date: '2004-07-01 14:08:43'
 layout: post
 slug: ejb-30-early-draft-review
 status: publish
-title: ⚑ EJB 3.0 - Early Draft Review
+title: EJB 3.0 - Early Draft Review
 wordpress_id: '36'
 tags:
 - java

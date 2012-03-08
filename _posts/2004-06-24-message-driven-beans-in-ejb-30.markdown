@@ -3,7 +3,7 @@ date: '2004-06-24 10:25:14'
 layout: post
 slug: message-driven-beans-in-ejb-30
 status: publish
-title: ⚑ Message-Driven Beans in EJB 3.0
+title: Message-Driven Beans in EJB 3.0
 wordpress_id: '9'
 tags:
 - java

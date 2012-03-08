@@ -3,7 +3,7 @@ date: '2004-06-29 10:13:54'
 layout: post
 slug: no-killer-feature-for-mac-os-x-tiger
 status: publish
-title: ⚑ No killer feature for Mac OS X Tiger
+title: No killer feature for Mac OS X Tiger
 wordpress_id: '6'
 tags:
 - apple

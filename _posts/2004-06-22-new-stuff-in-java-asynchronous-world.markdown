@@ -3,7 +3,7 @@ date: '2004-06-22 10:03:32'
 layout: post
 slug: new-stuff-in-java-asynchronous-world
 status: publish
-title: ⚑ New stuff in Java asynchronous world
+title: New stuff in Java asynchronous world
 wordpress_id: '10'
 tags:
 - java

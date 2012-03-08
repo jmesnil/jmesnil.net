@@ -3,7 +3,7 @@ date: '2004-06-28 09:22:49'
 layout: post
 slug: j2ee-is-the-past-j5ee-is-the-future
 status: publish
-title: ⚑ J2EE is the past, J5EE is the future
+title: J2EE is the past, J5EE is the future
 wordpress_id: '8'
 tags:
 - java

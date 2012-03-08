@@ -3,7 +3,7 @@ date: '2004-06-18 11:16:52'
 layout: post
 slug: eclipse-to-find-any-resource-of-a-project
 status: publish
-title: ⚑ Eclipse to find any resource of a project
+title: Eclipse to find any resource of a project
 wordpress_id: '13'
 tags:
 - eclipse

@@ -3,7 +3,7 @@ date: '2004-06-16 11:11:46'
 layout: post
 slug: finally-got-a-gmail-account
 status: publish
-title: ⚑ Finally got a Gmail account
+title: Finally got a Gmail account
 wordpress_id: '15'
 tags:
 - misc

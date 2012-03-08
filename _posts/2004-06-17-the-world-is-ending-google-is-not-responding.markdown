@@ -3,7 +3,7 @@ date: '2004-06-17 15:31:00'
 layout: post
 slug: the-world-is-ending-google-is-not-responding
 status: publish
-title: '⚑ The world is ending: Google is not responding!!'
+title: 'The world is ending: Google is not responding!!'
 wordpress_id: '14'
 tags:
 - misc

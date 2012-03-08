@@ -3,7 +3,7 @@ date: '2004-06-11 11:43:41'
 layout: post
 slug: tiger-15-on-tiger-104
 status: publish
-title: ⚑ Tiger 1.5 on Tiger 10.4
+title: Tiger 1.5 on Tiger 10.4
 wordpress_id: '18'
 tags:
 - apple

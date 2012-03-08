@@ -3,7 +3,7 @@ date: '2004-07-02 13:58:55'
 layout: post
 slug: all-i-wanted-was-to-build-my-jar-and-i-got-a-web-site
 status: publish
-title: ⚑ "All I wanted was to build my jar and I got a web site"
+title: "All I wanted was to build my jar and I got a web site"
 wordpress_id: '35'
 tags:
 - java

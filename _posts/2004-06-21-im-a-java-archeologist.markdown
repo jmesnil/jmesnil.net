@@ -3,7 +3,7 @@ date: '2004-06-21 15:51:13'
 layout: post
 slug: im-a-java-archeologist
 status: publish
-title: ⚑ I'm a Java archeologist
+title: I'm a Java archeologist
 wordpress_id: '11'
 tags:
 - java

@@ -3,7 +3,7 @@ date: '2004-06-14 18:27:18'
 layout: post
 slug: new-mission-new-environment
 status: publish
-title: ⚑ New Mission, New Environment
+title: New Mission, New Environment
 wordpress_id: '16'
 tags:
 - misc

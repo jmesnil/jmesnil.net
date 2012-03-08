@@ -3,7 +3,7 @@ date: '2004-06-11 11:41:22'
 layout: post
 slug: i-am-legion
 status: publish
-title: ⚑ I am Legion
+title: I am Legion
 wordpress_id: '19'
 tags:
 - misc

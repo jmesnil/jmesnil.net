@@ -3,7 +3,7 @@ date: '2004-06-28 18:20:35'
 layout: post
 slug: and-the-winner-is-j2se-50
 status: publish
-title: ⚑ And the winner is J2SE 5.0
+title: And the winner is J2SE 5.0
 wordpress_id: '7'
 tags:
 - java

@@ -3,7 +3,7 @@ date: '2004-07-02 15:46:35'
 layout: post
 slug: annotation-and-deployment-descriptor-are-complementary
 status: publish
-title: ⚑ Annotation and Deployment Descriptor are complementary
+title: Annotation and Deployment Descriptor are complementary
 wordpress_id: '34'
 tags:
 - java
