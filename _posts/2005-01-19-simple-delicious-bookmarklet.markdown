@@ -25,11 +25,9 @@ If I want to go to my [java and jms bookmarks](http://del.icio.us/jmesnil/java+j
 
 
 
-<disclaimer>  
-
+&lt;disclaimer>  
 I'm a total keyboard junkie. Too much emacs has definitely hurt my brain.  
-
-</disclaimer>
+&lt;/disclaimer>
 
 
 

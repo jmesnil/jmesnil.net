@@ -18,9 +18,12 @@ Incidentally, it is the only global variable added by Eclipse Monkey.
 
 The following code is also commented in this method (in version 0.1.6 of the `o.e.eclipsemonkey` plug-in):
 
-    // Object wrappedWorkspace = Context.javaToJS(ResourcesPlugin
-    // .getWorkspace(), scope);
-    // ScriptableObject.putProperty(scope, "workspace", wrappedWorkspace);
+{% highlight java%}
+// Object wrappedWorkspace = Context.javaToJS(ResourcesPlugin
+// .getWorkspace(), scope);
+// ScriptableObject.putProperty(scope, "workspace", wrappedWorkspace);
+{% endhighlight %}
+
 The `workspace` variable is instead contributed by the `org.eclipse.dash.doms` plug-in.
 
 To sum up, `window` is available for free in your Monkey scripts while you will have to reference the `http://download.eclipse.org/technology/dash/update/org.eclipse.dash.doms` DOM to have access to the `workspace` variable.

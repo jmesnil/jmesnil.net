@@ -27,6 +27,6 @@ There's a lot going on related to asynchronous stuff in Java.
 
 
 
-I expect to see a new breed of message bus which leverages all this stuff and others (e.g. NIO) to provide the core infrastructure to build <buzzword>SOA</buzzword> applications.
+I expect to see a new breed of message bus which leverages all this stuff and others (e.g. NIO) to provide the core infrastructure to build &lt;buzzword>SOA&lt;/buzzword> applications.
 
  

@@ -18,26 +18,11 @@ Fantastic paper from Pat Helland : [Data on the Outside Versus Data on the Insid
 
 His conclusions are not really groundbreaking:
 
-
-
-
-
-
-  
   * use version dependent identifier
-
-  
   * use XML for outside data
-
-  
   * use SQL for inside data
-
-  
   * use Objects for business logic
-
-
-
-
+  
 But what is great is the way he comes to that conclusion.
 
 

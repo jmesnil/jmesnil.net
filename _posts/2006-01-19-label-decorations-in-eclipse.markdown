@@ -15,19 +15,18 @@ For now, I haven't found a way to find that information declaratively. So if you
 
 As an example, to make my own `ILabelProvider` decorable, I had to change the code in my view from:
 
+{% highlight java %}
 viewer.setLabelProvider(new MyLabelProvider());
+{% endhighlight %}
 
 to:
 
-
-    
-    viewer.setLabelProvider(
-      new DecoratingLabelProvider(
-        new MyLabelProvider(),   
-        PlatformUI.getWorkbench().getDecoratorManager().getLabelDecorator()));
-
-
-
-
+{% highlight java %}
+viewer.setLabelProvider(
+  new DecoratingLabelProvider(
+    new MyLabelProvider(),   
+    PlatformUI.getWorkbench().getDecoratorManager().getLabelDecorator()));
+{% endhighlight %}
+	
 With that change,  I could contribute declaratively a lightweight decorator extension (i.e. in another plug-in) to this provider without any trouble.
 

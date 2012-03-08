@@ -19,23 +19,10 @@ It reminded me of a good laugh I had with a thread on TheServerSide.com about [J
 Maybe Sun and the JCP will suprise anybody by going directly to J5SE and J5EE... Imagine all the consequences:
 
 
-
-
-
-
   * Who would care about J2EE compliance, J5EE compliance is the way to go
-
-
   * if J3EE would have been all about lightweight containers and aspects, what could be J5EE?
-
-
   * Why EJB 3.0? I want my EJB 5.0 (but they'll have to be backwards compatible to version 1.0)!
-
-
-  * All the J3EE proponents will look so passe...
-
-
-
+  * All the J3EE proponents will look so pass&eacute;...
 
 Seriously though, I think it's a good idea to update the major version number of Java but it'd be a good idea to also remove the **2** number from Java **2** Standard and Enterprise Edition. I'd prefer a Java Enterprise Edition 1.5 rather than explaining that the J**2**EE version 1.5 is dependent of Java language in version 5.0.
 

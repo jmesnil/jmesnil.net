@@ -35,16 +35,8 @@ I believe it is a great step for Open Source J2EE applications for several reaso
 
   
   * As far as I know, it is the first implementation of an _Open Source_ transaction manager which supports recovery (there is some work on that in  [JBoss JTA](http://www.jboss.org/wiki/Wiki.jsp?page=JBossJTA) and nothing for [Tyrex](http://tyrex.sourceforge.net/))
-
-  
   * the HOWL project is the result of the collaboration between the [ObjectWeb](http://www.objectweb.org/) and [Apache](http://www.apache.org/) communities. [Coopetition](http://www.jmesnil.net/weblog/2004/11/c-jdbc-wins-apachecon-derby-code.html) is a Good Thing
-
-  
   * There is a good opportunity for JOTM to be used as the default transaction manager in [Geronimo](http://geronimo.apache.org)
-
-
-
-
 
 Congratulations to the JOTM and HOWL teams. Keep up the good work!
 

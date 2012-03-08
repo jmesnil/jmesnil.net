@@ -23,11 +23,7 @@ It is composed of 3 plug-ins:
 
 
   * the _JMX plug-in_ is used to create on demand the MBean proxies and handle all the low-level JMX stuff (connections, authentication, etc.)
-
-
   * the _Core plug-in_ is my domain model. it provides core objects which, in addition of the management methods of the MBeans, provide navigation methods to easily move between them (the core objects are in a way proxies of the MBean proxies...)
-
-
   * the _UI plug-in_ uses the core objects provided by the _Core plug-in_ for display and user interaction.
 
 
@@ -80,8 +76,6 @@ All that said, I just have two simple questions:
 
 
   * how to test a plug-in in isolation?
-
-
   * how to provide a mocked plug-in which is injected in another plugin at runtime?
 
 

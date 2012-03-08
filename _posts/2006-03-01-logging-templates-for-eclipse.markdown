@@ -13,9 +13,11 @@ Following [Wayne Beaton](http://wbeaton.blogspot.com/)'s post on [more templates
 For each logging level (debug, info, warn, error, fatal), I defined a corresponding templates.
 For example, I have a `debug` template:
 
-    if (logger.isDebugEnabled()) {
-       logger.debug(${cursor});
-    }
+{% highlight java%}
+if (logger.isDebugEnabled()) {
+   logger.debug(${cursor});
+}
+{% endhighlight %}
 
 It makes it simpler and quicker to write logging statements.
 However the class won't compile if a logger field has not already been defined.

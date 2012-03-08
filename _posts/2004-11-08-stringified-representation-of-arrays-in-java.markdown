@@ -12,16 +12,15 @@ tags:
 When you call the `toString()` method on an array in Java, you don't get an useful representation:
 
     
-    <code><verbatim>Object[] foo = {"bar", "baz"};
+    Object[] foo = {"bar", "baz"};
     System.out.println(foo);
     
-    >>> [Ljava.lang.Object;@e0b6f5</verbatim></code>
-
+    >>> [Ljava.lang.Object;@e0b6f5
 
 I used to create my own representation of the array:
 
     
-    <code><verbatim>StringBuffer buff = new StringBuffer("[");
+    StringBuffer buff = new StringBuffer("[");
     for (int i = 0; i < foo.length; i++) {
        if (i > 0) {
           buff.append(", ");
@@ -31,16 +30,15 @@ I used to create my own representation of the array:
     buff.append("]");
     System.out.println(buff.toString());
     
-    >>> ["bar", "baz"]</verbatim></code>
-
+    >>> ["bar", "baz"]
 
 But I recently discovered that the [Collections Framework](http://java.sun.com/j2se/1.4.2/docs/guide/collections/overview.html) already offers this function:
 
     
-    <code>System.out.println(<a href="http://java.sun.com/j2se/1.4.2/docs/api/java/util/Arrays.html#asList(java.lang.Object[])">Arrays.asList(foo)</a>);
+    System.out.println(Arrays.asList(foo));
     
     >>> ["bar", "baz"]</code>
 
 
-The trick is that you rely on the stringified representation of a `[List](http://java.sun.com/j2se/1.4.2/docs/api/java/util/List.html)` to get the stringified representation of the array.
+The trick is that you rely on the stringified representation of a [`List`](http://java.sun.com/j2se/1.4.2/docs/api/java/util/List.html) to get the stringified representation of the array.
 

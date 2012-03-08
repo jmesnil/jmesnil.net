@@ -11,38 +11,14 @@ tags:
 
 [Murphy's Law](http://en.wikipedia.org/wiki/Murphy%27s_law) has been [expressed mathematically](http://www.news.com.au/common/printpage/0,6093,11009375,00.html) as
 
-
-
+((U+C+I) x (10-S))/20 x A x 1/(1-sin(F/10))
     
-    
-    <code>((U+C+I) x (10-S))/20 x A x 1/(1-sin(F/10))</code>
-    
-
-
-
-
-
-
   * U for urgency
-
-
   * C for complexity
-
-
   * I for importance
-
-
   * S for skill
-
-
   * F for frequency
-
-
   * A for aggravation
-
-
-
-
 
 So now, I know how to beat it!  
 

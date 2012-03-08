@@ -28,7 +28,7 @@ It's definitely not rocket science but here is what I learn.
 
 
 
-Logging framework defines several level of logging. For example, [Log4J](http://logging.apache.org/log4j) defines the following levels in its `[Level](http://logging.apache.org/log4j/docs/api/org/apache/log4j/Level.html)` interface:
+Logging framework defines several level of logging. For example, [Log4J](http://logging.apache.org/log4j) defines the following levels in its [`Level`](http://logging.apache.org/log4j/docs/api/org/apache/log4j/Level.html) interface:
 
 
 
@@ -79,9 +79,6 @@ Depending of the level, your logs will be read by different people (either techn
 I often put in my code the following statements:
 
 
-
-    
-    <code><verbatim>
        public void aMethod(String id, int value, boolean activated) {
          if (logger.isEnabledFor(DEBUG)) {
             logger.debug("id=" + id);
@@ -90,7 +87,6 @@ I often put in my code the following statements:
          }
          ...
        }
-    </verbatim></code>
 
 
 
@@ -114,7 +110,6 @@ I saw the following code:
 
 
     
-    <code><verbatim>
        private void doStuff(String name) {
           if (logger.isEnabledFor(Level.DEBUG)) {
              logger.debug("name=" + name);
@@ -128,7 +123,6 @@ I saw the following code:
           }
           ...
        }
-    </verbatim></code>
 
 
 

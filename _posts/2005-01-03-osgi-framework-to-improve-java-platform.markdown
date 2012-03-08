@@ -14,13 +14,7 @@ I saw this [thread](http://forums.java.net/jive/thread.jspa?messageID=8987&tstar
 [OSGi](http://www.osgi.org) helps with two shortcomings of the _Java platform_ (not Java _language_):
 
 
-
-
-
-  
   * Component Versioning
-
-  
   * Published Interfaces
 
 
@@ -70,11 +64,7 @@ With OSGi, you can't use a package if it's not explicitely stated in the `import
 The advantage of OSGi is that with a quick look at the manifest file, you can see the boundaries of your bundle:
 
 
-
-  
   * what it depends on
-
-  
   * what it provides (at package level)
 
 

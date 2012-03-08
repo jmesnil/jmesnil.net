@@ -32,20 +32,10 @@ My requirement for these files were pretty simple:
 
   
   * they should be be viewable directly in a web browser to take advantage of the URLs
-
-  
   * they should be stored on my web server so that I can access them from anywhere...
-
-  
   * ... but I should be the only one allowed to view them
-
-  
   * it should be simple and straightforward to edit and modify them without uploads every time
-
-  
   * the file format should be as close as possible from plain text to keep editing simple
-
-  
   * Files should be searchable efficiently
 
 
@@ -66,11 +56,7 @@ I had to take into account my web site requirements to choose the right Wiki imp
 
   
   * only Perl, Python or PHP implementation
-
-  
   * if a database is needed, only MySQL is an option
-
-  
   * I don't have a SSH access, so the installation and configuration setup has to be done only through the web or FTP
 
 
@@ -85,17 +71,9 @@ With these requirements in mind, I made a (completely subjective) short list:
 
   
   * [MoinMoin](http://moinmoin.wikiwikiweb.de/)
-
-  
   * [Twiki](http://www.twiki.org/)
-
-  
   * [PhpWiki](http://phpwiki.sourceforge.net/)
-
-  
   * [UseMod](http://usemod.com/cgi-bin/wiki.pl)
-
-  
   * [MediaWiki](http://meta.wikimedia.org/wiki/Main_Page)
 
 

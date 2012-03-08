@@ -30,8 +30,6 @@ So, at the end of the day, I restrict my bookmarks use to only two specific case
 
   
   * bookmarklets (such a BlogThis!, post to del.icio.us, ...)
-
-  
   * web pages that I want to access through customized keywords (dict:, bug:,...)
 
 
