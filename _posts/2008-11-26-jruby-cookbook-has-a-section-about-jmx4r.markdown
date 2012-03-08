@@ -34,4 +34,3 @@ I'm looking forward to read this cookbook and write some ruby code built on top 
 [jmx4r.rb]: http://github.com/jmesnil/jmx4r/tree/master/lib/jmx4r.rb
 [jruby]: http://jruby.codehaus.org/
 [jruby-success-story]: http://syntatic.wordpress.com/2008/11/25/the-closet-jrubyists/
-  *[SLOC]: Source Lines of Code

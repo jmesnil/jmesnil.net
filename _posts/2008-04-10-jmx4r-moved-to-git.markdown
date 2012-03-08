@@ -43,4 +43,3 @@ Congratulation to the JRuby team for the performance boost since version 1.0!
 [svn]: http://subversion.tigris.org/
 [jruby]: http://jruby.codehaus.org/
 [jmx4r-tracker]: http://code.google.com/p/jmx4r/issues/list
-  *[VCS]: Version Control System

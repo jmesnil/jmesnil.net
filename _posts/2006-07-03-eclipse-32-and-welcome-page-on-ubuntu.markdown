@@ -14,7 +14,7 @@ Eclipse 3.2 is out and it is a great release. :-)
 However, the default Welcome page I had on my [Ubuntu](http://www.ubuntu.com/) desktop is
 quite broken
 
-![Broken Welcome Page in Eclipse 3.2](/img/broken-welcome-3.2.jpg)
+![Broken Welcome Page in Eclipse 3.2]({{ site.s3.url }}/images/broken-welcome-3.2.jpg)
 
 * it is ugly
 * the links to the workbench are broken (links like http://org.eclipse.ui.intro/showPage?id=overview open in Firefox)
@@ -26,11 +26,13 @@ SWT to use the web browser internally.
 
 I just added this variable before starting Eclipse:
 
-    export MOZILLA_FIVE_HOME=/usr/lib/mozilla-firefox/
+{% highlight sh %}
+export MOZILLA_FIVE_HOME=/usr/lib/mozilla-firefox/
+{% endhighlight %}
 
 and the Welcome page appeared as expected:
 
-![Welcome Page in Eclipse 3.2](/img/welcome-3.2.jpg)
+![Welcome Page in Eclipse 3.2]({{ site.s3.url }}/images/welcome-3.2.jpg)
 
 I really like the new theme (Circles) by the way.
 )

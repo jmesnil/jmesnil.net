@@ -28,4 +28,4 @@ If I ever want to release this application one day, I guess I'll have to apply f
 
 [core-animation]: http://developer.apple.com/documentation/Cocoa/Conceptual/CoreAnimation_guide/Introduction/Introduction.html
 [tangram-wikipedia]: http://en.wikipedia.org/wiki/Tangram	
-[tangram-iphone]: /img/tangram_iphone.png
+[tangram-iphone]: {{ site.s3.url}}/images/tangram_iphone.png

@@ -17,13 +17,14 @@ Just in time for the release of [JRuby 1.0][jruby] and following my experiments 
 
 For example, to trigger a Garbage Collection on a remote Java application , the whole script is:
 
-    require 'java'
-    require 'jmx4r'
+{% highlight ruby %}
+require 'java'
+require 'jmx4r'
 
-    memory = JMX::MBean.find_by_name "java.lang:type=Memory"
-    memory.verbose = true
-    memory.gc
-
+memory = JMX::MBean.find_by_name "java.lang:type=Memory"
+memory.verbose = true
+memory.gc
+{% endhighlight %}
 Simple enough, isn't it?
 
 [jruby]:	http://jruby.codehaus.org
@@ -36,7 +37,9 @@ Simple enough, isn't it?
 By default, jmx4r expects to connect to the remote MBean Server on localhost using the [standard JMX Service URL][jmx-std-url].
 Otherwise, it is possible to set the host and port of the remote MBean Server:
 
-    JMX::MBean.establish_connection :host => "localhost", :port => 3000
+{% highlight ruby %}
+JMX::MBean.establish_connection :host => "localhost", :port => 3000
+{% endhighlight %}
 
 ## Attributes & Operations naming convention ##
 
@@ -45,10 +48,12 @@ For example, the `LoadedClassCount` attribute of the `java.lang:type=ClassLoadin
 
 Ditto for the operations:
 
-    logging = JMX::MBean.find_by_name "java.util.logging:type=Logging"
-    logging.logger_names.each do |logger_name|
-        logging.set_logger_level logger_name, "INFO"
-    end
+{% highlight ruby %}
+logging = JMX::MBean.find_by_name "java.util.logging:type=Logging"
+logging.logger_names.each do |logger_name|
+    logging.set_logger_level logger_name, "INFO"
+end
+{% endhighlight %}
 
 The `set_logger_level` method corresponds to the `setLoggerLevel` MBean operations.
 
@@ -58,31 +63,41 @@ For now, the features of jmx4r are:
 
 * read MBean attributes:
         
-        memory = JMX::MBean.find_by_name "java.lang:type=Memory"
-        puts "verbose : #{memory.verbose}"
+{% highlight ruby %}
+memory = JMX::MBean.find_by_name "java.lang:type=Memory"
+puts "verbose : #{memory.verbose}"
+{% endhighlight %}
 
 * write MBean attributes (provided they are writable):
         
-        memory = JMX::MBean.find_by_name "java.lang:type=Memory"
-        memory.verbose != memory.verbose
+{% highlight ruby %}
+memory = JMX::MBean.find_by_name "java.lang:type=Memory"
+memory.verbose != memory.verbose
+{% endhighlight %}
 
 * invoke MBean operations (provided the parameters types are simple):
 
-        memory = JMX::MBean.find_by_name "java.lang:type=Memory"
-        memory.gc
-        
-        logging = JMX::MBean.find_by_name "java.util.logging:type=Logging"
-        logging.set_logger_level "global", "INFO"
+{% highlight ruby %}
+memory = JMX::MBean.find_by_name "java.lang:type=Memory"
+memory.gc
+
+logging = JMX::MBean.find_by_name "java.util.logging:type=Logging"
+logging.set_logger_level "global", "INFO"
+{% endhighlight %}
 
 * query for MBeans:
  
-		memory_pools = JMX::MBean.find_all_by_name "java.lang:type=MemoryPool,*"
-		memory_pools.each { |mem_pool| puts mem_pool.name }
+{% highlight ruby %}
+memory_pools = JMX::MBean.find_all_by_name "java.lang:type=MemoryPool,*"
+memory_pools.each { |mem_pool| puts mem_pool.name }
+{% endhighlight %}
         
 * get the ObjectName correponding to a MBean:
 
-        memory_pools = JMX::MBean.find_all_by_name "java.lang:type=MemoryPool,*"
-        memory_pools.each { |mem_pool| puts mem_pool.object_name }
+{% highlight ruby %}
+memory_pools = JMX::MBean.find_all_by_name "java.lang:type=MemoryPool,*"
+memory_pools.each { |mem_pool| puts mem_pool.object_name }
+{% endhighlight %}
 
 Next steps are:
 

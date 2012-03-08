@@ -17,28 +17,34 @@ tags:
 
 Thanks to [RubyForge][rubyforge], installing jmx4r is now as simple as typing
 
+{% highlight sh %}
     jruby -S gem install jmx4r
+{% endhighlight %}
 
 and its use is straightforward
 
-    #!/usr/bin/env jruby
-    require 'rubygems'
-    require 'jmx4r'
-    
-    # optional since by default, jmx4r tries to connect to 
-    # a JMX Server on localhost which listens to port 3000
-    JMX::MBean.establish_connection :host => "localhost", :port => 3000
-    
-    memory = JMX::MBean.find_by_name "java.lang:type=Memory"
-    # trigger a Garbage Collection
-    memory.gc
+{% highlight ruby %}
+#!/usr/bin/env jruby
+require 'rubygems'
+require 'jmx4r'
+
+# optional since by default, jmx4r tries to connect to 
+# a JMX Server on localhost which listens to port 3000
+JMX::MBean.establish_connection :host => "localhost", :port => 3000
+
+memory = JMX::MBean.find_by_name "java.lang:type=Memory"
+# trigger a Garbage Collection
+memory.gc
+{% endhighlight %}
 
 Since my [previous post on jmx4r][annoucement], I've added [unit tests][tests] and some [examples][examples] to highlight its features. It still needs to be properly documented though...
 
 However, one new feature is worth mentioning: jmx4r now supports connection authentication
 
-    JMX::MBean.establish_connection :host => "localhost",
-        :username => "jeff", :password => "secret"
+{% highlight ruby %}
+JMX::MBean.establish_connection :host => "localhost",
+    :username => "jeff", :password => "secret"
+{% endhighlight %}
 
 If you're using it, I'm very interested to now what you think about it.  
 And if you encounter any problem, do not hesitate to [submit a bug][tracker].

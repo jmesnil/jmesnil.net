@@ -19,68 +19,74 @@ If your views respond to this interface (by implementation or adaptation), they 
 
 For example, one of my view implements ISetSelectionTarget and defines the method:
 
-        public void selectReveal(ISelection selection) {
-           StructuredSelection ssel = convertSelection(selection);
-           if (!ssel.isEmpty()) {
-              viewer.getControl().setRedraw(false);
-              viewer.setSelection(ssel, true);
-              viewer.getControl().setRedraw(true);
-           }
-        }
+{% highlight java %}
+public void selectReveal(ISelection selection) {
+   StructuredSelection ssel = convertSelection(selection);
+   if (!ssel.isEmpty()) {
+      viewer.getControl().setRedraw(false);
+      viewer.setSelection(ssel, true);
+      viewer.getControl().setRedraw(true);
+   }
+}
+{% endhighlight %}
 
 How do you send this `selectReveal()` message from your action?  
 An example is found in the JDT, in the `org.eclipse.ui.wizards.newresource.BasicNewResourceWizard` class:
 
-      public static void selectAndReveal(IResource resource, IWorkbenchWindow window) {
-        // validate the input
-        if (window == null || resource == null)
-            return;
-        IWorkbenchPage page = window.getActivePage();
-        if (page == null)
-            return;
+{% highlight java %}
+public static void selectAndReveal(IResource resource, IWorkbenchWindow window) {
+  // validate the input
+  if (window == null || resource == null)
+      return;
+  IWorkbenchPage page = window.getActivePage();
+  if (page == null)
+      return;
 
-        // get all the view and editor parts
-        List parts = new ArrayList();
-        IWorkbenchPartReference refs[] = page.getViewReferences();
-        for (int i = 0; i < refs.length; i++) {
-            IWorkbenchPart part = refs[i].getPart(false);
-            if (part != null)
-                parts.add(part);
-        }
-        refs = page.getEditorReferences();
-        for (int i = 0; i < refs.length; i++) {
-            if (refs[i].getPart(false) != null)
-                parts.add(refs[i].getPart(false));
-        }
+  // get all the view and editor parts
+  List parts = new ArrayList();
+  IWorkbenchPartReference refs[] = page.getViewReferences();
+  for (int i = 0; i < refs.length; i++) {
+      IWorkbenchPart part = refs[i].getPart(false);
+      if (part != null)
+          parts.add(part);
+  }
+  refs = page.getEditorReferences();
+  for (int i = 0; i < refs.length; i++) {
+      if (refs[i].getPart(false) != null)
+          parts.add(refs[i].getPart(false));
+  }
 
-        final ISelection selection = new StructuredSelection(resource);
-        Iterator itr = parts.iterator();
-        while (itr.hasNext()) {
-            IWorkbenchPart part = (IWorkbenchPart) itr.next();
+  final ISelection selection = new StructuredSelection(resource);
+  Iterator itr = parts.iterator();
+  while (itr.hasNext()) {
+      IWorkbenchPart part = (IWorkbenchPart) itr.next();
 
-            // get the part's ISetSelectionTarget implementation
-            ISetSelectionTarget target = null;
-            if (part instanceof ISetSelectionTarget)
-                target = (ISetSelectionTarget) part;
-            else
-                target = (ISetSelectionTarget) part.getAdapter(ISetSelectionTarget.class);
+      // get the part's ISetSelectionTarget implementation
+      ISetSelectionTarget target = null;
+      if (part instanceof ISetSelectionTarget)
+          target = (ISetSelectionTarget) part;
+      else
+          target = (ISetSelectionTarget) part.getAdapter(ISetSelectionTarget.class);
 
-            if (target != null) {
-                // select and reveal resource
-                final ISetSelectionTarget finalTarget = target;
-                window.getShell().getDisplay().asyncExec(new Runnable() {
-                    public void run() {
-                        finalTarget.selectReveal(selection);
-                    }
-                });
-            }
-        }
+      if (target != null) {
+          // select and reveal resource
+          final ISetSelectionTarget finalTarget = target;
+          window.getShell().getDisplay().asyncExec(new Runnable() {
+              public void run() {
+                  finalTarget.selectReveal(selection);
+              }
+          });
       }
+  }
+}
+{% endhighlight %}
 
 However, your code does not need to be that generic. If you already know which view may
 be interested to be notified, you can use
 
-    IViewPart part = page.findView(viewId):
+{% highlight java %}
+IViewPart part = page.findView(viewId):
+{% endhighlight %}
 
 to retrieve the interested `IViewPart` and after checking that it will respond to `ISetSelectionTarget`
 (either by implementation or adaptation), you can send it a  `selectReveal()` message directly.

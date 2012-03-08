@@ -21,9 +21,7 @@ After complaining in my [previous post][previous-post], here is a more construct
 
 You can now use a "JavaScript" engine from Apple's Java 6 VM:
 
-
-    
-    
+{% highlight java %}    
     public class JavaScriptTest {
         public static void main(String[] args) throws Exception {
             ScriptEngineManager factory = new ScriptEngineManager();
@@ -31,23 +29,16 @@ You can now use a "JavaScript" engine from Apple's Java 6 VM:
             engine.eval("print('hello, world!')");
         }
     }
-    
-
-
+{% endhighlight %}    
 
 `jrunscript` is also working:
 
-
-    
-    
         $ cd /System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home/bin/
         $ ./jrunscript 
         rhino-nonjdk> print("hello, world");
         hello, world
         rhino-nonjdk> 
     
-
-
 
 [previous-post]: http://jmesnil.net/weblog/2008/05/14/no-javascript-in-java-6-on-mac-os-x/
 [jsr223]: https://scripting.dev.java.net/files/documents/4957/37593/jsr223-engines.zip

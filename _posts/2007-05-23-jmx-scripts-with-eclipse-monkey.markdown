@@ -60,86 +60,79 @@ To run the example:
 ### logging\_\_change\_\_level.js ###
 
 
+{% highlight js %}
+/*
+ * Menu: Logging > Change level
+ * DOM: http://eclipse-jmx.googlecode.com/svn/trunk/net.jmesnil.jmx.update/net.jmesnil.jmx.monkey.doms
+ */
     
+function main() {
+   mbsc = jmx.connect("localhost", 3000)
+   logging = mbsc.getMBean("java.util.logging:type=Logging")
+   
+   level = ask_level()
+   set_all(mbsc, logging, level)
+   text = "All loggers are set to " + level + "\n\n"
+   text += logger_levels(mbsc, logging)
+   show(text)
+}
     
-    /*
-     * Menu: Logging > Change level
-     * DOM: http://eclipse-jmx.googlecode.com/svn/trunk/net.jmesnil.jmx.update/net.jmesnil.jmx.monkey.doms
-     */
-        
-    function main() {
-       mbsc = jmx.connect("localhost", 3000)
-       logging = mbsc.getMBean("java.util.logging:type=Logging")
-       
-       level = ask_level()
-       set_all(mbsc, logging, level)
-       text = "All loggers are set to " + level + "\n\n"
-       text += logger_levels(mbsc, logging)
-       show(text)
-    }
-        
-    function logger_levels(mbsc, logging) {
-       var out = ""
-       for each(loggerName in logging.LoggerNames) {
-           lvl = mbsc.invoke(logging, "getLoggerLevel",
-                [loggerName],
-                ["java.lang.String"]);
-           out += loggerName + " is at " + lvl + "\n"
-       }
-       return out
-    }
-        
-    function set_all(mbsc, logging, level) {
-       for each(loggerName in logging.LoggerNames) {
-           mbsc.invoke(logging, "setLoggerLevel",
-                [loggerName, level],
-                ["java.lang.String", "java.lang.String"])
-       }
-    }
-        
-    function ask_level() {
-       dialog = new Packages.org.eclipse.jface.dialogs.InputDialog(
-              window.getShell(), 
-              "Logging Level",
-              "Which level? (SEVERE, WARNING, INFO, CONFIG, FINE, FINER, FINEST)",
-              "INFO", null)
-       result = dialog.open()
-       if (result == Packages.org.eclipse.jface.window.Window.OK) {
-           return dialog.getValue()
-       }
-    }
-        
-    function show(text) {
-       Packages.org.eclipse.jface.dialogs.MessageDialog.openInformation(
-               window.getShell(),
-               "Update Logging",
-               text
-           )
-    }
+function logger_levels(mbsc, logging) {
+   var out = ""
+   for each(loggerName in logging.LoggerNames) {
+       lvl = mbsc.invoke(logging, "getLoggerLevel",
+            [loggerName],
+            ["java.lang.String"]);
+       out += loggerName + " is at " + lvl + "\n"
+   }
+   return out
+}
     
-
-
+function set_all(mbsc, logging, level) {
+   for each(loggerName in logging.LoggerNames) {
+       mbsc.invoke(logging, "setLoggerLevel",
+            [loggerName, level],
+            ["java.lang.String", "java.lang.String"])
+   }
+}
+    
+function ask_level() {
+   dialog = new Packages.org.eclipse.jface.dialogs.InputDialog(
+          window.getShell(), 
+          "Logging Level",
+          "Which level? (SEVERE, WARNING, INFO, CONFIG, FINE, FINER, FINEST)",
+          "INFO", null)
+   result = dialog.open()
+   if (result == Packages.org.eclipse.jface.window.Window.OK) {
+       return dialog.getValue()
+   }
+}
+    
+function show(text) {
+   Packages.org.eclipse.jface.dialogs.MessageDialog.openInformation(
+           window.getShell(),
+           "Update Logging",
+           text
+       )
+}
+{% endhighlight %}    
 
 ### code walkthrough ###
 
 The `main()` function of the script is:
 
-
-    
-    
-    function main() {
-      mbsc = jmx.connect("localhost", 3000)
-      logging = mbsc.getMBean("java.util.logging:type=Logging")
-         
-       level = ask_level()
-       set_all(mbsc, logging, level)
-       text = "All loggers are set to " + level + "\n\n"
-       text += logger_levels(mbsc, logging)
-       show(text)
-    }
-    
-
-
+{% highlight js %}
+function main() {
+  mbsc = jmx.connect("localhost", 3000)
+  logging = mbsc.getMBean("java.util.logging:type=Logging")
+     
+   level = ask_level()
+   set_all(mbsc, logging, level)
+   text = "All loggers are set to " + level + "\n\n"
+   text += logger_levels(mbsc, logging)
+   show(text)
+}
+{% endhighlight %}    
 
 where
 
@@ -154,19 +147,15 @@ The interesting methods are `logger_levels()` and `set_all()`. In both methods, 
 
 Let's focus on `set_all()`:
 
-
-    
-    
-    function set_all(mbsc, logging, level) {
-       for each(loggerName in logging.LoggerNames) {
-          mbsc.invoke(logging, "setLoggerLevel",
-                [loggerName, level],
-                ["java.lang.String", "java.lang.String"])
-       }
-    }
-    
-
-
+{% highlight js %}
+function set_all(mbsc, logging, level) {
+   for each(loggerName in logging.LoggerNames) {
+      mbsc.invoke(logging, "setLoggerLevel",
+            [loggerName, level],
+            ["java.lang.String", "java.lang.String"])
+   }
+}
+{% endhighlight %}    
 
 `logging` represents a MBean (it is not a "real" MBean, more on that later) and `mbsc` represents a [`MBeanServerConnection`][mbsc-javadoc] (but it is not a "real" `MBeanServerConnection`, more on that later).  
 `logging.LoggerNames` returns the value of the `LoggerNames` attribute of the MBean (_note that the *first letter* must be in *upper case*_) which is an array of strings.  
@@ -184,10 +173,7 @@ What do I mean when I write that `logging` is not the "real" `LogginMXBean` and 
 
 This 2 types of objects are created by the `jmx` object in the `main()` method. This `jmx` object is in fact an [Eclipse Monkey DOM][eclipse-monkey-dom] that is contributed by the plug-in listed in the `DOM` directive at the top of the script:
 
-
-    
-    
-    DOM: http://eclipse-jmx.googlecode.com/svn/trunk/net.jmesnil.jmx.update/net.jmesnil.jmx.monkey.doms
+DOM: http://eclipse-jmx.googlecode.com/svn/trunk/net.jmesnil.jmx.update/net.jmesnil.jmx.monkey.doms
     
 
 

@@ -20,9 +20,7 @@ With this version, the perspective has changed, we went through the looking glas
 
 A 30-line example is worth 10,000 words:
 
-
-    
-    
+{% highlight ruby %}
     #!/usr/bin/env jruby
     require 'rubygems'
     require 'jmx4r'
@@ -57,7 +55,7 @@ A 30-line example is worth 10,000 words:
     puts "open jconsole to manage foo registered under 'foo:type=Foo'"
     gets
     ManagementFactory.platform_mbean_server.unregister_mbean object_name
-    
+{% endhighlight %}    
 
 
 
@@ -97,9 +95,7 @@ The `returns` and `parameter` type must be one of `:boolean, :byte, :int, :long,
 
 For example, if we have a method which prints the name and age of an user, it can be minimally exposed as:
 
-
-    
-    
+{% highlight ruby %}
        operation
        parameter :string
        parameter :int
@@ -107,21 +103,21 @@ For example, if we have a method which prints the name and age of an user, it ca
        def display(name, age)
          puts "#{name} is #{age} years old
        end
+{% endhighlight %}
     
 
 
 
 Exposing Ruby attributes for management is _even simpler_:
 
-
-    
-    
+{% highlight ruby %}
     class AttributeTypesMBean < JMX::DynamicMBean
        rw_attribute :my_attr, :string, "a read/write String attribute"
        r_attribute :another_attr, :int, "a readonly int attribute"
     
         ...
       end
+{% endhighlight %}
     
 
 

@@ -20,8 +20,7 @@ Instead they provided only one engine for [AppleScript][applescript] but frankly
 ![](http://jmesnil.net/weblog/wp-content/uploads/2008/07/whocares1-300x122.png)
 
 
-    
-    
+{% highlight java %}    
     public class AppleScriptTest {
         public static void main(String[] args) throws Exception {
             ScriptEngineManager factory = new ScriptEngineManager();
@@ -29,6 +28,7 @@ Instead they provided only one engine for [AppleScript][applescript] but frankly
             engine.eval("tell application \"Finder\"\n display dialog \"Who cares?\"\n end tell");
         }
     }
+{% endhighlight %}    
     
 
 
@@ -36,7 +36,6 @@ Instead they provided only one engine for [AppleScript][applescript] but frankly
 Nuff said...
 
 [rhino]: http://www.mozilla.org/rhino/
-[javascript-in-java6]:
-http://java.sun.com/javase/6/docs/technotes/guides/scripting/programmer_guide/index.html
+[javascript-in-java6]: http://java.sun.com/javase/6/docs/technotes/guides/scripting/programmer_guide/index.html
 [applescript]: http://www.apple.com/applescript/
 [sun]: http://java.sun.com

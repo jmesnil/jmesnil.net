@@ -22,7 +22,7 @@ So I started to study Java seriously during my spare time, I found internships w
 
 Retrospectively, reasons #1 and #2 were nice to have but _automatic garbage collection was the real decision criteria_.
 
-When I develop an application, most of the time I don't care when I should allocate objects, if should I take ownership or release them, etc. I just want to have an object and use it1. 
+When I develop an application, most of the time I don't care when I should allocate objects, if should I take ownership or release them, etc. I just want to have an object and use it<sup id="fnr1-2009-07-06"><a href="#fn1-2009-07-06">1</a></sup>. 
 
 But C++ forced me to think about all these details while Java made it simpler: `new Foo()` and that's it. Back then, I was just starting to learn programming languages and I preferred to let the languages handle the memory: it would be less error-prone than if I had to do it manually.
 
@@ -39,7 +39,7 @@ I'm in the same state of mind that when C++ was "forcing" me to think about memo
 I have added other languages to my toolbox (mainly [Ruby][ruby]/[JRuby][jruby] and [Javascript][javascript]). They complement nicely Java but they are not more fit for concurrency.
 There should be a language/platform that can handle concurrency for me or at least help me write correct concurrent code.
 
-Which languages/platform will I use for that? [Erlang][erlang], [Clojure][clojure]2, [Scala][scala], [Reia][reia], other?   
+Which languages/platform will I use for that? [Erlang][erlang], [Clojure][clojure]<sup id="fnr2-2009-07-06"><a href="#fn2-2009-07-06">2</a></sup>, [Scala][scala], [Reia][reia], other?   
 Which concepts should I use? [STM][stm], [messages][messages], [actors][actors], [fork/join][fork-join], [Grand Central Dispatch][grand-central], other?  
 I don't even know if I am looking for a new platform or another language on top of the Java platform.
 
@@ -52,8 +52,8 @@ Choosing Java over C++ shaped the beginning of my career. Choosing a concurrent 
 
 ---
 
-   1.  I waited the release of  [Objective-C 2.0][objective-c] to learn about Mac programming. I wanted to learn this language since I bought my first Powerbook but I waited until they added a garbage collector because I was not interested to manually manage the memory. Finally I still ended up having to learn it since the garbage collector is not available on the iPhone. Unsurprisingly, I have to track down a few memory leaks in the iPhone applications I develop. ↩
-   2.  I received the printed version of [Programming Clojure][programming-clojure] a few days ago. I like what I am reading so far. ↩
+   1. <a id="fn1-2009-07-06"></a> I waited the release of  [Objective-C 2.0][objective-c] to learn about Mac programming. I wanted to learn this language since I bought my first Powerbook but I waited until they added a garbage collector because I was not interested to manually manage the memory. Finally I still ended up having to learn it since the garbage collector is not available on the iPhone. Unsurprisingly, I have to track down a few memory leaks in the iPhone applications I develop.&nbsp;<a href="#fnr1-2009-07-06"  class="footnoteBackLink"  title="Jump back to footnote  in the text.">&#8617;</a>
+   2. <a id="fn2-2009-07-06"></a> I received the printed version of [Programming Clojure][programming-clojure] a few days ago. I like what I am reading so far.&nbsp;<a href="#fnr2-2009-07-06"  class="footnoteBackLink"  title="Jump back to footnote  in the text.">&#8617;</a>
 
 [cplusplus]: http://en.wikipedia.org/wiki/C%2B%2B
 [fortran]:  http://fr.wikipedia.org/wiki/Fortran

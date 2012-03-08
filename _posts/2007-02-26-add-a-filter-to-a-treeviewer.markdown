@@ -30,11 +30,13 @@ Plain Old TreeViewer
 
 The code to create the TreeViewer is straightforward:
 
-    public void createPartControl(Composite parent) {
-        ...
-        viewer = new TreeViewer(parent, SWT.MULTI | SWT.H_SCROLL | SWT.V_SCROLL);
-        ...
-    }
+{% highlight java %}
+public void createPartControl(Composite parent) {
+    ...
+    viewer = new TreeViewer(parent, SWT.MULTI | SWT.H_SCROLL | SWT.V_SCROLL);
+    ...
+}
+{% endhighlight %}
 
 which, in eclipse-jmx, gives:
 
@@ -46,14 +48,16 @@ PatternFilter & FilteredTree
 
 To filter the tree's nodes, the code to change is minimal:
 
-    public void createPartControl(Composite parent) {
-        ...
-        PatternFilter patternFilter = new PatternFilter();
-        final FilteredTree filter = new FilteredTree(parent, SWT.MULTI
-                | SWT.H_SCROLL | SWT.V_SCROLL, patternFilter);
-        viewer = filter.getViewer();
-        ...
-    }
+{% highlight java %}
+public void createPartControl(Composite parent) {
+    ...
+    PatternFilter patternFilter = new PatternFilter();
+    final FilteredTree filter = new FilteredTree(parent, SWT.MULTI
+            | SWT.H_SCROLL | SWT.V_SCROLL, patternFilter);
+    viewer = filter.getViewer();
+    ...
+}
+{% endhighlight %}
 
 With these 2 lines, a filter widget is displayed on top of the tree and the tree's nodes are automatically filtered based on the filter text:
 

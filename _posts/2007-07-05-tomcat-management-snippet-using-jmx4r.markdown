@@ -21,16 +21,18 @@ Here is a simple example to manage [Tomcat][tomcat] using jmx4r.
 
 Let's assume that we have Tomcat running locally and manageable remotely on port 3000 (without authentication):
 
-
+{% highlight sh %}
     $ export CATALINA_OPTS="-Dcom.sun.management.jmxremote \
         -Dcom.sun.management.jmxremote.port=3000 \
         -Dcom.sun.management.jmxremote.ssl=false \
         -Dcom.sun.management.jmxremote.authenticate=false"
     $ ./bin/catalina.sh/run
+{% endhighlight %}
 
 We want to know among all the Web Modules running in Tomcat which ones are privileged and which ones are not.
 The whole script to do so is:
 
+{% highlight ruby %}
     # tomcat_modules.rb
     require "rubygems"
     require "jmx4r"
@@ -42,9 +44,11 @@ The whole script to do so is:
      
     puts "Privileged:\n"     + privileged.map   {|m| m.path }.join("\n  ")
     puts "Unprivileged:\n  " + unprivileged.map {|m| m.path }.join("\n  ")
+{% endhighlight %}
 
 Executing this script gives:
 
+{% highlight sh %}
     $ jruby tomcat_modules.rb 
     Privileged:
       /balancer
@@ -56,6 +60,7 @@ Executing this script gives:
       /jsp-examples
       
       /webdav
+{% endhighlight %}
 
 
 That's were using [JRuby][jruby] shines: it combines the simplicity of using directly the MBeans exposed by a Java application without having to bother with classes dependency.

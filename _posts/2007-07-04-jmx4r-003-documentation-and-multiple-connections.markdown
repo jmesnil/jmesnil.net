@@ -27,8 +27,6 @@ Two new features in this release:
 
 
   1. some much-needed [documentation](http://jmx4r.rubyforge.org/doc/)
-
-
   2. as [requested](http://code.google.com/p/jmx4r/issues/detail?id=2&can=1&q=) by [Brian McCallister](http://kasparov.skife.org/blog/), I've modified the code so that it is now possible
 to write a script to manage many Java applications at the same time.
 
@@ -39,19 +37,13 @@ to write a script to manage many Java applications at the same time.
 For example, the script to trigger a garbage collection on a cluster of Java applications at the same time (quite a bad idea but a simple one):
 
 
-
-
-    
-    <code>port = 1090
-    hosts = ["node1", "node2", "node3", "node4"]
-    hosts.each do |h|
-        memory = JMX::MBean.find_by_name "java.lang:type=Memory", :host => h, :port => port
-        memory.gc
-    end
-    </code>
-
-
-
+{% highlight ruby %}
+hosts = ["node1", "node2", "node3", "node4"]
+hosts.each do |h|
+    memory = JMX::MBean.find_by_name "java.lang:type=Memory", :host => h, :port => port
+    memory.gc
+end
+{% endhighlight %}
 
 
 Quite simple, isn't it?
@@ -73,32 +65,25 @@ Quite simple, isn't it?
 
 A complete [example](http://jmx4r.googlecode.com/svn/trunk/examples/memory_on_many_nodes.rb) shows how to display memory usage on 3 Java applications _before_ and _after_ a garbage collection is triggered.
 
+{% highlight sh %}
+$ jruby -Ilib examples/memory_on_many_nodes.rb
 
-
-
-    
-    <code>$ jruby -Ilib examples/memory_on_many_nodes.rb
-    
-    Before GC:
-    +----------------+----------------+----------------+
-    | Node           |      Heap Used |  Non Heap Used |
-    +----------------+----------------+----------------+
-    | localhost:3000 |        1264328 |       14414808 |
-    | localhost:3001 |        1345632 |       14465192 |
-    | localhost:3002 |        1405072 |       14501936 |
-    +----------------+----------------+----------------+
-    After GC:
-    +----------------+----------------+----------------+
-    | Node           |      Heap Used |  Non Heap Used |
-    +----------------+----------------+----------------+
-    | localhost:3000 |        1142304 |       14421184 |
-    | localhost:3001 |        1205040 |       14476312 |
-    | localhost:3002 |        1218928 |       14506672 |
-    +----------------+----------------+----------------+
-    </code>
-
-
-
-
+Before GC:
++----------------+----------------+----------------+
+| Node           |      Heap Used |  Non Heap Used |
++----------------+----------------+----------------+
+| localhost:3000 |        1264328 |       14414808 |
+| localhost:3001 |        1345632 |       14465192 |
+| localhost:3002 |        1405072 |       14501936 |
++----------------+----------------+----------------+
+After GC:
++----------------+----------------+----------------+
+| Node           |      Heap Used |  Non Heap Used |
++----------------+----------------+----------------+
+| localhost:3000 |        1142304 |       14421184 |
+| localhost:3001 |        1205040 |       14476312 |
+| localhost:3002 |        1218928 |       14506672 |
++----------------+----------------+----------------+
+{% endhighlight %}
 
 As usual, the simplest way to install it is by using RubyGems: `jruby -S gem install **jmx4r**`.

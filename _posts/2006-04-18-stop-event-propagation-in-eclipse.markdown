@@ -15,7 +15,9 @@ It is quite simple but I stumble upon it before finding how in Eclipse you can s
 
 In your listener, handle the `TraverseEvent` event and then just
 
-    event.doit = false;
+{% highlight java %}
+event.doit = false;
+{% endhighlight %}
 
 and the system will stop traversing the Controls.
 

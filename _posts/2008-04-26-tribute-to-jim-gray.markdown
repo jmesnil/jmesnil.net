@@ -9,7 +9,7 @@ tags:
 - misc
 ---
 
-![Jim Gray](http://upload.wikimedia.org/wikipedia/en/7/7e/11-23gray.jpg)
+![Jim Gray](http://upload.wikimedia.org/wikipedia/en/b/b0/Jim_Gray_portrait,_1999.jpg)
 
 I can't say it better than [Pat Helland][pat-helland]:
 

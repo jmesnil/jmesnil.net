@@ -17,9 +17,7 @@ This post is for future references since I had to slightly adapt what is written
 
 Assuming all my [Git][git] projects are in `/Users/jmesnil/Work/` and I've already installed Git using [MacPorts][macports] (`sudo port install git-core`), the steps to create `gitweb.cgi` is:
 
-
-    
-    
+{% highlight bash %}    
     cd ~/Work
     # retrieve the latest version of git
     git clone git://git.kernel.org/pub/scm/git/git.git
@@ -39,6 +37,7 @@ Assuming all my [Git][git] projects are in `/Users/jmesnil/Work/` and I've alrea
     mkdir -p /Library/WebServer/Documents/gitweb
     sudo cp gitweb/gitweb.css gitweb/git-logo.png gitweb/git-favicon.png \   
        /Library/WebServer/Documents/gitweb/
+{% endhighlight %}    
     
 
 

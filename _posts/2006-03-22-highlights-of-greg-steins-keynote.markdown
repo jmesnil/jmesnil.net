@@ -18,21 +18,19 @@ Some highlights from [Greg Stein's keynote](http://www.eclipsecon.org/2006/Sub.d
 > * Apache central to Open Source work but Eclipse is also gravitating to the center  
 > * The license trend is going to the bottom
 
-
-
-
-     Proprietary
-      |
-      v
-     Restricted
-      |
-      v
-     Copyleft (GPL, EPL)
-      |
-      v
-     Non-copyleft (APL, BSD)   
-
-
+<center>
+<pre><code> Proprietary
+  |
+  v
+ Restricted
+  |
+  v
+ Copyleft (GPL, EPL)
+  |
+  v
+ Non-copyleft (APL, BSD)   
+</code></pre>
+</center>
 
 I found it quite interesting to see how  [Apache](http://apache.org) is organized and how  [Eclipse](http://eclipse.org) compares to it.
 

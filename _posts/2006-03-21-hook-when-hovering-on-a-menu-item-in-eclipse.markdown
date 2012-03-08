@@ -13,10 +13,12 @@ I'm trying to display a message in Eclipse global status bar when hovering on a 
 
 I had the part to display the message (but I'm pretty sure it's the ugliest way I could have found):
 
-		if (window instanceof ApplicationWindow) {
-			ApplicationWindow appWindow = (ApplicationWindow)window;
-			appWindow.setStatus(message);
-		}
+{% highlight java %}
+if (window instanceof ApplicationWindow) {
+	ApplicationWindow appWindow = (ApplicationWindow)window;
+	appWindow.setStatus(message);
+}
+{% endhighlight %}
 
 But I can't find how to run that code when hovering on a menu item.
 I've got the complete control on the menu and its items creation but I don't see where I can plug my code so

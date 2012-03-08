@@ -11,7 +11,7 @@ tags:
 - tangtouch
 ---
 
-![icon.png](http://jmesnil.net/weblog/wp-content/uploads/2008/10/icon1.png)
+![icon.png]({{ site.s3.url}}/images/tangtouch-icon.png)
 
 [TangTouch][tangtouch] is now available on the [App Store][tangtouch-itunes].  
 It is a [Tangram][tangram] puzzle game for the iPhone or the iPod Touch.

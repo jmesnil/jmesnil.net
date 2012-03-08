@@ -42,30 +42,36 @@ We will again use jconsole as our managed java application (see [Part I][part-1]
 
 Going directly to the conclusion, the code to display a list of all loggers defined by `java.util.logging` is
 
-    # connect to jconsole MBeanServer
-    url = JMXServiceURL.new "service:jmx:rmi:///jndi/rmi://localhost:3000/jmxrmi"
-    connector = JMXConnectorFactory::connect url, HashMap.new
-    mbsc = connector.mbean_server_connection
-    
-    logging = MBean.new mbsc, "java.util.logging:type=Logging"
-    # list all Loggers
-    logging.LoggerNames.each do | logger_name |
-        puts logger_name
-    end
+{% highlight ruby %}
+# connect to jconsole MBeanServer
+url = JMXServiceURL.new "service:jmx:rmi:///jndi/rmi://localhost:3000/jmxrmi"
+connector = JMXConnectorFactory::connect url, HashMap.new
+mbsc = connector.mbean_server_connection
+
+logging = MBean.new mbsc, "java.util.logging:type=Logging"
+# list all Loggers
+logging.LoggerNames.each do | logger_name |
+    puts logger_name
+end
+{% endhighlight %}
 
 Running this code will display all loggers:
 
-    sun.rmi.client.call
-    java.awt.ContainerOrderFocusTraversalPolicy
-    javax.management.remote.rmi
-    javax.swing.SortingFocusTraversalPolicy
-    sun.rmi.server.call
-    sun.rmi.transport.tcp
-    ...
+{% highlight sh %}
+sun.rmi.client.call
+java.awt.ContainerOrderFocusTraversalPolicy
+javax.management.remote.rmi
+javax.swing.SortingFocusTraversalPolicy
+sun.rmi.server.call
+sun.rmi.transport.tcp
+...
+{% endhighlight %}
 
 Where is the magic? It is in 
 
-    logging = MBean.new mbsc, "java.util.logging:type=Logging"
+{% highlight ruby %}
+logging = MBean.new mbsc, "java.util.logging:type=Logging"
+{% endhighlight %}
 
 ### JRuby's MBean class ###
 
@@ -73,22 +79,24 @@ Where is the magic? It is in
 
 What does its code look like?
 
-    class MBean
-        include_class 'javax.management.ObjectName'
-    
-        def initialize(mbsc, object_name)
-            @mbsc = mbsc
-            @object_name = ObjectName.new object_name
-            info = mbsc.getMBeanInfo @object_name
-            info.attributes.each do | mbean_attr |
-                self.class.instance_eval do 
-                    define_method mbean_attr.name do
-                        @mbsc.getAttribute @object_name, "#{mbean_attr.name}"
-                    end
+{% highlight ruby %}
+class MBean
+    include_class 'javax.management.ObjectName'
+
+    def initialize(mbsc, object_name)
+        @mbsc = mbsc
+        @object_name = ObjectName.new object_name
+        info = mbsc.getMBeanInfo @object_name
+        info.attributes.each do | mbean_attr |
+            self.class.instance_eval do 
+                define_method mbean_attr.name do
+                    @mbsc.getAttribute @object_name, "#{mbean_attr.name}"
                 end
             end
         end
     end
+end
+{% endhighlight %}
 
 This class only defines a constructor `initialize` which accepts a `MBeanServerConnection` and a String representing an `ObjectName` which is used to create a `@object_name` field.
 
@@ -97,20 +105,24 @@ It then iterates on the `MBeanAttributeInfo` using `info.attributes`.
 
 That's in this iterator that the magic happens:
 
-    self.class.instance_eval do 
-        define_method mbean_attr.name do
-            @mbsc.getAttribute @object_name, "#{mbean_attr.name}"
-        end
+{% highlight ruby %}
+self.class.instance_eval do 
+    define_method mbean_attr.name do
+        @mbsc.getAttribute @object_name, "#{mbean_attr.name}"
     end
+end
+{% endhighlight %}
 
 It calls [`instance_eval`][instance_eval] to add a method to the instance class.   
 This method is created using `define_method` with `mbean_attr.name` as the method name. It returns the value of the mbean attribute by calling `@mbsc.getAttribute` for the given `mbean_attr.name` of the `@object_name` of the MBean.
 
 What does this mean? Executing `logging = MBean.new mbsc, "java.util.logging:type=Logging"` will create the `logging` object and add a method to this object to access the `LoggerNames` attribute:
 
+{% highlight ruby %}
     def LoggerNames
         @mbsc.getAttribute @object_name, "LoggerNames"
     end
+{% endhighlight %}
 
 ### Conclusion ###
 

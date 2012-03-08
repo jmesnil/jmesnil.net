@@ -24,11 +24,10 @@ This means it was not possible to use jmx4r to connect to a MBean server which u
 
 With this release, you can now fully specify the url:
 
-
-    
-    
+{% highlight ruby %}
         url = "service:jmx:rmi:///jndi/iiop://node1:7001/weblogic.management.mbeanservers.runtime"
         JMX::MBean.establish_connection :url => url
+{% endhighlight %}
     
 
 

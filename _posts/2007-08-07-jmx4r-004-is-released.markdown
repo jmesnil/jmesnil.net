@@ -21,15 +21,8 @@ To get this new release, just update the rubygem: `jruby -S gem install jmx4r`
 [All contributions][0.0.4-issues] to this new release were done by Skaar:
 
 
-
-
-
   * CompositeData behave like regular read-only Ruby Hash
-
-
   * custom classes can be loaded by `require` statements
-
-
   * custom JMX credentials are supported
 
 
@@ -46,36 +39,33 @@ They now behave in jmx4r as regular read-only Ruby Hash.
 
 For example, the JVM exposes its heap memory usage with such a composite data:
 
-
-    
-    
+{% highlight ruby %}
     memory = JMX::MBean.find_by_name "java.lang:type=Memory"
     # heap is a CompositeData attribute
     heap = memory.heap_memory_usage
+{% endhighlight %}
     
 
 
 
 To list the name and values of the `heap` attribute, the code was:
 
-
-    
-    
+{% highlight ruby %}
     heap.composite_type.key_set.each do |type|
         puts "#{type} : #{heap.get type}"
     end
+{% endhighlight %}
     
 
 
 
 and now it is simply:
 
-
-    
-    
+{% highlight ruby %}
     heap.keys.each do |key|
         puts "#{key} : #{heap[key]}"
     end
+{% endhighlight %}
     
 
 
@@ -90,12 +80,11 @@ It is now possible to reference classes loaded using `require` statements.
 
 jmx4r now allow you to specify custom credentials used by JMX authentication (as specified by a [JMXAuthenticator][jmxauthenticator]) in addition to the "standard" `:login/:password` credentials:
 
-
-    
-    
+{% highlight ruby %}
     creds = create_my_custom_credentials()
     # creds will be used by the JMXAuthenticator on the MBeanServer
     JMX::MBean.establish_connection :credentials => creds
+{% endhighlight %}
     
 
    
