@@ -13,7 +13,7 @@ tags:
 
 As an exercice when I learn a new programming language or a new environment, I develop simple applications to get a feel on the language, the platform, its libraries, etc.  When I lack ideas for these applications, I redevelop applications that I use.
 
-In order to learn [Clojure][clojure] and [Google App Engine][appengine], I have developed [Read Lature][readlature], a web application to save articles and read them later (very similar to [Instapaper][instapaper])<a id="fnr1-2009-08-25" href="#fn1-2009-08-25"<sup>1</sup></a>.
+In order to learn [Clojure][clojure] and [Google App Engine][appengine], I have developed [Read Lature][readlature], a web application to save articles and read them later (very similar to [Instapaper][instapaper])<a id="fnr1-2009-08-25" href="#fn1-2009-08-25"><sup>1</sup></a>.
 
 The idea is simple: I want to keep reference on articles or blog posts that can be interesting but I don't want or don't have time to read them immediately.
 I do not use bookmarks for that (either using my browser bookmarks or [delicious][delicious]): my bookmarks are long-lived while I want to keep a reference to these articles only for a short period (and keeping them open in tabs does not scale).

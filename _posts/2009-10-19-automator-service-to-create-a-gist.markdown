@@ -11,19 +11,20 @@ tags:
 
 I created an Automator Service to create a [Gist][gist] from a text selection. This service will create the gist and copy the corresponding URL to the clipboard so that it can be pasted in IRC or in a web browser
 
-* Open `Applications` -> `Automator`
+* Open `Applications` &rarr; `Automator`
 * Create a new Service
 
-![Create a new Service](http://jmesnil.net/weblog/wp-content/uploads/2009/10/service.png)
+<figure>
+<img src="{{ site.s3.url }}/images/2009-10-19-service.png" alt="Create a new Service" width="542" height="503"/>
+<figcaption>Create a new Service</figcaption>
+</figure>
 
-* Drag and drop `Utilities` -> `Run Shell Script`
+* Drag and drop `Utilities` &rarr; `Run Shell Script`
   * Select shell: `/bin/bash`
   * Pass input: `as arguments`
   * Copy the content below:
 
-
-    
-    
+{% highlight sh %}
     RESP_FILE=/tmp/gist.tmp
     rm -f $RESP_FILE
     
@@ -37,22 +38,30 @@ I created an Automator Service to create a [Gist][gist] from a text selection. T
     
     curl http://gist.github.com/gists --silent -i $AUTH --data-urlencode "file_contents[gistfile1]=$1" --data-urlencode "file_ext[gistfile1]=.txt"  -o $RESP_FILE
     cat $RESP_FILE|sed -ne '/Location/p'|cut -f2- -d:|tr -d ' ' | pbcopy
-    
+{% endhighlight %}
 
-
-
-* Since it can take a few seconds to create a Gist, I added a Grow notification: drag and drop `Utilities` -> `Show Growl Notification`
+* Since it can take a few seconds to create a Gist, I added a Grow notification: drag and drop `Utilities` &rarr; `Show Growl Notification`
 * Save service as "Gist Code"
 
 You will end up with this service:
 
-[![Gist Code](http://jmesnil.net/weblog/wp-content/uploads/2009/10/gist-service-300x216.png)](http://jmesnil.net/weblog/wp-content/uploads/2009/10/gist-service.png)
+<figure>
+<a href="{{ site.s3.url }}/images/2009-10-19-gist-service.png">
+<img src="{{ site.s3.url }}/images/2009-10-19-gist-service-300x216.png" width="300" height="216" />
+</a>
+<figcaption>Gist Code</figcaption>
+</figure>
 
-Now, you can select any text1, right-click and select `Gist Code`:
+Now, you can select any text<sup id="fnr1-2009-10-19"><a href="#fn1-2009-10-19">1</a></sup>, right-click and select `Gist Code`:
 
-[![mate](http://jmesnil.net/weblog/wp-content/uploads/2009/10/mate-300x128.png)](http://jmesnil.net/weblog/wp-content/uploads/2009/10/mate.png)
+<figure>
+<a href="{{ site.s3.url }}/images/2009-10-19-mate.png">
+<img src="{{ site.s3.url }}/images/2009-10-19-mate-300x128.png" width="300" height="128" />
+</a>
+<figcaption>Mate</figcaption>
+</figure>
 
-It also works from the Terminal using the application menu `Terminal` -> `Services` -> `Gist Code`
+It also works from the Terminal using the application menu `Terminal` &rarr; `Services` &rarr; `Gist Code`
 
 Once the gist has been created, you will be notified by Growl when the gist URL is copied to the clipboard. You can then paste this on IRC or in a web browser: [http://gist.github.com/213301](http://gist.github.com/213301)
 
@@ -61,13 +70,12 @@ This service also uses Git to retrieve GitHub credentials so that the gist is ad
 
 This is a  screencast showing how to create and use this service:
 
-
+<object width="640" height="505"><param name="movie" value="http://www.youtube.com/v/qBgmWH-kY-s&hl=fr&fs=1&rel=0&hd=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/qBgmWH-kY-s&hl=fr&fs=1&rel=0&hd=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="505"></embed></object>
 
 Enjoy!
 
 ----
 
-1. It only works for Cocoa text widget. At first, I wanted to use it with Eclipse but unfortunately Eclipse does not support Apple Services... ↩
+1. <a id="fn1-2009-10-19"></a>It only works for Cocoa text widget. At first, I wanted to use it with Eclipse but unfortunately Eclipse does not support Apple Services...&nbsp;<a href="#fnr1-2009-10-19"  class="footnoteBackLink"  title="Jump back to footnote  in the text.">&#8617;</a>
 
 [gist]: http://gist.github.com 
-
