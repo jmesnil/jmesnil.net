@@ -4,6 +4,7 @@ layout: post
 slug: d-f-w-this-is-water
 status: publish
 title: 'D.F.W.: "This Is Water"'
+link: http://www.guardian.co.uk/books/2008/sep/20/fiction
 wordpress_id: '1563'
 tags:
 - misc

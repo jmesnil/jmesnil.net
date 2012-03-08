@@ -15,7 +15,7 @@ Based on the [DF-Style Linked List][df-link] plug-in, I now distinguish between 
 This is similar to [Daring Fireball][df] or [James Duncan Davidson's blog][dd]. I find this more convenient: when reading from a news reader, cliking on the title of a link post will directly open the linked web site instead of going to mine for an useless roundtrip.  
 Link posts are identified by appending a ☛ to the post title (in both the feed and the web pages).
 
-For longer, more personal posts, I differentiate them by prepending a in the feed title.
+For longer, more personal posts, I differentiate them by prepending a ⚑ in the feed title.
 
 This way, I clearly distinguish between my own writings (⚑) and others' writings that I link to (☛).
 

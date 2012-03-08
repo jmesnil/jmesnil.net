@@ -4,6 +4,7 @@ layout: post
 slug: fuji-finepix-x100
 status: publish
 title: Fuji FinePix X100
+link: http://www.finepix-x100.com/story/viewfinder
 wordpress_id: '1552'
 tags:
 - photo

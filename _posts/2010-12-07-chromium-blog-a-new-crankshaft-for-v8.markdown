@@ -4,6 +4,7 @@ layout: post
 slug: chromium-blog-a-new-crankshaft-for-v8
 status: publish
 title: 'Chromium Blog: A New Crankshaft for V8'
+link: http://blog.chromium.org/2010/12/new-crankshaft-for-v8.html
 wordpress_id: '1505'
 tags:
 - javascript

@@ -3,7 +3,8 @@ date: '2011-03-09 22:01:32'
 layout: post
 slug: xcode-4
 status: publish
-title: 'Xcode 4 '
+title: 'Xcode 4'
+link: http://developer.apple.com/xcode/
 wordpress_id: '1607'
 tags:
 - apple

@@ -4,6 +4,7 @@ layout: post
 slug: 20-things-i-learned-about-browsers-and-the-web
 status: publish
 title: 20 Things I Learned about Browsers and the Web
+link: http://www.20thingsilearned.com/home
 wordpress_id: '1321'
 tags:
 - misc

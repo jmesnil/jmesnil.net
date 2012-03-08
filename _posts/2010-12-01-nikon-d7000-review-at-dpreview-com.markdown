@@ -4,6 +4,7 @@ layout: post
 slug: nikon-d7000-review-at-dpreview-com
 status: publish
 title: Nikon D7000 Review at dpreview.com
+link: http://www.dpreview.com/reviews/nikond7000/
 wordpress_id: '1444'
 tags:
 - misc

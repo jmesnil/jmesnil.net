@@ -4,6 +4,7 @@ layout: post
 slug: colorapi-color-chart-search
 status: publish
 title: colorapi, color chart search
+link: http://colorapi.com/
 wordpress_id: '1621'
 tags:
 - misc

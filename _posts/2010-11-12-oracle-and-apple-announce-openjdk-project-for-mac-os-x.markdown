@@ -4,6 +4,7 @@ layout: post
 slug: oracle-and-apple-announce-openjdk-project-for-mac-os-x
 status: publish
 title: Oracle and Apple Announce OpenJDK Project for Mac OS X
+link: http://www.apple.com/pr/library/2010/11/12openjdk.html
 wordpress_id: '1299'
 tags:
 - apple

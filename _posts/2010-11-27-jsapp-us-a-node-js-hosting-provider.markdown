@@ -4,6 +4,7 @@ layout: post
 slug: jsapp-us-a-node-js-hosting-provider
 status: publish
 title: 'JSApp.US: a node.js Hosting Provider'
+link: http://jsapp.us/
 wordpress_id: '1414'
 tags:
 - javascript

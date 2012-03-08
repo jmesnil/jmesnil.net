@@ -4,6 +4,7 @@ layout: post
 slug: url-design
 status: publish
 title: URL Design
+link: http://warpspire.com/posts/url-design/
 wordpress_id: '1557'
 tags:
 - web

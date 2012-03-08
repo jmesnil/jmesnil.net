@@ -4,6 +4,7 @@ layout: post
 slug: new-luma-loop
 status: publish
 title: New Luma Loop
+link: http://lu.ma/loop
 wordpress_id: '1436'
 tags:
 - misc

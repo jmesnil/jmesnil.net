@@ -4,6 +4,7 @@ layout: post
 slug: uncharted-3-drakes-deception-trailer
 status: publish
 title: 'Uncharted 3: Drake''s Deception Trailer'
+link: http://www.youtube.com/watch?v=DHHcM6aHPnE
 wordpress_id: '1520'
 tags:
 - misc

@@ -4,6 +4,7 @@ layout: post
 slug: clojure-on-heroku
 status: publish
 title: Clojure on Heroku
+link: http://blog.heroku.com/archives/2011/7/5/clojure_on_heroku/
 wordpress_id: '1693'
 tags:
 - misc

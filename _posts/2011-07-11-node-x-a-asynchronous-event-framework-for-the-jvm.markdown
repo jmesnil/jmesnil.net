@@ -4,6 +4,7 @@ layout: post
 slug: node-x-a-asynchronous-event-framework-for-the-jvm
 status: publish
 title: node.x, a Asynchronous Event Framework for the JVM
+link: https://github.com/purplefox/node.x
 wordpress_id: '1714'
 tags:
 - java

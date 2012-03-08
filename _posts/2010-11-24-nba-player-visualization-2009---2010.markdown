@@ -4,6 +4,7 @@ layout: post
 slug: nba-player-visualization-2009-–-2010
 status: publish
 title: NBA Player Visualization 2009 – 2010
+link: http://hoopism.com/?p=114
 wordpress_id: '1372'
 tags:
 - misc

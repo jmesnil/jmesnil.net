@@ -4,6 +4,7 @@ layout: post
 slug: understanding-the-nikon-iso-sensitivity-auto-control
 status: publish
 title: Understanding the Nikon ISO Sensitivity Auto Control
+link: http://darrellyoung.blogspot.com/2010/04/understanding-nikon-iso-sensitivity.html
 wordpress_id: '1489'
 tags:
 - misc

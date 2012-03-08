@@ -4,6 +4,7 @@ layout: post
 slug: an-rss-feed-and-location-based-ios-application
 status: publish
 title: An RSS-feed and location-based iOS application
+link: http://cocoawithlove.com/2011/06/process-of-writing-ios-application.html
 wordpress_id: '1637'
 tags:
 - apple

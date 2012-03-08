@@ -4,6 +4,7 @@ layout: post
 slug: whos-passing-to-who
 status: publish
 title: Who's Passing to Who
+link: http://hoopism.com/?p=434
 wordpress_id: '1495'
 tags:
 - misc

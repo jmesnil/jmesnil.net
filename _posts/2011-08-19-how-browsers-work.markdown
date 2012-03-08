@@ -4,6 +4,7 @@ layout: post
 slug: how-browsers-work
 status: publish
 title: How Browsers Work
+link: http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/
 wordpress_id: '1755'
 tags:
 - web

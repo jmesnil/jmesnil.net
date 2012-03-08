@@ -4,6 +4,7 @@ layout: post
 slug: red-hat-wins-most-innovative-java-company-at-jaxconf
 status: publish
 title: Red Hat Wins "Most Innovative Java Company" at JAXconf
+link: http://jaxenter.com/jax-innovation-awards-2011-the-winners-are-36551.html
 wordpress_id: '1649'
 tags:
 - java

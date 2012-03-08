@@ -4,6 +4,7 @@ layout: post
 slug: websocket-disabled-in-firefox-4
 status: publish
 title: WebSocket disabled in Firefox 4
+link: http://hacks.mozilla.org/2010/12/websockets-disabled-in-firefox-4/
 wordpress_id: '1510'
 tags:
 - web

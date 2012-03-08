@@ -4,6 +4,7 @@ layout: post
 slug: james-clark-xml-vs-the-web
 status: publish
 title: 'James Clark: XML vs the Web'
+link: http://blog.jclark.com/2010/11/xml-vs-web_24.html
 wordpress_id: '1429'
 tags:
 - web

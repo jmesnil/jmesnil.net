@@ -4,6 +4,7 @@ layout: post
 slug: richard-starks-parker-the-outfit-by-darwyn-cooke
 status: publish
 title: 'Richard Stark''s Parker: The Outfit by Darwyn Cooke'
+link: http://www.newsarama.com/php/multimedia/album.php?gid=2026
 wordpress_id: '1313'
 tags:
 - misc
