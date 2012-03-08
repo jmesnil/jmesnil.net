@@ -3,7 +3,7 @@ date: '2004-11-24 13:11:53'
 layout: post
 slug: setup-a-personal-wiki-part-i
 status: publish
-title: ⚑ Setup a personal Wiki (Part I)
+title: Setup a personal Wiki (Part I)
 wordpress_id: '52'
 tags:
 - web

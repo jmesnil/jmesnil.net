@@ -3,7 +3,7 @@ date: '2004-10-12 17:55:01'
 layout: post
 slug: simple-trick-to-make-gmail-remember-your-queries
 status: publish
-title: ⚑ Simple trick to make Gmail remember your queries
+title: Simple trick to make Gmail remember your queries
 wordpress_id: '43'
 tags:
 - web

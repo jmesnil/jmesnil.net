@@ -3,7 +3,7 @@ date: '2005-05-02 20:12:21'
 layout: post
 slug: using-java-15-on-mac-os-x-tiger
 status: publish
-title: ⚑ Using Java 1.5 on Mac OS X Tiger
+title: Using Java 1.5 on Mac OS X Tiger
 wordpress_id: '93'
 tags:
 - apple

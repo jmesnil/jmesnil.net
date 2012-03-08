@@ -3,7 +3,7 @@ date: '2008-04-14 15:48:06'
 layout: post
 slug: jmx4r-005-is-released-with-support-for-custom-jmx-url
 status: publish
-title: ⚑ jmx4r 0.0.5 is released with support for custom JMX URL
+title: jmx4r 0.0.5 is released with support for custom JMX URL
 wordpress_id: '169'
 tags:
 - java

@@ -3,7 +3,7 @@ date: '2010-12-06 13:22:18'
 layout: post
 slug: understanding-the-nikon-iso-sensitivity-auto-control
 status: publish
-title: ⚑ Understanding the Nikon ISO Sensitivity Auto Control
+title: Understanding the Nikon ISO Sensitivity Auto Control
 wordpress_id: '1489'
 tags:
 - misc

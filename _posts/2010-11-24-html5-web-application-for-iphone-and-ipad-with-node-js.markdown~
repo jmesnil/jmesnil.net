@@ -3,7 +3,7 @@ date: '2010-11-24 22:38:55'
 layout: post
 slug: html5-web-application-for-iphone-and-ipad-with-node-js
 status: publish
-title: ⚑ HTML5 Web Application for iPhone and iPad With node.js
+title: HTML5 Web Application for iPhone and iPad With node.js
 wordpress_id: '1333'
 tags:
 - iphone

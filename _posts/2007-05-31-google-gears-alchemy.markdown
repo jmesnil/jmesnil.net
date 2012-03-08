@@ -3,7 +3,7 @@ date: '2007-05-31 09:47:22'
 layout: post
 slug: google-gears-alchemy
 status: publish
-title: ⚑ Google Gears & Alchemy
+title: Google Gears & Alchemy
 wordpress_id: '152'
 tags:
 - web

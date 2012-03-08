@@ -3,7 +3,7 @@ date: '2009-06-15 18:35:42'
 layout: post
 slug: jmx4r-0-0-8-through-the-looking-glass
 status: publish
-title: '⚑ jmx4r 0.0.8: "Through the Looking Glass"'
+title: 'jmx4r 0.0.8: "Through the Looking Glass"'
 wordpress_id: '425'
 tags:
 - jmx

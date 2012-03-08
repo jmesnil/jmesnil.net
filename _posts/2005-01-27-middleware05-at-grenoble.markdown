@@ -3,7 +3,7 @@ date: '2005-01-27 20:14:32'
 layout: post
 slug: middleware05-at-grenoble
 status: publish
-title: ⚑ Middleware'05 at Grenoble
+title: Middleware'05 at Grenoble
 wordpress_id: '66'
 tags:
 - misc

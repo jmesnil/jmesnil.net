@@ -3,7 +3,7 @@ date: '2010-12-28 19:53:06'
 layout: post
 slug: fuji-finepix-x100
 status: publish
-title: ⚑ Fuji FinePix X100
+title: Fuji FinePix X100
 wordpress_id: '1552'
 tags:
 - photo

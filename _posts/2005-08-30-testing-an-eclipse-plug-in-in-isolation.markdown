@@ -3,7 +3,7 @@ date: '2005-08-30 18:14:39'
 layout: post
 slug: testing-an-eclipse-plug-in-in-isolation
 status: publish
-title: ⚑ Testing an Eclipse plug-in in isolation
+title: Testing an Eclipse plug-in in isolation
 wordpress_id: '103'
 tags:
 - eclipse

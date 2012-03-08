@@ -3,7 +3,7 @@ date: '2005-02-20 16:21:00'
 layout: post
 slug: coolest-shopping-cart
 status: publish
-title: ⚑ Coolest Shopping Cart!
+title: Coolest Shopping Cart!
 wordpress_id: '80'
 tags:
 - web

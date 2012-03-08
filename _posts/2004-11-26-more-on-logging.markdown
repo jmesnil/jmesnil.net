@@ -3,7 +3,7 @@ date: '2004-11-26 11:36:19'
 layout: post
 slug: more-on-logging
 status: publish
-title: ⚑ More on logging
+title: More on logging
 wordpress_id: '50'
 tags:
 - java

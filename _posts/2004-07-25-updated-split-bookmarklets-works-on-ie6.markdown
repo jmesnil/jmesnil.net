@@ -3,7 +3,7 @@ date: '2004-07-25 20:57:01'
 layout: post
 slug: updated-split-bookmarklets-works-on-ie6
 status: publish
-title: ⚑ Updated Split bookmarklets (works on IE6)
+title: Updated Split bookmarklets (works on IE6)
 wordpress_id: '22'
 tags:
 - javascript

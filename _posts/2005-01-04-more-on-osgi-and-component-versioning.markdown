@@ -3,7 +3,7 @@ date: '2005-01-04 22:31:24'
 layout: post
 slug: more-on-osgi-and-component-versioning
 status: publish
-title: ⚑ More on OSGi and Component Versioning
+title: More on OSGi and Component Versioning
 wordpress_id: '75'
 tags:
 - osgi

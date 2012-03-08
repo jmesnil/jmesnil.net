@@ -3,7 +3,7 @@ date: '2007-07-05 13:50:00'
 layout: post
 slug: tomcat-management-snippet-using-jmx4r
 status: publish
-title: ⚑ Tomcat management using jmx4r
+title: Tomcat management using jmx4r
 wordpress_id: '158'
 tags:
 - java

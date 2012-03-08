@@ -3,7 +3,7 @@ date: '2008-09-17 18:21:51'
 layout: post
 slug: subjective-list-on-why-mac-is-easier-to-use-than-pc
 status: publish
-title: ⚑ Subjective List on Why Mac Is Easier to Use Than PC
+title: Subjective List on Why Mac Is Easier to Use Than PC
 wordpress_id: '328'
 tags:
 - apple

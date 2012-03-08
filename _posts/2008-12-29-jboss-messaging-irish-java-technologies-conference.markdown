@@ -3,7 +3,7 @@ date: '2008-12-29 12:24:04'
 layout: post
 slug: jboss-messaging-irish-java-technologies-conference
 status: publish
-title: ⚑  JBoss Messaging @ Irish Java Technologies Conference
+title:  JBoss Messaging @ Irish Java Technologies Conference
 wordpress_id: '410'
 tags:
 - java

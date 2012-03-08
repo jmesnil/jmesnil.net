@@ -3,7 +3,7 @@ date: '2006-03-22 19:00:59'
 layout: post
 slug: highlights-of-greg-steins-keynote
 status: publish
-title: ⚑ Highlights of Greg Stein's keynote
+title: Highlights of Greg Stein's keynote
 wordpress_id: '130'
 tags:
 - eclipse

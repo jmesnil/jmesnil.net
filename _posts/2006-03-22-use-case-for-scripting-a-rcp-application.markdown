@@ -3,7 +3,7 @@ date: '2006-03-22 05:51:14'
 layout: post
 slug: use-case-for-scripting-a-rcp-application
 status: publish
-title: ⚑ Use case for scripting a RCP application
+title: Use case for scripting a RCP application
 wordpress_id: '128'
 tags:
 - eclipse

@@ -3,7 +3,7 @@ date: '2004-07-25 15:55:17'
 layout: post
 slug: adam-bosworth-moves-to-google
 status: publish
-title: ⚑ Adam Bosworth moves to Google
+title: Adam Bosworth moves to Google
 wordpress_id: '23'
 tags:
 - misc

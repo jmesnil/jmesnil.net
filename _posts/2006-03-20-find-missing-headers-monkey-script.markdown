@@ -3,7 +3,7 @@ date: '2006-03-20 18:32:26'
 layout: post
 slug: find-missing-headers-monkey-script
 status: publish
-title: ⚑ "Find Missing Headers" Monkey Script
+title: "'Find Missing Headers' Monkey Script"
 wordpress_id: '126'
 tags:
 - eclipse

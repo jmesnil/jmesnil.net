@@ -3,7 +3,7 @@ date: '2004-11-22 14:24:04'
 layout: post
 slug: disappointed-by-firefox-10-on-fedora-core-2
 status: publish
-title: ⚑ Disappointed by Firefox 1.0 on Fedora Core 2
+title: Disappointed by Firefox 1.0 on Fedora Core 2
 wordpress_id: '53'
 tags:
 - misc

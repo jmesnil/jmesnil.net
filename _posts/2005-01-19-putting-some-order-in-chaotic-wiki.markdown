@@ -3,7 +3,7 @@ date: '2005-01-19 13:53:05'
 layout: post
 slug: putting-some-order-in-chaotic-wiki
 status: publish
-title: ⚑ Putting some order in chaotic wiki
+title: Putting some order in chaotic wiki
 wordpress_id: '69'
 tags:
 - web

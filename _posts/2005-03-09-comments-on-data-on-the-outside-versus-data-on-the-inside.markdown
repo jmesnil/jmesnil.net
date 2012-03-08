@@ -3,7 +3,7 @@ date: '2005-03-09 11:37:00'
 layout: post
 slug: comments-on-data-on-the-outside-versus-data-on-the-inside
 status: publish
-title: ⚑ Comments on "Data on the Outside Versus Data on the Inside"
+title: Comments on "Data on the Outside Versus Data on the Inside"
 wordpress_id: '84'
 tags:
 - misc

@@ -3,7 +3,7 @@ date: '2010-12-08 21:54:54'
 layout: post
 slug: websocket-disabled-in-firefox-4
 status: publish
-title: ⚑ WebSocket disabled in Firefox 4
+title: WebSocket disabled in Firefox 4
 wordpress_id: '1510'
 tags:
 - web

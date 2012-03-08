@@ -3,7 +3,7 @@ date: '2005-06-07 11:12:07'
 layout: post
 slug: mac-os-x-on-x86-what-will-it-mean-for-java
 status: publish
-title: '⚑ Mac OS X on X86: what will it mean for Java?'
+title: 'Mac OS X on X86: what will it mean for Java?'
 wordpress_id: '95'
 tags:
 - apple

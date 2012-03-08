@@ -3,7 +3,7 @@ date: '2010-12-04 13:03:10'
 layout: post
 slug: freedarko-the-indisputed-guide-to-pro-basketball-history
 status: publish
-title: '⚑ FreeDarko: The Indisputed Guide to Pro Basketball History'
+title: 'FreeDarko: The Indisputed Guide to Pro Basketball History'
 wordpress_id: '1473'
 tags:
 - misc

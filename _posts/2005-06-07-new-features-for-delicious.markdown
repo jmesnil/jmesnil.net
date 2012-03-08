@@ -3,7 +3,7 @@ date: '2005-06-07 13:55:51'
 layout: post
 slug: new-features-for-delicious
 status: None
-title: ⚑ New features on del.icio.us
+title: New features on del.icio.us
 wordpress_id: '96'
 tags:
 - web

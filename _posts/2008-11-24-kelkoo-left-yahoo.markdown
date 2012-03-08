@@ -3,7 +3,7 @@ date: '2008-11-24 12:26:35'
 layout: post
 slug: kelkoo-left-yahoo
 status: publish
-title: ⚑ Kelkoo Left Yahoo!
+title: Kelkoo Left Yahoo!
 wordpress_id: '392'
 tags:
 - misc

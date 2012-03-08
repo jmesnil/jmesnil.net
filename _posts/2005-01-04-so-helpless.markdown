@@ -3,7 +3,7 @@ date: '2005-01-04 09:18:36'
 layout: post
 slug: so-helpless
 status: publish
-title: ⚑ So Helpless...
+title: So Helpless...
 wordpress_id: '76'
 tags:
 - misc

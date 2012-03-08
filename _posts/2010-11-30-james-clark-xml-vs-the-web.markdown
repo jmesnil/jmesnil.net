@@ -3,7 +3,7 @@ date: '2010-11-30 21:29:11'
 layout: post
 slug: james-clark-xml-vs-the-web
 status: publish
-title: '⚑ James Clark: XML vs the Web'
+title: 'James Clark: XML vs the Web'
 wordpress_id: '1429'
 tags:
 - web

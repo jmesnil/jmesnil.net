@@ -3,7 +3,7 @@ date: '2008-08-04 21:31:49'
 layout: post
 slug: updated-split-bookmarklets
 status: publish
-title: ⚑ Updated split bookmarklets
+title: Updated split bookmarklets
 wordpress_id: '270'
 tags:
 - javascript

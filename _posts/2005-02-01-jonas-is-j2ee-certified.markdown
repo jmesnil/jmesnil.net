@@ -3,7 +3,7 @@ date: '2005-02-01 09:38:52'
 layout: post
 slug: jonas-is-j2ee-certified
 status: publish
-title: ⚑ JOnAS is J2EE certified
+title: JOnAS is J2EE certified
 wordpress_id: '82'
 tags:
 - java

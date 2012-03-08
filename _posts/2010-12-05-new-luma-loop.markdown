@@ -3,7 +3,7 @@ date: '2010-12-05 18:58:22'
 layout: post
 slug: new-luma-loop
 status: publish
-title: ⚑ New Luma Loop
+title: New Luma Loop
 wordpress_id: '1436'
 tags:
 - misc

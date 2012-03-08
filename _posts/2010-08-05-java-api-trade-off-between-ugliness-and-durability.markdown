@@ -3,7 +3,7 @@ date: '2010-08-05 16:49:16'
 layout: post
 slug: java-api-trade-off-between-ugliness-and-durability
 status: publish
-title: ⚑ Java API, Trade-Off Between Ugliness and Durability
+title: Java API, Trade-Off Between Ugliness and Durability
 wordpress_id: '1184'
 tags:
 - java

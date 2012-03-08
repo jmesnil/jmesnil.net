@@ -3,7 +3,7 @@ date: '2008-04-15 19:40:23'
 layout: post
 slug: shell-history-meme
 status: publish
-title: ⚑ Shell history meme
+title: Shell history meme
 wordpress_id: '170'
 tags:
 - misc

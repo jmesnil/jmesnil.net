@@ -3,7 +3,7 @@ date: '2004-10-07 10:12:16'
 layout: post
 slug: using-eclipse-to-compare-two-files
 status: publish
-title: ⚑ Using Eclipse to compare two files
+title: Using Eclipse to compare two files
 wordpress_id: '45'
 tags:
 - eclipse

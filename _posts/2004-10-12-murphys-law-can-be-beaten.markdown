@@ -3,7 +3,7 @@ date: '2004-10-12 10:16:47'
 layout: post
 slug: murphys-law-can-be-beaten
 status: publish
-title: ⚑ Murphy's Law can be beaten
+title: Murphy's Law can be beaten
 wordpress_id: '44'
 tags:
 - misc

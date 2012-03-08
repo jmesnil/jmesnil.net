@@ -3,7 +3,7 @@ date: '2011-03-30 21:04:01'
 layout: post
 slug: colorapi-color-chart-search
 status: publish
-title: ⚑ colorapi, color chart search
+title: colorapi, color chart search
 wordpress_id: '1621'
 tags:
 - misc

@@ -3,7 +3,7 @@ date: '2005-01-10 10:28:24'
 layout: post
 slug: eclipse-working-set-in-31m4
 status: publish
-title: ⚑ Eclipse Working Set in 3.1M4
+title: Eclipse Working Set in 3.1M4
 wordpress_id: '71'
 tags:
 - eclipse

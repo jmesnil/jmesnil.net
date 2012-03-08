@@ -3,7 +3,7 @@ date: '2004-12-01 20:37:23'
 layout: post
 slug: long-left-click-emulates-right-click-for-firefox-10-on-mac-os-x
 status: publish
-title: ⚑ Long left-click emulates right-click for Firefox 1.0 on Mac OS X
+title: Long left-click emulates right-click for Firefox 1.0 on Mac OS X
 wordpress_id: '65'
 tags:
 - apple

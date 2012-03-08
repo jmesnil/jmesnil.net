@@ -3,7 +3,7 @@ date: '2005-01-03 11:49:29'
 layout: post
 slug: osgi-framework-to-improve-java-platform
 status: publish
-title: ⚑ OSGi framework to improve Java platform
+title: OSGi framework to improve Java platform
 wordpress_id: '77'
 tags:
 - osgi

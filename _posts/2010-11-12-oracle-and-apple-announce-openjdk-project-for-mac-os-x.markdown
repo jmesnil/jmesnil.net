@@ -3,7 +3,7 @@ date: '2010-11-12 17:02:06'
 layout: post
 slug: oracle-and-apple-announce-openjdk-project-for-mac-os-x
 status: publish
-title: ⚑ Oracle and Apple Announce OpenJDK Project for Mac OS X
+title: Oracle and Apple Announce OpenJDK Project for Mac OS X
 wordpress_id: '1299'
 tags:
 - apple

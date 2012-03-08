@@ -3,7 +3,7 @@ date: '2006-08-18 20:56:43'
 layout: post
 slug: replication-of-mbeans-on-a-cluster
 status: publish
-title: ⚑ Replication of JMX MBeans on a Cluster
+title: Replication of JMX MBeans on a Cluster
 wordpress_id: '140'
 tags:
 - java

@@ -3,7 +3,7 @@ date: '2006-03-14 09:54:55'
 layout: post
 slug: eclipsecon06-is-approaching
 status: publish
-title: ⚑ EclipseCon'06 is approaching
+title: EclipseCon'06 is approaching
 wordpress_id: '124'
 tags:
 - eclipse

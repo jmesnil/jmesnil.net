@@ -3,7 +3,7 @@ date: '2004-11-25 17:09:45'
 layout: post
 slug: dos-and-donts-of-logging
 status: publish
-title: ⚑ Do's and Don't's of Logging
+title: Do's and Don't's of Logging
 wordpress_id: '51'
 tags:
 - java

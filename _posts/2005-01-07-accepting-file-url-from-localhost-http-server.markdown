@@ -3,7 +3,7 @@ date: '2005-01-07 10:19:18'
 layout: post
 slug: accepting-file-url-from-localhost-http-server
 status: publish
-title: ⚑ Accepting file:// URL from localhost HTTP server
+title: Accepting file:// URL from localhost HTTP server
 wordpress_id: '73'
 tags:
 - web

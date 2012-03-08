@@ -3,7 +3,7 @@ date: '2011-07-11 13:08:57'
 layout: post
 slug: node-x-a-asynchronous-event-framework-for-the-jvm
 status: publish
-title: ⚑ node.x, a Asynchronous Event Framework for the JVM
+title: node.x, a Asynchronous Event Framework for the JVM
 wordpress_id: '1714'
 tags:
 - java

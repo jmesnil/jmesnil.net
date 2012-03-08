@@ -3,7 +3,7 @@ date: '2010-11-08 17:40:44'
 layout: post
 slug: nikon-d7000-scores-80-at-dxomark
 status: publish
-title: ⚑ Nikon D7000 scores 80 at DxOMark
+title: Nikon D7000 scores 80 at DxOMark
 wordpress_id: '1254'
 tags:
 - photo

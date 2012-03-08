@@ -3,7 +3,7 @@ date: '2004-09-21 15:25:27'
 layout: post
 slug: google-browser-and-alchemy
 status: publish
-title: ⚑ Google Browser and Alchemy
+title: Google Browser and Alchemy
 wordpress_id: '41'
 tags:
 - web

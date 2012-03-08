@@ -3,7 +3,7 @@ date: '2006-01-19 18:35:05'
 layout: post
 slug: label-decorations-in-eclipse
 status: publish
-title: ⚑ Label Decorations in Eclipse
+title: Label Decorations in Eclipse
 wordpress_id: '105'
 tags:
 - eclipse

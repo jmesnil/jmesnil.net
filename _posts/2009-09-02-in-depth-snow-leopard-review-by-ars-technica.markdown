@@ -3,7 +3,7 @@ date: '2009-09-02 13:45:17'
 layout: post
 slug: in-depth-snow-leopard-review-by-ars-technica
 status: publish
-title: ⚑ In-Depth Snow Leopard Review by Ars Technica
+title: In-Depth Snow Leopard Review by Ars Technica
 wordpress_id: '796'
 tags:
 - apple

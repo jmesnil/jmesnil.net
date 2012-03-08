@@ -3,7 +3,7 @@ date: '2011-01-01 17:34:25'
 layout: post
 slug: d-f-w-this-is-water
 status: publish
-title: '⚑ D.F.W.: "This Is Water"'
+title: 'D.F.W.: "This Is Water"'
 wordpress_id: '1563'
 tags:
 - misc

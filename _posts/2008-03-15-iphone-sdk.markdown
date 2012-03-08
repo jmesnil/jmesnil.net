@@ -3,7 +3,7 @@ date: '2008-03-15 17:35:43'
 layout: post
 slug: iphone-sdk
 status: publish
-title: ⚑ iPhone SDK
+title: iPhone SDK
 wordpress_id: '166'
 tags:
 - apple

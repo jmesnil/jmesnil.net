@@ -3,7 +3,7 @@ date: '2007-06-11 17:23:57'
 layout: post
 slug: jmx4r-a-jmx-libary-for-jruby
 status: publish
-title: ⚑ jmx4r, a JMX Libary for JRuby
+title: jmx4r, a JMX Libary for JRuby
 wordpress_id: '155'
 tags:
 - java

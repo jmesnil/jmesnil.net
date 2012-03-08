@@ -3,7 +3,7 @@ date: '2004-07-13 14:54:18'
 layout: post
 slug: procedural-programming-and-include-in-java
 status: publish
-title: '⚑ Procedural Programming and #include in Java'
+title: 'Procedural Programming and #include in Java'
 wordpress_id: '30'
 tags:
 - java

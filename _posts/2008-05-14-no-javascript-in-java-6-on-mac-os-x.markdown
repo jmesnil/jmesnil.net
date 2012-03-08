@@ -3,7 +3,7 @@ date: '2008-05-14 12:39:03'
 layout: post
 slug: no-javascript-in-java-6-on-mac-os-x
 status: publish
-title: ⚑ No JavaScript in Java 6 on Mac OS X
+title: No JavaScript in Java 6 on Mac OS X
 wordpress_id: '173'
 tags:
 - apple

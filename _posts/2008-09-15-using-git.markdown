@@ -3,7 +3,7 @@ date: '2008-09-15 12:40:11'
 layout: post
 slug: using-git
 status: publish
-title: ⚑ Using Git
+title: Using Git
 wordpress_id: '301'
 tags:
 - git

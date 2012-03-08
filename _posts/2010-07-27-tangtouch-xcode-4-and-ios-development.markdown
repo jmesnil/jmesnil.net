@@ -3,7 +3,7 @@ date: '2010-07-27 23:19:32'
 layout: post
 slug: tangtouch-xcode-4-and-ios-development
 status: publish
-title: ⚑ TangTouch, Xcode 4 and iOS Development
+title: TangTouch, Xcode 4 and iOS Development
 wordpress_id: '1138'
 tags:
 - misc

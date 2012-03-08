@@ -3,7 +3,7 @@ date: '2006-03-01 11:40:47'
 layout: post
 slug: logging-templates-for-eclipse
 status: publish
-title: ⚑ Logging templates for eclipse
+title: Logging templates for eclipse
 wordpress_id: '120'
 tags:
 - eclipse

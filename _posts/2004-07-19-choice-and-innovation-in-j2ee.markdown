@@ -3,7 +3,7 @@ date: '2004-07-19 09:33:47'
 layout: post
 slug: choice-and-innovation-in-j2ee
 status: publish
-title: ⚑ Choice and Innovation in J2EE
+title: Choice and Innovation in J2EE
 wordpress_id: '25'
 tags:
 - java

@@ -3,7 +3,7 @@ date: '2010-12-07 21:36:59'
 layout: post
 slug: chromium-blog-a-new-crankshaft-for-v8
 status: publish
-title: '⚑ Chromium Blog: A New Crankshaft for V8'
+title: 'Chromium Blog: A New Crankshaft for V8'
 wordpress_id: '1505'
 tags:
 - javascript

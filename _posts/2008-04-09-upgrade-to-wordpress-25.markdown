@@ -3,7 +3,7 @@ date: '2008-04-09 21:18:20'
 layout: post
 slug: upgrade-to-wordpress-25
 status: publish
-title: ⚑ Upgrade to Wordpress 2.5
+title: Upgrade to Wordpress 2.5
 wordpress_id: '167'
 tags:
 - misc

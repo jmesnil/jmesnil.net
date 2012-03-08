@@ -3,7 +3,7 @@ date: '2011-06-19 19:22:54'
 layout: post
 slug: an-rss-feed-and-location-based-ios-application
 status: publish
-title: ⚑ An RSS-feed and location-based iOS application
+title: An RSS-feed and location-based iOS application
 wordpress_id: '1637'
 tags:
 - apple

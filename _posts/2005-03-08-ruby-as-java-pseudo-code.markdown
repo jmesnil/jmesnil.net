@@ -3,7 +3,7 @@ date: '2005-03-08 20:28:00'
 layout: post
 slug: ruby-as-java-pseudo-code
 status: publish
-title: ⚑ Ruby as Java pseudo code
+title: Ruby as Java pseudo code
 wordpress_id: '85'
 tags:
 - java

@@ -3,7 +3,7 @@ date: '2010-11-08 17:30:42'
 layout: post
 slug: aperture-3-workflow-for-raw-jpeg
 status: publish
-title: ⚑ Aperture 3 Workflow for RAW + JPEG
+title: Aperture 3 Workflow for RAW + JPEG
 wordpress_id: '1245'
 tags:
 - photo

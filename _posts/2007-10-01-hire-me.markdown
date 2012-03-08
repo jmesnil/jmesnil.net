@@ -3,7 +3,7 @@ date: '2007-10-01 14:15:27'
 layout: post
 slug: hire-me
 status: publish
-title: ⚑ Hire Me
+title: Hire Me
 wordpress_id: '153'
 tags:
 - misc

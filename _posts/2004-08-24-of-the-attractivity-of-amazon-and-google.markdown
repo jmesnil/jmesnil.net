@@ -3,7 +3,7 @@ date: '2004-08-24 09:13:09'
 layout: post
 slug: of-the-attractivity-of-amazon-and-google
 status: publish
-title: ⚑ Of the attractivity of Amazon and Google
+title: Of the attractivity of Amazon and Google
 wordpress_id: '37'
 tags:
 - web

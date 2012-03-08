@@ -3,7 +3,7 @@ date: '2007-05-31 10:55:03'
 layout: post
 slug: jmx-scripts-using-jruby-part-ii
 status: publish
-title: ⚑ JMX Scripts using JRuby -- Part II
+title: JMX Scripts using JRuby -- Part II
 wordpress_id: '150'
 tags:
 - java

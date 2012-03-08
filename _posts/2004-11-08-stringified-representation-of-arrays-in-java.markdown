@@ -3,7 +3,7 @@ date: '2004-11-08 14:57:25'
 layout: post
 slug: stringified-representation-of-arrays-in-java
 status: publish
-title: ⚑ Stringified representation of arrays in Java
+title: Stringified representation of arrays in Java
 wordpress_id: '55'
 tags:
 - java

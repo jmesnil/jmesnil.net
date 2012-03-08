@@ -3,7 +3,7 @@ date: '2011-02-20 20:37:42'
 layout: post
 slug: when-nothing-seems-to-help
 status: publish
-title: ⚑ When Nothing Seems to Help...
+title: When Nothing Seems to Help...
 wordpress_id: '1591'
 tags:
 - photo

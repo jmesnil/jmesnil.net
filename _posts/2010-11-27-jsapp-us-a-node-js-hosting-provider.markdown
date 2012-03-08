@@ -3,7 +3,7 @@ date: '2010-11-27 00:56:29'
 layout: post
 slug: jsapp-us-a-node-js-hosting-provider
 status: publish
-title: '⚑ JSApp.US: a node.js Hosting Provider'
+title: 'JSApp.US: a node.js Hosting Provider'
 wordpress_id: '1414'
 tags:
 - javascript

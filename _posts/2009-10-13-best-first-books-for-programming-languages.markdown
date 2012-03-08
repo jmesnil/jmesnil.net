@@ -3,7 +3,7 @@ date: '2009-10-13 10:24:56'
 layout: post
 slug: best-first-books-for-programming-languages
 status: publish
-title: ⚑ Best First Books for Programming Languages
+title: Best First Books for Programming Languages
 wordpress_id: '832'
 tags:
 - book

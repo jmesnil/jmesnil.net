@@ -3,7 +3,7 @@ date: '2005-04-12 23:35:34'
 layout: post
 slug: favorite-features-in-mac-os-x-tiger
 status: publish
-title: ⚑ Favorite features in Mac OS X Tiger
+title: Favorite features in Mac OS X Tiger
 wordpress_id: '91'
 tags:
 - apple

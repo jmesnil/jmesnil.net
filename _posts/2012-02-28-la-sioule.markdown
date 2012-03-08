@@ -8,8 +8,8 @@ wordpress_id: '1870'
 tags:
 - photo
 ---
-
-
+<figure>
 ![La Sioule](http://farm8.staticflickr.com/7202/6789055202_ddba37913b_z.jpg)
-[La Sioule](http://www.flickr.com/photos/jmesnil/6789055202/)
+<figcaption>[La Sioule](http://www.flickr.com/photos/jmesnil/6789055202/)</figcaption>
+</figure>
 

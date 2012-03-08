@@ -3,7 +3,7 @@ date: '2005-01-25 14:41:18'
 layout: post
 slug: lilac-wine-from-jeff-buckley
 status: publish
-title: ⚑ Lilac Wine from Jeff Buckley
+title: Lilac Wine from Jeff Buckley
 wordpress_id: '67'
 tags:
 - misc

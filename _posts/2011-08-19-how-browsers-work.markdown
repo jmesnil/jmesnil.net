@@ -3,7 +3,7 @@ date: '2011-08-19 16:52:20'
 layout: post
 slug: how-browsers-work
 status: publish
-title: ⚑ How Browsers Work
+title: How Browsers Work
 wordpress_id: '1755'
 tags:
 - web

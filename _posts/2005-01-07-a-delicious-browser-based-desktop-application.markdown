@@ -3,7 +3,7 @@ date: '2005-01-07 22:36:50'
 layout: post
 slug: a-delicious-browser-based-desktop-application
 status: publish
-title: ⚑ A del.ici.ous browser-based desktop application
+title: A del.ici.ous browser-based desktop application
 wordpress_id: '72'
 tags:
 - osgi

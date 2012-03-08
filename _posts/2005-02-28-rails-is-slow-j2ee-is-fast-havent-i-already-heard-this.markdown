@@ -3,7 +3,7 @@ date: '2005-02-28 18:55:00'
 layout: post
 slug: rails-is-slow-j2ee-is-fast-havent-i-already-heard-this
 status: publish
-title: ⚑ "Rails is slow, J2EE is Fast" - Haven't I already heard this?
+title: "Rails is slow, J2EE is Fast - Haven't I already heard this?"
 wordpress_id: '78'
 tags:
 - java

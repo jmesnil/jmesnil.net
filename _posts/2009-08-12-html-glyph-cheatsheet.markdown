@@ -3,7 +3,7 @@ date: '2009-08-12 20:32:38'
 layout: post
 slug: html-glyph-cheatsheet
 status: publish
-title: ⚑ HTML Glyphs Cheatsheet
+title: HTML Glyphs Cheatsheet
 wordpress_id: '606'
 tags:
 - web

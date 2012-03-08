@@ -3,7 +3,7 @@ date: '2006-02-08 14:43:30'
 layout: post
 slug: developer-talk-at-eclipsecon06
 status: publish
-title: ⚑ Developer talk at EclipseCon'06
+title: Developer talk at EclipseCon'06
 wordpress_id: '107'
 tags:
 - eclipse

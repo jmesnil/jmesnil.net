@@ -4,7 +4,6 @@ layout: post
 slug: brent-simmons-on-web-publishing
 status: publish
 title: Brent Simmons on Web Publishing
-link: http://inessential.com/2011/11/23/pub_rules
 wordpress_id: '1849'
 tags:
 - misc

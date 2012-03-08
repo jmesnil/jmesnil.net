@@ -3,7 +3,7 @@ date: '2009-10-19 19:57:35'
 layout: post
 slug: automator-service-to-create-a-gist
 status: publish
-title: ⚑ Automator Service to create a Gist
+title: Automator Service to create a Gist
 wordpress_id: '844'
 tags:
 - apple

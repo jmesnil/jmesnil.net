@@ -3,7 +3,7 @@ date: '2004-09-30 17:54:27'
 layout: post
 slug: bookmarking-with-firefox-and-delicious
 status: publish
-title: ⚑ Bookmarking with Firefox and del.icio.us
+title: Bookmarking with Firefox and del.icio.us
 wordpress_id: '39'
 tags:
 - web

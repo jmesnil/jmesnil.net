@@ -3,7 +3,7 @@ date: '2009-08-14 21:54:31'
 layout: post
 slug: nice-clojure-outline-in-textmate
 status: publish
-title: ⚑ Nice Clojure Outline in TextMate
+title: Nice Clojure Outline in TextMate
 wordpress_id: '621'
 tags:
 - java

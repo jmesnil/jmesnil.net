@@ -3,7 +3,7 @@ date: '2004-12-23 14:19:10'
 layout: post
 slug: launching-eclipse-osgi-framework-from-the-command-line
 status: publish
-title: ⚑ Launching Eclipse OSGi Framework from the command line
+title: Launching Eclipse OSGi Framework from the command line
 wordpress_id: '58'
 tags:
 - eclipse

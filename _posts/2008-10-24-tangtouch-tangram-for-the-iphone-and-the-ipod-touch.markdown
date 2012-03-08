@@ -3,7 +3,7 @@ date: '2008-10-24 12:58:02'
 layout: post
 slug: tangtouch-tangram-for-the-iphone-and-the-ipod-touch
 status: publish
-title: '⚑ TangTouch: Tangram for the iPhone and the iPod Touch'
+title: 'TangTouch: Tangram for the iPhone and the iPod Touch'
 wordpress_id: '383'
 tags:
 - apple

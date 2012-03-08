@@ -3,7 +3,7 @@ date: '2006-07-03 15:29:00'
 layout: post
 slug: isetselectiontarget
 status: publish
-title: ⚑ Eclipse's ISetSelectionTarget interface
+title: Eclipse's ISetSelectionTarget interface
 wordpress_id: '137'
 tags:
 - eclipse

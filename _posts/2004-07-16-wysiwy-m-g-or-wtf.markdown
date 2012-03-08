@@ -3,7 +3,7 @@ date: '2004-07-16 23:09:15'
 layout: post
 slug: wysiwy-m-g-or-wtf
 status: publish
-title: ⚑ WYSIWY -M - G or WTF?
+title: WYSIWY -M - G or WTF?
 wordpress_id: '26'
 tags:
 - misc

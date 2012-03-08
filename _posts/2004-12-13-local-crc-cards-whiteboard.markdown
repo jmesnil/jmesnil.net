@@ -3,7 +3,7 @@ date: '2004-12-13 14:18:38'
 layout: post
 slug: local-crc-cards-whiteboard
 status: publish
-title: ⚑ local CRC Cards Whiteboard
+title: local CRC Cards Whiteboard
 wordpress_id: '61'
 tags:
 - web

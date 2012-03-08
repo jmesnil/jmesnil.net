@@ -3,7 +3,7 @@ date: '2005-02-21 11:41:00'
 layout: post
 slug: jotm-203-released-tck-recovery
 status: publish
-title: ⚑ JOTM 2.0.3 released - TCK + Recovery
+title: JOTM 2.0.3 released - TCK + Recovery
 wordpress_id: '79'
 tags:
 - java

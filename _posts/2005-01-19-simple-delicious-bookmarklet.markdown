@@ -3,7 +3,7 @@ date: '2005-01-19 11:35:27'
 layout: post
 slug: simple-delicious-bookmarklet
 status: publish
-title: ⚑ Simple del.icio.us bookmarklet
+title: Simple del.icio.us bookmarklet
 wordpress_id: '70'
 tags:
 - web

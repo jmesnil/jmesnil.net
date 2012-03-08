@@ -3,7 +3,7 @@ date: '2009-07-06 17:02:28'
 layout: post
 slug: concurrency-is-my-new-memory-management-criteria
 status: publish
-title: ⚑ Concurrency Is My New Memory Management Criteria
+title: Concurrency Is My New Memory Management Criteria
 wordpress_id: '476'
 tags:
 - java

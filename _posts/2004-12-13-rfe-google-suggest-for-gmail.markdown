@@ -3,7 +3,7 @@ date: '2004-12-13 11:55:05'
 layout: post
 slug: rfe-google-suggest-for-gmail
 status: publish
-title: '⚑ RFE: Google Suggest for GMail'
+title: 'RFE: Google Suggest for GMail'
 wordpress_id: '62'
 tags:
 - web

@@ -3,7 +3,7 @@ date: '2006-02-14 10:27:52'
 layout: post
 slug: mxbean-support-in-java-se-6
 status: publish
-title: ⚑ MXBean support in Java SE 6
+title: MXBean support in Java SE 6
 wordpress_id: '116'
 tags:
 - java

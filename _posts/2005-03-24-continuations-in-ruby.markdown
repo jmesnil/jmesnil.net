@@ -3,7 +3,7 @@ date: '2005-03-24 23:08:00'
 layout: post
 slug: continuations-in-ruby
 status: publish
-title: ⚑ Continuations In Ruby
+title: Continuations In Ruby
 wordpress_id: '83'
 tags:
 - ruby

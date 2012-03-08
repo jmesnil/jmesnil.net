@@ -3,7 +3,7 @@ date: '2010-12-14 00:42:15'
 layout: post
 slug: uncharted-3-drakes-deception-trailer
 status: publish
-title: '⚑ Uncharted 3: Drake''s Deception Trailer'
+title: 'Uncharted 3: Drake''s Deception Trailer'
 wordpress_id: '1520'
 tags:
 - misc

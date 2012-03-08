@@ -3,7 +3,7 @@ date: '2010-01-14 15:24:49'
 layout: post
 slug: using-stomp-with-hornetq
 status: publish
-title: '⚑ Using Stomp with HornetQ '
+title: 'Using Stomp with HornetQ '
 wordpress_id: '878'
 tags:
 - redhat

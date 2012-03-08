@@ -3,7 +3,7 @@ date: '2006-05-06 17:47:21'
 layout: post
 slug: pearl-jam
 status: publish
-title: ⚑ Pearl Jam
+title: Pearl Jam
 wordpress_id: '134'
 tags:
 - music

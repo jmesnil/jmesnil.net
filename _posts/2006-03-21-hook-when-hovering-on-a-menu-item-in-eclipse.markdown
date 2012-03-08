@@ -3,7 +3,7 @@ date: '2006-03-21 02:15:37'
 layout: post
 slug: hook-when-hovering-on-a-menu-item-in-eclipse
 status: publish
-title: ⚑ Hook when hovering on a menu item in Eclipse
+title: Hook when hovering on a menu item in Eclipse
 wordpress_id: '127'
 tags:
 - eclipse

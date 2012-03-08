@@ -3,7 +3,7 @@ date: '2004-09-24 14:33:40'
 layout: post
 slug: keep-new-option-in-bloglines
 status: publish
-title: ⚑ "Keep new" option in Bloglines
+title: '"Keep new" option in Bloglines'
 wordpress_id: '40'
 tags:
 - web

@@ -3,7 +3,7 @@ date: '2005-04-29 10:36:26'
 layout: post
 slug: extensive-review-of-mac-os-x-tiger
 status: publish
-title: ⚑ Ars Technica review of Mac OS X Tiger
+title: Ars Technica review of Mac OS X Tiger
 wordpress_id: '92'
 tags:
 - apple

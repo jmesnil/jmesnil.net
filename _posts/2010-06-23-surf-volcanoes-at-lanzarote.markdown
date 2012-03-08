@@ -3,7 +3,7 @@ date: '2010-06-23 18:06:20'
 layout: post
 slug: surf-volcanoes-at-lanzarote
 status: publish
-title: ⚑ Surf & Volcanoes at Lanzarote
+title: Surf & Volcanoes at Lanzarote
 wordpress_id: '1084'
 tags:
 - photo

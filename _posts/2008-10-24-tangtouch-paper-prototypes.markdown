@@ -3,7 +3,7 @@ date: '2008-10-24 17:09:54'
 layout: post
 slug: tangtouch-paper-prototypes
 status: publish
-title: ⚑ TangTouch Paper Prototypes
+title: TangTouch Paper Prototypes
 wordpress_id: '375'
 tags:
 - apple

@@ -3,7 +3,7 @@ date: '2004-07-20 17:41:56'
 layout: post
 slug: looking-for-a-rssatom-to-mail-service
 status: publish
-title: ⚑ Looking for a RSS/Atom to mail service...
+title: Looking for a RSS/Atom to mail service...
 wordpress_id: '24'
 tags:
 - misc

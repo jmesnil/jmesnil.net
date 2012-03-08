@@ -3,7 +3,7 @@ date: '2007-08-07 13:24:20'
 layout: post
 slug: jmx4r-004-is-released
 status: publish
-title: ⚑ jmx4r 0.0.4 is released
+title: jmx4r 0.0.4 is released
 wordpress_id: '160'
 tags:
 - java

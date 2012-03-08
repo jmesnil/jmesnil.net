@@ -3,7 +3,7 @@ date: '2011-03-04 22:17:23'
 layout: post
 slug: hornetq-talks-at-marseille-nice-jugs
 status: publish
-title: ⚑ HornetQ Talks at Marseille & Nice JUGs
+title: HornetQ Talks at Marseille & Nice JUGs
 wordpress_id: '1601'
 tags:
 - java

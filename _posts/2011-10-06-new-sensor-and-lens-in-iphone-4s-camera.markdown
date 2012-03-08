@@ -4,7 +4,6 @@ layout: post
 slug: new-sensor-and-lens-in-iphone-4s-camera
 status: publish
 title: New Sensor and Lens in iPhone 4S Camera
-link: http://arstechnica.com/apple/news/2011/10/why-the-improve-camera-in-the-iphone-4s-is-good-news-for-shutterbugs.ars
 wordpress_id: '1804'
 tags:
 - iphone

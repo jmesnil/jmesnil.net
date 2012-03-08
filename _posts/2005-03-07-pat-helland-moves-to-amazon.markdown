@@ -3,7 +3,7 @@ date: '2005-03-07 17:10:00'
 layout: post
 slug: pat-helland-moves-to-amazon
 status: publish
-title: ⚑ Pat Helland moves to Amazon
+title: Pat Helland moves to Amazon
 wordpress_id: '86'
 tags:
 - misc

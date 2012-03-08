@@ -3,7 +3,7 @@ date: '2011-02-20 16:33:31'
 layout: post
 slug: review-of-gps4cam-iphone-gps-tool-for-cameras
 status: publish
-title: ⚑ Review of gps4cam - iPhone GPS Tool for Cameras
+title: Review of gps4cam - iPhone GPS Tool for Cameras
 wordpress_id: '1568'
 tags:
 - apple

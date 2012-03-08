@@ -3,7 +3,7 @@ date: '2010-12-01 20:17:05'
 layout: post
 slug: michael-jordan-whatever-makes-you-nervous
 status: publish
-title: '⚑ Michael Jordan: "Whatever Makes You Nervous"'
+title: 'Michael Jordan: "Whatever Makes You Nervous"'
 wordpress_id: '1468'
 tags:
 - misc

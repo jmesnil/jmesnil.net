@@ -3,7 +3,7 @@ date: '2004-07-16 22:18:19'
 layout: post
 slug: a-bookmarklet-to-split-html-document-within-the-browser
 status: publish
-title: ⚑ A bookmarklet to split HTML document within the browser
+title: A bookmarklet to split HTML document within the browser
 wordpress_id: '27'
 tags:
 - javascript

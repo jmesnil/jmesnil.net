@@ -3,7 +3,7 @@ date: '2011-06-23 21:01:28'
 layout: post
 slug: red-hat-wins-most-innovative-java-company-at-jaxconf
 status: publish
-title: ⚑ Red Hat Wins "Most Innovative Java Company" at JAXconf
+title: Red Hat Wins "Most Innovative Java Company" at JAXconf
 wordpress_id: '1649'
 tags:
 - java

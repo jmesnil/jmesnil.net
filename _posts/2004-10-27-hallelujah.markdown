@@ -3,7 +3,7 @@ date: '2004-10-27 11:24:45'
 layout: post
 slug: hallelujah
 status: publish
-title: ⚑ Hallelujah
+title: Hallelujah
 wordpress_id: '42'
 tags:
 - misc

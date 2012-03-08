@@ -3,7 +3,7 @@ date: '2008-11-26 17:42:51'
 layout: post
 slug: jruby-cookbook-has-a-section-about-jmx4r
 status: publish
-title: ⚑ JRuby Cookbook Has a Section About jmx4r
+title: JRuby Cookbook Has a Section About jmx4r
 wordpress_id: '398'
 tags:
 - book

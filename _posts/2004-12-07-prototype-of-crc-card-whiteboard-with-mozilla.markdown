@@ -3,7 +3,7 @@ date: '2004-12-07 22:54:47'
 layout: post
 slug: prototype-of-crc-card-whiteboard-with-mozilla
 status: publish
-title: ⚑ Prototype of CRC Card Whiteboard with Mozilla
+title: Prototype of CRC Card Whiteboard with Mozilla
 wordpress_id: '63'
 tags:
 - web

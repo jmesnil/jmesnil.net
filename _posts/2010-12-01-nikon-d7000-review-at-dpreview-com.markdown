@@ -3,7 +3,7 @@ date: '2010-12-01 18:12:10'
 layout: post
 slug: nikon-d7000-review-at-dpreview-com
 status: publish
-title: ⚑ Nikon D7000 Review at dpreview.com
+title: Nikon D7000 Review at dpreview.com
 wordpress_id: '1444'
 tags:
 - misc

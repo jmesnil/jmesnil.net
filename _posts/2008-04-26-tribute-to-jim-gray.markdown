@@ -3,7 +3,7 @@ date: '2008-04-26 18:41:44'
 layout: post
 slug: tribute-to-jim-gray
 status: publish
-title: ⚑ Tribute to Jim Gray
+title: Tribute to Jim Gray
 wordpress_id: '172'
 tags:
 - misc

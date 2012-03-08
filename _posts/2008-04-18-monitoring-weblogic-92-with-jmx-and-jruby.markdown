@@ -3,7 +3,7 @@ date: '2008-04-18 16:43:05'
 layout: post
 slug: monitoring-weblogic-92-with-jmx-and-jruby
 status: publish
-title: ⚑ Monitoring Weblogic 9.2 with JMX and JRuby
+title: Monitoring Weblogic 9.2 with JMX and JRuby
 wordpress_id: '171'
 tags:
 - java

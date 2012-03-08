@@ -3,7 +3,7 @@ date: '2010-01-20 18:56:15'
 layout: post
 slug: jmx4r-how-to-use-dotted-mbean-attribute-names
 status: publish
-title: '⚑ jmx4r: How to Use Dotted MBean Attribute Names'
+title: 'jmx4r: How to Use Dotted MBean Attribute Names'
 wordpress_id: '893'
 tags:
 - jmx4r

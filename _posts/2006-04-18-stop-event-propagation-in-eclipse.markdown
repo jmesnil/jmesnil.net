@@ -3,7 +3,7 @@ date: '2006-04-18 21:25:35'
 layout: post
 slug: stop-event-propagation-in-eclipse
 status: publish
-title: ⚑ How to stop SWT Control traversal action
+title: How to stop SWT Control traversal action
 wordpress_id: '133'
 tags:
 - eclipse

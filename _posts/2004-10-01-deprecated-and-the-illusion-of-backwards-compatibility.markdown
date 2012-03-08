@@ -3,7 +3,7 @@ date: '2004-10-01 15:17:49'
 layout: post
 slug: deprecated-and-the-illusion-of-backwards-compatibility
 status: publish
-title: ⚑ @deprecated and the illusion of backwards compatibility
+title: "@deprecated and the illusion of backwards compatibility"
 wordpress_id: '48'
 tags:
 - java

@@ -3,7 +3,7 @@ date: '2004-12-23 14:00:01'
 layout: post
 slug: merry-christmas
 status: publish
-title: ⚑ Merry Christmas !
+title: Merry Christmas !
 wordpress_id: '59'
 tags:
 - misc

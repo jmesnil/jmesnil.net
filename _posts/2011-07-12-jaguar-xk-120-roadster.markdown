@@ -3,7 +3,7 @@ date: '2011-07-12 11:54:42'
 layout: post
 slug: jaguar-xk-120-roadster
 status: publish
-title: ⚑ Jaguar XK 120 Roadster
+title: Jaguar XK 120 Roadster
 wordpress_id: '1734'
 tags:
 - photo

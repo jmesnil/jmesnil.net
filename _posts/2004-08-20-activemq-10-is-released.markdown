@@ -3,7 +3,7 @@ date: '2004-08-20 10:11:57'
 layout: post
 slug: activemq-10-is-released
 status: publish
-title: ⚑ ActiveMQ 1.0 is released
+title: ActiveMQ 1.0 is released
 wordpress_id: '38'
 tags:
 - java

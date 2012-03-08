@@ -3,7 +3,7 @@ date: '2010-05-20 19:09:08'
 layout: post
 slug: cocoa-programming
 status: publish
-title: ⚑ Cocoa Programming
+title: Cocoa Programming
 wordpress_id: '1077'
 tags:
 - apple

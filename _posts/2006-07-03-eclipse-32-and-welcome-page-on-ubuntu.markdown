@@ -3,7 +3,7 @@ date: '2006-07-03 15:02:20'
 layout: post
 slug: eclipse-32-and-welcome-page-on-ubuntu
 status: publish
-title: ⚑ Eclipse 3.2 and Welcome page on Ubuntu
+title: Eclipse 3.2 and Welcome page on Ubuntu
 wordpress_id: '138'
 tags:
 - eclipse

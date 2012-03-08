@@ -3,7 +3,7 @@ date: '2004-07-15 11:27:55'
 layout: post
 slug: importexportsagexml-sagexml
 status: publish
-title: ⚑ import(export(sage.xml)) != sage.xml
+title: import(export(sage.xml)) != sage.xml
 wordpress_id: '28'
 tags:
 - misc

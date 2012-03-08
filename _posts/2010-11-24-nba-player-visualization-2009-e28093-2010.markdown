@@ -3,7 +3,7 @@ date: '2010-11-24 23:16:12'
 layout: post
 slug: nba-player-visualization-2009-%e2%80%93-2010
 status: publish
-title: ⚑ NBA Player Visualization 2009 – 2010
+title: NBA Player Visualization 2009 – 2010
 wordpress_id: '1372'
 tags:
 - misc

@@ -3,7 +3,7 @@ date: '2008-05-27 21:18:38'
 layout: post
 slug: review-of-javascript-the-good-parts
 status: publish
-title: '⚑ Review of JavaScript: The Good Parts'
+title: 'Review of JavaScript: The Good Parts'
 wordpress_id: '178'
 tags:
 - book

@@ -3,7 +3,7 @@ date: '2010-12-22 22:42:19'
 layout: post
 slug: xml-and-json-pendulum-movement
 status: publish
-title: ⚑ XML and JSON Pendulum Movement
+title: XML and JSON Pendulum Movement
 wordpress_id: '1528'
 tags:
 - xml

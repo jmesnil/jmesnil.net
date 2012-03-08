@@ -3,7 +3,7 @@ date: '2004-07-29 15:10:08'
 layout: post
 slug: java-is-only-the-middleware-light-matter
 status: publish
-title: ⚑ Java is only the middleware light matter
+title: Java is only the middleware light matter
 wordpress_id: '20'
 tags:
 - java

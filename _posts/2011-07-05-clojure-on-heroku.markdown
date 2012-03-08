@@ -3,7 +3,7 @@ date: '2011-07-05 19:33:50'
 layout: post
 slug: clojure-on-heroku
 status: publish
-title: ⚑ Clojure on Heroku
+title: Clojure on Heroku
 wordpress_id: '1693'
 tags:
 - misc

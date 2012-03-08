@@ -3,7 +3,7 @@ date: '2011-06-26 15:18:18'
 layout: post
 slug: fete-de-la-musique
 status: publish
-title: ⚑ Fête de la Musique
+title: Fête de la Musique
 wordpress_id: '1656'
 tags:
 - music

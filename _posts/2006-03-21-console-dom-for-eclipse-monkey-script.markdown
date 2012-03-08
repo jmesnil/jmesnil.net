@@ -3,7 +3,7 @@ date: '2006-03-21 23:59:06'
 layout: post
 slug: console-dom-for-eclipse-monkey-script
 status: publish
-title: ⚑ Console DOM for Eclipse Monkey script
+title: Console DOM for Eclipse Monkey script
 wordpress_id: '129'
 tags:
 - eclipse

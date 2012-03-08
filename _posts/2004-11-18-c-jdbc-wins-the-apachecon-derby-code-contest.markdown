@@ -3,7 +3,7 @@ date: '2004-11-18 15:48:23'
 layout: post
 slug: c-jdbc-wins-the-apachecon-derby-code-contest
 status: publish
-title: ⚑ C-JDBC wins the ApacheCon Derby Code Contest
+title: C-JDBC wins the ApacheCon Derby Code Contest
 wordpress_id: '54'
 tags:
 - java

@@ -3,7 +3,7 @@ date: '2008-05-14 13:22:33'
 layout: post
 slug: how-to-include-javascript-engine-in-apples-java-6-vm
 status: publish
-title: ⚑ How to include JavaScript engine in Apple's Java 6 VM
+title: How to include JavaScript engine in Apple's Java 6 VM
 wordpress_id: '175'
 tags:
 - apple

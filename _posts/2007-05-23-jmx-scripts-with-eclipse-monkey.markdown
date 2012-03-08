@@ -3,7 +3,7 @@ date: '2007-05-23 20:53:03'
 layout: post
 slug: jmx-scripts-with-eclipse-monkey
 status: publish
-title: ⚑ JMX Scripts with Eclipse Monkey
+title: JMX Scripts with Eclipse Monkey
 wordpress_id: '151'
 tags:
 - eclipse

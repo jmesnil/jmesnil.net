@@ -3,7 +3,7 @@ date: '2006-08-22 14:45:51'
 layout: post
 slug: equinox-resource-monitoring
 status: publish
-title: ⚑ Equinox Resources Monitoring
+title: Equinox Resources Monitoring
 wordpress_id: '141'
 tags:
 - eclipse

@@ -3,7 +3,7 @@ date: '2008-07-31 22:50:35'
 layout: post
 slug: gitweb-setup-on-mac-os-x
 status: publish
-title: ⚑ Gitweb setup on Mac OS X
+title: Gitweb setup on Mac OS X
 wordpress_id: '195'
 tags:
 - apple

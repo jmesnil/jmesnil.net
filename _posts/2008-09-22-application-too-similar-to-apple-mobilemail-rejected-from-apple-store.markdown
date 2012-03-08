@@ -3,7 +3,7 @@ date: '2008-09-22 08:43:35'
 layout: post
 slug: application-too-similar-to-apple-mobilemail-rejected-from-apple-store
 status: publish
-title: ⚑ Application Too Similar To Apple MobileMail Rejected From Apple Store
+title: Application Too Similar To Apple MobileMail Rejected From Apple Store
 wordpress_id: '344'
 tags:
 - apple

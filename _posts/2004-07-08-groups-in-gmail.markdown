@@ -3,7 +3,7 @@ date: '2004-07-08 13:53:27'
 layout: post
 slug: groups-in-gmail
 status: publish
-title: ⚑ Groups in Gmail?
+title: Groups in Gmail?
 wordpress_id: '32'
 tags:
 - misc

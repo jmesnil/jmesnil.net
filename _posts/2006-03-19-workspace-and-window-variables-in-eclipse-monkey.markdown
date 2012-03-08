@@ -3,7 +3,7 @@ date: '2006-03-19 23:07:01'
 layout: post
 slug: workspace-and-window-variables-in-eclipse-monkey
 status: publish
-title: ⚑ workspace and window variables in Eclipse Monkey
+title: workspace and window variables in Eclipse Monkey
 wordpress_id: '125'
 tags:
 - eclipse

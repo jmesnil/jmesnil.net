@@ -3,7 +3,7 @@ date: '2004-12-30 11:29:52'
 layout: post
 slug: happy-new-year-2005
 status: publish
-title: ⚑ Happy New Year 2005!
+title: Happy New Year 2005!
 wordpress_id: '56'
 tags:
 - misc

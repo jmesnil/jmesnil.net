@@ -3,7 +3,7 @@ date: '2010-04-29 10:47:15'
 layout: post
 slug: web-sockets-support-for-hornetq
 status: publish
-title: ⚑ Web Sockets Support for HornetQ
+title: Web Sockets Support for HornetQ
 wordpress_id: '1062'
 tags:
 - misc

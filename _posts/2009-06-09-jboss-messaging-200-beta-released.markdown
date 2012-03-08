@@ -3,7 +3,7 @@ date: '2009-06-09 09:15:07'
 layout: post
 slug: jboss-messaging-200-beta-released
 status: publish
-title: ⚑ JBoss Messaging 2.0.0 Beta Released
+title: JBoss Messaging 2.0.0 Beta Released
 wordpress_id: '422'
 tags:
 - java

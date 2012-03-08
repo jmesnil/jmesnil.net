@@ -3,7 +3,7 @@ date: '2006-07-31 19:06:05'
 layout: post
 slug: an-outliner-application-based-on-eclipse-rcp
 status: publish
-title: ⚑ An Outliner application based on Eclipse RCP
+title: An Outliner application based on Eclipse RCP
 wordpress_id: '139'
 tags:
 - eclipse

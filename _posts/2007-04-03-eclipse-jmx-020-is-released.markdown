@@ -3,7 +3,7 @@ date: '2007-04-03 18:30:41'
 layout: post
 slug: eclipse-jmx-020-is-released
 status: publish
-title: ⚑ eclipse-jmx 0.2.0 is released
+title: eclipse-jmx 0.2.0 is released
 wordpress_id: '149'
 tags:
 - eclipe-jmx

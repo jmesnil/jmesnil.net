@@ -3,7 +3,7 @@ date: '2008-04-10 21:14:38'
 layout: post
 slug: jmx4r-moved-to-git
 status: publish
-title: ⚑ jmx4r moved to git
+title: jmx4r moved to git
 wordpress_id: '168'
 tags:
 - git

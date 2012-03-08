@@ -3,7 +3,7 @@ date: '2010-11-13 14:28:33'
 layout: post
 slug: richard-starks-parker-the-outfit-by-darwyn-cooke
 status: publish
-title: '⚑ Richard Stark''s Parker: The Outfit by Darwyn Cooke'
+title: 'Richard Stark''s Parker: The Outfit by Darwyn Cooke'
 wordpress_id: '1313'
 tags:
 - misc

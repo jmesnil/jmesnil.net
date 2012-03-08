@@ -3,7 +3,7 @@ date: '2007-10-06 19:22:55'
 layout: post
 slug: adam-bosworth-is-back-on-the-web
 status: publish
-title: ⚑ Adam Bosworth is back on the web
+title: Adam Bosworth is back on the web
 wordpress_id: '165'
 tags:
 - web

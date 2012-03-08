@@ -3,7 +3,7 @@ date: '2004-07-08 12:06:27'
 layout: post
 slug: unified-vs-universal
 status: publish
-title: ⚑ Unified Vs. Universal
+title: Unified Vs. Universal
 wordpress_id: '33'
 tags:
 - java

@@ -3,7 +3,7 @@ date: '2004-07-13 17:21:18'
 layout: post
 slug: today-it-has-frozen-in-hell
 status: publish
-title: ⚑ Today It Has Frozen In Hell
+title: Today It Has Frozen In Hell
 wordpress_id: '29'
 tags:
 - java

@@ -3,7 +3,7 @@ date: '2008-09-23 22:33:47'
 layout: post
 slug: apple-extends-nda-to-rejection-letters
 status: publish
-title: ⚑ Apple Extends NDA to Rejection Letters
+title: Apple Extends NDA to Rejection Letters
 wordpress_id: '356'
 tags:
 - apple

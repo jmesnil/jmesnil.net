@@ -3,7 +3,7 @@ date: '2008-12-01 21:52:26'
 layout: post
 slug: 00002-of-the-app-store
 status: publish
-title: ⚑ 0.0002% of the App Store
+title: 0.0002% of the App Store
 wordpress_id: '402'
 tags:
 - apple

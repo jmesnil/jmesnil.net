@@ -3,7 +3,7 @@ date: '2008-06-10 11:27:07'
 layout: post
 slug: spaces-expose-in-mac-os-x-1053
 status: publish
-title: ⚑ Spaces & Expose in Mac OS X 10.5.3
+title: Spaces & Expose in Mac OS X 10.5.3
 wordpress_id: '182'
 tags:
 - apple

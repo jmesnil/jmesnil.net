@@ -3,7 +3,7 @@ date: '2010-11-12 17:35:42'
 layout: post
 slug: apple-similar-approach-to-java-flash
 status: publish
-title: ⚑ Apple similar approach to Java & Flash
+title: Apple similar approach to Java & Flash
 wordpress_id: '1303'
 tags:
 - apple

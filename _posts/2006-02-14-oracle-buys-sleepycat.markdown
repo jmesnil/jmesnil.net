@@ -3,7 +3,7 @@ date: '2006-02-14 17:24:03'
 layout: post
 slug: oracle-buys-sleepycat
 status: publish
-title: ⚑ Oracle buys Sleepycat
+title: Oracle buys Sleepycat
 wordpress_id: '117'
 tags:
 - misc

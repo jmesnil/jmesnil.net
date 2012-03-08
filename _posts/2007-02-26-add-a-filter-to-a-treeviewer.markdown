@@ -3,7 +3,7 @@ date: '2007-02-26 22:57:57'
 layout: post
 slug: add-a-filter-to-a-treeviewer
 status: publish
-title: ⚑ Add a filter to a TreeViewer
+title: Add a filter to a TreeViewer
 wordpress_id: '144'
 tags:
 - eclipse

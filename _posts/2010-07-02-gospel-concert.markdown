@@ -3,7 +3,7 @@ date: '2010-07-02 21:55:42'
 layout: post
 slug: gospel-concert
 status: publish
-title: ⚑ Gospel Concert
+title: Gospel Concert
 wordpress_id: '1120'
 tags:
 - music

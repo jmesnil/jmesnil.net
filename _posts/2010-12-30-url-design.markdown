@@ -3,7 +3,7 @@ date: '2010-12-30 19:20:12'
 layout: post
 slug: url-design
 status: publish
-title: ⚑ URL Design
+title: URL Design
 wordpress_id: '1557'
 tags:
 - web

@@ -3,7 +3,7 @@ date: '2004-10-04 22:28:14'
 layout: post
 slug: seda-architecture-to-raise-self-awareness-of-software-systems
 status: publish
-title: ⚑ SEDA architecture to raise self awareness of software systems
+title: SEDA architecture to raise self awareness of software systems
 wordpress_id: '46'
 tags:
 - java

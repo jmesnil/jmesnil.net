@@ -3,7 +3,7 @@ date: '2004-07-12 10:30:44'
 layout: post
 slug: so-much-talk-on-junit
 status: publish
-title: ⚑ So much talk on JUnit...
+title: So much talk on JUnit...
 wordpress_id: '31'
 tags:
 - java

@@ -3,7 +3,7 @@ date: '2010-11-26 21:54:28'
 layout: post
 slug: offline-support-and-standalone-mode-for-html5-web-application
 status: publish
-title: '⚑ Offline Support and Standalone Mode for HTML5 Web Application '
+title: 'Offline Support and Standalone Mode for HTML5 Web Application '
 wordpress_id: '1376'
 tags:
 - iphone

@@ -3,7 +3,7 @@ date: '2005-02-08 21:11:16'
 layout: post
 slug: thank-you-microsoft-you-made-my-day
 status: publish
-title: ⚑ Thank you Microsoft, you made my day
+title: Thank you Microsoft, you made my day
 wordpress_id: '81'
 tags:
 - misc

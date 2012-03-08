@@ -3,7 +3,7 @@ date: '2009-08-19 14:07:22'
 layout: post
 slug: how-clojure-forces-me-to-rewire-my-brain-in-a-good-way
 status: publish
-title: ⚑ How Clojure Forces Me to Rewire My Brain (In a Good Way)
+title: How Clojure Forces Me to Rewire My Brain (In a Good Way)
 wordpress_id: '712'
 tags:
 - misc

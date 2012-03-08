@@ -3,7 +3,7 @@ date: '2006-03-03 10:24:45'
 layout: post
 slug: eclipse-monkey-has-been-released
 status: publish
-title: ⚑ Eclipse Monkey has been released
+title: Eclipse Monkey has been released
 wordpress_id: '123'
 tags:
 - eclipse

@@ -3,7 +3,7 @@ date: '2004-10-01 14:09:39'
 layout: post
 slug: time-for-some-mathematical-poetry
 status: publish
-title: ⚑ Time for some mathematical poetry
+title: Time for some mathematical poetry
 wordpress_id: '49'
 tags:
 - misc

@@ -3,7 +3,7 @@ date: '2004-12-07 11:04:04'
 layout: post
 slug: crc-card-based-extension-with-mozilla-and-xbl
 status: publish
-title: ⚑ CRC Card based extension with Mozilla and XBL
+title: CRC Card based extension with Mozilla and XBL
 wordpress_id: '64'
 tags:
 - web

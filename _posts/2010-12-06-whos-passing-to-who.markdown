@@ -3,7 +3,7 @@ date: '2010-12-06 19:00:01'
 layout: post
 slug: whos-passing-to-who
 status: publish
-title: ⚑ Who's Passing to Who
+title: Who's Passing to Who
 wordpress_id: '1495'
 tags:
 - misc

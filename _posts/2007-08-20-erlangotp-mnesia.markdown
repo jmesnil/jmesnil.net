@@ -3,7 +3,7 @@ date: '2007-08-20 19:01:27'
 layout: post
 slug: erlangotp-mnesia
 status: publish
-title: ⚑ Erlang/OTP, Mnesia
+title: Erlang/OTP, Mnesia
 wordpress_id: '162'
 tags:
 - erlang

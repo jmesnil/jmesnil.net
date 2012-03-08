@@ -3,7 +3,7 @@ date: '2007-06-27 18:54:27'
 layout: post
 slug: gem-for-jmx4r-authentication
 status: publish
-title: ⚑ Gem for jmx4r + authentication
+title: Gem for jmx4r + authentication
 wordpress_id: '156'
 tags:
 - java

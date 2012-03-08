@@ -3,7 +3,7 @@ date: '2008-09-23 10:43:31'
 layout: post
 slug: the-real-app-store-acceptance-policy
 status: publish
-title: ⚑ The Real App Store Acceptance Policy
+title: The Real App Store Acceptance Policy
 wordpress_id: '351'
 tags:
 - apple

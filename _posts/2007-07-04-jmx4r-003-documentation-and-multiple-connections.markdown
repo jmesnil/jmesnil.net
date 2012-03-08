@@ -3,7 +3,7 @@ date: '2007-07-04 11:22:01'
 layout: post
 slug: jmx4r-003-documentation-and-multiple-connections
 status: publish
-title: ⚑ jmx4r 0.0.3, documentation and multiple connections
+title: jmx4r 0.0.3, documentation and multiple connections
 wordpress_id: '157'
 tags:
 - java

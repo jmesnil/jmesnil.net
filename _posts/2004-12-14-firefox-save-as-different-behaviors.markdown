@@ -3,7 +3,7 @@ date: '2004-12-14 10:07:56'
 layout: post
 slug: firefox-save-as-different-behaviors
 status: publish
-title: ⚑ Firefox "Save as..." different behaviors
+title: Firefox "Save as..." different behaviors
 wordpress_id: '60'
 tags:
 - web
