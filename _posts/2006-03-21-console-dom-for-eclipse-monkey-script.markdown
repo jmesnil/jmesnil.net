@@ -34,4 +34,4 @@ function main() {
 
 and its output
 
-![Hello, World console screenshot]({{ site.s3.url }}/images/console.png)
+![Hello, World console screenshot]({{ site.s3.url }}/images/2006-03-21-console.png)

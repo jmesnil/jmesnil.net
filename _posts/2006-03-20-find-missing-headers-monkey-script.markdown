@@ -42,5 +42,5 @@ In my script it is looking for the Eclipse Foundation copyright (`Copyright (c) 
 If I run it on my workspace with the imported `org.eclipse.eclipsemonkey` plug-in, it shows that one
 file is missing the copyright header:
 
-![Java Files missing copyright headers]({{ site.s3.url}}/images/missing_headers.png "Java Files missing copyright headers")
+![Java Files missing copyright headers]({{ site.s3.url}}/images/2006-03-20-missing_headers.png "Java Files missing copyright headers")
 
