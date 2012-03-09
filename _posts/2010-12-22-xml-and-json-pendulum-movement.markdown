@@ -26,7 +26,7 @@ Avro defines a serialization system. It has very interesting features (rich data
 
 Here is an example from its documentation:
 
-{% highlight json %}
+{% highlight js %}
     {
       "type": "record", 
       "name": "LongList",
