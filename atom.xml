@@ -17,10 +17,18 @@ title : Atom Feed
 
  {% for post in site.posts %}
  <entry>
-   <title>{{ post.title }}</title>
+	 
+  {% if post.link %}
+  <title type="html">{{ post.title }} {{ site.linked_list.link }}</title>
+   <link href="{{ post.link }}"/>
+  {% else %}
+  <title type="html">{{ site.linked_list.post }} {{ post.title }}</title>
    <link href="{{ site.production_url }}{{ post.url }}"/>
+  {% endif %}
+
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>h{{ site.production_url }}{{ post.id }}</id>
+   <published>{{ post.date | date_to_xmlschema }}</published>
+   <id>{{ site.production_url }}{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
