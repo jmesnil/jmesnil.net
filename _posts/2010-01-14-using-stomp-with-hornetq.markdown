@@ -28,9 +28,7 @@ To show how to setup HornetQ and Stomp together, I created a [project][hornetq-s
 The source code consists in a single class which configures and starts a fully functional standalone HornetQ server
 and connects it to Stomp:
 
-
-    
-    
+{% highlight java %}
     public class HornetQStompServer {
        public static void main(String[] args) throws Exception {
     
@@ -62,18 +60,13 @@ and connects it to Stomp:
           stompConnect.start();
        }
     }
+{% endhighlight %}
     
-
-
-
 As both HornetQ server and clients are in the same Virtual Machine, we use in-vm connections.
 There will be only one port opened: the port used by Stomp (61613 by default)
 
 To run the server, use Apache [Ant][ant]:
 
-
-    
-    
     $ ant server
        
     ...
@@ -88,72 +81,42 @@ To run the server, use Apache [Ant][ant]:
        [java] 14 janv. 2010 10:57:30 org.codehaus.stomp.tcp.TcpTransportServer doStart
        [java] INFO: Listening for connections at: tcp://BlackBook.local:61613
     
-
-
-
 That's all you need to have a fully functional messaging server accessible to any Stomp clients.
 
 To check that it works properly, we will use telnet as our Stomp client:
 
-
-    
-    
     $ telnet localhost 61613
     
-
-
-      
 First, we connect to the server.  
 To keep things simple, we have disabled security from the server so that
 we can connect to it anonymously:
 
-
-    
-    
     CONNECT
     login:
     passcode:
         
     ^@
-    
-
-
      
 (`^@` is Ctl-@)
 
 The server replies that we are connected:
 
-
-    
-    
     CONNECTED
     session:null
-    
-
-
      
 We send a message to the destination `/queue/a`:
-
-
-    
     
     SEND 
     destination:/queue/a
       
     hello, hornetq!
     ^@
-    
-
-
      
 To make things more interesting, you can now kill the server and restart it.
 The message that was sent to the queue is persisted and will be consumed after the server is restarted.
 
 Once the server is restarted, we open a new Stomp client and connect to the server:
 
-
-    
-    
     $ telnet localhost 61613
           
     CONNECT
@@ -161,14 +124,8 @@ Once the server is restarted, we open a new Stomp client and connect to the serv
     passcode:
          
     ^@
-    
-
-
      
 And we subscribe to the destination:
-     
-
-    
     
     SUBSCRIBE
     destination: /queue/a
@@ -176,14 +133,8 @@ And we subscribe to the destination:
          
     ^@
     
-
-
-     
 As soon as we are subscribed, we will receive the message that was sent to the destination:
 
-
-    
-    
     MESSAGE
     message-id:ID:7b28be24-00f1-11df-b27f-001c42000009:0000000000000000
     destination:/queue/a
@@ -194,22 +145,13 @@ As soon as we are subscribed, we will receive the message that was sent to the d
     priority:4
          
     hello, hornetq!
-    
-
-
 
 Finally, we acknowledge the message:
 
-
-    
-    
     ACK    
     message-id: ID:7b28be24-00f1-11df-b27f-001c42000009:0000000000000000
          
     ^@
-    
-
-
 
 By leveraging HornetQ & Stomp, you can use messaging queues in your applications regardless on the platform you use.
 

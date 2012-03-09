@@ -26,9 +26,7 @@ Avro defines a serialization system. It has very interesting features (rich data
 
 Here is an example from its documentation:
 
-
-    
-    
+{% highlight json %}
     {
       "type": "record", 
       "name": "LongList",
@@ -38,9 +36,7 @@ Here is an example from its documentation:
         {"name": "next", "type": ["LongList", "null"]} // optional next element
       ]
     }
-    
-
-
+{% endhighlight %}    
 
 Today, I spent too much time for the simple task of writing a schema in JSON to represent a map whose values were arrays of strings.
 
@@ -51,11 +47,13 @@ Simple schemas are simple to express but the signal-to-noise ratio increases ten
 I don't think JSON is well suited to represent a document schema. A DSL is a better tool for this.
 For example, Google [Protocol Buffers][protobuf] uses a simpler format to define their schema:
 
+{% highlight protobuf %}
     message Person {
       required int32 id = 1;
       required string name = 2;
       optional string email = 3;
     }
+{% endhighlight %}
 
 I have not used protocol buffers enough to see how it changes with schema complexity but, at first glance, I expect it to remain more readable that a comparable JSON schema.
 

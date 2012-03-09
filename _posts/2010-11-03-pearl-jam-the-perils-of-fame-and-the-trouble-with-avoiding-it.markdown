@@ -4,6 +4,7 @@ layout: post
 slug: pearl-jam-the-perils-of-fame-and-the-trouble-with-avoiding-it
 status: publish
 title: Pearl Jam, the Perils of Fame, and the Trouble With Avoiding It
+link: http://www.avclub.com/articles/part-3-1992-pearl-jam-the-perils-of-fame-and-the-t,47099/
 wordpress_id: '1239'
 tags:
 - music

@@ -17,14 +17,10 @@ An user reported an [issue][issue] with [jmx4r][jmx4r] because he was not able t
 
 He is right that jmx4r does not work with dotted attributes. For example, this code will fail:
 
-
-    
-    
+{% highlight ruby %}
     server = JMX::MBean.find_by_name "amx:j2eeType=X-MonitoringDottedNames,name=na"
     puts server.http_service.file_cache.maxentries_lastsampletime
-    
-
-
+{% endhighlight %}    
 
 JMX supports dotted attributes but they can not be used directly with jmx4r because of Ruby syntax.  
 Ruby will read `server.http_service.file_cache.maxentries_lastsampletime` and will rightfully call `http_service` on the 
@@ -34,22 +30,15 @@ To circumvent this issue and be able to use jmx4r with dotted MBean attributes, 
 
 Instead of 
 
-
-    
-    
+{% highlight ruby %}
     server.http_service.file_cache.maxentries_lastsampletime
-    
-
-
+{% endhighlight %}    
 
 you will have to use
 
-
-    
-    
+{% highlight ruby %}
     server.send("http_service.file_cache.maxentries_lastsampletime")
-    
-
+{% endhighlight %}    
 
 This looks ugly but it works.
 

@@ -15,7 +15,7 @@ As I have a few ideas I want to try on iOS 4, I had to renew the Apple <strike>r
 
 I took the opportunity to update [TangTouch][tangtouch] (iTunes link), the game I wrote to learn iPhone development, to support iOS 4. 
 
-![](http://iphone.jmesnil.net/img/img-1.png)
+![]({{ site.s3.url }}/images/2010-07-27-img.png)
 
 There has been several releases of the iOS (ne iPhone OS) since I wrote this application but the APIs are fairly stable and I had to change a few deprecated calls only. As a bonus, it now supports multitasking: if you leave the game and come back later, the game will be as you left it.  
 I released the new version on the App Store. This game was a learning tool and it shows a lack of polish (I am by no means a graphic designer). The game is free so that I don't have to refund it if people do not like it :)
@@ -25,7 +25,7 @@ Apple has also released a developer preview of Xcode 4 that I am evaluating. Xco
 I was also interested to see how [Git][git] was integrated as I use it for all my personal projects.
 The user interface to browse a file history is innovative (and fast!), reminding of [Time Machine][timemachine]:
 
-![](http://jmesnil.net/weblog/wp-content/uploads/2010/07/version1.png)
+![]({{ site.s3.url }}/images/2010-07-27-version.png)
 
 At the moment, Git integration is fairly limited. Xcode does not seem to handle Git branches and stashes. I did not find how to browse the whole project either and it does not seem possible to add remote repositories as only the local Git repository is used (no push or pull to remote repositories).
 I hope that Apple will fully embrace Git and expose in a clean way all its features. At the moment, [GitX][gitx] and the command line are still the best way to interact with Git: I develop first and organize my commits later (to add interactively, merge commit, rebase, etc.).  

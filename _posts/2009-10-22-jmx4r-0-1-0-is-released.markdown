@@ -22,17 +22,14 @@ There is also two new features:
 
 * support for Java CamelCase style in addition to Ruby snake_case (thanks again to Dan)
 
-
-    
-    
+{% highlight ruby %}
     logging = JMX::MBean.find_by_name "java.util.logging:type=Logging"
     
     # Ruby syntax works
     logging.set_logger_level "global", "FINEST"
     # Java syntax works too
     logging.setLoggerLevel "global", "FINEST"
-    
-
+{% endhighlight %}    
 
 
 * Connection to a local JVM (thanks to [Mr ohtsuka](http://github.com/sat13f)).
@@ -40,19 +37,13 @@ There is also two new features:
 
 For example, start an instance of jconsole without any additional system properties:
 
-
-    
-    
+{% highlight sh %}
     $ jconsole &
-    
-
-
+{% endhighlight %}    
 
 You can now manage this Java application locally:
 
-
-    
-    
+{% highlight ruby %}
     require 'rubygems'
     require 'jmx4r'
     
@@ -60,21 +51,15 @@ You can now manage this Java application locally:
     JMX::MBean.establish_connection :command => /JConsole/
     memory = JMX::MBean.find_by_name "java.lang:type=Memory"
     memory.gc            
+{% endhighlight %}
     
-
-
-
 In addition to the previous `:host`, `:port` and `:url` arguments that you can pass to establish a JMX connection, there is now `:command` which must be a regular expression corresponding to the local Java process you want to connect to. You can find the name of the process using `jps`:
 
-
-    
-    
+{% highlight sh %}
     $ jps
     4255 JConsole
     4395 Jps
-    
-
-
+{% endhighlight %}    
 
 You can connect to a local Java application running on Java 5 or 6. Is someone interested to contribute support for JDK7 too?
 

@@ -17,27 +17,19 @@ There is a single new feature on this release:
 
 Before, to access the `committed` attribute of the `heap_memory` composite data, you needed to write:
 
-
-    
-    
+{% highlight rb %}
       memory.heap_memory_usage.get("committed")
       
       # or
       
       memory.heap_memory_usage["committed"]
-    
-
-
+{% endhighlight %}    
 
 while now, you can simply do:
 
-
-    
-    
+{% highlight rb %}
       memory.heap_memory_usage.committed
-    
-
-
+{% endhighlight %}    
 
 You write the attribute like a normal snake_cased attribute and jmx4r will automatically retrieve the corresponding CamelCased attribute from the composite data.
 

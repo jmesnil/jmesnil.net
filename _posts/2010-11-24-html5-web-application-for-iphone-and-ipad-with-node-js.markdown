@@ -292,7 +292,7 @@ As I have not found a way to prevent the iPhone to change the screen orientation
 
 Here is a small video of the result:
 
-
+<object width="640" height="385"><param name="movie" value="http://www.youtube.com/v/hqVcLpsO728?fs=1&amp;hl=fr_FR&amp;rel=0&amp;hd=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/hqVcLpsO728?fs=1&amp;hl=fr_FR&amp;rel=0&amp;hd=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="385"></embed></object>
 
 It's not obvious from the video but the camera was recording from above: the iPhone was held horizontally.
 

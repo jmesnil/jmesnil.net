@@ -22,7 +22,7 @@ Before looking at Web Sockets and other fancy code, let's make the Web applicati
 
 The major annoyance is that Safari chrome takes a lot of space and hides the bottom of the board:
 
-<img src="http://jmesnil.net/weblog/wp-content/uploads/2010/11/chrome.png" alt="" title="chrome" width="320" height="155" class="aligncenter size-full wp-image-1383" />
+<img src="{{ site.s3.url }}/images/2010-11-26-chrome.png" alt="" title="chrome" width="320" height="155" class="aligncenter size-full wp-image-1383" />
 
 To display a Web application without Safari chrome, we can make it a [standalone Web application][standalone].
 
@@ -45,7 +45,7 @@ Last thing is to render the iPhone status bar in black by setting the [`apple-mo
 
 With these 3 meta information, the Web application looks better and display the whole board
 
-<img src="http://jmesnil.net/weblog/wp-content/uploads/2010/11/Board-2nd-version.jpg" alt="" title="Board - 2nd version" width="320" height="480" class="aligncenter size-full wp-image-1380" />
+<img src="{{ site.s3.url }}/images/2010-11-26-Board-2nd-version.jpg" alt="" title="Board - 2nd version" width="320" height="480" class="aligncenter size-full wp-image-1380" />
 
 ## Offline Support
 

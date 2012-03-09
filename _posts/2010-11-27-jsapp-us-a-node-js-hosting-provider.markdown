@@ -18,9 +18,7 @@ It is straightforward to use and I have deployed my Web application on it. You c
 At first, it complained that `__dirname` was not defined when `server.js` is trying to read files based on the URL path.
 I modified `server.js` to remove the leading `/` from the path and it works fine:
 
-
-    
-    
+{% highlight js %}
     // won't work on JSApp.us
     fs.readFile(__dirname + path, function(err, data) {
        ...
@@ -29,7 +27,7 @@ I modified `server.js` to remove the leading `/` from the path and it works fine
     fs.readFile(path.substring(1, path.length), function(err, data) {
        ...
     }
-    
+{% endhighlight %}    
 
 
 
@@ -66,7 +64,7 @@ The rest of the application seems to work fine though.
 It will make the next version of the application more interesting. I want to add Web Sockets support to display the pieces of the other users on the Web application (in addition to its own piece).
 With this hosting provider, I'll be able to release a version that everyone will be able to try.
 
-As an aside, it uses [SkyWriter][skywriter] (ne Bespin) to edit the code and the integration is pretty slick. 
+As an aside, it uses [SkyWriter][skywriter] (n&eacute; Bespin) to edit the code and the integration is pretty slick. 
 
 [nodejs]: http://nodejs.org/
 [post1]: /weblog/2010/11/24/html5-web-application-for-iphone-and-ipad-with-node-js/

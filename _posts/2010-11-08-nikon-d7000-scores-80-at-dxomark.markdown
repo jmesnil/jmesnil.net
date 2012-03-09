@@ -4,6 +4,7 @@ layout: post
 slug: nikon-d7000-scores-80-at-dxomark
 status: publish
 title: Nikon D7000 scores 80 at DxOMark
+link: http://www.dxomark.com/index.php/en/Camera-Sensor/All-tested-sensors/Nikon/D7000
 wordpress_id: '1254'
 tags:
 - photo

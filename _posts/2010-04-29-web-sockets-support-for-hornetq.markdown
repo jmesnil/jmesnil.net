@@ -30,32 +30,24 @@ How do you send a message from the browser to a Stomp broker? The steps are alwa
 3. register a callback to be notified when the client is connected and authenticated
 4. send a message to the broker on a given destination
 
-
-    
-    
+{% highlight js %}
     var client = Stomp.client("ws://blackbook.local:61614/stomp");
     client.connect("guest", "guest", function() {
        // called back after the client is connected and authenticated to the Stomp server
        client.send("/queue/test", {priority: 9}, "Hello, from the browser");
     });
-    
-
-
+{% endhighlight %}    
 
 Receiving messages from the broker involves an additional step where the client subscribes to a destination:
 
-
-    
-    
+{% highlight js %}
     client.subscribe("/queue/test", function(message)
     {
       // called back every time the client receives a message from the broker for the destination
       $("#messages").append("<p>" + message.body + "</p>\n");
     };
+{% endhighlight %}
     
-
-
-
 [`stomp-websocket` documentation][stomp-websocket] explains in more details how to use the library. The project is hosted on [GitHub][github] and ships with a chat example where browser clients sends and receives messages from a topic.
 
 
@@ -63,19 +55,15 @@ Receiving messages from the broker involves an additional step where the client 
 
 Web Socket and Stomp support in HornetQ are quite new and a bit rough around the edges (e.g. no implicit mapping between Stomp message and JMS messages, destinations mapping to addresses and queues). Do not hesitate to report issues in [HornetQ bug tracker][hornetq-jira] and contribute patches.
 
-To accept Web Sockets connection from port `61614`, add a `` to `hornetq-configuration.xml`:
+To accept Web Sockets connection from port `61614`, add a `<acceptor>` to `hornetq-configuration.xml`:
 
-
-    
-    
+{% highlight xml %}
     <acceptor name="stomp-ws-acceptor">
        <factory-class>org.hornetq.core.remoting.impl.netty.NettyAcceptorFactory</factory-class>
        <param value="stomp_ws" key="protocol"></param>
        <param value="61614" key="port"></param>
     </acceptor>
-    
-
-
+{% endhighlight %}    
 
 Web Sockets can then connect to `ws://localhost:61614/stomp` endpoint.
 
