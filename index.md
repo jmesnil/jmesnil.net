@@ -3,11 +3,18 @@ layout: page
 ---
 {% include JB/setup %}
 
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; 
-    <a href="{{ BASE_PATH }}{{ post.url }}">{% unless post.link %} {{ site.linked_list.post }} {% endunless %} {{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+{% for post in site.posts limit:10 %}
+<section>
+
+  {% if post.link %}
+  <h1 class="emphnext"><a href="{{ post.link }}">{{ post.title }} {{ site.linked_list.link }}</a></h1>
+  {% else %}
+  <h1 class="emphnext"><a href="{{ post.url }}">{{ site.linked_list.post }} {{ post.title }}</a></h1>
+  {% endif %}
+
+  {{ post.content }}
+</section>
+<hr />
+{% endfor %}
 
 
