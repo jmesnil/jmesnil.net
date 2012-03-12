@@ -6,11 +6,6 @@
   <h1 class="emphnext"><a href="{{ page.url }}">{{ page.title }}</a></h1>
   {% endif %}
 
-  <ul class="tag_box inline">
-  {% assign tags_list = page.tags %}
-  {% include JB/tags_list %}
-  </ul>
-
   {{ content }}
 
   {% if page.link %}
