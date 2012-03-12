@@ -7,7 +7,11 @@
    <title>{{ site.author.name }} &mdash; {{ page.title }}</title>
    <meta name="author" content="{{ site.author.name }}" />
 
-   <link rel="start" href="{{ HOME_PATH }}" />
+    <meta name="viewport" content="width=device-width" />
+
+    <link rel="icon" href="/favicon.ico" type="image/png" />
+
+    <link rel="start" href="{{ HOME_PATH }}" />
 
 	{% if page.keywords %}
 	<meta name="keywords" content="{{ page.keywords }}">
@@ -34,7 +38,6 @@
     	<a href="{{ HOME_PATH }}" title="{{ site.title }}">{{ site.title }}</a>
     </h1>
     <ul class="nav">
-      <li><a class="home" href="{{ HOME_PATH }}">Home</a></li>
       <li><a  href="{{ BASE_PATH }}/archive.html">Archive</a></li>
     </ul>
   </div>
@@ -44,11 +47,8 @@
   <div id="footer">
   	<address>
   		<span class="copyright">
-  			Content by <a href="{{ BASE_PATH }}/info/site.html">{{ site.author.name }}</a>. Design by 
-  			<a href="http://mark.reid.name/">Mark Reid</a>
-  			<br/>
-  			(<a rel="licence" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Some rights reserved</a>)			
-  		</span>
+			<a href="{{ BASE_PATH }}/info/site.html">&copy; 2012 {{ site.author.name }}</a>
+		</span>
   		<span class="engine">
   			Powered by <a href="http://github.com/mojombo/jekyll/" title="A static, minimalist CMS">Jekyll</a>
   		</span>

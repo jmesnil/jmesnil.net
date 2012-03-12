@@ -1,11 +1,12 @@
 ---
-layout: page
+layout: default
 ---
 {% include JB/setup %}
 
+<div id="page">
+
 {% for post in site.posts limit:10 %}
 <section>
-
   {% if post.link %}
   <h1 class="emphnext"><a href="{{ post.link }}">{{ post.title }} {{ site.linked_list.link }}</a></h1>
   {% else %}
@@ -14,7 +15,6 @@ layout: page
 
   {{ post.content }}
 </section>
-<hr />
 {% endfor %}
 
-
+</div>
