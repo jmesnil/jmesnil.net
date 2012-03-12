@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "I am a Red Hatter (again!)"
+title: "I Am a Red Hatter (Again!)"
 tags:
 - redhat
 ---
