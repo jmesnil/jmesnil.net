@@ -6,6 +6,8 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 pygments: true
 markdown: rdiscount
 
+exclude: ["tools"]
+
 linked_list:
   link: "&#9755;"
   post: "&#9873;"
