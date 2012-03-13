@@ -9,9 +9,10 @@ tags:
 - apple
 ---
 
-
+<figure>
 ![Steve Jobs]({{ site.s3.url }}/images/2011-10-06-SteveJobs1955-2011.jpg)
-Steve Jobs 1955-2011
+<figcaption>Steve Jobs 1955-2011</figcaption>
+</figure>
 
 
 [Steve Jobs][stanford]:
@@ -20,7 +21,7 @@ Steve Jobs 1955-2011
 
 For all the products and ideas that Steve Jobs delivered during his life, nothing from him has inspired me more than when he talked about life, love and death and what we can do from our life in his Stanford commencement speech:
 
-<iframe width="640" height="480" src="http://www.youtube.com/embed/UF8uR6Z6KLc" frameborder="0" allowfullscreen=""></iframe>
+<iframe class="aligncenter" width="640" height="480" src="http://www.youtube.com/embed/UF8uR6Z6KLc" frameborder="0" allowfullscreen=""></iframe>
 
 
 All my thoughts go to his family, friends and coworkers at Pixar & Apple.

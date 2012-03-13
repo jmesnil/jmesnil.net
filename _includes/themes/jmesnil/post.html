@@ -1,8 +1,8 @@
-<div id="page">
-	
   {% if page.link %}
-  <h1 class="emphnext"><a href="{{ page.link }}">{{ page.title }} {{ site.linked_list.link }}</a></h1>
+  <article class="link">
+  <h1><a href="{{ page.link }}">{{ page.title }} {{ site.linked_list.link }}</a></h1>
   {% else %}
+  <article class="post">
   <h1 class="emphnext"><a href="{{ page.url }}">{{ page.title }}</a></h1>
   {% endif %}
 
@@ -26,7 +26,5 @@
     <a href="{{ page.previous.url }}" class="prev" title="{{ page.previous.title }}">&larr; Earlier Post</a>
   {% endif %}
   </div>
-  
-</div><!-- End Page -->
 
-{% include JB/comments %}
+</article>
