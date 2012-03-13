@@ -9,7 +9,8 @@ tags:
 - photo
 ---
 
-
+<figure>
 ![Brumes Matinales](http://farm7.static.flickr.com/6173/6176013346_3f2e30a802_z_d.jpg)
-[Brumes Matinales](http://www.flickr.com/photos/jmesnil/6176013346)
+<figcaption>[Brumes Matinales](http://www.flickr.com/photos/jmesnil/6176013346)</figcaption>
+</figure>
 
