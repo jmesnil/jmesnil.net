@@ -11,10 +11,12 @@ tags:
 
 Yesterday, Joe Cocker was at Jazz a Vienne and it was thrilling to listen to him:
 
-<object width="480" height="385"><param name="movie" value="http://www.youtube.com/v/hCMKSxdNtXg&amp;hl=fr_FR&amp;fs=1?rel=0&amp;color1=0x3a3a3a&amp;color2=0x999999"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/hCMKSxdNtXg&amp;hl=fr_FR&amp;fs=1?rel=0&amp;color1=0x3a3a3a&amp;color2=0x999999" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="385"></embed></object>
+<object class="aligncenter" width="480" height="385"><param name="movie" value="http://www.youtube.com/v/hCMKSxdNtXg&amp;hl=fr_FR&amp;fs=1?rel=0&amp;color1=0x3a3a3a&amp;color2=0x999999"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/hCMKSxdNtXg&amp;hl=fr_FR&amp;fs=1?rel=0&amp;color1=0x3a3a3a&amp;color2=0x999999" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="385"></embed></object>
 
 I love going to Jazz a Vienne: the location is spectacular, the sound is great and the artists are always top notch!
 
+<figure>
 ![](http://desmond.yfrog.com/Himg340/scaled.php?tn=0&server=340&filename=hzfv.jpg&xsize=640&ysize=640)
+</figure>
 
 I was annoyed that the security did not let me keep my camera. I wanted to take some nice pictures with my 70-300mm and all I had was my iPhone and some low-quality HDR snapshots...

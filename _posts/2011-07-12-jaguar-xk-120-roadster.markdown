@@ -13,15 +13,15 @@ I don't care much about cars but when I see a beauty, I know it.
 
 A friend's father owns the [Classic & Sports Auto][csa] garage and kindly invited me to shoot a Jaguar XK 120 roadster that he is renovating:
 
-
+<figure>
 ![Jaguar XK 120](http://farm7.static.flickr.com/6148/5927230855_a206015beb_z.jpg)
-[Jaguar XK 120 Roadster](http://www.flickr.com/photos/jmesnil/5927230855/)
+<figcaption>[Jaguar XK 120 Roadster](http://www.flickr.com/photos/jmesnil/5927230855/)</figcaption>
+</figure>
 
-
-
+<figure>
 ![Jaguar XK 120](http://farm7.static.flickr.com/6015/5927785456_6a8635292c_z.jpg)
-
-[Jaguar XK 120 Roadster](http://www.flickr.com/photos/jmesnil/5927785456/)
+<figcaption>[Jaguar XK 120 Roadster](http://www.flickr.com/photos/jmesnil/5927785456/)</figcaption>
+</figure>
 
 
 It was a great opportunity to shoot such a beautiful car with enough time and freedom to compose the shots. I waited for the late afternoon and the sun was starting to be low enough to reveal the curves of the car.  

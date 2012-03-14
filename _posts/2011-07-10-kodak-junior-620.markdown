@@ -11,10 +11,10 @@ tags:
 
 While talking about photography with my father, he told me that he still had an "old" camera from my grandfather and, lo and behold!, he showed me a folding camera: the [Kodak Junior 620][kodak].
 
-
+<figure>
 ![Kodak Junior 620](http://farm7.static.flickr.com/6126/5921672819_8fe893bb36_z.jpg)
-[My grandfather's Kodak Junior 620](http://www.flickr.com/photos/jmesnil/5921672819/)
-
+<figcaption>[My grandfather's Kodak Junior 620](http://www.flickr.com/photos/jmesnil/5921672819/)</figcaption>
+</figure>
 
 I have not found a serial number and I don't know exactly which series it is but Kodak Junior 620 cameras were manufactured between 1935 and 1939 (depending on the series).
 
