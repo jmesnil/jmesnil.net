@@ -75,6 +75,9 @@ body {
 	background-color: whitesmoke;
 	background-position: center -18em;
 	background-repeat: repeat-x; 
+	max-width: 900px;
+	margin: 1.5em auto 3em auto;
+	line-height:1.5em;
 }
 
 /* Hack via Joel Spolsky to make image rescaling nicer in IE */
@@ -110,10 +113,6 @@ hr {
 }
 
 sup { line-height: 1ex; }
-
-body {
-	line-height:1.5em;
-}
 
 #page {
 	max-width: 900px;
@@ -221,6 +220,7 @@ header, footer {
 	margin-left: auto;
 	margin-right: auto;
 }
+
 header, header a { color: silver; }
 header .hover { color: transparent; }
 header:hover a { color: #59708C; text-shadow: #aaa 2px 2px 3px;}
@@ -447,6 +447,7 @@ article.post h1 a:hover {
 	text-decoration: none;
 }
 /* @end */
+
 
 .alignleft {display:inline; float:left; margin:0 1em 1em 0;}
 .alignright {display:inline; float:right; margin:0 0 1em 1em;}
