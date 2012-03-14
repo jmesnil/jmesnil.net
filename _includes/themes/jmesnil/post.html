@@ -3,13 +3,13 @@
   <h1><a href="{{ page.link }}">{{ page.title }} {{ site.linked_list.link }}</a></h1>
   {% else %}
   <article class="post">
-  <h1 class="emphnext"><a href="{{ BASE_PATH }}/{{ page.url }}">{{ page.title }}</a></h1>
+  <h1 class="emphnext"><a href="{{ BASE_PATH }}{{ page.url }}">{{ page.title }}</a></h1>
   {% endif %}
 
   {{ content }}
 
   {% if page.link %}
-  <a href="{{ BASE_PATH }}/{{ page.url }}" rel="bookmark" title="Permanent link to {{ page.title }}">{{ site.linked_list.post }}</a>
+  <a href="{{ BASE_PATH }}{{ page.url }}" rel="bookmark" title="Permanent link to {{ page.title }}">{{ site.linked_list.post }}</a>
   {% endif %}
 
   <address class="signature">
@@ -20,10 +20,10 @@
   
   <div class="prev-next">
   {% if page.next %}
-    <a href="{{ BASE_PATH }}/{{ page.next.url }}" class="next" title="{{ page.next.title }}">Next Post &rarr;</a>
+    <a href="{{ BASE_PATH }}{{ page.next.url }}" class="next" title="{{ page.next.title }}">Next Post &rarr;</a>
   {% endif %}
   {% if page.previous %}
-    <a href="{{ BASE_PATH }}/{{ page.previous.url }}" class="prev" title="{{ page.previous.title }}">&larr; Earlier Post</a>
+    <a href="{{ BASE_PATH }}{{ page.previous.url }}" class="prev" title="{{ page.previous.title }}">&larr; Earlier Post</a>
   {% endif %}
   </div>
 
