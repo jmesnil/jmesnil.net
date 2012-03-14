@@ -2,12 +2,10 @@
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink: /:year/:month/:day/:title 
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "tools"]
 pygments: true
 markdown: rdiscount
 paginate: 10
-
-exclude: ["tools"]
 
 linked_list:
   link: "&#9755;"
