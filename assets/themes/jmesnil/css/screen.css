@@ -451,3 +451,9 @@ article.post h1 a:hover {
 .alignleft {display:inline; float:left; margin:0 1em 1em 0;}
 .alignright {display:inline; float:right; margin:0 0 1em 1em;}
 .aligncenter {display:block; margin:1em auto;}
+
+p.previous, p.next {
+    text-align: center;
+	padding-top: 1em;
+	padding-bottom: .5em;
+}
