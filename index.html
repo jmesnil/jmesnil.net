@@ -7,9 +7,9 @@ title: Weblog
 {% if paginator.previous_page %}
   <p class="previous">
     {% if paginator.previous_page == 1 %}
-    <a href="{{ BASE_PATH }}/">Previous Posts</a>
+    <a href="{{ BASE_PATH }}/"> &larr; Previous Posts</a>
     {% else %}
-    <a href="{{ BASE_PATH }}/page{{paginator.previous_page}}">Previous Posts</a>
+    <a href="{{ BASE_PATH }}/page{{paginator.previous_page}}">&larr; Previous Posts</a>
     {% endif %}
   </p>
 {% endif %}
@@ -31,6 +31,6 @@ title: Weblog
 
 {% if paginator.next_page %}
   <p class="next">
-    <a href="{{ BASE_PATH }}/page{{paginator.next_page}}">Next Posts</a>
+    <a href="{{ BASE_PATH }}/page{{paginator.next_page}}">Next Posts &rarr;</a>
   </p>
 {% endif %}
