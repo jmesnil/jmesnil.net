@@ -20,10 +20,10 @@
   
   <div class="prev-next">
   {% if page.next %}
-    <a href="{{ BASE_PATH }}{{ page.next.url }}" class="next" title="{{ page.next.title }}">Next Post &rarr;</a>
+    <a href="{{ BASE_PATH }}{{ page.next.url }}" class="prev" title="{{ page.next.title }}">&larr;  Previous Post</a>
   {% endif %}
   {% if page.previous %}
-    <a href="{{ BASE_PATH }}{{ page.previous.url }}" class="prev" title="{{ page.previous.title }}">&larr; Previous Post</a>
+    <a href="{{ BASE_PATH }}{{ page.previous.url }}" class="next" title="{{ page.previous.title }}">Next Post &rarr;</a>
   {% endif %}
   </div>
 
