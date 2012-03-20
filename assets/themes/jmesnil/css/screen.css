@@ -397,6 +397,8 @@ dl.figure dd {
 figure {
 display: block;
 position: relative;
+margin-left: -60px;
+margin-right: -60px;
 }
 
 figure img {
@@ -420,6 +422,11 @@ line-height: 1.5em;
 }
 .prev-next .next{ 
 	float:right;
+}
+
+article {
+   margin-left: 60px;
+   margin-right: 60px;
 }
 
 article h1 {
