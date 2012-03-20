@@ -441,7 +441,7 @@ article.link h1 {
 	font-weight: bold;
 }
 article.link h1 a, a.link {
-	color: #e90000;
+	color: firebrick;
 }
 article.link h1 a:hover, a.link:hover {
   color: #e97d0c; 
