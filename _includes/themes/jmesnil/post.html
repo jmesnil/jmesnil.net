@@ -21,6 +21,8 @@
   <div class="prev-next">
   {% if page.next %}
     <a href="{{ BASE_PATH }}{{ page.next.url }}" class="prev" title="{{ page.next.title }}">&larr;  Previous Post</a>
+  {% else %}
+    <span class="prev">&nbsp;</span>
   {% endif %}
   {% if page.previous %}
     <a href="{{ BASE_PATH }}{{ page.previous.url }}" class="next" title="{{ page.previous.title }}">Next Post &rarr;</a>
