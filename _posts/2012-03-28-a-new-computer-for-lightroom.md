@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A New Computer (For Lightroom)"
-date: '2012-03-28 09:25:00'
+date: '2012-03-28 10:25:00'
 link: http://www.tbray.org/ongoing/When/201x/2012/03/27/New-Computer
 category: 
 tags: []
