@@ -29,7 +29,13 @@ title : Atom Feed
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <published>{{ post.date | date_to_xmlschema }}</published>
    <id>{{ site.production_url }}{{ post.id }}</id>
-   <content type="html">{{ post.content | xml_escape }}</content>
+   <content type="html">{{ post.content | xml_escape }} 
+
+   {% if post.link %}
+   &lt;p&gt;&lt;a href="{{ site.production_url }}{{ post.url }}" title="Permanent link to {{ post.title }}"&gt;{{ site.linked_list.post }}&lt;/a&gt;&lt;/p&gt;
+   {% endif %}
+
+   </content>
  </entry>
  {% endfor %}
  
