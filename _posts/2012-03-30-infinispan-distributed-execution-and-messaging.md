@@ -26,7 +26,7 @@ If I understood Galder correctly, Infinispan proposes the two approaches:
 * a [Map/Reduce model][infinispan-mr] where the mapper and reducer tasks are sent on the cluster nodes to distribute the code execution.
 * [Listeners and Notifications][infinispan-l] that can be used as a __kind of__ messaging bus.
 
-Messaging is a model that is widely used in entreprise applications and may become mainstream on the Web with the support of [Web Sockets][websockets] by all Web Browsers.  
+Messaging is a model that is widely used in entreprise applications and may become mainstream on the Web with the support of [WebSockets][websockets] by all Web browsers.  
 Distributed execution framework like Hadoop Map/Reduce or Twitter [Storm][storm] *will* become mainstream as the amount of generated data to process and analyze (on the Web or behind firewalls for entreprise softwares) will continue to grow. 
 
 Infinispan seems to hit a sweet spot by providing the two models and the ability to mix and match them. I am looking forward to seeing what's next for Infinispan and the best ways to leverage it...  
