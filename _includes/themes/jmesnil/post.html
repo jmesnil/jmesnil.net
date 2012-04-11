@@ -1,16 +1,14 @@
   {% if page.link %}
   <article class="link">
-  <h1><a href="{{ page.link }}">{{ page.title }} {{ site.linked_list.link }}</a></h1>
+  <h1><a href="{{ page.link }}">{{ page.title }} {{ site.linked_list.link }}</a>&nbsp;
+      <a class="plink" rel="bookmark" title="Permant link to {{ page.title }}" href="{{ BASE_PATH }}{{ page.url }}">{{ site.linked_list.post }}</a>
+  </h1>
   {% else %}
   <article class="post">
   <h1 class="emphnext"><a href="{{ BASE_PATH }}{{ page.url }}">{{ page.title }}</a></h1>
   {% endif %}
 
   {{ content }}
-
-  {% if page.link %}
-  <a href="{{ BASE_PATH }}{{ page.url }}" rel="bookmark" title="Permanent link to {{ page.title }}">{{ site.linked_list.post }}</a>
-  {% endif %}
 
   <address class="signature">
     <a class="author" href="{{ HOME_PATH }}">{{ site.author.name }}</a> 

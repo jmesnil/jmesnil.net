@@ -464,3 +464,12 @@ p.previous, p.next {
 	padding-top: 1em;
 	padding-bottom: .5em;
 }
+
+
+article h1 a.plink {
+    text-decoration: none;
+    color: #fff; /* the page background colour */
+}
+article h1:hover a.plink, a:hover.plink {
+    color: #c8a8ff;
+}
