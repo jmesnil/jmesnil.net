@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Arquillian 1.0 Is Released"
-date: '2012-04-11 10:44:24'
+date: '2012-04-11 11:15:24'
 category: 
 tags: []
 link: http://arquillian.org/blog/2012/04/10/arquillian-first-stable-release/
@@ -12,6 +12,6 @@ Unit tests with mocking does not help. Who cares about _my_ expectations about w
 
 [Arquillian][arquillian] is a fantastic tool to help __write, execute and maintain integration tests__.
 
-Congrates to the Arquillian team!
+Congratulations to the Arquillian team!
 
 [arquillian]: http://arquillian.org/
