@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Zack Arias Reviewis The Fuji X-Pro 1"
-date: '2012-04-12 11:30:39'
+date: '2012-04-12 11:35:39'
 link: http://zackarias.com/for-photographers/gear-gadgets/ummm-maybe-ummm-yes-fuji-x-pro-1-review/
 ---
 
@@ -15,6 +15,6 @@ I like the X-Pro 1's retro look, its size seems adequate and the IQ is outstandi
 <figcaption>[Photography By Zack Arias][zackarias]</figcaption>
 </figure>
 
-The Fuji X-Pro 1 is tempting to resist...
+The Fuji X-Pro 1 is a tempting camera...
 
 [zackarias]: http://zackarias.com/
