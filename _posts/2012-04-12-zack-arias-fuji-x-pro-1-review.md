@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Zack Arias Reviewis The Fuji X-Pro 1"
-date: '2012-04-12 11:35:39'
+title: "Zack Arias Reviews The Fuji X-Pro 1"
+date: '2012-04-12 11:36:39'
 link: http://zackarias.com/for-photographers/gear-gadgets/ummm-maybe-ummm-yes-fuji-x-pro-1-review/
 ---
 
