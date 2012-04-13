@@ -2,8 +2,8 @@ require 'fileutils'
 
 namespace :jfm do
 
-  desc "Publish weblog to Amazon S3"
-  task :publish do
+  desc "Upload weblog to Amazon S3"
+  task :s3 do
     system "jekyll --safe && s3cmd sync _site/ s3://www.jmesnil.net/weblog/ && s3cmd sync _site/sitemap.txt s3://www.jmesnil.net/"
   end
 
@@ -37,9 +37,8 @@ namespace :jfm do
     ln filename, "_posts/"
   end
 
-  # Usage: rake jfm:undraft
-  desc "Undraft a draft"
-  task :undraft do
+  desc "Publish a draft"
+  task :publish do
       puts "Choose file:"
       @files = Dir["_drafts/*"]
       @files.each_with_index { |f,i| puts "#{i+1}: #{f}" }
