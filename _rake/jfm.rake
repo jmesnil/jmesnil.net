@@ -1,3 +1,5 @@
+require 'fileutils'
+
 namespace :jfm do
 
   desc "Publish weblog to Amazon S3"
@@ -32,5 +34,21 @@ namespace :jfm do
       post.puts "tags: []"
       post.puts "---"
     end
-  end # task :postend
+    ln filename, "_posts/"
+  end
+
+  # Usage: rake jfm:undraft
+  desc "Undraft a draft"
+  task :undraft do
+      puts "Choose file:"
+      @files = Dir["_drafts/*"]
+      @files.each_with_index { |f,i| puts "#{i+1}: #{f}" }
+      print "> "
+      num = STDIN.gets
+      file = @files[num.to_i - 1]
+      now = Date.today.strftime("%Y-%m-%d").gsub(/-0/,'-')
+      rm "_posts/" + File.basename(file)
+      mv file, "_posts/"
+  end
+
 end
