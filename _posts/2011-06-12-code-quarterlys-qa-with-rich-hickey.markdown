@@ -3,7 +3,7 @@ date: '2011-06-12 15:35:17'
 layout: post
 slug: code-quarterlys-qa-with-rich-hickey
 status: publish
-title: Code Quarterly's Q&A with Rich Hickey
+title: Code Quarterly's Q&amp;A with Rich Hickey
 link: http://www.codequarterly.com/2011/rich-hickey/
 wordpress_id: '1632'
 tags:
