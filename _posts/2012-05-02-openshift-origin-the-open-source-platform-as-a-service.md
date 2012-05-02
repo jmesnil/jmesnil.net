@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "OpenShift Origin - The Open Source Platform as a Service"
+title: "OpenShift Origin - The Open Source Platform-as-a-Service"
 date: '2012-05-02 09:29:04'
 link: https://openshift.redhat.com/community/blogs/announcing-openshift-origin-the-open-source-platform-as-a-service-paas
 ---
