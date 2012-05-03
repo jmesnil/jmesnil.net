@@ -32,7 +32,6 @@ body {
 }
 ol, ul {
 	list-style: none;
-        margin-bottom: 1em;
 }
 blockquote, q {
 	quotes: none;
@@ -86,9 +85,10 @@ img { -ms-interpolation-mode:bicubic; }
 /* IE6 ignores this and uses default size of 16pt */
 html>body { font-size:16px; }
 p { margin: 0 0 1.5em 0; text-align: justify; }
-
 a { text-decoration: none; color: #59708C; }
 a:hover { text-decoration: underline; color: #59708C; }
+
+kbd { font-weight: bold; }
 
 h1,h2,h3,h4 { 
 	line-height:1em; 
@@ -182,7 +182,7 @@ caption {
 /* @end */
 
 /* @group Lists */
-ul {
+ol, ul {
 	margin-top: 1.5em;
 	margin-bottom: 1.5em;
 	line-height: 1.5em;

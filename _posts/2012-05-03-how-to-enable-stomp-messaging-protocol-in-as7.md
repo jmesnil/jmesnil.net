@@ -47,7 +47,7 @@ With these 2 changes, we can now start JBoss AS7 with STOMP enabled:
 
 <div class="highlight">
 <pre>
-<code class="bash">$ <strong>./bin/standalone.sh -c standalone-full.xml</strong>
+<code class="bash">$ <kbd>./bin/standalone.sh -c standalone-full.xml</kbd>
 ...
 14:14:38,027 INFO  [org.hornetq.core.remoting.impl.netty.NettyAcceptor] (MSC service thread 1-2) Started Netty Acceptor version 3.2.5.Final-a96d88c 127.0.0.1:61613 for STOMP protocol
 ...
@@ -64,21 +64,21 @@ To add an user, we use the `add-user.sh` tool:
 
 <div class="highlight">
 <pre>
-<code class="bash">$ <strong>./bin/add-user.sh</strong>
+<code class="bash">$ <kbd>./bin/add-user.sh</kbd>
 
 What type of user do you wish to add?
  a) Management User (mgmt-users.properties)
  b) Application User (application-users.properties)
-(a): <strong>b</strong>
+(a): <kbd>b</kbd>
 
 Enter the details of the new user to add.
-Realm (ApplicationRealm) : <strong>[type enter]</strong>
-Username : <strong>myuser</strong>
-Password : <strong>mypassword</strong>
-Re-enter Password : <strong>mypassword</strong>
-What roles do you want this user to belong to? (Please enter a comma separated list, or leave blank for none)[  ]: <strong>guest</strong>
+Realm (ApplicationRealm) : <kbd>[type enter]</kbd>
+Username : <kbd>myuser</kbd>
+Password : <kbd>mypassword</kbd>
+Re-enter Password : <kbd>mypassword</kbd>
+What roles do you want this user to belong to? (Please enter a comma separated list, or leave blank for none)[  ]: <kbd>guest</kbd>
 About to add user 'myuser' for realm 'ApplicationRealm'
-Is this correct yes/no? <strong>yes</strong>
+Is this correct yes/no? <kbd>yes</kbd>
 Added user 'myuser' to file '[...]/standalone/configuration/application-users.properties'
 Added user 'myuser' to file '[...]/domain/configuration/application-users.properties'
 Added user 'myuser' with roles guest to file '[...]/standalone/configuration/application-roles.properties'
@@ -90,10 +90,10 @@ Finally, to add a JMS queue, we will use JBoss CLI tool:
 
 <div class="highlight">
 <pre>
-<code class="bash">$ <strong>./bin/jboss-cli.sh</strong>
+<code class="bash">$ <kbd>./bin/jboss-cli.sh</kbd>
 You are disconnected at the moment. Type 'connect' to connect to the server or 'help' for the list of supported commands.
-[disconnected /] <strong>connect</strong>
-[standalone@localhost:9999 /] <strong>/subsystem=messaging/hornetq-server=default/jms-queue=test/:add(entries=["/java:jboss:exported/queue/test"])</strong>
+[disconnected /] <kbd>connect</kbd>
+[standalone@localhost:9999 /] <kbd>/subsystem=messaging/hornetq-server=default/jms-queue=test/:add(entries=["/java:jboss:exported/queue/test"])</kbd>
 {"outcome" => "success"}</code>
 </pre>
 </div>
