@@ -21,6 +21,9 @@ title: Weblog
   <h1><a href="{{ post.link }}">{{ post.title }} {{ site.linked_list.link }}</a>&nbsp;
       <a class="plink" rel="bookmark" title="Permanent link to {{ post.title }}" href="{{ BASE_PATH }}{{ post.url }}">{{ site.linked_list.post }}</a>
   </h1>
+{% elsif post.tags contains "photo" %}
+<article class="post">
+<h1><a href="{{ BASE_PATH }}{{ post.url }}">{{ site.linked_list.photo }} {{ post.title }}</a></h1>
 {% else %}
 <article class="post">
 <h1><a href="{{ BASE_PATH }}{{ post.url }}">{{ site.linked_list.post }} {{ post.title }}</a></h1>

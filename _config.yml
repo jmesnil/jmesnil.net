@@ -8,8 +8,9 @@ markdown: rdiscount
 paginate: 20
 
 linked_list:
-  link: "&#9755;"
-  post: "&#9873;"
+  link:  "&#9755;"
+  post:  "&#9873;"
+  photo: "&#934;"
 
 s3:
   url: https://s3.amazonaws.com/www.jmesnil.net

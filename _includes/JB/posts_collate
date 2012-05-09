@@ -37,6 +37,8 @@ Usage:
 	
 	{% if post.link %}
 		<a class="link" href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }} {{ site.linked_list.link}}</a>
+	{% elsif post.tags contains "photo" %}
+		<a href="{{ BASE_PATH }}{{ post.url }}"> {{ site.linked_list.photo}} {{ post.title }}</a>
 	{% else %}
 		<a href="{{ BASE_PATH }}{{ post.url }}"> {{ site.linked_list.post}} {{ post.title }}</a>
 	{% endif %}
