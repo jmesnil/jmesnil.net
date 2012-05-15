@@ -112,7 +112,11 @@ hr {
 	margin: 1.46em 0 0 0;
 }
 
-sup { line-height: 1ex; }
+sup {
+	line-height: 1ex;
+	vertical-align: super;
+	font-size: smaller;
+}
 
 #page {
 	max-width: 900px;
