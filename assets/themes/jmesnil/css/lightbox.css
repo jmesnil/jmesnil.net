@@ -1,4 +1,6 @@
 ---
+theme:
+  name: jmesnil
 ---
 {% include JB/setup %}
 
@@ -115,12 +117,12 @@
 
 /* line 81, ../sass/lightbox.sass */
 .lb-prev:hover {
-  background: url({{ ASSET_PATH }}/jmesnil/i/prev.png) left 48% no-repeat;
+  background: url({{ ASSET_PATH }}/i/prev.png) left 48% no-repeat;
 }
 
 /* line 85, ../sass/lightbox.sass */
 .lb-next:hover {
-  background: url({{ ASSET_PATH }}/jmesnil/i/next.png) right 48% no-repeat;
+  background: url({{ ASSET_PATH }}/i/next.png) right 48% no-repeat;
 }
 
 /* line 88, ../sass/lightbox.sass */

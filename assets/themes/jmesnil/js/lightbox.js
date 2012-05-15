@@ -1,4 +1,6 @@
 ---
+theme:
+  name: jmesnil
 ---
 {% include JB/setup %}
 
@@ -51,8 +53,8 @@ lightbox = new Lightbox options
   LightboxOptions = (function() {
 
     function LightboxOptions() {
-      this.fileLoadingImage = '{{ ASSET_PATH }}/jmesnil/i/loading.gif';
-      this.fileCloseImage = '{{ ASSET_PATH }}/jmesnil/i/close.png';
+      this.fileLoadingImage = '{{ ASSET_PATH }}/i/loading.gif';
+      this.fileCloseImage = '{{ ASSET_PATH }}/i/close.png';
       this.resizeDuration = 700;
       this.fadeDuration = 500;
       this.labelImage = "Image";
