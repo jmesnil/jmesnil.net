@@ -2,7 +2,7 @@
 layout: post
 title: " JBoss Admin for iPhone"
 date: '2012-05-15 16:38:54'
-link: http://itunes.apple.com/us/app/jboss-admin/id523516060?ls=1&mt=8 
+link: http://itunes.apple.com/us/app/jboss-admin/id523516060?ls=1&amp;mt=8 
 ---
 
 Chistos Vasilakis [announced][forum] last week this iPhone app to manage JBoss AS 7 instances.
