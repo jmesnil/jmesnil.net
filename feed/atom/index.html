@@ -19,7 +19,7 @@ title : Atom Feed
  <entry>
 	 
   {% if post.link %}
-  <title type="html">{{ post.title }} {{ site.linked_list.link }}</title>
+  <title type="html">{{ site.linked_list.link }} {{ post.title }}</title>
   <link href="{{ post.link }}"/>
   {% elsif post.tags contains "photo" %}
   <title type="html">{{ site.linked_list.photo}} {{ post.title }}</title>

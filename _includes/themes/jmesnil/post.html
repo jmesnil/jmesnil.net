@@ -1,6 +1,6 @@
   {% if page.link %}
   <article class="link">
-  <h1><a href="{{ page.link }}">{{ page.title }} {{ site.linked_list.link }}</a>&nbsp;
+  <h1><a href="{{ page.link }}">{{ site.linked_list.link }} {{ page.title }}</a>&nbsp;
       <a class="plink" rel="bookmark" title="Permanent link to {{ page.title }}" href="{{ BASE_PATH }}{{ page.url }}">{{ site.linked_list.post }}</a>
   </h1>
   {% else %}
