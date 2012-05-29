@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Lac de Serre Pon&ccedil;on"
+title: "Lac de Serre-Pon&ccedil;on"
 date: '2012-05-29 10:59:47'
 tags:
 - photo
