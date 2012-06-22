@@ -14,4 +14,4 @@ tags:
   <figcaption>F&ecirc;te de la Musique</figcaption>
 </figure>
 
-The weather was not great for _la f&ecirc;te de la Musique_ this year but it is also fun to wander in the streets listening to both amateur and professional musicians.
+The weather was not great for _la f&ecirc;te de la Musique_ this year but it is always fun to wander in the streets listening to both amateur and professional musicians.
