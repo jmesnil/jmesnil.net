@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Fete de la Musique"
+title: "F&#234;te de la Musique"
 date: '2012-06-22 16:16:02'
 category: 
 tags:
