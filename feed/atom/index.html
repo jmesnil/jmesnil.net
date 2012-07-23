@@ -21,11 +21,8 @@ title : Atom Feed
   {% if post.link %}
   <title type="html">{{ site.linked_list.link }} {{ post.title }}</title>
   <link href="{{ post.link }}"/>
-  {% elsif post.tags contains "photo" %}
-  <title type="html">{{ site.linked_list.photo}} {{ post.title }}</title>
-  <link href="{{ site.production_url }}{{ post.url }}"/>
   {% else %}
-  <title type="html">{{ site.linked_list.post }} {{ post.title }}</title>
+  <title type="html">{{ post.title }}</title>
   <link href="{{ site.production_url }}{{ post.url }}"/>
   {% endif %}
 
