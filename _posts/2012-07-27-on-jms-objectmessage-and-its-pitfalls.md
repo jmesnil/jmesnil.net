@@ -69,14 +69,14 @@ All these bytes are transported on the wire. The more bytes to serialize/transpo
 
 # Conclusion
 
-At first glance, ObjectMessage looks like a good idea. It lets application remains comfortable in dealing only with Java objects. But it opens a whole can of architectural, technical and performance issues that will need to be dealt with a moment or another (probably after the application is put in production...)
+At first glance, ObjectMessage looks like a good idea. It lets application deals only with Java objects but it opens a whole can of architectural, technical and performance issues that will need to be dealt at one time or another, probably after the application is put in production...
 
-I would suggest to reduce as much as possible the use of ObjectMessage (with the goal of getting rid of them completely) with a 2 steps:
+I would suggest to reduce as much as possible the use of ObjectMessage (with the goal of getting rid of them completely) with 2 steps:
 
 1. **Use [DTO][dto] for ObjectMessage payload**
 2. **If possible, define a data representation for the payload (JSON, protobuf, XML) and use Text or Bytes message to carry it**
 
-It is not a huge task and your application will be all the better for it (loose-coupled, resilient to changes, explicit payload agreement, etc.)
+It is not a huge task and your application will be all the better for it (loosely-coupled, resilient to changes, with explicit payload agreement, etc.)
 
 ---
 
