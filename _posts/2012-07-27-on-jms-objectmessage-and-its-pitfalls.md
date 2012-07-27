@@ -48,7 +48,7 @@ As an example, we can have:
 2. a MDB that consumes it (its environment is a _Java EE EJB module_) 
 3. a standalone Java application that also consumes it (its environment is a _regular Java application_)
 
-Clients (1) and (2) will run in a modular applications (e.g. JBoss AS7) while client (3) will run in a non-modular application (using regular Java classpath).
+Clients (1) and (2) will run in a modular application (e.g. JBoss AS7) while client (3) will run in a non-modular application (using regular Java classpath).
 
 How can client (3) be expected to deserialize a class that was serialized in a different environment?
 Conversely if the client (1) use standard Java serialization, how can the client (2) be expected to deserialize it if it is not able to load all classes in the payload type (as modules does not export their dependencies)?
@@ -60,7 +60,7 @@ There is a simple solution to remove this issue:
 
 # Performance issues
 
-How much space does it take to store a Java class with a int and String fields as bytes instead of storing directly the int and the String?
+How much space does it take to store a Java class with int and String fields as bytes instead of storing directly the int and the String?
 
 [3.7 times more][gist]<a id="fnr2-2012-07-27" href="#fn2-2012-07-27"><sup>2</sup></a>
 
