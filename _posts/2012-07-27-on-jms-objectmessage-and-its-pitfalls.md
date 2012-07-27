@@ -45,8 +45,8 @@ To be able to deserialize an object, the messaging provider must be able to recr
 As an example, we can have:
 
 1. a Servlet that sends a message to a topic (its environment is a _Java EE WAR module_) 
-2. a MDB that consumes it (its environment is a _Java EE EJB module__) 
-3. a standalone Java application that also consumes it (its environment is a __regular Java application__)
+2. a MDB that consumes it (its environment is a _Java EE EJB module_) 
+3. a standalone Java application that also consumes it (its environment is a _regular Java application_)
 
 Clients (1) and (2) will run in a modular applications (e.g. JBoss AS7) while client (3) will run in a non-modular application (using regular Java classpath).
 
