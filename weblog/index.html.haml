@@ -1,0 +1,15 @@
+---
+layout: base
+title: Weblog
+---
+
+- if page.posts.previous_page
+  %p.previous
+    %a{ :href=>page.posts.previous_page.url} &larr; Newer posts
+
+- page.posts.each do |post|
+  = partial('post.html.haml', :parent => page, :post => post)
+
+- if page.posts.next_page
+  %p.next
+    %a{ :href=>page.posts.next_page.url} Older posts &rarr;

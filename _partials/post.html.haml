@@ -1,0 +1,12 @@
+---
+---
+
+%article
+  %h1
+    - if page.post.link
+      %a.link{ :href=>page.post.link }= "#{site.linked_list.link } #{ page.post.title }&nbsp;"
+      %a.plink{ :rel=>'bookmark', :title=>"Permanent link to #{ page.post.title }", :href=>page.post.url }= site.linked_list.post
+    - else
+      %a.post{ :href=> page.post.url }= page.post.title
+
+  ~ page.post.content.force_encoding("UTF-8")

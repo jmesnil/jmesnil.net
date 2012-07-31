@@ -1,0 +1,50 @@
+!!! 5
+%html
+  %head
+    %meta{ "http-equiv"=>'content-type', :content=>'text/html; charset=utf-8' }
+    %meta{ :name=>'author', :content=>site.author.name }
+
+    %title= "#{site.title} &mdash; #{page.title}"
+
+    %link{ :rel=>'start', :href=>'/'}
+    %link{ :rel=>'icon', :href=>'/favicon.ico', :type=>'image/png' }
+
+    %link{ :rel=>'alternate', :type=>'application/atom+xml', :href=>'/weblog/feed/atom/', :title=>'Atom feed' }
+
+    %link{ :rel=>'stylesheet', :href=>'http://fonts.googleapis.com/css?family=Cantarell' }
+    
+    %link{ :rel=>'stylesheet', :href=>'/stylesheets/screen.css', :media=>'screen, projection' }
+    %link{ :rel=>'stylesheet', :href=>'/stylesheets/syntax.css', :media=>'screen, projection' }
+    %link{ :rel=>'stylesheet', :href=>'/stylesheets/lightbox.css', :media=>'screen, projection' }
+    %link{ :rel=>'stylesheet', :href=>'/stylesheets/highlight.github.css', :media=>'screen, projection' }
+  %body
+
+    %header>
+      %h1
+        %a{:href=>'/', :title=>site.title}= site.title
+      %nav
+        %ul
+          %li
+            %a{ :href=>'/weblog/' } Blog
+          %li
+            %a{ :href=>'/about/' } About
+          %li
+            %a{ :href=>'/weblog/archive/' } Archive
+
+    #page
+      ~ content
+    
+    %footer
+      %address
+        %span.copyright
+          %a{ :href=>'http://creativecommons.org/licenses/by-nc-sa/3.0/' } &copy; 2012
+          %a{ :href=>'/about/' }= site.author.name 
+        %span
+          %a{ :href=>'/colophon/' } Colophon
+
+    %script{ :src=>'http://code.jquery.com/jquery-1.7.2.min.js' }
+    %script{ :src=>'/scripts/lightbox.js' }
+    %script{ :src=>'/scripts/highlight.pack.js' }
+    :javascript
+      hljs.initHighlightingOnLoad();
+    = google_analytics
