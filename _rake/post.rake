@@ -1,15 +1,10 @@
 require 'fileutils'
 
-namespace :jfm do
+namespace :post do
 
-  desc "Upload weblog to Amazon S3"
-  task :s3 do
-    system "s3cmd sync _site/ s3://www.jmesnil.net/"
-  end
-
-  # Usage: rake post title="A Title" [date="2012-02-09"]
+  # Usage: rake post:new title="A Title" [date="2012-02-09"]
   desc "Begin a new post in #{CONFIG['posts']}"
-    task :post do
+    task :new do
       abort("rake aborted: '#{CONFIG['posts']}' directory not found.") unless FileTest.directory?(CONFIG['posts'])
       title = ENV["title"] || "new-post"
       slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
