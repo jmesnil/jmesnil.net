@@ -1,4 +1,4 @@
 *~
 weblog/*.orig
 Rakefile
-Gemspec*
+Gemfile*
