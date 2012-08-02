@@ -33,7 +33,7 @@ I added an extension to Awestruct pipeline for this:
       ...
     end
 
-This extension takes the `:posts` that were added to the site by the `Posts` extension, sort them in a hierarchy of year / month / posts and put them in the variable named `:archive` that can be used inside the template file `/weblog/archive` ([source code][posts_archiver])
+This extension takes the `:posts` that were added to the site by the `Posts` extension, sort them in a hierarchy of year / month / posts and put them in the variable named `:archive` that can be used inside the template file `/weblog/archive` ([source code][posts_archiver]).
 
 I could then have a very simple [Haml][haml] template to display the archive:
 
