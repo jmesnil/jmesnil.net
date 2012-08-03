@@ -29,7 +29,7 @@ I added an extension to Awestruct pipeline for this:
     Awestruct::Extensions::Pipeline.new do
       ...
       extension Awestruct::Extensions::Posts.new '/weblog', :posts
-      <em>extension Awestruct::Extensions::PostsArchiver.new '/weblog/archive', :posts, :archive</em>
+      extension Awestruct::Extensions::PostsArchiver.new '/weblog/archive', :posts, :archive
       ...
     end
 
