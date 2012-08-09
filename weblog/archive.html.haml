@@ -10,7 +10,7 @@ title : Archive
     %ul
       - posts.each do |post|
         %li
-          = "#{post.date.strftime('%d %B %Y')} &raquo;"
+          = "#{post.date.strftime('%B %-d, %Y')} &raquo;"
           - if post.link
             %a.link{ :href=>post.url }= "#{site.linked_list.link} #{ post.title}"
           - else

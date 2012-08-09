@@ -97,7 +97,7 @@ h1,h2,h3,h4 {
 	clear: left; 	
 	font-family: 'lucida grande', sans-serif; 
 }
-h1 { margin-bottom: 1em; }
+
 h2 {
 	font-size: 100%;
 	line-height: 1.5em;
@@ -287,15 +287,12 @@ p.excerpt { margin: 0; }
 	display: block;
 	margin-bottom: 1.5em;
 }
-.signature .date { 
+
+#date {
+	color: silver;
 	font-size: 87.5%;
-	line-height: 1.5em;
-	display: block; 
 	font-variant: small-caps; 
-	font-style: normal; 
-	position: absolute;
-	right: 0;
-	top: 0;
+	margin-bottom: 1em;
 }
 .signature .location { 
 	display: block; 
