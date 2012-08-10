@@ -307,7 +307,6 @@ pre {
 	border: 1px solid #ddc;
 	padding: 0;
 	overflow: hidden;
-
 	/* Experimental CSS3 stuff */
 	box-shadow: 1px 1px 6px #ccc;
 	-webkit-box-shadow: 1px 1px 6px #ccc;
@@ -320,6 +319,7 @@ pre:hover {
 code {
 	font-size: 0.75em; /* Hack to make code look same size as body font */  
 	background-color: #f7f7ff;
+	font-family: 'Inconsolata', monospace, sans-serif;
 }
 pre > code {
 	background-color: transparent;
