@@ -4,14 +4,11 @@ layout: base
 
 = partial('post.html.haml', :parent => page, :post => page, :include_comments => true)
 
-%address.signature
-  %a.author{ :href=>'/' }= site.author.name
-
 .prev-next
   - if page.next_post?
-    %a.prev{ :href=>page.next_post.url, :title=>page.next_post.title } &larr;  Newer Post
+    %a.prev{ :href=>page.next_post.url}= "&larr; #{page.next_post.title}"
   - else
     %span.prev &nbsp;
 
   - if page.previous_post?
-    %a.next{ :href=>page.previous_post.url, :title=>page.previous_post.title } Older Post &rarr;
+    %a.next{ :href=>page.previous_post.url}= "#{page.previous_post.title} &rarr;"
