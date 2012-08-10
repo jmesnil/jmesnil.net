@@ -317,7 +317,7 @@ pre:hover {
 	overflow: visible;
 }
 code {
-	font-size: 0.75em; /* Hack to make code look same size as body font */  
+	font-size: 0.875em;
 	background-color: #f7f7ff;
 	font-family: 'Inconsolata', monospace, sans-serif;
 }
