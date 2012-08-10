@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Textmate 2 is Open Sourced"
+title: "TextMate 2 is Open Sourced"
 date: '2012-08-09 17:27:44'
 category:
 tags: []
