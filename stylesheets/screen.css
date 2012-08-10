@@ -72,6 +72,7 @@ font-style: italic;
 
 body {
 	font-family:  'Cantarell', sans-serif;
+	/* font-family: Verdana, 'Bitstream Vera Sans', sans-serif; */
 	background-color: whitesmoke;
 	background-position: center -18em;
 	background-repeat: repeat-x; 
@@ -95,7 +96,6 @@ h1,h2,h3,h4 {
 	font-size:1.5em; 
 	font-weight: normal; 
 	clear: left; 	
-	font-family: 'lucida grande', sans-serif; 
 }
 
 h2 {
@@ -228,7 +228,6 @@ header {
 	margin-bottom: 0.5em;
 }
 header h1 {
-	font-family: Palatino, georgia, "times new roman", serif;
 	margin-bottom: 0;
 	line-height: 0.9em;
 	display: block;
@@ -433,18 +432,21 @@ article h1 {
 
 /* @group link article */
 a.link {
-	font-family: Palatino, georgia, serif;
 	font-size: 66%;
 	font-weight: bold;
 	color: firebrick;
 }
 
-h1 a.link:hover {
-  color: #e97d0c; 
-}
-
 h1 a:hover {
    text-decoration: none;
+}
+
+article h1 a.plink {
+    text-decoration: none;
+    color: #fff; /* the page background colour */
+}
+article h1:hover a.plink, a:hover.plink {
+    color: firebrick;
 }
 /* @end */
 
@@ -457,13 +459,4 @@ p.previous, p.next {
     text-align: center;
 	padding-top: 1em;
 	padding-bottom: .5em;
-}
-
-
-article h1 a.plink {
-    text-decoration: none;
-    color: #fff; /* the page background colour */
-}
-article h1:hover a.plink, a:hover.plink {
-    color: #c8a8ff;
 }
