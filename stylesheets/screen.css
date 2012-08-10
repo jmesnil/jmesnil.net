@@ -99,8 +99,6 @@ h1,h2,h3,h4 {
 }
 
 h2 {
-	font-size: 100%;
-	line-height: 1.5em;
 	margin:1.5em 0 1.5em 0;
 	font-weight:bold;
 }
@@ -204,19 +202,10 @@ ol li {
 dt { font-weight: bold;}
 dd { margin: 0 0 1.5em 0; text-align: justify; }
 
-ul.compact { margin: 0; padding: 0;}
-ul.compact li { list-style: ;
-	list-style-type: square;
-	list-style-position: inside;
+ul.compact li {
+	list-style-type: none;
 }
-ul.compact li span.date {	
-	display: none;
-	color: grey;
-	width: 20%;
-}
-ul.compact li a {
-	width: 70%;
-}
+
 /* @end */
 
 /* @group Header */
@@ -288,12 +277,20 @@ p.excerpt { margin: 0; }
 	margin-bottom: 1.5em;
 }
 
-#date {
+.date {
 	color: silver;
 	font-size: 87.5%;
 	font-variant: small-caps; 
+}
+
+h1 + .date {
 	margin-bottom: 1em;
 }
+
+li .date {
+	display: inline;
+}
+
 .signature .location { 
 	display: block; 
 	font-size: 87.5%;

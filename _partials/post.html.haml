@@ -9,6 +9,6 @@
     - else
       %a.post{ :href=> page.post.url }= page.post.title
 
-  #date= page.post.date.strftime('%B %-d, %Y')
+  .date= page.post.date.strftime('%B %-d, %Y')
 
   ~ page.post.content.force_encoding("UTF-8")

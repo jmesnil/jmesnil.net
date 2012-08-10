@@ -7,10 +7,11 @@ title : Archive
   %h2= year
   - monthly_archive.each do |month, posts|  
     %h3= month
-    %ul
+    %ul.compact
       - posts.each do |post|
         %li
-          = "#{post.date.strftime('%B %-d, %Y')} &raquo;"
+          .date= post.date.strftime('%B %-d, %Y')
+          &raquo;
           - if post.link
             %a.link{ :href=>post.url }= "#{site.linked_list.link} #{ post.title}"
           - else
