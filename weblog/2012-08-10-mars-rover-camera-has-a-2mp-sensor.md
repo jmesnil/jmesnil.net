@@ -14,7 +14,7 @@ Malin Space Science Systems' project manager Mike Ravin:
   <a href="http://1.static.img-dpreview.com/files/news/0353350380/Navcam-pano.jpg?v=1556">
   <img src="http://3.static.img-dpreview.com/files/news/0353350380/520/Navcam-pano.jpg?v=1556">
   </a>
-  <figcaption>Two-image panorama shot with the rover's 1024 x 1024 mono navigation cameras &mdash; &copy; NASA/JPL-Caltech</figcaption>
+<figcaption>Two-image panorama shot with the rover's 1024 x 1024 mono navigation cameras<br/>&copy; NASA/JPL-Caltech</figcaption>
 </figure>
 
 The images are hauntingly beautiful.
