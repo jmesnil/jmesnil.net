@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Mars Rover Camera has a 2MP sensor"
+title: "Mars Rover Camera Has a 2MP Sensor"
 date: '2012-08-10 09:42:38'
 category: 
 tags: []
