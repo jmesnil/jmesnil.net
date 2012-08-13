@@ -3,7 +3,8 @@ layout: post
 title: "Week-end en Savoie"
 date: '2012-08-09 23:13:59'
 category: 
-tags: []
+tags:
+- photo
 ---
 
 We had a lovely time (and cloudy weather!) last week-end in Savoie, driving through the Maurienne, Tarentaise and Beaufortain valleys.
