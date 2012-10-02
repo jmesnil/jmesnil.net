@@ -53,8 +53,8 @@ I have had such a bad experience with Lenovo support that I would not recommend 
 
 I can't generalize too much from these 3 cases but it seems I have encountered 3 different type of customer service:
 
-* Customer service for _enthousiast customers_ with Giotto's
+* Customer service for _enthousiast consumers_ with Giotto's
 * Customer service for _mainstream consumers_ with Apple
-* Customer service for _enterprise customers_ with Lenovo
+* Customer service for _enterprise consumers_ with Lenovo
 
 Needless to say which one is the worst.
