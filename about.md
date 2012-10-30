@@ -17,4 +17,4 @@ __The opinions expressed on this web site are my own, and neither my employer no
 
 I created [this web site](http://jmesnil.net) in May 2004. Since then, I have posted articles on my [weblog](/weblog/) about all things that interests me, mainly software design and development and photography.
 
-To keep up with the blog posts and links, you can subscribe to an [Atom feed](/feed/atom/) which includes the full content of all posts.
+To keep up with the blog posts and links, you can subscribe to an [Atom feed](/weblog/feed/atom/) which includes the full content of all posts.
