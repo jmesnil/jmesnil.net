@@ -400,16 +400,15 @@ margin-right: -60px;
 
 figure img {
 display: block;
-margin: 1em auto;
+margin-left: auto;
+margin-right: auto;
 }
 
 figcaption {
 display: block;
-clear: left;
-margin: 0 0 0.75em;
 text-align: center;
-font-style: italic;
-line-height: 1.5em;
+font-size: 0.8em;
+color: #AAA;
 }
 /* @end */
 
