@@ -29,6 +29,9 @@ theme:
 }
 /* line 24, ../sass/lightbox.sass */
 #lightbox img {
+  /* JFM hack to fit retina images in the screen */
+  max-width: 900px;
+  /* JFM end of hack */
   width: auto;
   height: auto;
 }

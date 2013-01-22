@@ -202,7 +202,7 @@ lightbox = new Lightbox options
         $image.attr('src', _this.album[imageNumber].link);
         $image.width = preloader.width;
         $image.height = preloader.height;
-        return _this.sizeContainer(preloader.width, preloader.height);
+        return _this.sizeContainer($image.width, $image.height);
       };
       preloader.src = this.album[imageNumber].link;
       this.currentImageIndex = imageNumber;
@@ -213,6 +213,13 @@ lightbox = new Lightbox options
     };
 
     Lightbox.prototype.sizeContainer = function(imageWidth, imageHeight) {
+      //JFM hack to fit retina images in the screen
+      if (imageWidth > 900) {
+        imageHeight = imageHeight / imageWidth * 900;
+        imageWidth = 900;
+      }
+      //JFM end of hack
+
       var $container, $lightbox, $outerContainer, containerBottomPadding, containerLeftPadding, containerRightPadding, containerTopPadding, newHeight, newWidth, oldHeight, oldWidth,
         _this = this;
       $lightbox = $('#lightbox');
