@@ -8,8 +8,8 @@ tags:
 ---
 
 <figure>
-  <a href="#{ site.s3.url }images/2012-12-27-Clocks.jpg" rel="lightbox" title="World Clocks">
-  ![World Clocks](#{ site.s3.url }images/2012-12-27-Clocks.jpg)
+  <a href="#{ site.s3.url }images/2012-12-27-Clocks-1800.jpg" rel="lightbox" title="World Clocks">
+  <im![World Clocks](#{ site.s3.url }images/2012-12-27-Clocks-1800.jpg)
   </a>
   <figcaption>World Clocks &copy; Jeff Mesnil</figcaption>
 </figure>
