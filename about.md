@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-<div class="alignright">
+<div class="centered" style="max-width:600px;">
 <img src="#{ site.s3.url}images/me.jpg" alt="Jeff Mesnil" />
 </div>
 

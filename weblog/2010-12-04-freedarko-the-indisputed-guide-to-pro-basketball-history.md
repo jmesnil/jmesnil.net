@@ -12,7 +12,9 @@ tags:
 
 I have received the new book from the [FreeDarko gang][freedarko] and it looks as informative and beautifully designed as their previous [Macrophenomenal Pro Basketball Almanac][almanac].
 
-[![](http://www.freedarko.com/history/sites/default/files/Slideshow_BirdMagic_Test.jpg)](http://www.freedarko.com/)
+<figure style="max-width:500px;">
+<a href="http://www.freedarko.com/"><img src="http://www.freedarko.com/history/sites/default/files/Slideshow_BirdMagic_Test.jpg"></a>
+</figure>
 
 It is a perfect christmas gift for baketball lovers.
 

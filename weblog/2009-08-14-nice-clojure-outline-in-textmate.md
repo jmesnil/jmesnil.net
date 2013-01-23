@@ -9,12 +9,12 @@ tags:
 - java
 ---
 
-<div class="alignleft" style="font-size: 4em; padding: 10px;">
-<a href="http://clojure.org"><img src='http://clojure.org/space/showimage/clojure-icon.gif' style="vertical-align:middle;" height="48" width="48"
-/></a> + 
-<a href="http://macromates.com"><img src='http://macromates.com/images/headlights/logo.png'  style ="vertical-align:middle;"  height="48" width="48"
- ></a>
-</div>
+<div style="font-size: 4em; padding: 10px; text-align:center; margin-left: auto; margin-right: auto, max-width:768px">
+  <a href="http://clojure.org"><img src='http://clojure.org/space/showimage/clojure-icon.gif' style="vertical-align:middle;" height="48" width="48"
+  /></a> + 
+  <a href="http://macromates.com"><img src='http://macromates.com/images/headlights/logo.png'  style ="vertical-align:middle;"  height="48" width="48"
+   ></a>
+ </div>
 
 
 
@@ -59,9 +59,9 @@ My file was starting to be "big" and I added comments to separate the different 
 
 While I was writing code, I wanted to move from one part of the file to another and I used TextMate's outline for that (the outline is the right part of the status bar at the bottom of the window, when you click it, it displays a list of all defined functions in the file). I noticed that these special comments were also displayed:
 
-<figure>
+<figure style="max-width:300px">
   <a href="#{ site.s3.url }images/2009-08-14-clojure-outline.png">
-  <img src="#{ site.s3.url }images/2009-08-14-clojure-outline-300x242.png" width="300"></a>
+  <img src="#{ site.s3.url }images/2009-08-14-clojure-outline-300x242.png"></a>
   <figcaption>Clojure Outline in TextMate (click for full size)</figcaption>
 </figure>
 
@@ -117,9 +117,9 @@ I already encountered such "special comments" when I was developing an iPhone ap
 
 I used them to split my Objective-C class in different logical sections (e.g. controller implementation, UI actions, protocol delegate):
 
-<figure>
+<figure style="max-width:300px">
   <a href="#{ site.s3.url }images/2009-08-14-xcode-outline.png">
-  <img src="#{ site.s3.url }images/2009-08-14-xcode-outline-300x198.png" width="300"></a>
+  <img src="#{ site.s3.url }images/2009-08-14-xcode-outline-300x198.png"></a>
   <figcaption>Objective-C Outline in Xcode (click for full size)</figcaption>
 </figure>
 
@@ -128,9 +128,9 @@ However, when I want to use it, I prefer when it shows a "logical" outline of th
 
 Compared to TexMate or Xcode, I find that Eclipse's outline is cluttered:
 
-<figure>
+<figure style="max-width:300px">
   <a href="#{ site.s3.url }images/2009-08-14-eclipse-outline.png">
-  <img src="#{ site.s3.url }images/2009-08-14-eclipse-outline-227x300.png" width="300"></a>
+  <img src="#{ site.s3.url }images/2009-08-14-eclipse-outline-227x300.png"></a>
   <figcaption>Java Outline in Eclipse (click for full size)</figcaption>
 </figure>
 

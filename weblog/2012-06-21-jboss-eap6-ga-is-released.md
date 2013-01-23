@@ -6,9 +6,9 @@ category:
 tags: []
 ---
 
-<div class="alignleft">
+<figure style="max-width: 150px">
   <a href="http://www.redhat.com/products/jbossenterprisemiddleware/application-platform/"><img src="http://www.oracle.com/ocom/groups/public/@otn/documents/digitalasset/1666999.png" alt="JBoss by Red Hat"></a>
-</div>
+</figure>
 
 It's official: [JBoss EAP 6.0 GA is released][mlittle]. One of its highlights is the integration of [HornetQ][hornetq] as its messaging provider. Using EAP6 means you can now have support from [Red Hat][redhat] for HornetQ.
 

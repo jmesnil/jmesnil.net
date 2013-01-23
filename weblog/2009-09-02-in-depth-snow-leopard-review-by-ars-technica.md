@@ -10,8 +10,6 @@ tags:
 - macosx
 ---
 
-<a href="http://arstechnica.com/apple/reviews/2009/08/mac-os-x-10-6.ars"><img src="http://static.arstechnica.com/mt-static/plugins/ArsTheme/style/themes/light/images/logo.png" style="background-color: black"></a>
-
 As usual, the [review of Mac OS X 10.6 by Ars Technica][ars] is awesome and full of gold nuggets.
 
 It gives a nice description of the changes under hood. I was particularly interested by:

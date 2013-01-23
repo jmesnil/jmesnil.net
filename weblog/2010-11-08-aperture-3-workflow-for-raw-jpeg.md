@@ -27,7 +27,9 @@ Using Aperture 3, I am settling on that workflow:
 
 * Import both RAW + JPEG as __Separate Masters__
 
-![RAW + JPEG Pair import dialog](#{ site.s3.url }images/2010-11-08-import.jpg)
+<figure style="max-width:288px;">
+<img src="#{ site.s3.url }images/2010-11-08-import.jpg" title="RAW + JPEG Pair import dialog">
+</figure>
 
 * Auto-Stack (⌥⌘A) them with a short time span (e.g. 0:02) to keep them together 
 * Browse all the pictures and reject either the RAW (if the JPEG is good enough) or the JPEG (to keep the RAW for further post-processing)

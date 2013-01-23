@@ -13,7 +13,9 @@ tags:
 - ruby
 ---
 
+<figure style="max-width: 180px">
 [![](http://oreilly.com/catalog/covers/9780596519803_cat.gif)](http://oreilly.com/catalog/9780596519803/)
+</figure>
 
 I noticed today that O'Reilly just released [JRuby Cookbook][jruby-cookbook]. I have a few ideas I'd like to implement using [JRuby][jruby] and I was browsing the [table of contents][toc] to check if the book could be helpful.  
 

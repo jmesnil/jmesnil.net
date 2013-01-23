@@ -17,8 +17,6 @@ No such luck: Apple has recently released Java 6 for Mac OS X Leopard but someho
 
 Instead they provided only one engine for [AppleScript][applescript] but frankly:
 
-![](http://jmesnil.net/weblog/wp-content/uploads/2008/07/whocares1-300x122.png)
-
     public class AppleScriptTest {
         public static void main(String[] args) throws Exception {
             ScriptEngineManager factory = new ScriptEngineManager();

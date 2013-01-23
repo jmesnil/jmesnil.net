@@ -9,7 +9,9 @@ link: http://vimeo.com/49544593
 
 For the release of the new [Leica M][leica] camera, Jean Gaumy talks about photography with lots of photos from Normandy:
 
+<div class="video-wrapper" style="width:800px"><div class="video">
 <iframe src="http://player.vimeo.com/video/49544593" width="800" height="450" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div></div>
 
 Jean Gaumy is one of my favorite photographers. His [portofolio at Magnum][magnum] is worth a look.
 

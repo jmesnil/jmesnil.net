@@ -10,7 +10,9 @@ tags:
 - photo
 ---
 
-![](http://www.finepix-x100.com/sites/all/modules/x100/content/images/x100/control_1.jpg)
+<figure style="max-width:510px;">
+<img src="http://www.finepix-x100.com/sites/all/modules/x100/content/images/x100/control_1.jpg">
+</figure>
 
 >Inspired by the beauty and form of classic cameras from the past, the FinePix X100 combines all the latest technical digital innovations in a beautiful, traditional chassis which oozes class and prestige.
 

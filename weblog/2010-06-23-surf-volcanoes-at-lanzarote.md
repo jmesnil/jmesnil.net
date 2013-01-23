@@ -9,7 +9,9 @@ tags:
 - photo
 ---
 
+<figure  style="max-width:500px">
 [![](http://farm2.static.flickr.com/1179/4722293520_b2f88d64c5.jpg)](http://www.flickr.com/photos/jmesnil/4722293520/)
+</figure>
 
 I just spent one week at [Lanzarote][lanzarote] in the Canary Islands to learn surfing, do some sightseeing and take some [pictures][flickr].
 
@@ -18,7 +20,9 @@ However I was also surprised by the amount of paddling which was required, I mus
 
 If you want to learn surfing at Lanzarote, I recommend [Volcano Surf School](http://volcanosurflanzarote.com/). Sabine and Seb are very friendly, passionate about surf and Nico is a great teacher. Tell'em hi from me!
 
+<figure  style="max-width:573px">
 [![](http://volcanosurflanzarote.com/images/stories/general/logo.png)](http://volcanosurflanzarote.com)
+</figure>
 
 Just before going to Lanzarote, I bought a new zoom lens: a Nikon 70-300mm /4.5 AF-S VR which was great to shoot surfers and birds.
 Unfortunately I did not have a lot of time to get used to it and learnt on the fly how to use it properly. The surfer picture above is one of the last I took when I finally started to get a handle on the lens.
@@ -26,11 +30,15 @@ Unfortunately I did not have a lot of time to get used to it and learnt on the f
 Lanzarote's landscape is spectacular with many volcanoes of different heights and shapes.  
 The volcano below was the main location of the greatest recorded eruptions which occurred between 1730 and 1736:
 
+<figure  style="max-width:500px">
 [![Volcano of Timanfaya National Park](http://farm2.static.flickr.com/1407/4721619659_0896fc374f.jpg)](http://www.flickr.com/photos/jmesnil/4721619659/)
+</figure>
 
 The wineyards are also spectacular: they are buried in the volcanic soil and protected from the wind by small stone walls:
 
+<figure  style="max-width:500px">
 [![Canaries 953](http://farm2.static.flickr.com/1168/4721634013_a74ff7c19a.jpg)](http://www.flickr.com/photos/jmesnil/4721634013/)
+</figure>
 
 This week was lots of fun, lots of sport and lots of good food and wine!  
 I made some good new friends and I am looking forward to surfing again. Next time won't come soon enough!

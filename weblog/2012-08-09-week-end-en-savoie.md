@@ -23,7 +23,7 @@ We had a lovely time (and cloudy weather!) last week-end in Savoie, driving thro
   <figcaption>Bonneval sur Arc</figcaption>
 </figure>
 
-<figure>
+<figure class="portrait">
   <a href="#{ site.s3.url }images/2012-08-04-manege_en_bois.jpg" rel="lightbox[savoie]" title="Man&egrave;ge en Bois">
   ![Man&egrave;ge en Bois](#{ site.s3.url }images/2012-08-04-manege_en_bois.jpg)
   </a>

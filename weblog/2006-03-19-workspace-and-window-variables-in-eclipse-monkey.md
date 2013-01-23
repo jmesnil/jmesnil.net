@@ -24,5 +24,5 @@ The following code is also commented in this method (in version 0.1.6 of the `o.
 
 The `workspace` variable is instead contributed by the `org.eclipse.dash.doms` plug-in.
 
-To sum up, `window` is available for free in your Monkey scripts while you will have to reference the `http://download.eclipse.org/technology/dash/update/org.eclipse.dash.doms` DOM to have access to the `workspace` variable.
+To sum up, `window` is available for free in your Monkey scripts while you will have to reference this [DOM URL](http://download.eclipse.org/technology/dash/update/org.eclipse.dash.doms) to have access to the `workspace` variable.
 

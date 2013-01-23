@@ -9,7 +9,9 @@ tags:
 - redhat
 ---
 
+<figure style="max-width:64px;">
 [![](http://www.jboss.org/files/jbosslabs/design/hornetQ/logo/images/hornetQ_icon_64x64.png)](http://jboss.org/hornetq/)
+</figure>
 
 My daily job at [Red Hat][rh] is to work on [HornetQ][hornetq].
 

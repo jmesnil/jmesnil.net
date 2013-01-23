@@ -7,8 +7,9 @@ link: http://itunes.apple.com/us/app/jboss-admin/id523516060?ls=1&amp;mt=8
 
 Chistos Vasilakis [announced][forum] last week this iPhone app to manage JBoss AS 7 instances.
 
+<div class="video-wrapper" style="width:800px"><div class="video">
 <iframe src="http://player.vimeo.com/video/40247548" width="800" height="450" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-
+</div></div>
 The code is Open Source and hosted on [Github][github].
 
 It screams for an iPad version... I need to find an extra 25<sup>th</sup> hour in the day to contribute to it.

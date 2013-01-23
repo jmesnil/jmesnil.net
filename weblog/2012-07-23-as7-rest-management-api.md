@@ -120,7 +120,7 @@ The description is then available at [http://localhost:9292/resource-description
   * `operation` - whether the description includes operation descriptions (defaults to `false`)
   * `inherited` - whether the children description includes inherited elements (defaults to `false`)
 
-For example, to get the most comprehensive description of the server, you can go to [http://localhost:9292/resource-description?user=admin&password=mySecretPassword&recursive=true&operation=true&inherited=true](http://localhost:9292/resource-description?user=admin&password=mySecretPassword&recursive=true&operation=true&inherited=true)
+For example, to get the most comprehensive description of the server, you can use [this URL](http://localhost:9292/resource-description?user=admin&password=mySecretPassword&recursive=true&operation=true&inherited=true).
 
 Next step is to transform the JSON into a HTML output with a nice format and JavaScript goodies (e.g. for automatic generation of a table of contents)
 

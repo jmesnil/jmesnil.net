@@ -4,11 +4,13 @@ layout: base
 
 = partial('post.html.haml', :parent => page, :post => page, :include_comments => true)
 
-.prev-next
-  - if page.next_post?
-    %a.prev{ :href=>page.next_post.url}= "&larr; #{page.next_post.title}"
-  - else
-    %span.prev &nbsp;
-
-  - if page.previous_post?
-    %a.next{ :href=>page.previous_post.url}= "#{page.previous_post.title} &rarr;"
+%nav.prev-next
+  %ul
+    %li
+      - if page.next_post?
+        %a.prev{ :href=>page.next_post.url}= "&larr; #{page.next_post.title}"
+      - else
+        %span.prev &nbsp;
+    %li
+      - if page.previous_post?
+        %a.next{ :href=>page.previous_post.url}= "#{page.previous_post.title} &rarr;"

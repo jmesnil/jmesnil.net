@@ -11,7 +11,9 @@ tags:
 - macosx
 ---
 
+<figure style="max-width:190px">
 [![](http://assets3.pragprog.com/images/covers/190x228/dscpq.jpg?1236205159)](http://pragprog.com/titles/dscpq/cocoa-programming)
+</figure>
 
 I just received my copy of [Cocoa Programming](http://pragprog.com/titles/dscpq/cocoa-programming). At first glance, the book seems a good update for Mac OS X development.
 

@@ -14,8 +14,8 @@ I created an Automator Service to create a [Gist][gist] from a text selection. T
 * Open `Applications` &rarr; `Automator`
 * Create a new Service
 
-<figure>
-<img src="#{ site.s3.url }images/2009-10-19-service.png" alt="Create a new Service" width="542" height="503"/>
+<figure style="max-width:524px">
+<img src="#{ site.s3.url }images/2009-10-19-service.png" alt="Create a new Service" />
 <figcaption>Create a new Service</figcaption>
 </figure>
 
@@ -44,18 +44,18 @@ cat $RESP_FILE|sed -ne '/Location/p'|cut -f2- -d:|tr -d ' ' | pbcopy
 
 You will end up with this service:
 
-<figure>
+<figure style="max-width:300px">
 <a href="#{ site.s3.url }images/2009-10-19-gist-service.png">
-<img src="#{ site.s3.url }images/2009-10-19-gist-service-300x216.png" width="300" height="216" />
+<img src="#{ site.s3.url }images/2009-10-19-gist-service-300x216.png"/>
 </a>
 <figcaption>Gist Code</figcaption>
 </figure>
 
 Now, you can select any text<sup id="fnr1-2009-10-19"><a href="#fn1-2009-10-19">1</a></sup>, right-click and select `Gist Code`:
 
-<figure>
+<figure style="max-width:300px">
 <a href="#{ site.s3.url }images/2009-10-19-mate.png">
-<img src="#{ site.s3.url }images/2009-10-19-mate-300x128.png" width="300" height="128" />
+<img src="#{ site.s3.url }images/2009-10-19-mate-300x128.png" />
 </a>
 <figcaption>Mate</figcaption>
 </figure>
@@ -69,7 +69,9 @@ This service also uses Git to retrieve GitHub credentials so that the gist is ad
 
 This is a  screencast showing how to create and use this service:
 
-<object width="640" height="505"><param name="movie" value="http://www.youtube.com/v/qBgmWH-kY-s&hl=fr&fs=1&rel=0&hd=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/qBgmWH-kY-s&hl=fr&fs=1&rel=0&hd=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="505"></embed></object>
+<div class="video-wrapper" style="max-width:480px">
+<iframe src="http://www.youtube.com/embed/qBgmWH-kY-s" frameborder="0" allowfullscreen></iframe>
+</div>
 
 Enjoy!
 

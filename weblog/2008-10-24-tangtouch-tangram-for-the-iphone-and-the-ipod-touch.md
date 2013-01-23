@@ -11,7 +11,9 @@ tags:
 - tangtouch
 ---
 
-![icon.png](#{ site.s3.url }images/2008-10-24-tangtouch-icon.png)
+<div style="font-size: 4em; padding: 10px; text-align:center; margin-left: auto; margin-right: auto, max-width:768px">
+<img src="#{ site.s3.url }images/2008-10-24-tangtouch-icon.png"/>
+</div>
 
 [TangTouch][tangtouch] is now available on the [App Store][tangtouch-itunes].  
 It is a [Tangram][tangram] puzzle game for the iPhone or the iPod Touch.
@@ -27,8 +29,6 @@ I released 2 versions:
 * a [free version][tangtouch-lite-itunes] with 32 puzzles
 
 This way you can download the free version with no strings attached. And if you like it, you can buy the commercial version.
-
-![](http://iphone.jmesnil.net/img/img-1.png)
 
 Enjoy!
 

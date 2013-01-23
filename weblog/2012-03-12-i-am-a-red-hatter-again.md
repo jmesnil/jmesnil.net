@@ -4,7 +4,8 @@ title: "I Am a Red Hatter (Again!)"
 tags:
 - redhat
 ---
-<div class="alignleft" style="font-size: 4em; padding: 10px;">
+
+<div style="font-size: 4em; padding: 10px; text-align:center; margin-left: auto; margin-right: auto, max-width:768px">
 <img src='#{ site.s3.url }images/2012-03-12-redhat.png' alt="Red Hat" style="vertical-align:middle;" height="64"/> + 
 <img src='#{ site.s3.url }images/2012-03-12-jbossas7.png' alt="JBoss AS 7"  style ="vertical-align:middle;"  height="64" />
 </div>

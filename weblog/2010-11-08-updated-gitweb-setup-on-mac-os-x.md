@@ -10,7 +10,7 @@ tags:
 - macosx
 ---
 
-<div style="font-size: 4em; padding: 10px;">
+<div style="font-size: 4em; padding: 10px; text-align:center; margin-left: auto; margin-right: auto, max-width:800px">
 <a href="http://git.or.cz/"><img src="http://git.or.cz/git-logo.png" alt="Git logo" style="vertical-align:middle;"></a>
 + 
 <a href="http://apple.com/"><img src="http://images.apple.com/global/elements/buystripmodule/buystrip-icon-retail.gif" alt="Apple logo" class=style ="vertical-align:middle;"/></a>

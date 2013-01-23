@@ -23,8 +23,9 @@ the group communication channel.
 Each node exposes its managements operations through JMX and contains its own JMX Server which exposes the MBeans of the nodes  
 An administrator can manage each MBeans of the node through JMX using either a RMI or HTTP adaptor:
 
+<figure style="max-width: 500px;">
 [![jmx-1](http://static.flickr.com/82/218541952_36f9f32f7a.jpg)](http://www.flickr.com/photos/jmesnil/218541952/)
-
+</figure>
 
 But the issue is that the cluster does not provide global management.
 For example, if an administrator wants to manage two MBeans on different nodes to the cluster, he /she has to:
@@ -72,7 +73,9 @@ How do I plan to do that?
 I was thinking about registering on each node *proxies* of MBeans whose *real implementations*  are hosted
 on other nodes:
 
+<figure style="max-width: 500px;">
 [![jmx-2](http://static.flickr.com/75/218536945_64e32eefb4.jpg)](http://www.flickr.com/photos/jmesnil/218536945/)
+</figure>
 
 The dashed rhombus are Mbeans *proxies* while the plain ones are the *real implementations*.
 
@@ -93,7 +96,9 @@ To continue on the lights example, the sequence is now:
 3. the implementation of MBean X will query the JMX Server of node #1 about all the Light Mbeans and checks there is still one which is on (excluding itself)
 4. when it checks on MBean Z, the proxy will connect to the JMX server of node #2 and invokes the method on the real implementation of MBean Z
 
+<figure style="max-width: 500px;">
 [![jmx-3](http://static.flickr.com/67/218536946_ee36036b17.jpg)](http://www.flickr.com/photos/jmesnil/218536946/)
+</figure>
 
 * (1) from the client, connect to the JMX Server of node #1
 * (2) get the MBean X and invoke one of its method
@@ -103,7 +108,9 @@ To continue on the lights example, the sequence is now:
 
 The cool thing about this design is that the admin does not even need to be connected to the JMX Server of node #1 to manage MBean X:
 
+<figure style="max-width: 500px;">
 [![jmx-4](http://static.flickr.com/88/218536947_65135005cb.jpg)](http://www.flickr.com/photos/jmesnil/218536947/)
+</figure>
 
 * (1) from the client, connect to the JMX Server of node #2
 * (2) get the MBean X and invoke one of its method

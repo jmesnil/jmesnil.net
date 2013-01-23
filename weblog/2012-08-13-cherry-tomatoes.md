@@ -7,7 +7,7 @@ tags:
 - photo
 ---
 
-<figure>
+<figure style="max-width:596px">
   <a href="#{ site.s3.url }images/2012-08-13-cherry-tomatoes.jpg" rel="lightbox" title="Cherry Tomatoes">
   ![Cherry Tomatoes](#{ site.s3.url }images/2012-08-13-cherry-tomatoes.jpg)
   </a>

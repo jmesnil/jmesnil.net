@@ -13,7 +13,7 @@ An user reported an [issue][issue] with [jmx4r][jmx4r] because he was not able t
 
 > See for example attribute names under the amx:j2eeType=X-MonitoringDottedNames,name=na mbean of a GlassFish instance.
 >
-> Trying to get the value of an attribute like `server.http_service.file_cache.maxentries_lastsampletime` doesn't work. 
+> Trying to get the value of an attribute like   `server.http_service.file_cache.maxentries_lastsampletime` doesn't work. 
 
 He is right that jmx4r does not work with dotted attributes. For example, this code will fail:
 
@@ -21,8 +21,11 @@ He is right that jmx4r does not work with dotted attributes. For example, this c
     puts server.http_service.file_cache.maxentries_lastsampletime
 
 JMX supports dotted attributes but they can not be used directly with jmx4r because of Ruby syntax.  
-Ruby will read `server.http_service.file_cache.maxentries_lastsampletime` and will rightfully call `http_service` on the 
-`server` object first. But there is no such method or attribute and the call will fail.  
+Ruby will read 
+
+    `server.http_service.file_cache.maxentries_lastsampletime`
+    
+and will rightfully call `http_service` on the `server` object first. But there is no such method or attribute and the call will fail.  
 
 To circumvent this issue and be able to use jmx4r with dotted MBean attributes, you can use Ruby [Object#send][send].
 

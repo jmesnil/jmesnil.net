@@ -169,7 +169,7 @@ What do I mean when I write that `logging` is not the "real" `LogginMXBean` and 
 
 This 2 types of objects are created by the `jmx` object in the `main()` method. This `jmx` object is in fact an [Eclipse Monkey DOM][eclipse-monkey-dom] that is contributed by the plug-in listed in the `DOM` directive at the top of the script:
 
-DOM: http://eclipse-jmx.googlecode.com/svn/trunk/net.jmesnil.jmx.update/net.jmesnil.jmx.monkey.doms
+    DOM: http://eclipse-jmx.googlecode.com/svn/trunk/net.jmesnil.jmx.update/net.jmesnil.jmx.monkey.doms
     
 
 

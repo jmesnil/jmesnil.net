@@ -17,7 +17,7 @@ I wanted to catch the river with a silky aspect and contrast it with the harsh l
 
 It was a fun night and I am looking forward to the next one.
 
-<figure>
+<figure class="portrait">
   <a href="#{ site.s3.url }images/2012-07-19-photowalk-17.jpg" rel="lightbox[walk]" title="Old Door">
   ![Old Door](#{ site.s3.url }images/2012-07-19-photowalk-17.jpg)
   </a>
@@ -41,7 +41,7 @@ It was a fun night and I am looking forward to the next one.
   </a>
   <figcaption>Tribunal</figcaption>
 </figure>
-<figure>
+<figure class="portrait">
   <a href="#{ site.s3.url }images/2012-07-19-photowalk-68.jpg" rel="lightbox[walk]" title="Trekkie Knob">
   ![Trekkie Knob](#{ site.s3.url }images/2012-07-19-photowalk-68.jpg)
   </a>

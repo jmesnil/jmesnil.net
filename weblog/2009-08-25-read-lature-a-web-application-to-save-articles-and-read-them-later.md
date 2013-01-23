@@ -25,7 +25,9 @@ The second way to save article to Read Lature is to use [Google Reader][reader].
 
 I mainly use Read Lature to save articles and read them later on my iPhone when I am away:
 
-<img src="#{ site.s3.url}images/2009-08-25-photo-200x300.jpg" alt="Reading from the iPhone" title="Reading from the iPhone" width="200" height="300" class="aligncenter size-medium wp-image-765" />
+<figure style="max-width: 200px">
+<img src="#{ site.s3.url}images/2009-08-25-photo-200x300.jpg" alt="Reading from the iPhone" title="Reading from the iPhone" />
+</figure>
 
 The application is hosted on Google "Cloud" and leverages Google accounts for  user credentials.  
 To try it, go to [Read Lature][readlature], login using your Google (or Gmail) account, and follow the instructions. 

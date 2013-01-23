@@ -22,7 +22,9 @@ Before looking at Web Sockets and other fancy code, let's make the Web applicati
 
 The major annoyance is that Safari chrome takes a lot of space and hides the bottom of the board:
 
-<img src="#{ site.s3.url }images/2010-11-26-chrome.png" alt="" title="chrome" width="320" height="155" class="aligncenter size-full wp-image-1383" />
+<figure style="max-width:320px">
+<img src="#{ site.s3.url }images/2010-11-26-chrome.png"/>
+</figure>
 
 To display a Web application without Safari chrome, we can make it a [standalone Web application][standalone].
 
@@ -44,7 +46,9 @@ Last thing is to render the iPhone status bar in black by setting the [`apple-mo
 
 With these 3 meta information, the Web application looks better and display the whole board
 
-<img src="#{ site.s3.url }images/2010-11-26-Board-2nd-version.jpg" alt="" title="Board - 2nd version" width="320" height="480" class="aligncenter size-full wp-image-1380" />
+<figure style="max-width:320px">
+<img src="#{ site.s3.url }images/2010-11-26-Board-2nd-version.jpg" title="Board - 2nd version"/>
+</figure>
 
 ## Offline Support
 
@@ -101,7 +105,9 @@ With offline support, I will be able to use the Web application even if the serv
 
 Here is a small video of the result with the updated Web application:
 
-<object width="640" height="385"><param name="movie" value="http://www.youtube.com/v/yoJAC2Qc0uo?fs=1&amp;hl=fr_FR&amp;rel=0&amp;hd=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/yoJAC2Qc0uo?fs=1&amp;hl=fr_FR&amp;rel=0&amp;hd=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="385"></embed></object>
+<div class="video-wrapper" style="max-width:640px;"><div class="video">
+<iframe width="640" height="360" src="http://www.youtube.com/embed/yoJAC2Qc0uo" frameborder="0" allowfullscreen></iframe>
+</div></div>
 
 Note the black status bar and the full screen mode after I started the Web application from the iPhone home screen. It is indistinguishable from a native application but runs on the Web (it's not obvious from the video but the camera was recording from above: the iPhone was held horizontally).
 

@@ -14,7 +14,9 @@ dpreview.com's conclusion:
 
 > The D7000 produces great image quality and feels very responsive in most shooting situations. It shines especially in low light. From a specification point of view a 16.3 MP resolution sensor, 6 frames per second continuous shooting, 1080p full HD video and an abundance of customization options place this camera firmly into the semi-pro segment of the market.
 
-<img alt="" src="http://a.img-dpreview.com/reviews/NikonD7000/images/intro.jpg" class="aligncenter" width="640" height="480">
+<figure style="max-width:640px;">
+<img alt="" src="http://a.img-dpreview.com/reviews/NikonD7000/images/intro.jpg">
+</figure>
 
 I bought the Nikon D7000 to upgrade from my old D60. I am very happy with it so far but I have not use it extensively since I get it mid-november. 
 

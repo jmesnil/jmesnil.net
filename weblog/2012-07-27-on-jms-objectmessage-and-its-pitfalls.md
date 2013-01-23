@@ -29,7 +29,7 @@ Other Java clients (one if the destination is a queue, many if it is a topic) wi
 
 Simple, isn't it? Not really.
 
-# Architectural Issues
+## Architectural Issues
 
 One of the advantage of using messaging system is _loose coupling_. The producers and consumers of a destination does not need to know each other or be online at the same time to exchange messages. They only need to agree on the data sent in the message.
 
@@ -37,7 +37,7 @@ By using an `ObjectMessage`, the type of the Java object is their agreement. Thi
 
 There is a simple solution to reduce this issue (but not removing it entirely):  **use [DTO][dto] for ObjectMessage payload**
 
-# Technical Issues
+## Technical Issues
 
 The technical issues of using ObjectMessage are related to the deserialization of the stream of bytes sent over the wire.
 To be able to deserialize an object, the messaging provider must be able to recreate the instance *as it was when it was serialized*. This also implies that we must have access to the same classes and classloader that were used to serialize the payload. My colleague, Jason Greene, has a nice article about [modular serialization][modular-serialization]. Unfortunately, this is something more complex in our case since it is possible (and often the case!) that consumers of messages run in different environments than the producer.
@@ -58,7 +58,7 @@ There is a simple solution to remove this issue:
 1. **Do not use ObjectMessage** 
 2. **Instead, define a data structure for the payload (using XML, JSON, protobuf, etc.) and use Text or Bytes message**
 
-# Performance issues
+## Performance issues
 
 How much space does it take to store a Java class with int and String fields as bytes instead of storing directly the int and the String?
 
@@ -67,7 +67,7 @@ How much space does it take to store a Java class with int and String fields as 
 It is not as simple to compare the size of a serialized Java object with the corresponding XML, JSON, protobuf payload.
 All these bytes are transported on the wire. The more bytes to serialize/transport/deserialize, the slower the message is delivered. (even though _premature optimization is the root of all evil_ still prevails).
 
-# Conclusion
+## Conclusion
 
 At first glance, ObjectMessage looks like a good idea. It lets application deals only with Java objects but it opens a whole can of architectural, technical and performance issues that will need to be dealt at one time or another, probably after the application is put in production...
 

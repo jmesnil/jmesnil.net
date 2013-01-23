@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,18 +12,19 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
+	font: inherit;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -41,422 +42,342 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
 
-i, cite, em, var, address {
-font-style: italic;
+/* end of reset.css */
+
+dt {
+  font-weight: bold;
 }
 
-/* end of reset */
+dd {
+  margin: 0 0 1.5em 1em;
+  text-align: justify;
+}
 
-/* @override http://mark.reid.dev/files/css/screen.css */
+hr {
+  color: #DDD;  
+}
 
-/* @override 
-	http://mark.reid.dev/files/css/screen.css
-	http://mark.reid.name/files/css/screen.css
-*/
+blockquote {
+  font-size: 0.875em;
+  margin: 1em 3em;
+  color: #777;
+  border-left: 4px solid #DDD;
+  padding-left: 1em;   
+}
+ 
+pre {
+  margin: 1em 0 1.5em 0;
+  line-height: 1.5em;
+  border: 1px solid #ddc;
+  padding: 0;
+  overflow: hidden;
+  box-shadow: 1px 1px 6px #ccc;
+  -webkit-box-shadow: 1px 1px 6px #ccc;
+  -moz-box-shadow: 1px 1px 6px #ccc;
+}
 
-/* screen.css
- *
- * A clean, simple stylesheet that aims for
- * a consistent vertical rhythm.
- *
- * Base font height: 16px
- * Base line length: 24px
- * 
- * AUTHOR: Mark Reid <mark@reid.name>
- */
+pre:hover {
+  overflow: visible;
+  border-right: 1px solid whiteSmoke;
+  box-shadow: none;
+}
+ 
+code {
+  font-size: 0.875em;
+  background-color: #DDD;
+  font-family: 'Inconsolata', monospace, sans-serif;
+}
+ 
+strong, b {
+  font-weight: bold;
+}
+ 
+sup {
+  vertical-align: super;
+  font-size: smaller;
+}
 
 body {
-	font-family:  'Cantarell', sans-serif;
-	/* font-family: Verdana, 'Bitstream Vera Sans', sans-serif; */
-	background-color: whitesmoke;
-	background-position: center -18em;
-	background-repeat: repeat-x; 
-	margin: 1.5em auto 3em auto;
-	line-height:1.5em;
+  padding: 1.5em 1.25em 2em 1.25em;
+  background-color: whiteSmoke;
+  font-family: Cantarell, sans-serif;
+  font-size: 16px;
+  color: #444;
 }
 
-/* Hack via Joel Spolsky to make image rescaling nicer in IE */
-img { -ms-interpolation-mode:bicubic; }
+/* BEGIN links */
 
-/* IE6 ignores this and uses default size of 16pt */
-html>body { font-size:16px; }
-p { margin: 0 0 1.5em 0; text-align: justify; }
-a { text-decoration: none; color: #59708C; }
-a:hover { text-decoration: underline; color: #59708C; }
-
-kbd { font-weight: bold; }
-
-h1,h2,h3,h4 { 
-	line-height:1em; 
-	font-size:1.5em; 
-	font-weight: normal; 
-	clear: left; 	
+a {
+  text-decoration: none;
+  color: #59708C;
 }
 
-h2 {
-	margin:1.5em 0 1.5em 0;
-	font-weight:bold;
+a:hover { 
+  text-decoration: underline;
 }
 
-hr { 
-	border-top: 1px solid silver;
-	border-bottom: none;
-	padding: 0;
-	margin: 1.46em 0 0 0;
+a.link {
+  font-size: 66%;
+  font-weight: bold;
+  color: #9d1e1e;
 }
 
-sup {
-	line-height: 1ex;
-	vertical-align: super;
-	font-size: smaller;
+a.plink {
+  font-size: 66%;
+  text-decoration: none;
+  border-bottom: 1px dotted firebrick;
+  color: firebrick;
+  vertical-align:center;
 }
 
-#page {
-	max-width: 900px;
-	/*min-height: 600px;*/
-	margin-left: auto;
-	margin-right: auto;
-	padding-left: 30px;
-	padding-right: 30px;
-	padding-top: 15px;
-	padding-bottom: 15px;
+/* END links */
 
-	background-color: white;
-	border: 1px solid #ccc;
-	box-shadow: 2px 2px 8px #aaa;
-	-webkit-box-shadow: 2px 2px 8px #aaa;
-	-moz-box-shadow: 2px 2px 8px #aaa;	
-}
+/* BEGIN header & footer */
 
-.right { float: right; clear: left; }
-.left { float: left; clear: right; }
-.inset { 
-	border: 1px solid silver; 
-	padding: 2px;
-	margin: 0em 0.8em 0.8em 0.8em;
-}
-.right.inset { margin-right: 0 !important; }
-.left.inset { margin-left: 0 !important; }
-.quiet {
-	color: grey;
-	font-size: 0.875em;
-	line-height: 1.714em;
-}
-blockquote {
-	padding: 0 2.8em;
-	margin: 1.714em 0;
-	color: #444;
-	font-size: 0.875em;
-	line-height: 1.714em;
-	border-left: 4px solid #EEE;
-	color: #777;
-}
-
-.note {
-	padding-top: 0.5em; 
-	background-color: #fafaff;
-	border-top: 1px solid silver;
-	border-bottom: 1px solid silver;
-}
-/* @group Table */
-table.neat {
-	width: 80%;
-	margin: 1.5em auto 1.5em auto;
-	table-layout: fixed;
-	border-spacing: 0;
-}
-table.neat tr { text-align: center; }
-table.neat th { font-weight: normal; background-color: #eeeeee; }
-table.neat td { background-color: white; }
-table.neat th.title { border-bottom: 1px solid gray; border-top: 1px solid gray; vertical-align: bottom; background-color: lightgrey; }
-caption { 
-	color: #333;
-	font-size: 0.875em;
-	margin: 0.875em auto 0 auto;
-	line-height: 1.14em;
-	text-align: justify;
-}
-
-/* @end */
-
-/* @group Lists */
-ol, ul {
-	margin-top: 1.5em;
-	margin-bottom: 1.5em;
-	line-height: 1.5em;
-	padding-left: 1.5em;
-}
-ul li {
-	list-style-type: square;
-	list-style-position: outside;
-}
-ol li {
-	list-style-type: decimal;
-	list-style-position: inside;
-}
-dt { font-weight: bold;}
-dd { margin: 0 0 1.5em 0; text-align: justify; }
-
-ul.compact li {
-	list-style-type: none;
-}
-
-/* @end */
-
-/* @group Header */
 header, footer {
-	max-width: 960px;
+	max-width: 800px;
 	margin-left: auto;
 	margin-right: auto;
+	position: relative;  
+	font-variant: small-caps;
+  color: silver;
+  display: block;
 }
 
-header, header a { color: silver; }
-header .hover { color: transparent; }
-header:hover a { color: #59708C; text-shadow: #aaa 2px 2px 3px;}
-header:hover a:hover { text-decoration: none; }
-header a:hover .hover { color: #59708C; }
-header {
-	position: relative;
-	font-variant: small-caps;
-	line-height: 1em;
-	margin-top: 1em;
-	margin-bottom: 0.5em;
+header a, footer a { 
+  color: silver;
+  text-decoration: none;
 }
+
+header a:hover {
+	color: #59708C;
+}
+
+header {
+  text-align: center;
+	margin-top: 1em;
+	margin-bottom: 2em;
+}
+
 header h1 {
-	margin-bottom: 0;
-	line-height: 0.9em;
-	display: block;
+	margin-bottom: 0.2em;
 	font-weight: normal;
+  font-size:2em;
 }
 
 header ul {
+  font-size: 0.85em;
+}
+
+header ul::after {
+  content: "| ";
+}
+
+header li::before {
+  margin-right: 0.25em;
+  content: "| ";
+}
+
+header li { 
+  display: inline;
+  padding: 0 0.3em 0 0.3em;
+}
+
+footer {
+  margin-top: 0;
+}
+
+footer #colophon {
 	position: absolute;
-	top: 0;
-	right: 0;
-	font-size: 100%;
-	line-height: 1.6em;
+	text-align: right;
 	display: block;
+  top: 0;
+	right: 0;
 	margin: 0;
 	width: 50%;
-	text-align: right;
-}
-header ul li { display: inline; }
-header ul li a {
-	padding: 0.4em 0.3em 0 0.3em;
-	display: inline;
-}
-header ul li a:hover {
-	color: #59708C;
-	border-bottom: 2px solid #59708C;
 }
 
-/* @end */
+/* END header & footer */
 
-.list .title { font-weight: bold; }
-p.line { position: relative; margin: 0; }
-p.excerpt { margin: 0; }
-.comments { font-size: smaller; position: absolute; color: silver; right: 0; top: 0; }
-.excerpt { color: black; }
-
-/* @group Signature */
-.signature { 
-	margin-top: 3em; 
-	position: relative;
-}
-.signature .author { 
-	font-variant: small-caps; 
-	font-style: normal; 
-	color: black;
-	display: block;
-	margin-bottom: 1.5em;
+/* BEGIN #page */
+#page ol, #page hr, #page ul, #page dl, #page blockquote, #page pre, #page p {
+  margin-bottom: 1em;
+  line-height: 1.6em;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.date {
-	color: silver;
-	font-size: 87.5%;
-	font-variant: small-caps; 
+#page ul, #page ol {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  line-height: 1.5em;
+  padding-left: 1.5em;
 }
 
-h1 + .date {
-	margin-bottom: 1em;
+#page h1 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #59708C;
+  max-width: 800px;
+  margin-left:auto;
+  margin-right:auto;
 }
 
-li .date {
-	display: inline;
+#page h1 a {
+  text-decoration: none;
 }
 
-.signature .location { 
-	display: block; 
-	font-size: 87.5%;
-	line-height: 1.5em;
-	position: absolute;
-	right: 0;
-	top: 1.5em;
-}
-/* @end */
-
-/* @group Code */
-pre {
-	margin: 1em 0 1.5em 0;
-	line-height: 1.5em;	
-	border: 1px solid #ddc;
-	padding: 0;
-	overflow: hidden;
-	/* Experimental CSS3 stuff */
-	box-shadow: 1px 1px 6px #ccc;
-	-webkit-box-shadow: 1px 1px 6px #ccc;
-	-moz-box-shadow: 1px 1px 6px #ccc;
-}
-pre:hover {
-	border-right: none;
-	overflow: visible;
-}
-code {
-	font-size: 0.875em;
-	background-color: #f7f7ff;
-	font-family: 'Inconsolata', monospace, sans-serif;
-}
-pre > code {
-	background-color: transparent;
-}
-/* @end */
-
-
-
-/* The following position, width and height ensure
- * that none of the body in the iframe shows through.
- */
-form#comment {
-	position: absolute;
-	height: 100%;
-	width: 100%;
-	background-color: white !important;
-}
-/* @end */
-
-/* @group Footer */
-footer {
-	margin-top: 0;
-	color: grey;
-	font-size: 87.5%;
-	line-height: 1.3em;
-}
-footer address {
-	position: relative;
-	margin: .5em 0 0 0;
-	text-align: right;
-}
-footer a {
-	font-variant: small-caps;
-	font-style: normal;
-	color: silver;
-	text-decoration: none;
-}
-footer .copyright {
-	position: absolute;
-	left: 0;
-	text-align: left;
-	display: block;
-}
-footer .engine {
-	position: absolute;
-	text-align: right;
-	display: block;
-	right: 0;
-}
-/* @end */
-
-
-/* @group Figures and images */
-dl.figure {
-	margin-top: 1.5em;
-	margin-bottom: 1.5em;
-	text-align: center;
+#page h2 {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
 }
 
-dl.figure dd {
-	color: #333;
-	font-size: 0.875em;
-	margin: 0.875em auto 0 auto;
-	line-height: 1.14em;
-	text-align: justify;
-	width: 85%;
+#page h3 {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
 }
-/* @end */
 
+/* END #page */
 
-/* @group Figures and images */
+/* BEGIN .centered */
+
+.centered {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  text-align:center ;
+}
+
+.centered > * {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* END .centered */
+
+/* BEGIN media */
+
 figure {
-display: block;
-position: relative;
-margin-left: -60px;
-margin-right: -60px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;  
+}
+
+figure.portrait{
+  max-width: 596px;
 }
 
 figure img {
-display: block;
-margin-left: auto;
-margin-right: auto;
-max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;  
+  width: 100%;
+  border: 1px solid #ddc;
+  box-shadow: 1px 1px 6px #ccc;
+  -webkit-box-shadow: 1px 1px 6px #ccc;
+  -moz-box-shadow: 1px 1px 6px #ccc;
 }
 
 figcaption {
-display: block;
-text-align: center;
-font-size: 0.8em;
-color: #AAA;
+  display: block;
+  text-align: right;
+  font-size: 0.8em;
+  color: #AAA;
 }
-/* @end */
 
-/* .prev-next */
-.prev-next {
-	position:relative;
+video {
+  max-width: 100%;
 }
-.prev-next .next{ 
-	float:right;
+
+.video-wrapper {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.video {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+.video iframe,  
+.video object,  
+.video embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* END media */
+
+/* BEGIN date */
+
+.date {
+  color: silver;
+  font-size: 87.5%;
+  font-variant: small-caps;
+  margin-bottom: 1.5em;
+}
+
+li .date {
+  display: inline;
+} 
+
+/* END date */
+
+/* BEGIN article */
+
+article .date {
+  text-align: center;
 }
 
 article {
-   margin-left: 60px;
-   margin-right: 60px;
+  margin-bottom: 2em;
 }
 
-article h1 {
-	font-variant: small-caps;
+article ul li {
+list-style-type: disc;
+list-style-position: inside;
 }
 
-/* @group link article */
-a.link {
-	font-size: 66%;
-	font-weight: bold;
-	color: firebrick;
+article ol li {
+list-style-type: decimal;
+list-style-position: inside;
 }
 
-h1 a:hover {
-   text-decoration: none;
+/* END article */
+
+/* BEGIN nav */
+
+nav.prev-next ul{
+  max-width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
 }
 
-article h1 a.plink {
-    text-decoration: none;
-    color: #fff; /* the page background colour */
-}
-article h1:hover a.plink, a:hover.plink {
-    color: firebrick;
-}
-/* @end */
+/* END nav */
 
-
-.alignleft {display:inline; float:left; margin:0 1em 1em 0;}
-.alignright {display:inline; float:right; margin:0 0 1em 1em;}
-.aligncenter {display:block; margin:1em auto;}
-
-p.previous, p.next {
-    text-align: center;
-	padding-top: 1em;
-	padding-bottom: .5em;
-}

@@ -16,7 +16,7 @@ I first read this quote from Jacob Riis in an article about the way the [San Ant
 
 I later learnt that Jacob Riis was a journalist and a social documentary photographer that covered and fought against the living conditions of the poorest New York citizens.
 
-<figure>
+<figure class="portrait">
   <img width="480" alt="Minding the Baby, Scene in Gotham Court" src="http://www.museumsyndicate.com/images/5/42935.jpg">
   <figcaption><a href="http://www.museumsyndicate.com/item.php?item=42935">Minding the Baby, Scene in Gotham Court</a></figcaption>
 </figure>
