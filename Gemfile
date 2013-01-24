@@ -1,5 +1,6 @@
 source :rubygems
 
 gem 'awestruct'
+gem 'therubyracer'
 gem 'rake'
-gem 'rb-fsevent', '~> 0.9.1'
+gem 'rb-fsevent'
