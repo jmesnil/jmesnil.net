@@ -8,6 +8,6 @@ tags:
 ---
 
 <figure>
-  ![Fragile Things](#{ site.s3.url }images/2012-03-26-fragile-things.jpg)
+  ![Fragile Things](#{ site.img_base_url }images/2012-03-26-fragile-things.jpg)
   <figcaption>Fragile Things</figcaption>
 </figure>

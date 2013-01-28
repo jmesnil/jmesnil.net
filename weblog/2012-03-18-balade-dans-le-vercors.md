@@ -8,6 +8,6 @@ tags:
 ---
 
 <figure>
-![Balade Dans Le Vercors](#{ site.s3.url }images/2012-03-18-vercors.jpg)
+![Balade Dans Le Vercors](#{ site.img_base_url }images/2012-03-18-vercors.jpg)
 <figcaption>Balade Dans Le Vercors</figcaption>
 </figure>

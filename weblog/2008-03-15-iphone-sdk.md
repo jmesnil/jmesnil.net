@@ -16,7 +16,7 @@ The release of the iPhone SDK is the right occasion to do that.
 
 After a few hours of reading iPhone examples and coding, I was able to write a simple application to play [Tangram][tangram-wikipedia]:
 
-![Play Tangram on the iPhone](#{ site.s3.url}images/2008-03-15-tangram_iphone.png)
+![Play Tangram on the iPhone](#{ site.img_base_url}images/2008-03-15-tangram_iphone.png)
 
 The game is not entirely functional: you can drag the parts from the "box" at the bottom to the top to arrange them and form shapes but you can't rotate the parts.   
 Apple iPhone simulator can not simulate multi-gesture events corresponding to a rotation (put a finger down, with another finger draw an arc of circle).

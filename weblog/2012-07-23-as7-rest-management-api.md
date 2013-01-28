@@ -95,8 +95,8 @@ end
 In itself, that's not terribly interesting but if it is coupled with a [JSON prettifier extension][json-ext], it displays a nice interactive JSON tree in the browser.
 
 <figure>
-  <a href="#{ site.s3.url }images/2012-07-23-json-tree.jpg" rel="lightbox" title="JSON output">
-  ![JSON output](#{ site.s3.url }images/2012-07-23-json-tree.jpg)
+  <a href="#{ site.img_base_url }images/2012-07-23-json-tree.jpg" rel="lightbox" title="JSON output">
+  ![JSON output](#{ site.img_base_url }images/2012-07-23-json-tree.jpg)
   </a>
   <figcaption>JSON output</figcaption>
 </figure>

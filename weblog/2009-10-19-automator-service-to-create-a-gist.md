@@ -15,7 +15,7 @@ I created an Automator Service to create a [Gist][gist] from a text selection. T
 * Create a new Service
 
 <figure style="max-width:524px">
-<img src="#{ site.s3.url }images/2009-10-19-service.png" alt="Create a new Service" />
+<img src="#{ site.img_base_url }images/2009-10-19-service.png" alt="Create a new Service" />
 <figcaption>Create a new Service</figcaption>
 </figure>
 
@@ -45,8 +45,8 @@ cat $RESP_FILE|sed -ne '/Location/p'|cut -f2- -d:|tr -d ' ' | pbcopy
 You will end up with this service:
 
 <figure style="max-width:300px">
-<a href="#{ site.s3.url }images/2009-10-19-gist-service.png">
-<img src="#{ site.s3.url }images/2009-10-19-gist-service-300x216.png"/>
+<a href="#{ site.img_base_url }images/2009-10-19-gist-service.png">
+<img src="#{ site.img_base_url }images/2009-10-19-gist-service-300x216.png"/>
 </a>
 <figcaption>Gist Code</figcaption>
 </figure>
@@ -54,8 +54,8 @@ You will end up with this service:
 Now, you can select any text<sup id="fnr1-2009-10-19"><a href="#fn1-2009-10-19">1</a></sup>, right-click and select `Gist Code`:
 
 <figure style="max-width:300px">
-<a href="#{ site.s3.url }images/2009-10-19-mate.png">
-<img src="#{ site.s3.url }images/2009-10-19-mate-300x128.png" />
+<a href="#{ site.img_base_url }images/2009-10-19-mate.png">
+<img src="#{ site.img_base_url }images/2009-10-19-mate-300x128.png" />
 </a>
 <figcaption>Mate</figcaption>
 </figure>

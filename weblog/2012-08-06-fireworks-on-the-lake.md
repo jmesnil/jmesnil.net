@@ -8,8 +8,8 @@ tags:
 ---
 
 <figure>
-  <a href="#{ site.s3.url }images/2012-07-28-Fireworks-On-The-Lake.jpg" rel="lightbox" title="Fireworks on the  Lake">
-  ![Fireworks on the Lake](#{ site.s3.url }images/2012-07-28-Fireworks-On-The-Lake.jpg)
+  <a href="#{ site.img_base_url }images/2012-07-28-Fireworks-On-The-Lake.jpg" rel="lightbox" title="Fireworks on the  Lake">
+  ![Fireworks on the Lake](#{ site.img_base_url }images/2012-07-28-Fireworks-On-The-Lake.jpg)
   </a>
   <figcaption>Fireworks on the Lake</figcaption>
 </figure>

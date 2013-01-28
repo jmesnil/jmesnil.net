@@ -28,7 +28,7 @@ Using Aperture 3, I am settling on that workflow:
 * Import both RAW + JPEG as __Separate Masters__
 
 <figure style="max-width:288px;">
-<img src="#{ site.s3.url }images/2010-11-08-import.jpg" title="RAW + JPEG Pair import dialog">
+<img src="#{ site.img_base_url }images/2010-11-08-import.jpg" title="RAW + JPEG Pair import dialog">
 </figure>
 
 * Auto-Stack (⌥⌘A) them with a short time span (e.g. 0:02) to keep them together 

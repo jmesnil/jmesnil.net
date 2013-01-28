@@ -4,11 +4,11 @@ title: About
 ---
 
 <figure style="max-width:320px;"><div class="img" data-picture data-alt="Jeff Mesnil">
-<div data-src="#{ site.s3.url }images/me-320w.jpg"></div>
-<div data-src="#{ site.s3.url }images/me-640w.jpg" data-media="(-webkit-min-device-pixel-ratio: 1.5),(-moz-min-device-pixel-ratio: 1.5),(-o-min-device-pixel-ratio: 3/2)"></div>
+<div data-src="#{ site.img_base_url }images/me-320w.jpg"></div>
+<div data-src="#{ site.img_base_url }images/me-640w.jpg" data-media="(-webkit-min-device-pixel-ratio: 1.5),(-moz-min-device-pixel-ratio: 1.5),(-o-min-device-pixel-ratio: 3/2)"></div>
 <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
 <noscript>
-<img src="#{ site.s3.url }images/me-900w.jpg" alt="Jeff Mesnil">
+<img src="#{ site.img_base_url }images/me-900w.jpg" alt="Jeff Mesnil">
 </noscript>
 </div>
 </figure>

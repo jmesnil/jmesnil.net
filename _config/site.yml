@@ -5,6 +5,8 @@ author :
   github : jmesnil
   twitter : jmesnil
 
+img_base_url: http://images.jmesnil.net/
+
 base_url: http://jmesnil.net/
 
 google_analytics: UA-257783-1

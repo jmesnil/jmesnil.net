@@ -8,8 +8,8 @@ tags:
 ---
 
 <figure>
-  <a href="#{ site.s3.url }images/2012-07-14-_DSC9120.jpg" rel="lightbox" title="Dragonfly">
-  ![Dragonfly](#{ site.s3.url }images/2012-07-14-_DSC9120.jpg)
+  <a href="#{ site.img_base_url }images/2012-07-14-_DSC9120.jpg" rel="lightbox" title="Dragonfly">
+  ![Dragonfly](#{ site.img_base_url }images/2012-07-14-_DSC9120.jpg)
   </a>
   <figcaption>Dragonfly</figcaption>
 </figure>

@@ -16,7 +16,7 @@ As I have a few ideas I want to try on iOS 4, I had to renew the Apple <strike>r
 I took the opportunity to update [TangTouch][tangtouch] (iTunes link), the game I wrote to learn iPhone development, to support iOS 4. 
 
 <figure style="max-width:320px">
-<img src="#{ site.s3.url }images/2010-07-27-img.png" >
+<img src="#{ site.img_base_url }images/2010-07-27-img.png" >
 </figure>
 
 There has been several releases of the iOS (ne iPhone OS) since I wrote this application but the APIs are fairly stable and I had to change a few deprecated calls only. As a bonus, it now supports multitasking: if you leave the game and come back later, the game will be as you left it.  
@@ -28,7 +28,7 @@ I was also interested to see how [Git][git] was integrated as I use it for all m
 The user interface to browse a file history is innovative (and fast!), reminding of [Time Machine][timemachine]:
 
 <figure style="max-width: 853px">
-<img src="#{ site.s3.url }images/2010-07-27-version.png">
+<img src="#{ site.img_base_url }images/2010-07-27-version.png">
 </figure>
 
 At the moment, Git integration is fairly limited. Xcode does not seem to handle Git branches and stashes. I did not find how to browse the whole project either and it does not seem possible to add remote repositories as only the local Git repository is used (no push or pull to remote repositories).

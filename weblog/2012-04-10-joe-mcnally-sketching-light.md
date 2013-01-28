@@ -9,7 +9,7 @@ tags: []
 I received [Joe McNally][mcnally]'s [Sketching Light][sketching]. It is a gorgeous book full of nuggets to learn more about lighting a scene.
 
 <figure>
-![Sketching Light](#{ site.s3.url }images/2012-04-10-sketching-light.png)
+![Sketching Light](#{ site.img_base_url }images/2012-04-10-sketching-light.png)
 <figcaption>[Sketching Light][sketching]</figcaption>
 </figure>
 

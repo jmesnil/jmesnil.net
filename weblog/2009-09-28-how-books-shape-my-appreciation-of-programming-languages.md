@@ -14,7 +14,7 @@ This morning, I read this funny tweet from [@carina][carina]:
 > "Javascript in a single picture": [http://short.to/rwo6](http://short.to/rwo6) - absolutely awesome. Not sure if I should laugh or cry now. ;)
 
 <figure style="max-width: 400px">
-<img src="#{ site.s3.url }images/2009-09-28-book.jpg" />
+<img src="#{ site.img_base_url }images/2009-09-28-book.jpg" />
 </figure>
 
 Funny and true: there are few good parts in JavaScript but they are really good!

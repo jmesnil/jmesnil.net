@@ -12,7 +12,7 @@ tags:
 ---
 
 <div style="font-size: 4em; padding: 10px; text-align:center; margin-left: auto; margin-right: auto, max-width:768px">
-<img src="#{ site.s3.url }images/2008-10-24-tangtouch-icon.png"/>
+<img src="#{ site.img_base_url }images/2008-10-24-tangtouch-icon.png"/>
 </div>
 
 [TangTouch][tangtouch] is now available on the [App Store][tangtouch-itunes].  

@@ -8,8 +8,8 @@ tags:
 ---
 
 <figure>
-  <a href="#{ site.s3.url }images/2012-06-21-Fete%20de%20la%20Musique-28.jpg" rel="lightbox" title="F&#234;te de la Musique">
-  ![F&#234;te de la Musique](#{ site.s3.url }images/2012-06-21-Fete%20de%20la%20Musique-28.jpg)
+  <a href="#{ site.img_base_url }images/2012-06-21-Fete%20de%20la%20Musique-28.jpg" rel="lightbox" title="F&#234;te de la Musique">
+  ![F&#234;te de la Musique](#{ site.img_base_url }images/2012-06-21-Fete%20de%20la%20Musique-28.jpg)
   </a>
   <figcaption>F&#234;te de la Musique</figcaption>
 </figure>

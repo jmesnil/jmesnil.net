@@ -12,7 +12,7 @@ tags:
 I was doing some house-cleaning on my weblog after upgrading Wordpress and redesigning its presentation (in a [minimalist][diveintomark] but [not so minimalist][tomayko] fashion) when I saw that my popular [split bookmarklets][split-bookmarklets] were broken due to a bad formatting.
 
 <figure style="max-width:499px">
-<img src="#{ site.s3.url }images/2008-08-04-split-bookmarklets.png">
+<img src="#{ site.img_base_url }images/2008-08-04-split-bookmarklets.png">
 </figure>
 
 I have fixed them and checked that they work correctly with Firefox 3, Safari 3 and WebKit nightly builds (my preferred browser these days) but I have not checked if they work on IE and Opera. If you can test on these browsers, let me know if they work.

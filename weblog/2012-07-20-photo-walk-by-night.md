@@ -18,32 +18,32 @@ I wanted to catch the river with a silky aspect and contrast it with the harsh l
 It was a fun night and I am looking forward to the next one.
 
 <figure class="portrait">
-  <a href="#{ site.s3.url }images/2012-07-19-photowalk-17.jpg" rel="lightbox[walk]" title="Old Door">
-  ![Old Door](#{ site.s3.url }images/2012-07-19-photowalk-17.jpg)
+  <a href="#{ site.img_base_url }images/2012-07-19-photowalk-17.jpg" rel="lightbox[walk]" title="Old Door">
+  ![Old Door](#{ site.img_base_url }images/2012-07-19-photowalk-17.jpg)
   </a>
   <figcaption>Old Door</figcaption>
 </figure>
 <figure>
-  <a href="#{ site.s3.url }images/2012-07-19-photowalk-30.jpg" rel="lightbox[walk]" title="Yellow/White Walls">
-  ![Yellow/White Walls](#{ site.s3.url }images/2012-07-19-photowalk-30.jpg)
+  <a href="#{ site.img_base_url }images/2012-07-19-photowalk-30.jpg" rel="lightbox[walk]" title="Yellow/White Walls">
+  ![Yellow/White Walls](#{ site.img_base_url }images/2012-07-19-photowalk-30.jpg)
   </a>
   <figcaption>Yellow/White Walls</figcaption>
 </figure>
 <figure>
-  <a href="#{ site.s3.url }images/2012-07-19-photowalk-36.jpg" rel="lightbox[walk]" title="City Lights in the River">
-  ![City Lights in the River](#{ site.s3.url }images/2012-07-19-photowalk-36.jpg)
+  <a href="#{ site.img_base_url }images/2012-07-19-photowalk-36.jpg" rel="lightbox[walk]" title="City Lights in the River">
+  ![City Lights in the River](#{ site.img_base_url }images/2012-07-19-photowalk-36.jpg)
   </a>
   <figcaption>City Lights in the River</figcaption>
 </figure>
 <figure>
-  <a href="#{ site.s3.url }images/2012-07-19-photowalk-42.jpg" rel="lightbox[walk]" title="Tribunal">
-  ![Tribunal](#{ site.s3.url }images/2012-07-19-photowalk-42.jpg)
+  <a href="#{ site.img_base_url }images/2012-07-19-photowalk-42.jpg" rel="lightbox[walk]" title="Tribunal">
+  ![Tribunal](#{ site.img_base_url }images/2012-07-19-photowalk-42.jpg)
   </a>
   <figcaption>Tribunal</figcaption>
 </figure>
 <figure class="portrait">
-  <a href="#{ site.s3.url }images/2012-07-19-photowalk-68.jpg" rel="lightbox[walk]" title="Trekkie Knob">
-  ![Trekkie Knob](#{ site.s3.url }images/2012-07-19-photowalk-68.jpg)
+  <a href="#{ site.img_base_url }images/2012-07-19-photowalk-68.jpg" rel="lightbox[walk]" title="Trekkie Knob">
+  ![Trekkie Knob](#{ site.img_base_url }images/2012-07-19-photowalk-68.jpg)
   </a>
   <figcaption>Trekkie Knob<a id="fnr1-2012-07-20" href="#fn1-2012-07-20"><sup>1</sup></a></figcaption>
 </figure>
