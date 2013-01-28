@@ -4,8 +4,7 @@ require 'time'
 
 CONFIG = {
   'posts' => 'weblog/',
-  'post_ext' => 'md',
-  's3_url' => 's3://jmesnil.net/'
+  'post_ext' => 'md'
 }
 
 task :default => :build
@@ -15,14 +14,14 @@ task :dev => :check do
   system "awestruct --dev"
 end
 
-desc "Build the site"
-task :build => :check do
-  system "awestruct -P production --force"
+desc "Build the site and deploy to S3"
+task :production do
+  system "awestruct -P production --deploy"
 end
 
-desc "Build the site and publish to S3"
-task :s3 => :build do
-  system "s3cmd sync _site/ #{CONFIG['s3_url']}"
+desc "Build the site and deploy to S3 staging"
+task :staging do
+  system "awestruct -P staging --deploy"
 end
  
 task :check do

@@ -8,3 +8,13 @@ author :
 base_url: http://jmesnil.net/
 
 google_analytics: UA-257783-1
+
+profiles:
+  staging:
+    deploy:
+      type: s3
+      url: s3://staging.jmesnil.net/
+  production:
+    deploy:
+      type: s3
+      url: s3://jmesnil.net/

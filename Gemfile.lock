@@ -72,6 +72,7 @@ GEM
     ref (1.0.2)
     rest-client (1.6.7)
       mime-types (>= 1.16)
+    ruby-s3cmd (0.1.5)
     rubypants (0.2.0)
     sass (3.1.21)
     therubyracer (0.11.3)
@@ -91,4 +92,5 @@ DEPENDENCIES
   awestruct
   rake
   rb-fsevent
+  ruby-s3cmd
   therubyracer
