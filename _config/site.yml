@@ -15,8 +15,8 @@ profiles:
   staging:
     deploy:
       type: s3
-      url: s3://staging.jmesnil.net/
+      bucket: s3://staging.jmesnil.net/
   production:
     deploy:
       type: s3
-      url: s3://jmesnil.net/
+      bucket: s3://jmesnil.net/
