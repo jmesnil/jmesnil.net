@@ -123,13 +123,13 @@ a:hover {
 }
 
 a.link {
-  font-size: 66%;
+  font-size: 0.85em;
   font-weight: bold;
   color: #9d1e1e;
 }
 
 a.plink {
-  font-size: 66%;
+  font-size: 0.85em;
   text-decoration: none;
   border-bottom: 1px dotted firebrick;
   color: firebrick;
