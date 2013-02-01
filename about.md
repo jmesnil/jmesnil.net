@@ -19,8 +19,18 @@ If you want to contact me, you can send me an email at <a href="mailto:jmesnil@g
 
 __The opinions expressed on this web site are my own, and neither my employer nor any other party necessarily agrees with them.__
 
+## Follow
+
+My web site has an Atom feed that contains the full content of all the posts I publish:
+
+* [Full feed](/weblog/feed/atom/)
+
+You can follow me on some social networks:
+
+* Twitter as [@jmesnil  ](https://twitter.com/jmesnil)
+* [Github](https://github.com/jmesnil/)
+* [Google+](https://plus.google.com/117122508030998403906)
+
 ## jmesnil.net ##
 
 I created [this web site](http://jmesnil.net) in May 2004. Since then, I have posted articles on my [weblog](/weblog/) about all things that interests me, mainly software design and development and photography.
-
-To keep up with the blog posts and links, you can subscribe to an [Atom feed](/weblog/feed/atom/) which includes the full content of all posts.

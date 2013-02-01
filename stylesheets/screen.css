@@ -111,6 +111,21 @@ body {
   color: #444;
 }
 
+ul li {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+ol li {
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+
+ul.compact li {
+  list-style-type: none;
+}
+
+
 /* BEGIN links */
 
 a {
@@ -359,27 +374,20 @@ article {
   margin-bottom: 2em;
 }
 
-article ul li {
-list-style-type: disc;
-list-style-position: inside;
-}
-
-article ol li {
-list-style-type: decimal;
-list-style-position: inside;
-}
-
 /* END article */
 
 /* BEGIN nav */
 
-nav.prev-next ul{
-  max-width: 768px;
+nav.prev-next ul {
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
   display: block;
   text-align: center;
 }
 
+nav.prev-next ul li {
+  list-style-type: none;
+}
 /* END nav */
 
