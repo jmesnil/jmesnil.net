@@ -279,7 +279,8 @@ footer #colophon {
 figure {
   max-width: 900px;
   margin-left: auto;
-  margin-right: auto;  
+  margin-right: auto;
+  margin-bottom: 1.5em;
 }
 
 figure.portrait{
@@ -311,6 +312,7 @@ video {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 1.5em;
 }
 
 .video {
