@@ -6,6 +6,8 @@ author :
   twitter : jmesnil
 
 img_base_url: http://media.jmesnil.net/
+# replace by / to test with local assets
+assets_url: http://media.jmesnil.net/
 
 base_url: http://jmesnil.net/
 
