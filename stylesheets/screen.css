@@ -1,0 +1,396 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* end of reset.css */
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin: 0 0 1.5em 1em;
+  text-align: justify;
+}
+
+hr {
+  color: #DDD;  
+}
+
+blockquote {
+  font-size: 0.875em;
+  margin: 1em 3em;
+  color: #777;
+  border-left: 4px solid #DDD;
+  padding-left: 1em;   
+}
+ 
+pre {
+  margin: 1em 0 1.5em 0;
+  line-height: 1.5em;
+  border: 1px solid #ddc;
+  padding: 0;
+  overflow: hidden;
+  box-shadow: 1px 1px 6px #ccc;
+  -webkit-box-shadow: 1px 1px 6px #ccc;
+  -moz-box-shadow: 1px 1px 6px #ccc;
+}
+
+pre:hover {
+  overflow: visible;
+  border-right: 1px solid whiteSmoke;
+  box-shadow: none;
+}
+ 
+code {
+  font-size: 0.875em;
+  background-color: #DDD;
+  font-family: 'Inconsolata', monospace, sans-serif;
+}
+ 
+strong, b {
+  font-weight: bold;
+}
+
+em, i {
+  font-style: italic;
+}
+ 
+sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+
+body {
+  padding: 1.5em 1.25em 2em 1.25em;
+  background-color: whiteSmoke;
+  font-family: Cantarell, sans-serif;
+  font-size: 16px;
+  color: #444;
+}
+
+ul li {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+ol li {
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+
+ul.compact li {
+  list-style-type: none;
+}
+
+/* BEGIN links */
+
+a {
+  text-decoration: none;
+  color: #59708C;
+}
+
+a:hover { 
+  text-decoration: underline;
+}
+
+a.link {
+  font-size: 0.85em;
+  font-weight: bold;
+  color: #9d1e1e;
+}
+
+a.plink {
+  font-size: 0.85em;
+  text-decoration: none;
+  border-bottom: 1px dotted firebrick;
+  color: firebrick;
+  vertical-align:center;
+}
+
+/* END links */
+
+/* BEGIN header & footer */
+
+header, footer {
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	font-variant: small-caps;
+  color: silver;
+  display: block;
+}
+
+header a, footer a { 
+  color: silver;
+  text-decoration: none;
+}
+
+header a:hover {
+	color: #59708C;
+}
+
+header {
+  text-align: center;
+	margin-top: 1em;
+	margin-bottom: 2em;
+}
+
+header h1 {
+	margin-bottom: 0.2em;
+	font-weight: normal;
+  font-size:2em;
+}
+
+header ul {
+  font-size: 0.85em;
+}
+
+header ul::after {
+  content: "| ";
+}
+
+header li::before {
+  margin-right: 0.25em;
+  content: "| ";
+}
+
+header li { 
+  display: inline;
+  padding: 0 0.3em 0 0.3em;
+}
+
+footer {
+  margin-top: 0;
+}
+
+footer #colophon {
+	position: absolute;
+	text-align: right;
+	display: block;
+  top: 0;
+	right: 0;
+	margin: 0;
+	width: 50%;
+}
+
+/* END header & footer */
+
+/* BEGIN #page */
+#page ol, #page hr, #page ul, #page dl, #page blockquote, #page pre, #page p {
+  margin-bottom: 1em;
+  line-height: 1.6em;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#page ul, #page ol {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  line-height: 1.5em;
+  padding-left: 1.5em;
+}
+
+#page h1 {
+  font-size: 1.5em;
+  font-variant: small-caps;
+  text-align: center;
+  color: #59708C;
+  max-width: 800px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#page h1 a {
+  text-decoration: none;
+}
+
+#page h2 {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.5em;
+  font-variant: small-caps;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+#page h3 {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+/* END #page */
+
+/* BEGIN .centered */
+
+.centered {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  text-align:center ;
+}
+
+.centered > * {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* END .centered */
+
+/* BEGIN media */
+
+figure {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.5em;
+}
+
+figure.portrait{
+  max-width: 596px;
+}
+
+figure img {
+  margin-left: auto;
+  margin-right: auto;  
+  width: 100%;
+  border: 1px solid #ddc;
+  box-shadow: 1px 1px 6px #ccc;
+  -webkit-box-shadow: 1px 1px 6px #ccc;
+  -moz-box-shadow: 1px 1px 6px #ccc;
+}
+
+figcaption {
+  display: block;
+  text-align: right;
+  font-size: 0.8em;
+  color: #AAA;
+}
+
+video {
+  max-width: 100%;
+}
+
+.video-wrapper {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.5em;
+}
+
+.video {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+.video iframe,  
+.video object,  
+.video embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* END media */
+
+/* BEGIN date */
+
+.date {
+  color: silver;
+  font-size: 87.5%;
+  font-variant: small-caps;
+  margin-bottom: 1.5em;
+}
+
+li .date {
+  display: inline;
+} 
+
+/* END date */
+
+/* BEGIN article */
+
+article .date {
+  text-align: center;
+}
+
+article {
+  margin-bottom: 2em;
+}
+
+/* END article */
+
+/* BEGIN nav */
+
+nav.prev-next ul {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+}
+
+nav.prev-next ul li {
+  list-style-type: none;
+}
+/* END nav */
+
