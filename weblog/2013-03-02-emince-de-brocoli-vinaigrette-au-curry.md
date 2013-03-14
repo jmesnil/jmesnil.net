@@ -16,11 +16,9 @@ tags:
 <div data-src="#{ site.img_base_url }images/2013-03-02-brocoli-29-900w.jpg" data-media="(min-width: 768px)"></div>
 <div data-src="#{ site.img_base_url }images/2013-03-02-brocoli-29-1800w.jpg" data-media="(min-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5),(min-width: 768px) and (-moz-min-device-pixel-ratio: 1.5),(min-width: 768px) and (-o-min-device-pixel-ratio: 3/2)"></div>
 <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
-<noscript>
-<img src="#{ site.img_base_url }images/2013-03-02-brocoli-29-900w.jpg" alt="Eminc&eacute; de Brocoli, Vinaigrette de Curry">
-</noscript>
+<noscript><img src="#{ site.img_base_url }images/2013-03-02-brocoli-29-900w.jpg" alt="Eminc&eacute; de Brocoli, Vinaigrette de Curry"></noscript>
 </div>
-<div class="metadata"><i class="icon-camera"></i> <i>&#402;</i>/4 @ 1/2.5 ISO 250</div>
+<span class="metadata"><i class="icon-camera"></i> <i>&#402;</i>/4 @ 1/2.5 ISO 250</span>
 <figcaption>Eminc&eacute; de Brocoli, Vinaigrette de Curry &copy; #{ site.author.name }</figcaption>
 </figure>
 
