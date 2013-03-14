@@ -15,21 +15,21 @@ title: About
 
 I'm <span itemprop="name">Jean-Frederic Mesnil</span> (everybody calls me <span itemprop="nickname">Jeff</span>). I am a <span itemprop="title">professional software _touche-&agrave;-tout_</span>, amateur photographer and this is my <a href="http://jmesnil.net/" itemprop="url">personal website</a>. Be my guest and enjoy your stay.
 
-If you want to contact me, you can send me an email at <a href="mailto:jmesnil@gmail.com" itemprop="url">jmesnil@gmail.com</a> or on Twitter at [@jmesnil](https://twitter.com/jmesnil).
-
 __The opinions expressed on this web site are my own, and neither my employer nor any other party necessarily agrees with them.__
 
-## Follow
+If you want to contact me, you can send me an email:
+
+* <i class="icon-envelope-alt icon-large"></i>&nbsp;<a href="mailto:jmesnil@gmail.com" itemprop="url">jmesnil@gmail.com</a>
 
 My web site has an Atom feed that contains the full content of all the posts I publish:
 
-* [Full feed](/weblog/feed/atom/)
+* <i class="icon-rss icon-large"></i>&nbsp;[Full feed](/weblog/feed/atom/)
 
 You can follow me on some social networks:
 
-* Twitter as [@jmesnil  ](https://twitter.com/jmesnil)
-* [Github](https://github.com/jmesnil/)
-* [Google+](https://plus.google.com/117122508030998403906)
+* <i class="icon-twitter icon-large"></i>&nbsp;Twitter as [@jmesnil  ](https://twitter.com/jmesnil)
+* <i class="icon-github icon-large"></i>&nbsp;[Github](https://github.com/jmesnil/)
+* <i class="icon-google-plus icon-large"></i>&nbsp;[Google+](https://plus.google.com/117122508030998403906)
 
 ## jmesnil.net ##
 
