@@ -3,6 +3,7 @@ layout: base
 title: Weblog
 ---
 
+<div class="mardown-wrapper">
 <figure><div class="img" data-picture data-alt="Bonneval sur Arc, Savoie">
 <div data-src="#{ site.img_base_url }images/HP-320w.jpg"></div>
 <div data-src="#{ site.img_base_url }images/HP-480w.jpg" data-media="(min-width: 320px)"></div>
@@ -17,8 +18,11 @@ title: Weblog
 <img src="#{ site.img_base_url }images/HP-900w.jpg" alt="Bonneval sur Arc, Savoie">
 </noscript>
 </div>
-<span class="metadata"><i class="icon-camera"></i> <i>&#402;</i>/8 @ 1/125 ISO 100</span>
-<figcaption>Bonneval sur Arc, Savoie &copy; Jeff Mesnil</figcaption>
+<figcaption>Bonneval sur Arc, Savoie
+  <span class="copyright">&copy;&nbsp;#{ site.author.name }</span>
+</figcaption>
+<div class="metadata"><i class="icon-camera"></i> <i>&#402;</i>/8 @ 1/125 ISO 100</div>
 </figure>
+</div>
 
 <br>

@@ -7,7 +7,7 @@ tags:
 - photo
 ---
 
-
+<div class="markdown-wrapper">
 <figure><div class="img" data-picture data-alt="Eminc&eacute; de Brocoli, Vinaigrette de Curry">
 <div data-src="#{ site.img_base_url }images/2013-03-02-brocoli-29-480w.jpg"></div>
 <div data-src="#{ site.img_base_url }images/2013-03-02-brocoli-29-960w.jpg" data-media="(-webkit-min-device-pixel-ratio: 1.5),(-moz-min-device-pixel-ratio: 1.5),(-o-min-device-pixel-ratio: 3/2)"></div>
@@ -18,9 +18,12 @@ tags:
 <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
 <noscript><img src="#{ site.img_base_url }images/2013-03-02-brocoli-29-900w.jpg" alt="Eminc&eacute; de Brocoli, Vinaigrette de Curry"></noscript>
 </div>
-<span class="metadata"><i class="icon-camera"></i> <i>&#402;</i>/4 @ 1/2.5 ISO 250</span>
-<figcaption>Eminc&eacute; de Brocoli, Vinaigrette de Curry &copy; #{ site.author.name }</figcaption>
+<figcaption>Eminc&eacute; de Brocoli, Vinaigrette de Curry
+   <span class="copyright">&copy; #{ site.author.name }</span>
+</figcaption>
+<div class="metadata"><i class="icon-camera"></i> <i>&#402;</i>/4 @ 1/2.5 ISO 250</div>
 </figure>
+</div>
 
 Food photography is fun.
 
