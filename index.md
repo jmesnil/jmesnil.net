@@ -19,7 +19,7 @@ title: Weblog
 </noscript>
 </div>
 <figcaption>Bonneval sur Arc, Savoie
-  <span class="copyright">&copy;&nbsp;#{ site.author.name }</span>
+  <span class="copyright">&copy;&nbsp;#{ site.author.name.sub " ", "&nbsp;" }</span>
 </figcaption>
 <div class="metadata"><i class="icon-camera"></i> <i>&#402;</i>/8 @ 1/125 ISO 100</div>
 </figure>

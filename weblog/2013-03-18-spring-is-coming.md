@@ -26,7 +26,7 @@ A local artist created a huge leprechaun representing the winter.
 </noscript>
 </div>
 <figcaption>Leprechaun &mdash; Printemps de Gi&egrave;res
-  <span class="copyright">&copy; #{ site.author.name }</span>
+  <span class="copyright">&copy;&nbsp;#{ site.author.name.sub " ", "&nbsp;" }</span>
 </figcaption>
 <div class="metadata"><i class="icon-camera"></i> <i>&#402;</i>/2 @ 1/100 ISO 800</div>
 </figure>
@@ -49,7 +49,7 @@ Their make-up was very well made, they looked half-elves half-daemons.
 </noscript>
 </div>
 <figcaption>Les Lutins Farceurs &mdash; Printemps de Gi&egrave;res
-  <span class="copyright">&copy; #{ site.author.name }</span>
+  <span class="copyright">&copy;&nbsp;#{ site.author.name.sub " ", "&nbsp;" }</span>
 </figcaption>
 <div class="metadata"><i class="icon-camera"></i> <i>&#402;</i>/2.8 @ 1/1250 ISO 1600</div>
 </figure>
@@ -71,7 +71,7 @@ Kids were both frightened and in amazement looking at them, especially when they
 </noscript>
 </div>
 <figcaption>Les Lutins Farceurs &mdash; Printemps de Gi&egrave;res
-   <span class="copyright">&copy; #{ site.author.name }</span>
+  <span class="copyright">&copy;&nbsp;#{ site.author.name.sub " ", "&nbsp;" }</span>
 </figcaption>
 <div class="metadata"><i class="icon-camera"></i> <i>&#402;</i>/4 @ 1/125 ISO 1600</div>
 </figure>
@@ -91,7 +91,7 @@ Kids were both frightened and in amazement looking at them, especially when they
 </noscript>
 </div>
 <figcaption>Les Lutins Farceurs &mdash; Printemps de Gi&egrave;res
-   <span class="copyright">&copy; #{ site.author.name }</span>
+  <span class="copyright">&copy;&nbsp;#{ site.author.name.sub " ", "&nbsp;" }</span>
 </figcaption>
 <div class="metadata"><i class="icon-camera"></i> <i>&#402;</i>/1.8 @ 1/125 ISO 1600</div>
 </figure>
@@ -111,7 +111,7 @@ Kids were both frightened and in amazement looking at them, especially when they
 </noscript>
 </div>
 <figcaption>Les Lutins Farceurs &mdash; Printemps de Gi&egrave;res
-   <span class="copyright">&copy; #{ site.author.name }</span>
+  <span class="copyright">&copy;&nbsp;#{ site.author.name.sub " ", "&nbsp;" }</span>
 </figcaption>
 <div class="metadata"><i class="icon-camera"></i> <i>&#402;</i>/1.8 @ 1/1000 ISO 1600</div>
 </figure>
@@ -133,7 +133,7 @@ Once the Lutins Farceurs ended their representation, the Leprechaun was burnt to
 </noscript>
 </div>
 <figcaption>Burnt Leprechaun &mdash; Printemps de Gi&egrave;res
-   <span class="copyright">&copy; #{ site.author.name }</span>
+  <span class="copyright">&copy;&nbsp;#{ site.author.name.sub " ", "&nbsp;" }</span>
 </figcaption>
 <div class="metadata"><i class="icon-camera"></i> <i>&#402;</i>/2.8 @ 1/160 ISO 1000</div>
 </figure>

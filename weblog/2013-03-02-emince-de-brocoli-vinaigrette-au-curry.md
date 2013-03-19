@@ -19,7 +19,7 @@ tags:
 <noscript><img src="#{ site.img_base_url }images/2013-03-02-brocoli-29-900w.jpg" alt="Eminc&eacute; de Brocoli, Vinaigrette de Curry"></noscript>
 </div>
 <figcaption>Eminc&eacute; de Brocoli, Vinaigrette de Curry
-   <span class="copyright">&copy; #{ site.author.name }</span>
+  <span class="copyright">&copy;&nbsp;#{ site.author.name.sub " ", "&nbsp;" }</span>
 </figcaption>
 <div class="metadata"><i class="icon-camera"></i> <i>&#402;</i>/4 @ 1/2.5 ISO 250</div>
 </figure>
