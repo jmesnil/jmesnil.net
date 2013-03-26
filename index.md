@@ -18,10 +18,16 @@ title: Weblog
 <img src="#{ site.img_base_url }images/HP-900w.jpg" alt="Bonneval sur Arc, Savoie">
 </noscript>
 </div>
-<figcaption>Bonneval sur Arc, Savoie
+<figcaption>
+  <a href="http://goo.gl/maps/RCvyA"><i class="icon-map-marker"></i></a>&nbsp;Bonneval sur Arc, Savoie
   <span class="copyright">&copy;&nbsp;#{ site.author.name.sub " ", "&nbsp;" }</span>
 </figcaption>
-<div class="metadata"><i class="icon-camera"></i> <i>&#402;</i>/8 @ 1/125 ISO 100</div>
+<div class="metadata">
+  <i class="icon-camera"></i>
+  <span class="speed">1/125</span>
+  <span class="aperture"><i>&#402;</i>/8</span>
+  <span class="iso">ISO&nbsp;100</span>
+</div>
 </figure>
 </div>
 

@@ -299,6 +299,8 @@ figure {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1.5em;
+  font-size: 0.8em;
+  color: #AAA;
 }
 
 figure.portrait{
@@ -315,11 +317,24 @@ figure img {
   -moz-box-shadow: 1px 1px 6px #ccc;
 }
 
+figure .metadata {
+  text-align:right;
+}
+
+figure .metadata .aperture,
+figure .metadata .speed,
+figure .metadata .iso,
+figure .metadata .focal-length {
+  padding: 1px 3px;
+  border: 1px solid #ddc;
+  border-radius: 3px;
+  margin-left: 3px;
+}
+
 figcaption {
-  display: block;
   text-align: right;
-  font-size: 0.8em;
-  color: #AAA;
+  display: block;
+  margin-bottom: 0.5em;
 }
 
 video {
