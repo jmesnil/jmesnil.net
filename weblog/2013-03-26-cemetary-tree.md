@@ -25,7 +25,7 @@ The cemetary near the church was deserted, most graves were moved to a more rece
 <img src="#{ site.img_base_url }images/2013-03-23-Cemetary Tree-900w.jpg" alt="Cemetary Tree">
 </noscript>
 </div>
-<figcaption><a href="http://goo.gl/maps/eHNLr"><i class="icon-map-marker"></i></a>&nbsp; Cemetary Tree
+<figcaption><a href="http://goo.gl/maps/eHNLr"><i class="icon-map-marker"></i></a>&nbsp;Cemetary Tree
   <span class="copyright">&copy;&nbsp;#{ site.author.name.sub " ", "&nbsp;" }</span>
 </figcaption>
 <div class="metadata">
