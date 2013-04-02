@@ -1,7 +1,7 @@
 source :rubygems
 
-gem 'awestruct'
-gem 'therubyracer'
+gem 'awestruct', "~> 0.5.0"
+# Markdown support
+gem 'rdiscount'
+gem 'rb-fsevent', '~> 0.9'
 gem 'rake'
-gem 'rb-fsevent'
-gem 'ruby-s3cmd'

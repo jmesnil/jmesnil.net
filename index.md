@@ -30,5 +30,3 @@ title: Weblog
 </div>
 </figure>
 </div>
-
-<br>
