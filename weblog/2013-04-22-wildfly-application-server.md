@@ -9,9 +9,11 @@ link: http://wildfly.org
 
 After a long wait, it was announced at [JUDcon Brazil][judcon] that the JBoss Application Server has been renamed and is now [WildFly][wildfly]<a id="fnr1-2013-04-22" href="#fn1-2013-04-22"><sup>1</sup></a>.
 
-<a class="centered" href="http://wildfly.org">
-  <img src="http://www.wildfly.org/images/splash_wildflylogo.png" width="800" title="WildFly Application Server">
+<div class="centered" style="max-width: 800px">
+<a href="http://wildfly.org">
+  <img style="width: 100%;" src="http://www.wildfly.org/images/splash_wildflylogo.png" title="WildFly Application Server">
 </a>
+</div>
 
 Onwards with WildFly!
 
