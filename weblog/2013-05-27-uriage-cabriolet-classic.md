@@ -143,7 +143,7 @@ This gathering is an opportunity to appreciate all the shapes and colours of car
 </figure>
 </div>
 
-We were lucky having a beautiful weather for the gathering and enjoyed the familal atmosphere.
+We were lucky having a beautiful weather for the gathering and enjoyed the familial atmosphere.
 
 <div class="markdown-wrapper">
 <figure><div class="img" data-picture data-alt="Blue child &amp; car">
