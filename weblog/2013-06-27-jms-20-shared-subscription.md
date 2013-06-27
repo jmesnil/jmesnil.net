@@ -96,7 +96,7 @@ We can now create many shared consumers with the shared subscription name `<< su
 
 Among the shared consumers CB1, CB2 and CB3, only CB2 received the message sent to the topic.
 
-* all our consumers are directly consuming from the topics
+* all our consumers are directly consuming from the topic
 * there are no additional resources to configure or administrate on the server
 
 The JMS 2.0 API adds new methods to [create *shared consumer*][javadoc]:
