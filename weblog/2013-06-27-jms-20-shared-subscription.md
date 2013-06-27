@@ -7,7 +7,7 @@ tags:
 - jms
 ---
 
-JMS 2.0 has been released and I plan to write a few articles about it.
+JMS 2.0 has been released a few weeks ago. We are working hard to support it in [HornetQ][hornetq] and [WildFly](http://wildfly.org) and I plan to write a few articles about it.
 
 The main features are described on Oracle Web site in [What's New in JMS 2.0, Part One: Ease of Use][new-part-one] and [Part Two: New Messaging Features][new-part-two].
 
