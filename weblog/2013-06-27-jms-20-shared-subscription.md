@@ -17,8 +17,7 @@ Let's assume you are using a topic to send messages. There are several component
 
 When a message `M` is sent to the topic, all consumers subscribed to the topic receive it:
 
-<pre><code class="no-highlight">
-                                   M   +--------------+
+<pre><code class="no-highlight">                                   M   +--------------+
                                   ---> | consumer CA1 |  < a consumer for the job A >
     +----------+  M   +-------+ /      +--------------+
     | producer | ---> | topic |   
@@ -45,8 +44,7 @@ We use a divert to *route* the messages sent to the topic to another *queue* (le
 
 We can then create as many consumers we want for `Queue_B`. Since this destination is a queue, only one of them will receive a message that was initially sent to the topic:
 
-<pre><code class="no-highlight">
-                                   M   +--------------+
+<pre><code class="no-highlight">                                   M   +--------------+
                                   ---> | consumer CA1 |
     +----------+  M   +-------+ /      +--------------+
     | producer | ---> | topic |  
@@ -79,8 +77,7 @@ The basic idea behing sharing a subscription is to have a set of consumers (iden
 That solves all the issues we originally had in a standard fashion.
 We can now create many shared consumers with the shared subscription name `<< sub B >>` to have them process messages for the job B and scale out nicely:
 
-<pre><code class="no-highlight">
-                                            M         +--------------+
+<pre><code class="no-highlight">                                            M         +--------------+
                                     ----------------> | consumer CA1 |
                                   /                   +--------------+
                                  /                    +--------------+
@@ -101,15 +98,13 @@ Among the shared consumers CB1, CB2 and CB3, only CB2 received the message sent 
 
 The JMS 2.0 API adds new methods to [create *shared consumer*][javadoc]:
 
-<pre><code class="java">
-    JMSContext.createSharedConsumer(Topic topic, String sharedSubscriptionName)
+<pre><code class="java">    JMSContext.createSharedConsumer(Topic topic, String sharedSubscriptionName)
     JMSContext.createSharedConsumer(Topic topic, String sharedSubscriptionName, String messageSelector)
 </code></pre>
 
 It is also possible to create *shared durable consumers*:
 
-<pre><code class="java">
-    JMSContext.createSharedDurableConsumer(Topic topic, String name)
+<pre><code class="java">    JMSContext.createSharedDurableConsumer(Topic topic, String name)
     JMSContext.createSharedDurableConsumer(Topic topic, String name, String messageSelector)
 </code></pre>
 
