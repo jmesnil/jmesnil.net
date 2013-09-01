@@ -89,7 +89,7 @@ article h1 {
   margin-bottom: 0;
 }
 
-h1 {
+h1, h2, h3{
   font-variant: small-caps;
 }
 
@@ -100,13 +100,13 @@ h1 a {
 a.link {
   font-size: 0.85em;
   font-weight: bold;
-  color: firebrick;
+  color: #9D1E1E;
 }
 
 a.plink {
   text-decoration: none;
   border-bottom: 1px dotted firebrick;
-  color: firebrick;
+  color: #9D1E1E;
 }
 
 header, footer {
@@ -135,4 +135,13 @@ header li::before {
 footer {
   margin-bottom: 1.5em;
   font-variant: small-caps;
+}
+
+pre {
+  padding: 0;
+}
+
+blockquote p {
+  font-size: 1em;
+  color: #777;
 }

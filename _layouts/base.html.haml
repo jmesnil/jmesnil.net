@@ -33,10 +33,13 @@
         %nav
           %ul.list-inline
             %li
+              &nbsp;
               %a{ :href=>'/weblog/' } Weblog
             %li
+              &nbsp;
               %a{ :href=>'/about/' } About
             %li
+              &nbsp;
               %a{ :href=>'/weblog/archive/' } Archive
 
       .row
@@ -51,6 +54,7 @@
               %a.text-muted{ :href=>'/about/' }= site.author.name
             .pull-right
               %a.text-muted{ :href=>'/colophon/' } Colophon
+            &nbsp;
 
     %script{ :src=>"#{ site.assets_url }scripts/jquery-1.7.2.min.js" }
     %script{ :src=>"/scripts/bootstrap.js" }
