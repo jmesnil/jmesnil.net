@@ -2,7 +2,7 @@
 ---
 
 %article
-  %h1
+  %h1.text-center
     - if page.post.link
       %a.link{ :href=>page.post.link }= "#{site.linked_list.link } #{ page.post.title }&nbsp;"
       %a.plink{ :rel=>'bookmark', :title=>"Permanent link to #{ page.post.title }", :href=>page.post.url }= site.linked_list.post

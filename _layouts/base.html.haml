@@ -15,7 +15,8 @@
     %link{ :rel=>'stylesheet', :href=>'http://fonts.googleapis.com/css?family=Cantarell' }
     %link{ :rel=>'stylesheet', :href=>'http://fonts.googleapis.com/css?family=Inconsolata' }
     
-    %link{ :rel=>'stylesheet', :href=>"#{ site.assets_url }stylesheets/screen.css", :media=>'screen, projection' }
+    %link{ :rel=>'stylesheet', :href=>"/stylesheets/bootstrap.css", :media=>'screen, projection' }
+    %link{ :rel=>'stylesheet', :href=>"/stylesheets/custom.css", :media=>'screen, projection' }
     %link{ :rel=>'stylesheet', :href=>"#{ site.assets_url }stylesheets/syntax.css", :media=>'screen, projection' }
     %link{ :rel=>'stylesheet', :href=>"#{ site.assets_url }stylesheets/lightbox.css", :media=>'screen, projection' }
     %link{ :rel=>'stylesheet', :href=>"#{ site.assets_url }stylesheets/highlight.github.css", :media=>'screen, projection' }
@@ -25,29 +26,34 @@
     %script{ :src=>"#{ site.assets_url }scripts/matchmedia.js" }
   %body
 
-    %header>
-      %h1
-        %a{:href=>'/', :title=>site.title}= site.title
-      %nav
-        %ul
-          %li
-            %a{ :href=>'/weblog/' } Weblog
-          %li
-            %a{ :href=>'/about/' } About
-          %li
-            %a{ :href=>'/weblog/archive/' } Archive
+    .container
+      %header.text-center
+        %h1
+          %a{:href=>'/', :title=>site.title}= site.title
+        %nav
+          %ul.list-inline
+            %li
+              %a{ :href=>'/weblog/' } Weblog
+            %li
+              %a{ :href=>'/about/' } About
+            %li
+              %a{ :href=>'/weblog/archive/' } Archive
 
-    #page
-      ~ content
+      .row
+        .col-md-10.col-md-offset-1
+
+          ~ content
     
-    %footer
-      #copyright
-        %a{ :href=>'http://creativecommons.org/licenses/by-nc/3.0/' } &copy; 2004&mdash;2013
-        %a{ :href=>'/about/' }= site.author.name 
-      #colophon
-        %a{ :href=>'/colophon/' } Colophon
+          %hr
+          %footer
+            .pull-left
+              %a.text-muted{ :href=>'http://creativecommons.org/licenses/by-nc/3.0/' } &copy; 2004&mdash;2013
+              %a.text-muted{ :href=>'/about/' }= site.author.name
+            .pull-right
+              %a.text-muted{ :href=>'/colophon/' } Colophon
 
     %script{ :src=>"#{ site.assets_url }scripts/jquery-1.7.2.min.js" }
+    %script{ :src=>"/scripts/bootstrap.js" }
     %script{ :src=>"#{ site.assets_url }scripts/lightbox.js" }
     %script{ :src=>"#{ site.assets_url }scripts/highlight.pack.js" }
     :javascript

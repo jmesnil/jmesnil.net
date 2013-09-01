@@ -1,0 +1,138 @@
+figure {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.5em;
+  font-size: 0.8em;
+  color: silver;
+}
+
+figure.portrait{
+  max-width: 596px;
+}
+
+figure img {
+  margin-left: auto;
+  margin-right: auto;  
+  width: 100%;
+  border: 1px solid #ddc;
+  box-shadow: 1px 1px 6px #ccc;
+  -webkit-box-shadow: 1px 1px 6px #ccc;
+  -moz-box-shadow: 1px 1px 6px #ccc;
+}
+
+figure .metadata {
+  text-align:right;
+}
+
+figure .metadata .aperture,
+figure .metadata .speed,
+figure .metadata .iso,
+figure .metadata .focal-length {
+  padding: 1px 3px;
+  border: 1px solid #ddc;
+  border-radius: 3px;
+  margin-left: 3px;
+}
+
+figcaption {
+  text-align: right;
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+video {
+  max-width: 100%;
+}
+
+.video-wrapper {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.5em;
+}
+
+.video {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+.video iframe,  
+.video object,  
+.video embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.date {
+  color: silver;
+  font-size: 87.5%;
+  font-variant: small-caps;
+  margin-bottom: 1.5em;
+}
+
+li .date {
+  display: inline;
+}
+
+article .date {
+  text-align: center;
+}
+
+
+article h1 {
+  font-size: 1.5em;
+  margin-bottom: 0;
+}
+
+h1 {
+  font-variant: small-caps;
+}
+
+h1 a {
+  text-decoration: none;
+}
+
+a.link {
+  font-size: 0.85em;
+  font-weight: bold;
+  color: firebrick;
+}
+
+a.plink {
+  text-decoration: none;
+  border-bottom: 1px dotted firebrick;
+  color: firebrick;
+}
+
+header, footer {
+  color: silver;
+}
+
+header h1 {
+  font-size: 2em;
+  margin-bottom: 0;
+}
+
+header a, footer a { 
+  font-variant: small-caps;
+  color: silver;
+  text-decoration: none;
+}
+
+header ul::after {
+  content: "|";
+}
+
+header li::before {
+  content: "|";
+}
+
+footer {
+  margin-bottom: 1.5em;
+  font-variant: small-caps;
+}
