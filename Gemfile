@@ -1,6 +1,6 @@
-source :rubygems
+source 'https://rubygems.org'
 
-gem 'awestruct', "~> 0.5.0"
+gem 'awestruct'
 # Markdown support
 gem 'rdiscount'
 gem 'rb-fsevent', '~> 0.9'
