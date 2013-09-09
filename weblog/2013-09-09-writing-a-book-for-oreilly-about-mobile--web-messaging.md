@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Writing a Book for O'reilly about Mobile & Web Messaging"
+title: "Writing a Book for O'Reilly about Mobile & Web Messaging"
 date: '2013-09-09 13:39:35'
 category: 
 tags:
