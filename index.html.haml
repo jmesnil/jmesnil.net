@@ -31,25 +31,3 @@ title: Weblog
 </div>
 </figure>
 </div>
-
-.row
-
-  .col-md-6
-    %h2.text-center Latest Posts
-    %ul.list-unstyled
-      - site.posts[0,5].each do |post|
-        %li
-          %a.text-info{:href=>post.url}= post.title
-          %span.text-muted.pull-right= post.date.strftime('%B %-d, %Y')
-          %p
-            #{summarize( html_to_text( post.content ), 30 )}
-            %a.text-info{:href=>post.url}
-              %i.icon-double-angle-right
-    
-    %p
-      %a.btn.btn-default{ :href=>'/weblog/' } More Posts &raquo;
-  .col-md-6.col-sm-12
-    %h2.text-center Latest Tweets
-    .text-center
-      <a class="twitter-timeline" href="https://twitter.com/jmesnil" data-widget-id="388025708489891840">Tweets by @jmesnil</a>
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
