@@ -10,6 +10,8 @@ Thumbs.db
 
 .rbenv-version
 .rvmrc
+.ruby-gemset
+.ruby-version
 
 .bundle
 _vendor
