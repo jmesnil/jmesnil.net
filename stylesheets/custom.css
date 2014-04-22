@@ -10,14 +10,10 @@ figure.portrait{
   max-width: 596px;
 }
 
-figure img, picture {
+figure img {
   margin-left: auto;
   margin-right: auto;  
   width: 100%;
-  border: 1px solid #ddc;
-  box-shadow: 1px 1px 6px #ccc;
-  -webkit-box-shadow: 1px 1px 6px #ccc;
-  -moz-box-shadow: 1px 1px 6px #ccc;
 }
 
 figure .metadata {

@@ -10,21 +10,20 @@ I have recently bought a refurbished 15" Retina MacBook Pro. The display is stun
 
 I took the opportunity to redesign my Web site to display images at the most favorable resolution using [picturefill][picturefill] and make it more responsive so that it displays at an appropriate size on phones and tablets.
 
-<figure><div class="img" data-picture data-alt="Wedding Photos at Le Louvre, Paris">
-<div data-src="#{ site.img_base_url }images/2012-09-20-Louvre-320w.jpg"></div>
-<div data-src="#{ site.img_base_url }images/2012-09-20-Louvre-480w.jpg" data-media="(min-width: 320px)"></div>
-<div data-src="#{ site.img_base_url }images/2012-09-20-Louvre-768w.jpg" data-media="(min-width: 480px)"></div>
-<div data-src="#{ site.img_base_url }images/2012-09-20-Louvre-900w.jpg" data-media="(min-width: 768px)"></div>
-<div data-src="#{ site.img_base_url }images/2012-09-20-Louvre-640w.jpg" data-media="(-webkit-min-device-pixel-ratio: 1.5),(-moz-min-device-pixel-ratio: 1.5),(-o-min-device-pixel-ratio: 3/2)"></div>
-<div data-src="#{ site.img_base_url }images/2012-09-20-Louvre-960w.jpg" data-media="(min-width: 320px) and (-webkit-min-device-pixel-ratio: 1.5),(min-width: 320px) and (-moz-min-device-pixel-ratio: 1.5),(min-width: 320px) and (-o-min-device-pixel-ratio: 3/2)"></div>
-<div data-src="#{ site.img_base_url }images/2012-09-20-Louvre-1536w.jpg" data-media="(min-width: 480px) and (-webkit-min-device-pixel-ratio: 1.5),(min-width: 480px) and (-moz-min-device-pixel-ratio: 1.5),(min-width: 480px) and (-o-min-device-pixel-ratio: 3/2)"></div>
-<div data-src="#{ site.img_base_url }images/2012-09-20-Louvre.jpg" data-media="(min-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5),(min-width: 768px) and (-moz-min-device-pixel-ratio: 1.5),(min-width: 768px) and (-o-min-device-pixel-ratio: 3/2)"></div>
-<!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+<figure>
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="#{ site.img_base_url }images/2012-09-20-Louvre-900w.jpg, #{ site.img_base_url }images/2012-09-20-Louvre.jpg 2x" media="(min-width: 768px)">
+  <source srcset="#{ site.img_base_url }images/2012-09-20-Louvre-480w.jpg, #{ site.img_base_url }images/2012-09-20-Louvre-960w.jpg 2x"> 
+  <!--[if IE 9]></video><![endif]--> 
+  <img srcset="#{ site.img_base_url }images/2012-09-20-Louvre-480w.jpg, #{ site.img_base_url }images/2012-09-20-Louvre-960w.jpg 2x" alt="Wedding Photos at Le Louvre, Paris">
+</picture>
 <noscript>
-<img src="#{ site.img_base_url }images/2012-09-20-Louvre-900w.jpg" alt="Wedding Photos at Le Louvre, Paris">
+  <img src="#{ site.img_base_url }images/2012-09-20-Louvre-480w.jpg" alt="Wedding Photos at Le Louvre, Paris">
 </noscript>
-</div>
-<figcaption>Wedding Photos at Le Louvre, Paris &copy; Jeff Mesnil</figcaption>
+<figcaption>Wedding Photos at Le Louvre, Paris
+  <span class="copyright">&copy;&nbsp;#{ site.author.name.sub " ", "&nbsp;" }</span>
+</figcaption>
 </figure>
 
 I did not update older photos but starting from now, I'll provide responsive images. Using multiple export settings in Lightroom and a TextMate snippet to generate the corresponding HTML code does not weighten my workflow too much.

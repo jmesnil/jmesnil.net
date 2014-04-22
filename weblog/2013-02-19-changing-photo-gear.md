@@ -9,22 +9,22 @@ tags:
 
 My girlfriend and I went to Paris for the week-end and I carried my photo gear for 2 days for a grand total of 20 pictures.
 
-<figure class="portrait"><div class="img" data-picture data-alt="Effeil Tower">
-<div data-src="#{ site.img_base_url }images/2013-02-16-Week-end-Paris-23-320w.jpg"></div>
-<div data-src="#{ site.img_base_url }images/2013-02-16-Week-end-Paris-23-480w.jpg" data-media="(min-width: 320px)"></div>
-<div data-src="#{ site.img_base_url }images/2013-02-16-Week-end-Paris-23-768w.jpg" data-media="(min-width: 480px)"></div>
-<div data-src="#{ site.img_base_url }images/2013-02-16-Week-end-Paris-23-900w.jpg" data-media="(min-width: 768px)"></div>
-<div data-src="#{ site.img_base_url }images/2013-02-16-Week-end-Paris-23-640w.jpg" data-media="(-webkit-min-device-pixel-ratio: 1.5),(-moz-min-device-pixel-ratio: 1.5),(-o-min-device-pixel-ratio: 3/2)"></div>
-<div data-src="#{ site.img_base_url }images/2013-02-16-Week-end-Paris-23-960w.jpg" data-media="(min-width: 320px) and (-webkit-min-device-pixel-ratio: 1.5),(min-width: 320px) and (-moz-min-device-pixel-ratio: 1.5),(min-width: 320px) and (-o-min-device-pixel-ratio: 3/2)"></div>
-<div data-src="#{ site.img_base_url }images/2013-02-16-Week-end-Paris-23-1536w.jpg" data-media="(min-width: 480px) and (-webkit-min-device-pixel-ratio: 1.5),(min-width: 480px) and (-moz-min-device-pixel-ratio: 1.5),(min-width: 480px) and (-o-min-device-pixel-ratio: 3/2)"></div>
-<div data-src="#{ site.img_base_url }images/2013-02-16-Week-end-Paris-23.jpg" data-media="(min-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5),(min-width: 768px) and (-moz-min-device-pixel-ratio: 1.5),(min-width: 768px) and (-o-min-device-pixel-ratio: 3/2)"></div>
-<!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+<figure class="portrait">
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="#{ site.img_base_url }images/2013-02-16-Week-end-Paris-23-900w.jpg, #{ site.img_base_url }images/2013-02-16-Week-end-Paris-23.jpg 2x" media="(min-width: 768px)">
+  <source srcset="#{ site.img_base_url }images/2013-02-16-Week-end-Paris-23-480w.jpg, #{ site.img_base_url }images/2013-02-16-Week-end-Paris-23-960w.jpg 2x"> 
+  <!--[if IE 9]></video><![endif]--> 
+  <img srcset="#{ site.img_base_url }images/2013-02-16-Week-end-Paris-23-480w.jpg, #{ site.img_base_url }images/2013-02-16-Week-end-Paris-23-960w.jpg 2x" alt="Effeil Tower">
+</picture>
 <noscript>
-<img src="#{ site.img_base_url }images/2013-02-16-Week-end-Paris-23-900w.jpg" alt="Effeil Tower">
+  <img src="#{ site.img_base_url }images/2013-02-16-Week-end-Paris-23-480w.jpg" alt="Effeil Tower">
 </noscript>
-</div>
-<figcaption>Effeil Tower &copy; #{ site.author.name }</figcaption>
+<figcaption>Effeil Tower
+  <span class="copyright">&copy;&nbsp;#{ site.author.name.sub " ", "&nbsp;" }</span>
+</figcaption>
 </figure>
+
 
 I took my Nikon D7000 with the 16-85mm DX (and the 35mm _&#402;_/1.8 DX for low light). The camera bag weighed 2.7kg all included. We walked a lot during the 2 days and I felt the camera and the bag getting heavier with each kilometer.
 
@@ -39,21 +39,20 @@ This also means that I will not get a X100s even with all the improvements from 
 
 Yesterday, I read [Duncan's review of the Sony DSC RX1][rx1]. This camera looks fun to use and provides gorgeous pictures (you have to read it on a Hi-DPI display to really enjoy the images quality) but it is way too expensive for me. I would not say that it is overpriced. For the same budget, I would take a RX1 over a Nikon D600 + Zeiss 35mm _&#402;_/2 lens any day but both are above my budget at the moment.
 
-<figure><div class="img" data-picture data-alt="Effeil Tower">
-<div data-src="#{ site.img_base_url }images/2013-02-16-Week-end-Paris-27-320w.jpg"></div>
-<div data-src="#{ site.img_base_url }images/2013-02-16-Week-end-Paris-27-480w.jpg" data-media="(min-width: 320px)"></div>
-<div data-src="#{ site.img_base_url }images/2013-02-16-Week-end-Paris-27-768w.jpg" data-media="(min-width: 480px)"></div>
-<div data-src="#{ site.img_base_url }images/2013-02-16-Week-end-Paris-27-900w.jpg" data-media="(min-width: 768px)"></div>
-<div data-src="#{ site.img_base_url }images/2013-02-16-Week-end-Paris-27-640w.jpg" data-media="(-webkit-min-device-pixel-ratio: 1.5),(-moz-min-device-pixel-ratio: 1.5),(-o-min-device-pixel-ratio: 3/2)"></div>
-<div data-src="#{ site.img_base_url }images/2013-02-16-Week-end-Paris-27-960w.jpg" data-media="(min-width: 320px) and (-webkit-min-device-pixel-ratio: 1.5),(min-width: 320px) and (-moz-min-device-pixel-ratio: 1.5),(min-width: 320px) and (-o-min-device-pixel-ratio: 3/2)"></div>
-<div data-src="#{ site.img_base_url }images/2013-02-16-Week-end-Paris-27-1536w.jpg" data-media="(min-width: 480px) and (-webkit-min-device-pixel-ratio: 1.5),(min-width: 480px) and (-moz-min-device-pixel-ratio: 1.5),(min-width: 480px) and (-o-min-device-pixel-ratio: 3/2)"></div>
-<div data-src="#{ site.img_base_url }images/2013-02-16-Week-end-Paris-27.jpg" data-media="(min-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5),(min-width: 768px) and (-moz-min-device-pixel-ratio: 1.5),(min-width: 768px) and (-o-min-device-pixel-ratio: 3/2)"></div>
-<!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+<figure>
+<picture>
+  <!--[if IE 9]><video style="display: none;"><![endif]-->
+  <source srcset="#{ site.img_base_url }images/2013-02-16-Week-end-Paris-27-900w.jpg, #{ site.img_base_url }images/2013-02-16-Week-end-Paris-27.jpg 2x" media="(min-width: 768px)">
+  <source srcset="#{ site.img_base_url }images/2013-02-16-Week-end-Paris-27-480w.jpg, #{ site.img_base_url }images/2013-02-16-Week-end-Paris-27-960w.jpg 2x"> 
+  <!--[if IE 9]></video><![endif]--> 
+  <img srcset="#{ site.img_base_url }images/2013-02-16-Week-end-Paris-27-480w.jpg, #{ site.img_base_url }images/2013-02-16-Week-end-Paris-27-960w.jpg 2x" alt="Eiffel Tower">
+</picture>
 <noscript>
-<img src="#{ site.img_base_url }images/2013-02-16-Week-end-Paris-27-900w.jpg" alt="Effeil Tower">
+  <img src="#{ site.img_base_url }images/2013-02-16-Week-end-Paris-27-480w.jpg" alt="Eiffel Tower">
 </noscript>
-</div>
-<figcaption>Effeil Tower &copy; #{ site.author.name }</figcaption>
+<figcaption>Eiffel Tower
+  <span class="copyright">&copy;&nbsp;#{ site.author.name.sub " ", "&nbsp;" }</span>
+</figcaption>
 </figure>
 
 I am considering waiting for the 2<sup>nd</sup> generation of Fuji X cameras, _provided their RAW files are supported by Adobe_. In the meantime, I could carry out a Sony DSC RX100. It looks to be a competent compact camera with a fast lens at the wide end. That would be a temporary solution but I don't take my DSLR as much as I could because it is too heavy. Having a compact camera with good IQ would make it fun again to shoot every time I am out. 
