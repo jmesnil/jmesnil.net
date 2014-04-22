@@ -22,3 +22,21 @@ tags: []
 </div>
 <figcaption>Wedding Pictures at Le Louvre, Paris &copy; Jeff Mesnil</figcaption>
 </figure>
+
+<figure>
+<picture>
+	<!--[if IE 9]><video style="display: none;"><![endif]-->
+	<source srcset="images/2012-09-20-Louvre-900w.jpg, images/2012-09-20-Louvre.jpg 2x" media="(min-width:768px)">
+	<source srcset="images/2012-09-20-Louvre-768w.jpg, images/2012-09-20-Louvre-1536w.jpg 2x" media="(min-width:480px)">
+	<source srcset="images/2012-09-20-Louvre-480w.jpg, images/2012-09-20-Louvre-960w.jpg 2x">
+	<!--[if IE 9]></video><![endif]-->
+	<img srcset="images/2012-09-20-Louvre-480w.jpg, images/2012-09-20-Louvre-960w.jpg 2x" alt="Wedding Pictures at Le Louvre, Paris">
+</picture>
+<noscript>
+<img src="images/2012-09-20-Louvre-480w.jpg" alt="Wedding Pictures at Le Louvre, Paris">
+</noscript>
+<figcaption>Wedding Pictures at Le Louvre, Paris
+  <span class="copyright">&copy;&nbsp;#{ site.author.name.sub " ", "&nbsp;" }</span>
+</figcaption>
+</figure>
+</div>
