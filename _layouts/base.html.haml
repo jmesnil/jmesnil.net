@@ -14,7 +14,7 @@
 
     %link{ :rel=>'stylesheet', :href=>'http://fonts.googleapis.com/css?family=Cantarell' }
     %link{ :rel=>'stylesheet', :href=>'http://fonts.googleapis.com/css?family=Inconsolata' }
-    
+
     %link{ :rel=>'stylesheet', :href=>"/stylesheets/bootstrap.css", :media=>'screen, projection' }
     %link{ :rel=>'stylesheet', :href=>"/stylesheets/custom.css", :media=>'screen, projection' }
     %link{ :rel=>'stylesheet', :href=>"#{ site.assets_url }stylesheets/syntax.css", :media=>'screen, projection' }
@@ -46,7 +46,7 @@
         .col-md-10.col-md-offset-1
 
           ~ content
-    
+
           %hr
           %footer
             .pull-left
@@ -56,10 +56,10 @@
               %a.text-muted{ :href=>'/colophon/' } Colophon
             &nbsp;
 
-    %script{ :src=>"#{ site.assets_url }scripts/jquery-1.7.2.min.js" }
-    %script{ :src=>"/scripts/bootstrap.js" }
-    %script{ :src=>"#{ site.assets_url }scripts/lightbox.js" }
-    %script{ :src=>"#{ site.assets_url }scripts/highlight.pack.js" }
+    %script( async src="#{ site.assets_url }scripts/jquery-1.7.2.min.js" )
+    %script( async src="/scripts/bootstrap.js" )
+    %script( async src="#{ site.assets_url }scripts/lightbox.js" )
+    %script( async src="#{ site.assets_url }scripts/highlight.pack.js" )
     :javascript
       hljs.initHighlightingOnLoad();
     = google_analytics
