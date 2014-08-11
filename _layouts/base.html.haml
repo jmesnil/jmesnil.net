@@ -56,10 +56,10 @@
               %a.text-muted{ :href=>'/colophon/' } Colophon
             &nbsp;
 
-    %script( async src="#{ site.assets_url }scripts/jquery-1.7.2.min.js" )
-    %script( async src="/scripts/bootstrap.js" )
-    %script( async src="#{ site.assets_url }scripts/lightbox.js" )
-    %script( async src="#{ site.assets_url }scripts/highlight.pack.js" )
+    %script( src="#{ site.assets_url }scripts/jquery-1.7.2.min.js" )
+    %script( src="/scripts/bootstrap.js" )
+    %script( src="#{ site.assets_url }scripts/lightbox.js" )
+    %script( src="#{ site.assets_url }scripts/highlight.pack.js" )
     :javascript
       hljs.initHighlightingOnLoad();
     = google_analytics
