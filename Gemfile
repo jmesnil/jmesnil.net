@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'awestruct'
+gem 'awestruct', '0.5.3'
 # Markdown support
 gem 'rdiscount'
-gem 'rb-fsevent', '~> 0.9'
 gem 'rake'
+gem 'asciidoctor'
+gem "listen", "<= 1.3.1"
