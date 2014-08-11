@@ -4,11 +4,13 @@
 %article
   %h1.text-center
     - if page.post.link
-      %a.link{ :href=>page.post.link }= "#{site.linked_list.link } #{ page.post.title }&nbsp;"
-      %a.plink{ :rel=>'bookmark', :title=>"Permanent link to #{ page.post.title }", :href=>page.post.url }= site.linked_list.post
+      %a.link{ :href=>page.post.link }= "#{ page.post.title }&nbsp;#{ site.linked_list.link }"
     - else
       %a.post{ :href=> page.post.url }= page.post.title
 
-  .date= page.post.date.strftime('%B %-d, %Y')
+  .date
+    = page.post.date.strftime('%B %-d, %Y')
+    - if page.post.link
+      %a.plink{ :rel=>'bookmark', :title=>"Permanent link to #{ page.post.title }", :href=>page.post.url }= site.linked_list.post
 
   ~ page.post.content.force_encoding("UTF-8")

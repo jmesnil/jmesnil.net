@@ -12,7 +12,7 @@ figure.portrait{
 
 figure img {
   margin-left: auto;
-  margin-right: auto;  
+  margin-right: auto;
   width: 100%;
 }
 
@@ -54,8 +54,8 @@ video {
 	height: 0;
 	overflow: hidden;
 }
-.video iframe,  
-.video object,  
+.video iframe,
+.video object,
 .video embed {
 	position: absolute;
 	top: 0;
@@ -94,15 +94,12 @@ h1 a {
 }
 
 a.link {
-  font-size: 0.85em;
-  font-weight: bold;
-  color: #9D1E1E;
+  color: #8c7559;
 }
 
 a.plink {
   text-decoration: none;
-  border-bottom: 1px dotted firebrick;
-  color: #9D1E1E;
+  color: silver;
 }
 
 header, footer {
@@ -114,7 +111,7 @@ header h1 {
   margin-bottom: 0;
 }
 
-header a, footer a { 
+header a, footer a {
   font-variant: small-caps;
   color: silver;
   text-decoration: none;

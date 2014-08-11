@@ -5,7 +5,7 @@ title : Archive
 
 - site.archive.each do |year, monthly_archive|
   %h2= year
-  - monthly_archive.each do |month, posts|  
+  - monthly_archive.each do |month, posts|
     %h3= month
     %ul.list-unstyled
       - posts.each do |post|
@@ -13,6 +13,6 @@ title : Archive
           .date= post.date.strftime('%B %d, %Y')
           &raquo;
           - if post.link
-            %a.link{ :href=>post.url }= "#{site.linked_list.link} #{ post.title}"
+            %a.link{ :href=>post.url }= "#{ post.title}&nbsp;#{site.linked_list.link}"
           - else
             %a{ :href=>post.url }= post.title
