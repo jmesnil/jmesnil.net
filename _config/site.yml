@@ -5,6 +5,7 @@ author :
   github : jmesnil
   twitter : jmesnil
 
+interpolate: true
 img_base_url: http://media.jmesnil.net/
 # replace by / to test with local assets
 #assets_url: /
@@ -12,7 +13,8 @@ assets_url: http://media.jmesnil.net/
 
 base_url: http://jmesnil.net/
 
-google_analytics: UA-257783-1
+google_analytics:
+  account: UA-257783-1
 
 profiles:
   staging:

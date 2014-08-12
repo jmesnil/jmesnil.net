@@ -7,7 +7,7 @@ CONFIG = {
   'post_ext' => 'md'
 }
 
-task :default => :build
+task :default => :dev
 
 desc "Run in developer mode"
 task :dev => :check do
