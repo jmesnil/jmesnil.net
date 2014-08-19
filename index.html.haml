@@ -1,13 +1,29 @@
 ---
-layout: base
+layout: root
 title: Weblog
 ---
 
+<header class="text-center" style="margin-bottom: 2em;">
+<h1><a href="/">#{site.title}</a></h1>
+</header>
+
+<div class="row">
+
+<div class="col-md-12">
+
+<ul class="col-md-3 list-inline">
+<li><a href="/weblog/">Weblog</a></li><br />
+<li>Photos (coming soon)</li><br />
+<li>Books (coming soon)</li><br />
+<li><a href="/about/">About</a></li><br />
+<li><a href="/archive/">Archive</a></li><br />
+</ul>
+
+<div class="col-md-9">
 <figure>
 <picture>
 <!--[if IE 9]><video style="display: none;"><![endif]-->
 <source srcset="#{ site.img_base_url }images/2013-07-10-Lotus+Flower-900w.jpg, #{ site.img_base_url }images/2013-07-10-Lotus+Flower-1800w.jpg 2x" media="(min-width: 768px)">
-<source srcset="#{ site.img_base_url }images/2013-07-10-Lotus+Flower-480w.jpg, #{ site.img_base_url }images/2013-07-10-Lotus+Flower-960w.jpg 2x"> 
 <!--[if IE 9]></video><![endif]--> 
 <img srcset="#{ site.img_base_url }images/2013-07-10-Lotus+Flower-480w.jpg, #{ site.img_base_url }images/2013-07-10-Lotus+Flower-960w.jpg 2x" alt="Lotus Flower">
 </picture>
@@ -25,3 +41,8 @@ title: Weblog
 <span class="focal-length">45&nbsp;mm</span>
 </div>
 </figure>
+</div>
+
+</div>
+
+</div>

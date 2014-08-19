@@ -1,0 +1,61 @@
+!!! 5
+%html
+  %head
+    %meta{ :name=>'viewport', :content=>"width=device-width" }
+    %meta{ "http-equiv"=>'content-type', :content=>'text/html; charset=utf-8' }
+    %meta{ :name=>'author', :content=>site.author.name }
+
+    %title= "#{site.title} &mdash; #{page.title}"
+
+    %link{ :rel=>'start', :href=>'/'}
+    %link{ :rel=>'icon', :href=>'/favicon.ico', :type=>'image/png' }
+
+    %link{ :rel=>'alternate', :type=>'application/atom+xml', :href=>'/weblog/feed/atom/', :title=>'Atom feed' }
+
+    %link{ :rel=>'stylesheet', :href=>"//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css", :media=>'screen, projection' }
+    %link{ :rel=>'stylesheet', :href=>"/stylesheets/custom.css", :media=>'screen, projection' }
+    %link{ :rel=>'stylesheet', :href=>"#{ site.assets_url }stylesheets/syntax.css", :media=>'screen, projection' }
+    %link{ :rel=>'stylesheet', :href=>"/stylesheets/lightbox.css", :media=>'screen, projection' }
+    %link{ :rel=>'stylesheet', :href=>"#{ site.assets_url }stylesheets/highlight.github.css", :media=>'screen, projection' }
+    %link{ :rel=>'stylesheet', :href=>"#{ site.assets_url }stylesheets/font-awesome.min.css", :media=>'screen, projection' }
+    
+    :javascript
+      WebFontConfig = {
+        google: { families: [ 'Cantarell::latin', 'Inconsolata::latin' ] }
+      };
+      (function() {
+        var wf = document.createElement('script');
+        wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+          '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+        wf.type = 'text/javascript';
+        wf.async = 'true';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(wf, s);
+      })(); </script>
+
+  %body
+
+    .container
+    
+      ~ content
+
+      .row
+        .col-md-10.col-md-offset-1
+
+          %hr
+          %footer
+            .pull-left
+              %a.text-muted{ :href=>'http://creativecommons.org/licenses/by-nc/3.0/' } &copy; 2004&mdash;2014
+              %a.text-muted{ :href=>'/about/' }= site.author.name
+            .pull-right
+              %a.text-muted{ :href=>'/colophon/' } Colophon
+            &nbsp;
+
+
+    %script( src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" )
+    %script( src="#{ site.assets_url }scripts/highlight.pack.js" )
+    :javascript
+      hljs.initHighlightingOnLoad();
+    %script( async src="/scripts/picturefill.min.js")
+    %script( async src="/scripts/lightbox.min.js" )
+    = google_analytics_universal
