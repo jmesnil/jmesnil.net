@@ -1,3 +1,44 @@
+body {
+    font-family: Cantarell,sans-serif;
+    font-size: 16px;
+    line-height: 1.428571429;
+    color: #444444;
+    background-color: whiteSmoke;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: Cantarell, sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+.text-primary {
+  color: #59708c;
+}
+
+a {
+  color: #59708c;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #3b4b5d;
+  text-decoration: underline;
+}
+
+
 figure {
   margin-left: auto;
   margin-right: auto;
