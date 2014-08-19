@@ -36,6 +36,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.0.3)
+    execjs (2.2.1)
     ffi (1.9.3)
     formatador (0.2.5)
     fssm (0.2.10)
@@ -52,7 +53,9 @@ GEM
       multi_json (~> 1.8)
     haml (4.0.5)
       tilt
+    htmlcompressor (0.1.1)
     http_parser.rb (0.6.0)
+    json (1.8.1)
     listen (2.7.9)
       celluloid (>= 0.15.2)
       rb-fsevent (>= 0.9.3)
@@ -80,6 +83,9 @@ GEM
     thor (0.19.1)
     tilt (2.0.1)
     timers (1.1.0)
+    uglifier (2.5.3)
+      execjs (>= 0.3.0)
+      json (>= 1.8.0)
     zurb-foundation (4.3.2)
       sass (>= 3.2.0)
 
@@ -88,5 +94,7 @@ PLATFORMS
 
 DEPENDENCIES
   awestruct
+  htmlcompressor
   rake
   rdiscount
+  uglifier

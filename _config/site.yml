@@ -16,6 +16,8 @@ base_url: http://jmesnil.net/
 google_analytics:
   account: UA-257783-1
 
+minify: true
+
 profiles:
   staging:
     deploy:

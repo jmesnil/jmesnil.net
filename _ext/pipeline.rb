@@ -13,7 +13,10 @@ Awestruct::Extensions::Pipeline.new do
 
   extension Awestruct::Extensions::Sitemap.new
 
+  transformer Awestruct::Extensions::Minify.new [:html]
+
   helper Awestruct::Extensions::Partial
   helper Awestruct::Extensions::GoogleAnalytics
+
 end
 
