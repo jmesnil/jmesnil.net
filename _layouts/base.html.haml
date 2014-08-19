@@ -18,9 +18,6 @@
     %link{ :rel=>'stylesheet', :href=>"#{ site.assets_url }stylesheets/lightbox.css", :media=>'screen, projection' }
     %link{ :rel=>'stylesheet', :href=>"#{ site.assets_url }stylesheets/highlight.github.css", :media=>'screen, projection' }
     %link{ :rel=>'stylesheet', :href=>"#{ site.assets_url }stylesheets/font-awesome.min.css", :media=>'screen, projection' }
-
-    %script( async src="#{ site.assets_url }scripts/picturefill.min.js")
-    %script( async src="#{ site.assets_url }scripts/matchmedia.js" )
     
     :javascript
       WebFontConfig = {
@@ -68,10 +65,11 @@
               %a.text-muted{ :href=>'/colophon/' } Colophon
             &nbsp;
 
-    %script( src="#{ site.assets_url }scripts/jquery-1.7.2.min.js" )
-    %script( src="/scripts/bootstrap.js" )
-    %script( src="#{ site.assets_url }scripts/lightbox.js" )
+
+    %script( src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" )
     %script( src="#{ site.assets_url }scripts/highlight.pack.js" )
     :javascript
       hljs.initHighlightingOnLoad();
-    = google_analytics
+    %script( async src="/scripts/picturefill.min.js")
+    %script( async src="/scripts/lightbox.min.js" )
+    = google_analytics_universal
