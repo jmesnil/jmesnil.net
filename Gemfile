@@ -7,3 +7,5 @@ gem 'rake'
 # HTML minification
 gem 'uglifier'
 gem 'htmlcompressor'
+# ImageMagick
+gem 'rmagick'
