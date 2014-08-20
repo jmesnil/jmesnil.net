@@ -36,8 +36,17 @@
   %body
 
     .container
-    
-      ~ content
+
+      %header.text-center{:style=>"margin-bottom:2em;"}
+        %h1
+          %a{:href=>'/', :title=>site.title}= site.title
+          %br
+          %small
+            Developer . Photographer . Writer
+
+      .row
+
+        ~ content
 
       .row
         .col-md-10.col-md-offset-1

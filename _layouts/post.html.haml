@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: root
 ---
 
 = partial('post.html.haml', :parent => page, :post => page, :include_comments => true)
@@ -8,6 +8,8 @@ layout: base
   - if page.next_post?
     %li
       %a{ :href=>page.next_post.url}= "&larr; #{page.next_post.title}"
+  %li
+    %a{ :href=>'/weblog/archive/' } Archive
   - if page.previous_post?
     %li
       %a.next{ :href=>page.previous_post.url}= "#{page.previous_post.title} &rarr;"

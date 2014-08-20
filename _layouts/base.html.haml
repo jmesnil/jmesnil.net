@@ -2,22 +2,6 @@
 layout: root
 ---
 
-%header.text-center
-  %h1
-    %a{:href=>'/', :title=>site.title}= site.title
-  %nav
-    %ul.list-inline
-      %li
-        &nbsp;
-        %a{ :href=>'/weblog/' } Weblog
-      %li
-        &nbsp;
-        %a{ :href=>'/about/' } About
-      %li
-        &nbsp;
-        %a{ :href=>'/weblog/archive/' } Archive
+.col-md-10.col-md-offset-1
 
-.row
-  .col-md-10.col-md-offset-1
-
-    ~ content
+  ~ content
