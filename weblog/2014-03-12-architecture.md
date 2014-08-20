@@ -22,7 +22,7 @@ tags:
   <span class="copyright">&copy;&nbsp;#{ site.author.name.sub " ", "&nbsp;" }</span>
 </figcaption>
 <div class="metadata">
-  <i class="icon-camera">&nbsp;Fuji&nbsp;X-E2&nbsp;</i>
+  <i class="fa fa-camera"></i>&nbsp;Fuji&nbsp;X-E2&nbsp;
   <span class="speed">1/480</span>
   <span class="aperture"><i>&#402;</i>/9</span>
   <span class="iso">ISO&nbsp;200</span>

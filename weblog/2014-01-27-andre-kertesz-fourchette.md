@@ -24,7 +24,7 @@ Yesterday, I was reading a book about [Andr&eacute; Kert&eacute;sz][wikipedia], 
   <span class="copyright">&copy;&nbsp;#{ site.author.name.sub " ", "&nbsp;" }</span>
 </figcaption>
 <div class="metadata">
-  <i class="icon-camera"></i>
+  <i class="fa fa-camera"></i>
   <span class="speed">1/180</span>
   <span class="aperture"><i>&#402;</i>/5.6</span>
   <span class="iso">ISO&nbsp;200</span>

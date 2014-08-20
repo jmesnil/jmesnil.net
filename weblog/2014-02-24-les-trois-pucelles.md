@@ -24,7 +24,7 @@ Les 3 Pucelles, _the Three Maiden_, are three rocks high above Grenoble in the V
   <span class="copyright">&copy;&nbsp;#{ site.author.name.sub " ", "&nbsp;" }</span>
 </figcaption>
 <div class="metadata">
-  <i class="icon-camera"></i>
+  <i class="fa fa-camera"></i>
   <span class="speed">1/80</span>
   <span class="aperture"><i>&#402;</i>/8</span>
   <span class="iso">ISO&nbsp;250</span>
@@ -45,11 +45,11 @@ This 90-metre springboard was used for the ski jumping competion during the 1968
 <noscript>
   <img src="#{ site.img_base_url }images/2014-02-22-Tremplin+des+3+Pucelles-480w.jpg" alt="Tremplin des 3 Pucelles">
 </noscript>
-<figcaption><a href="http://goo.gl/maps/T368G"><i class="icon-map-marker"></i></a>&nbsp;Tremplin des 3 Pucelles
+<figcaption><a href="http://goo.gl/maps/T368G"><i class="fa fa-map-marker"></i></a>&nbsp;Tremplin des 3 Pucelles
   <span class="copyright">&copy;&nbsp;#{ site.author.name.sub " ", "&nbsp;" }</span>
 </figcaption>
 <div class="metadata">
-  <i class="icon-camera"></i>
+  <i class="fa fa-camera"></i>
   <span class="speed">210</span>
   <span class="aperture"><i>&#402;</i>/8</span>
   <span class="iso">ISO&nbsp;400</span>

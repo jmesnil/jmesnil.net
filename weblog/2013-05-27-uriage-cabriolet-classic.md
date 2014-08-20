@@ -26,7 +26,7 @@ I am not a _connaisseur_ of cars but I can recognize a beautiful one when I see 
   <span class="copyright">&copy;&nbsp;#{ site.author.name.sub " ", "&nbsp;" }</span>
 </figcaption>
 <div class="metadata">
-  <i class="icon-camera"></i>
+  <i class="fa fa-camera"></i>
   <span class="speed">1/1250</span>
   <span class="aperture"><i>&#402;</i>/5</span>
   <span class="iso">ISO&nbsp;400</span>
@@ -49,7 +49,7 @@ I am not a _connaisseur_ of cars but I can recognize a beautiful one when I see 
   <span class="copyright">&copy;&nbsp;#{ site.author.name.sub " ", "&nbsp;" }</span>
 </figcaption>
 <div class="metadata">
-  <i class="icon-camera"></i>
+  <i class="fa fa-camera"></i>
   <span class="speed">1/2000</span>
   <span class="aperture"><i>&#402;</i>/5.3</span>
   <span class="iso">ISO&nbsp;200</span>
@@ -72,7 +72,7 @@ I am not a _connaisseur_ of cars but I can recognize a beautiful one when I see 
   <span class="copyright">&copy;&nbsp;#{ site.author.name.sub " ", "&nbsp;" }</span>
 </figcaption>
 <div class="metadata">
-  <i class="icon-camera"></i>
+  <i class="fa fa-camera"></i>
   <span class="speed">1/250</span>
   <span class="aperture"><i>&#402;</i>/5.6</span>
   <span class="iso">ISO&nbsp;200</span>
@@ -97,7 +97,7 @@ This gathering is an opportunity to appreciate all the shapes and colours of car
   <span class="copyright">&copy;&nbsp;#{ site.author.name.sub " ", "&nbsp;" }</span>
 </figcaption>
 <div class="metadata">
-  <i class="icon-camera"></i>
+  <i class="fa fa-camera"></i>
   <span class="speed">1/400</span>
   <span class="aperture"><i>&#402;</i>/8</span>
   <span class="iso">ISO&nbsp;400</span>
@@ -120,7 +120,7 @@ This gathering is an opportunity to appreciate all the shapes and colours of car
   <span class="copyright">&copy;&nbsp;#{ site.author.name.sub " ", "&nbsp;" }</span>
 </figcaption>
 <div class="metadata">
-  <i class="icon-camera"></i>
+  <i class="fa fa-camera"></i>
   <span class="speed">1/60</span>
   <span class="aperture"><i>&#402;</i>/22</span>
   <span class="iso">ISO&nbsp;400</span>

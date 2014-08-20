@@ -18,11 +18,11 @@ tags:
 <noscript>
   <img src="#{ site.img_base_url }images/2013-05-03-tuscany-780-480w.jpg" alt="Tuscany Countryside">
 </noscript>
-<figcaption><a href="http://goo.gl/maps/NW7uP"><i class="icon-map-marker"></i></a>&nbsp;Tuscany Countryside
+<figcaption><a href="http://goo.gl/maps/NW7uP"><i class="fa fa-map-marker"></i></a>&nbsp;Tuscany Countryside
   <span class="copyright">&copy;&nbsp;#{ site.author.name.sub " ", "&nbsp;" }</span>
 </figcaption>
 <div class="metadata">
-  <i class="icon-camera"></i>
+  <i class="fa fa-camera"></i>
   <span class="speed">1/100</span>
   <span class="aperture"><i>&#402;</i>/8</span>
   <span class="iso">ISO&nbsp;400</span>

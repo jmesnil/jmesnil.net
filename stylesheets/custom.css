@@ -45,6 +45,7 @@ figure {
   margin-bottom: 1.5em;
   font-size: 0.8em;
   color: silver;
+  max-width: 900px;
 }
 
 figure.portrait{

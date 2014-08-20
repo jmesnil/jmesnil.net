@@ -21,7 +21,7 @@ tags:
 <figcaption>Eminc&eacute; de Brocoli, Vinaigrette de Curry
   <span class="copyright">&copy;&nbsp;#{ site.author.name.sub " ", "&nbsp;" }</span>
 </figcaption>
-<div class="metadata"><i class="icon-camera"></i> <i>&#402;</i>/4 @ 1/2.5 ISO 250</div>
+<div class="metadata"><i class="fa fa-camera"></i> <i>&#402;</i>/4 @ 1/2.5 ISO 250</div>
 </figure>
 
 Food photography is fun.

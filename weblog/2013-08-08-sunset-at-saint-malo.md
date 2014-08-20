@@ -18,11 +18,11 @@ tags:
 <noscript>
   <img src="#{ site.img_base_url }images/2013-07-09-Bretagne-77-480w.jpg" alt="Sunset At Saint-Malo">
 </noscript>
-<figcaption><a href="http://goo.gl/maps/XXkw3"><i class="icon-map-marker"></i></a>&nbsp;Sunset At Saint-Malo (France)
+<figcaption><a href="http://goo.gl/maps/XXkw3"><i class="fa fa-map-marker"></i></a>&nbsp;Sunset At Saint-Malo (France)
   <span class="copyright">&copy;&nbsp;#{ site.author.name.sub " ", "&nbsp;" }</span>
 </figcaption>
 <div class="metadata">
-  <i class="icon-camera"></i>
+  <i class="fa fa-camera"></i>
   <span class="speed">1/250</span>
   <span class="aperture"><i>&#402;</i>/8</span>
   <span class="iso">ISO&nbsp;100</span>

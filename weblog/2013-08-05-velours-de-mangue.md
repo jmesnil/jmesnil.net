@@ -24,7 +24,7 @@ We bought a siphon for cooking some time ago and are having fun with it to prepa
   <span class="copyright">&copy;&nbsp;#{ site.author.name.sub " ", "&nbsp;" }</span>
 </figcaption>
 <div class="metadata">
-  <i class="icon-camera"></i>
+  <i class="fa fa-camera"></i>
   <span class="speed">1/60</span>
   <span class="aperture"><i>&#402;</i>/2.8</span>
   <span class="iso">ISO&nbsp;100</span>

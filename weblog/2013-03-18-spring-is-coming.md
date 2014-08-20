@@ -25,7 +25,7 @@ A local artist created a huge leprechaun representing the winter.
 <figcaption>Leprechaun &mdash; Printemps de Gi&egrave;res
   <span class="copyright">&copy;&nbsp;#{ site.author.name.sub " ", "&nbsp;" }</span>
 </figcaption>
-<div class="metadata"><i class="icon-camera"></i> <i>&#402;</i>/2 @ 1/100 ISO 800</div>
+<div class="metadata"><i class="fa fa-camera"></i> <i>&#402;</i>/2 @ 1/100 ISO 800</div>
 </figure>
 
 
@@ -46,7 +46,7 @@ Their make-up was very well made, they looked half-elves half-daemons.
 <figcaption>Les Lutins Farceurs &mdash; Printemps de Gi&egrave;res
   <span class="copyright">&copy;&nbsp;#{ site.author.name.sub " ", "&nbsp;" }</span>
 </figcaption>
-<div class="metadata"><i class="icon-camera"></i> <i>&#402;</i>/2.8 @ 1/1250 ISO 1600</div>
+<div class="metadata"><i class="fa fa-camera"></i> <i>&#402;</i>/2.8 @ 1/1250 ISO 1600</div>
 </figure>
 
 Kids were both frightened and in amazement looking at them, especially when they were jumping using stilts and going incredibly high with them.
@@ -65,7 +65,7 @@ Kids were both frightened and in amazement looking at them, especially when they
 <figcaption>Les Lutins Farceurs &mdash; Printemps de Gi&egrave;res
   <span class="copyright">&copy;&nbsp;#{ site.author.name.sub " ", "&nbsp;" }</span>
 </figcaption>
-<div class="metadata"><i class="icon-camera"></i> <i>&#402;</i>/4 @ 1/125 ISO 1600</div>
+<div class="metadata"><i class="fa fa-camera"></i> <i>&#402;</i>/4 @ 1/125 ISO 1600</div>
 </figure>
 
 <figure>
@@ -82,7 +82,7 @@ Kids were both frightened and in amazement looking at them, especially when they
 <figcaption>Les Lutins Farceurs &mdash; Printemps de Gi&egrave;res
   <span class="copyright">&copy;&nbsp;#{ site.author.name.sub " ", "&nbsp;" }</span>
 </figcaption>
-<div class="metadata"><i class="icon-camera"></i> <i>&#402;</i>/1.8 @ 1/125 ISO 1600</div>
+<div class="metadata"><i class="fa fa-camera"></i> <i>&#402;</i>/1.8 @ 1/125 ISO 1600</div>
 </figure>
 
 <figure>
@@ -99,7 +99,7 @@ Kids were both frightened and in amazement looking at them, especially when they
 <figcaption>Les Lutins Farceurs &mdash; Printemps de Gi&egrave;res
   <span class="copyright">&copy;&nbsp;#{ site.author.name.sub " ", "&nbsp;" }</span>
 </figcaption>
-<div class="metadata"><i class="icon-camera"></i> <i>&#402;</i>/1.8 @ 1/1000 ISO 1600</div>
+<div class="metadata"><i class="fa fa-camera"></i> <i>&#402;</i>/1.8 @ 1/1000 ISO 1600</div>
 </figure>
 
 Once the Lutins Farceurs ended their representation, the Leprechaun was burnt to celebrate the end of winter.
@@ -118,7 +118,7 @@ Once the Lutins Farceurs ended their representation, the Leprechaun was burnt to
 <figcaption>Burnt Leprechaun &mdash; Printemps de Gi&egrave;res
   <span class="copyright">&copy;&nbsp;#{ site.author.name.sub " ", "&nbsp;" }</span>
 </figcaption>
-<div class="metadata"><i class="icon-camera"></i> <i>&#402;</i>/2.8 @ 1/160 ISO 1000</div>
+<div class="metadata"><i class="fa fa-camera"></i> <i>&#402;</i>/2.8 @ 1/160 ISO 1000</div>
 </figure>
 
 The spectacle was great but it was untimely to celebrate the end of winter: it was snowing again this morning.

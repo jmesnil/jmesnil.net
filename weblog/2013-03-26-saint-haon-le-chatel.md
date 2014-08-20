@@ -18,11 +18,11 @@ tags:
 <noscript>
   <img src="#{ site.img_base_url }images/2013-03-23-Saint-Haon-le-Chatel-480w.jpg" alt="Saint-Haon-le-Ch&acirc;tel">
 </noscript>
-<figcaption><a href="http://goo.gl/maps/eHNLr"><i class="icon-map-marker"></i></a>&nbsp;Saint-Haon-le-Ch&acirc;tel
+<figcaption><a href="http://goo.gl/maps/eHNLr"><i class="fa fa-map-marker"></i></a>&nbsp;Saint-Haon-le-Ch&acirc;tel
   <span class="copyright">&copy;&nbsp;#{ site.author.name.sub " ", "&nbsp;" }</span>
 </figcaption>
 <div class="metadata">
-  <i class="icon-camera"></i>
+  <i class="fa fa-camera"></i>
   <span class="speed">1/250</span>
   <span class="aperture"><i>&#402;</i>/8</span>
   <span class="iso">ISO&nbsp;400</span>
