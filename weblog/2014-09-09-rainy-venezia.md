@@ -10,7 +10,7 @@ tags:
 We went to Venezia last May and had a rainy day during our trip.
 We spent almost the whole afternoon at a coffee shop and I was shooting the soaked people rushing to cross the street.
 
-This old man stood out with his red umbrella and its leisurely pace.
+This old man stood out with his red umbrella and his leisurely pace.
 
 <figure>
 <picture>
