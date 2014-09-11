@@ -22,7 +22,7 @@ made of a dark glass) while highlighting the label on the front of the bottle.
 In order to build the catalogue, I want to have an uniform style for all pictures with a pure white background and a square format (to keep the respective
 size of the bottles).
 
-In this post, I'll explain the process I haved used for the latest box (available mid-september). For september 2014, one of the beers is the [St. Stefanus Blonde][stefanus], brewed in Belgium.
+In this post, I'll explain the process I have used for the latest box (available mid-september). For september 2014, one of the beers is the [St. Stefanus Blonde][stefanus], brewed in Belgium.
 
 <figure style="max-width:319px;">
   <a href="http://www.st-stefanus.com/us/authentic-abbey-beer/belgian-blonde-beer"><img src="http://www.st-stefanus.com/file/serveFile/1363194384737" alt="St. Stefanus Blonde"></a>
@@ -194,7 +194,7 @@ The photo below shows the bottle lit by the front flash only (the photo below is
  We can see there are two highlights on the bottom of the bottle and near its neck. They are small enough that
 I will be able to remove it in post processing.
 
-# Final Picture
+## Final Picture
 
 Once the two speedlights are setup, I tweak their power to have a correct ratio between the back and front lights.
 At then, I use the following ratio:
@@ -229,7 +229,7 @@ When I take the picture with both the back and front lights, I capture the final
 
 Most of the work is now done and I just need a few touches of post-processing to finalize the image.
 
-# Post-Processing
+## Post-Processing
 
 I use [Lightroom][lr] for the image post-processing.
 
