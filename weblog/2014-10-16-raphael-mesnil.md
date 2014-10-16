@@ -8,7 +8,7 @@ tags:
 - baby
 ---
 
-Our first child, Rapha&euml;l Mesnil, was born on September, 28^th at 52cm and 3.230kg.
+Our first child, Rapha&euml;l Mesnil, is born on September, 28^th at 52cm and 3.230kg.
 
 Marion and the baby are fine and we enjoy every moment with him.
 
