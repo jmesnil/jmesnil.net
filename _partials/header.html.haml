@@ -6,8 +6,10 @@
     %a{:href=>'/', :title=>site.title}= site.title
     %br
     %small
-      %a{:href=>'/weblog', :class=>("current" if page.current == 0)} Developer
+      %a{:href=>'/weblog', :class=>("current" if page.current == 0)} Weblog
       &middot;
-      %a{:href=>'/photos', :class=>("current" if page.current == 1)} Photographer
+      %a{:href=>'/developer', :class=>("current" if page.current == 1)} Developer
       &middot;
-      %a{:href=>'/books',  :class=>("current" if page.current == 2)} Writer
+      %a{:href=>'/photos', :class=>("current" if page.current == 2)} Photographer
+      &middot;
+      %a{:href=>'/books',  :class=>("current" if page.current == 3)} Writer
