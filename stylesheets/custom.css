@@ -34,10 +34,13 @@ a {
 
 a:hover,
 a:focus {
-  color: #3b4b5d;
+  color: #59708c;
   text-decoration: underline;
 }
 
+a.current {
+  color: #59708c;
+}
 
 figure {
   margin-left: auto;
@@ -155,8 +158,10 @@ header h1 {
 
 header a, footer a {
   font-variant: small-caps;
-  color: silver;
-  text-decoration: none;
+}
+
+header small a {
+    color: silver;
 }
 
 header ul::after {

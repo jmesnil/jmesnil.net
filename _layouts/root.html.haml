@@ -36,12 +36,7 @@
 
     .container
 
-      %header.text-center
-        %h1
-          %a{:href=>'/', :title=>site.title}= site.title
-          %br
-          %small
-            Developer . Photographer . Writer
+      = partial('header.html.haml', :current=>page.current)
 
       .row
 

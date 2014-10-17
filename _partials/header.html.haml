@@ -1,0 +1,13 @@
+---
+---
+
+%header.text-center
+  %h1
+    %a{:href=>'/', :title=>site.title}= site.title
+    %br
+    %small
+      %a{:href=>'/weblog', :class=>("current" if page.current == 0)} Developer
+      &middot;
+      %a{:href=>'/photos', :class=>("current" if page.current == 1)} Photographer
+      &middot;
+      %a{:href=>'/books',  :class=>("current" if page.current == 2)} Writer

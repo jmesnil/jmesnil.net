@@ -1,7 +1,9 @@
 ---
-layout: base
+layout: root
 ---
 
-%h1.text-center.text-primary= page.title
+.col-md-10.col-md-offset-1
 
-~ content
+  %h1.text-center.text-primary= page.title unless page.notitle
+
+  ~ content
