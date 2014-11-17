@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Marion &amp; Rapha&euml;l"
-date: '2014-11-17 13:22:39'
+date: '2014-11-17 17:22:39'
 category: 
 tags:
 - photo
@@ -54,8 +54,11 @@ I used my Fuji X-E2 with its awesome 56mm &#402;/1.2 lens that I opened at &#402
 
 <figure style="max-width:520px;">
 <picture>
-<img src="#{ site.img_base_url }images/2014-11-15-JFM07918.setup.png">
+  <img src="#{ site.img_base_url }images/2014-11-15-JFM07918.setup.png">
 </picture>
+<noscript>
+  <img src="#{ site.img_base_url }images/2014-11-15-JFM07918.setup.png">
+</noscript>
 </figure>
 
 Rapha&euml; was intrigued by the flash tests and I just had to make a few pictures to capture this one.
