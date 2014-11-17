@@ -6,7 +6,7 @@ notitle: true
 %article
   %h1.text-center
     - if page.post.link
-      %a.link{ :href=>page.post.link }= "#{ page.post.title }&nbsp;#{ site.linked_list.link }"
+      %a.link{ :href=>page.post.link }= "#{ site.linked_list.link }&nbsp;#{ page.post.title }"
     - else
       %a.post{ :href=> page.post.url }= page.post.title
 
