@@ -27,7 +27,7 @@ Marion and the baby are fine and we enjoy every moment with him.
   <span class="copyright">&copy;&nbsp;#{ site.author.name.sub " ", "&nbsp;" }</span>
 </figcaption>
 <div class="metadata">
-  <i class="fa fa-camera"></i>&nbsp;
+  <i class="fa fa-camera"></i>&nbsp;Fuji&nbsp;X-E2
   <span class="speed">1/180</span>
   <span class="aperture"><i>&#402;</i>/2.8</span>
   <span class="iso">ISO&nbsp;400</span>
