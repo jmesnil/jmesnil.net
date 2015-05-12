@@ -78,7 +78,7 @@ GEM
     rdiscount (2.1.7.1)
     rest-client (1.6.7)
       mime-types (>= 1.16)
-    rmagick (2.13.3)
+    rmagick (2.15.0)
     ruby-s3cmd (0.1.5)
     sass (3.2.19)
     slop (3.6.0)
