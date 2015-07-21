@@ -25,7 +25,7 @@ size of the bottles).
 In this post, I'll explain the process I have used for the latest box (available mid-september). For september 2014, one of the beers is the [St. Stefanus Blonde][stefanus], brewed in Belgium.
 
 <figure style="max-width:319px;">
-  <a href="http://www.st-stefanus.com/us/authentic-abbey-beer/belgian-blonde-beer"><img src="http://www.st-stefanus.com/file/serveFile/1363194384737" alt="St. Stefanus Blonde"></a>
+  <a href="http://www.st-stefanus.com/us/authentic-abbey-beer/belgian-blonde-beer"><img src="https://www.st-stefanus.com/sites/g/files/ogq301/f/blog_images/grand-cru_2.jpg" alt="St. Stefanus Blonde"></a>
   <figcaption>St. Stefanus Blonde
     <span class="copyright">&copy;&nbsp;St Stefanus</span>
   <figcaption>
