@@ -10,18 +10,18 @@ I am employed by [Red Hat][redhat] as a _Senior Software Engineer_.
 Currently, I am working for [JBoss][jboss], Red Hat's middleware division, on the [WildFly][wildfly] and [JBoss EAP][eap] application servers.
 I am a member of the core team in charge of developing the internals of the application servers and lead its messaging subsystem (which provides the JMS API).
 
-Previously, I also contributed to the [HornetQ][hornetq] messaging broker that is integrated into WildFly and EAP.
+Previously, I also contributed to the [HornetQ][hornetq] messaging broker that was integrated into WildFly and EAP.
 
 I am a proponent of Open Source development and all the code I write either professionally or privately is available under Open Source licenses.
 These days, it is mostly hosted on [GitHub][github].
 
-I have a keen interest on messaging systems and maintains several Open Source libraries related to messaging:
+I have a keen interest on messaging systems and wrote several Open Source libraries related to messaging:
 
 * [stomp.js][stompjs], a JavaScript client for STOMP (for Web browsers and node.js applications)
 * [StompKit][stompkit], an Objective-C client for STOMP
 * [MQTTKit][mqttkit], an Objective-C client for MQTT
 
-I am avalaible to speak at conferences and JUGs about WildFly and messaging in general.
+I am available to speak at conferences and JUGs about WildFly, messaging and software development.
 
 [redhat]: http://www.redhat.com/en
 [jboss]: http://www.jboss.org
