@@ -11,7 +11,7 @@ task :default => :dev
 
 desc "Run in developer mode"
 task :dev => :check do
-  system "awestruct --dev"
+  system "awestruct --dev -b 0.0.0.0"
 end
 
 desc "Force a regeneration"

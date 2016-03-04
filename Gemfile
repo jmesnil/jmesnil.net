@@ -9,3 +9,4 @@ gem 'uglifier'
 gem 'htmlcompressor'
 # ImageMagick
 gem 'rmagick'
+gem 'minify'

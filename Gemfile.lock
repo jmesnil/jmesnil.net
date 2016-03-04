@@ -61,6 +61,7 @@ GEM
     lumberjack (1.0.10)
     method_source (0.8.2)
     mime-types (2.99.1)
+    minify (0.1.3)
     multi_json (1.11.2)
     nenv (0.3.0)
     netrc (0.11.0)
@@ -106,6 +107,7 @@ PLATFORMS
 DEPENDENCIES
   awestruct
   htmlcompressor
+  minify
   rake
   rdiscount
   rmagick
