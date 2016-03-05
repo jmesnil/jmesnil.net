@@ -7,7 +7,7 @@ RUN yum install -y epel-release which tar bzip2 gcc ruby-devel libxml2 libxml2-d
 # required for minify... sigh...
 RUN yum install -y nodejs
 
-RUN yum install -y wget
+RUN yum install -y wget s3cmd
 
 # Add RVM keys
 RUN gpg2 --keyserver hkp://pgp.mit.edu --recv-keys D39DC0E3
