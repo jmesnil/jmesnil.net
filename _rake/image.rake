@@ -1,5 +1,5 @@
 require 'fileutils'
-require 'RMagick'
+require 'rmagick'
 
 include Magick
 
