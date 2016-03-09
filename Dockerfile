@@ -2,35 +2,36 @@ FROM centos:centos7
 MAINTAINER Jeff Mesnil <jmesnil@gmail.com>
 
 # install deps required by our build
-RUN yum install -y epel-release \
-    which \
-    tar \
+RUN yum -y update && yum install -y \
+    autoconf \
+    automake \
+    bison \
     bzip2 \
+    epel-release \
     gcc \
-    ruby-devel \
+    gcc-c++ \
+    git \
+    ImageMagick-devel \
+    libcurl-devel \
+    libffi-devel \
+    libtool \
     libxml2 \
     libxml2-devel \
     libxslt \
     libxslt-devel \
-    libcurl-devel \
-    git \
-    ImageMagick-devel \
     libyaml-devel \
-    autoconf \
-    gcc-c++ \
+    make \
+    openssl-devel \
     patch \
     readline-devel \
-    libffi-devel \
-    openssl-devel \
-    make \
-    automake \
-    libtool \
-    bison \
+    ruby-devel \
     sqlite-devel \
-    wget \
-    s3cmd
+    tar \
+    which \
+    wget
 # required for minify... sigh...
 RUN yum install -y nodejs
+RUN yum install -y s3cmd
 
 RUN useradd -m jmesnil
 
