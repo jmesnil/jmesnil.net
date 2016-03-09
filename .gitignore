@@ -12,6 +12,7 @@ Thumbs.db
 .rvmrc
 .ruby-gemset
 .ruby-version
+Gemfile.lock
 
 .bundle
 _vendor
