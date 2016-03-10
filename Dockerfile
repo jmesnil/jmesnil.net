@@ -49,7 +49,8 @@ RUN bash -l -c "gem install bundler"
 # install base gem's, if any changes user only need to install differences.
 ADD ./Gemfile /home/jmesnil/
 RUN bash -l -c "bundle install"
-
+# Fix webrick config to avoid a DNS reverse lookup that make it way too slow in Docker
+RUN cd /home/jmesnil/.rvm/rubies/ && grep -l -ri ':DoNotReverseLookup *=> nil'  * | xargs sed -i "s/:DoNotReverseLookup *=> nil/:DoNotReverseLookup => true/"
 EXPOSE 4242
 
 ENTRYPOINT [ "/bin/bash", "-l" ]
