@@ -34,8 +34,8 @@ module Awestruct
         page.date = page.timestamp unless page.timestamp.nil?
         page.output_path = @output_path
         page.entries = atom_pages
-        page.title = @feed_title || site.title || site.base_url
-        page.content_url = @content_url || site.base_url
+        page.title = @feed_title || site.title || site.atom_base_url
+        page.content_url = @content_url || site.atom_base_url
         site.pages << page
       end
 
