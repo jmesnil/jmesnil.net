@@ -11,7 +11,7 @@ task :default => :dev
 
 desc "Run in developer mode"
 task :dev => :check do
-  system "awestruct --dev -b 0.0.0.0 --no-livereload"
+  system "awestruct --dev -b 0.0.0.0 --no-livereload --no-generate-on-access"
 end
 
 desc "Force a regeneration"
