@@ -11,7 +11,7 @@ task :default => :dev
 
 desc "Run in developer mode"
 task :dev => :check do
-  system "awestruct --dev -b 0.0.0.0"
+  system "awestruct --dev -b 0.0.0.0 --no-livereload"
 end
 
 desc "Force a regeneration"
@@ -28,7 +28,7 @@ desc "Build the site and deploy to S3 staging"
 task :staging => :rebuild do
   system "awestruct -P staging --deploy"
 end
- 
+
 task :check do
   Dir.mkdir('_tmp') unless Dir.exist?('_tmp')
 end

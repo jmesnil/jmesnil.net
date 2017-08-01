@@ -1,56 +1,43 @@
-FROM centos:centos7
-MAINTAINER Jeff Mesnil <jmesnil@gmail.com>
+FROM       fedora:22
 
-# install deps required by our build
-RUN yum -y update && yum install -y \
-    autoconf \
-    automake \
-    bison \
-    bzip2 \
-    epel-release \
-    gcc \
-    gcc-c++ \
-    git \
-    ImageMagick-devel \
-    libcurl-devel \
-    libffi-devel \
-    libtool \
-    libxml2 \
-    libxml2-devel \
-    libxslt \
-    libxslt-devel \
-    libyaml-devel \
-    make \
-    openssl-devel \
-    patch \
-    readline-devel \
-    ruby-devel \
-    sqlite-devel \
-    tar \
-    which \
-    wget
-# required for minify... sigh...
-RUN yum install -y nodejs
-RUN yum install -y s3cmd
+# install the required dependencies to complile natice extensions
+RUN        dnf -y install gcc-c++ make ruby-devel libxml2-devel libxslt-devel findutils git ruby nodejs s3cmd
 
-RUN useradd -m jmesnil
+RUN        groupadd -r dev && useradd  -g dev -u 1000 dev
+RUN        mkdir -p /home/dev
+RUN        chown dev:dev /home/dev
 
-USER jmesnil
-ENV HOME /home/jmesnil
-WORKDIR /home/jmesnil/
-
-ENV RUBY_VERSION 2.2.4
-
-RUN gpg2 --keyserver hkp://pgp.mit.edu --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
-RUN curl -sSL https://get.rvm.io | bash -s stable --ruby=$RUBY_VERSION
-RUN bash -l -c "rvm use $RUBY_VERSION"
-RUN bash -l -c "rvm cleanup all"
-RUN bash -l -c "gem install bundler"
-# install base gem's, if any changes user only need to install differences.
-ADD ./Gemfile /home/jmesnil/
-RUN bash -l -c "bundle install"
 # Fix webrick config to avoid a DNS reverse lookup that make it way too slow in Docker
-RUN cd /home/jmesnil/.rvm/rubies/ && grep -l -ri ':DoNotReverseLookup *=> nil'  * | xargs sed -i "s/:DoNotReverseLookup *=> nil/:DoNotReverseLookup => true/"
-EXPOSE 4242
+RUN cd /usr/share/ruby/ && grep -l -ri ':DoNotReverseLookup *=> nil'  * | xargs sed -i "s/:DoNotReverseLookup *=> nil/:DoNotReverseLookup => true/"
 
-ENTRYPOINT [ "/bin/bash", "-l" ]
+# From here we run everything as dev user
+USER       dev
+
+# Setup all the env variables needed for ruby
+ENV        HOME /home/dev
+ENV        GEM_HOME $HOME/.gems
+ENV        GEM_PATH $HOME/.gems
+ENV        PATH $PATH:$GEM_HOME/bin
+ENV        LC_ALL en_US.UTF-8
+ENV        LANG en_US.UTF-8
+RUN        mkdir $HOME/.gems
+
+# Install Rake and Bundler for driving the Awestruct build & site
+RUN        gem install -N rake bundler
+
+# Clone in.relation.to in order to run the setup task
+#RUN        git clone https://github.com/jmesnil/jmesnil.net.git $HOME/jmesnil.net
+#RUN        cd $HOME/jmesnil.net && rake setup
+RUN         mkdir $HOME/jmesnil.net/
+ADD         ./Gemfile $HOME/jmesnil.net
+RUN         cd $HOME/jmesnil.net && bundle install
+
+# We need to patch awestruct to make auto generation work. On mounted volumes file
+# change montoring will only work with polling
+RUN        gem contents awestruct | grep auto.rb | xargs sed -i "s/^\(.*force_polling =\).*/\1 true/"
+
+EXPOSE     4242
+VOLUME     $HOME/in.relation.to
+WORKDIR    $HOME/in.relation.to
+
+CMD [ "/bin/bash" ]
