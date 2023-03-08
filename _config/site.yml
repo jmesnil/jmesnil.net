@@ -13,9 +13,6 @@ assets_url: http://media.jmesnil.net/
 
 atom_base_url: http://jmesnil.net
 
-google_analytics:
-  account: UA-257783-1
-
 minify: true
 
 profiles:
