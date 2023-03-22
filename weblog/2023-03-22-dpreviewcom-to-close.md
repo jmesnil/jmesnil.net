@@ -9,6 +9,6 @@ tags:
 
 Over the years, [DPReview](https://www.dpreview.com/) has been an invaluable help when I was searching for camera gears.
 
-I seldom go browse it now as I am mostly using my phone to take pictures but I am still subscribed to their newsfeed.
+I seldom browse it now as I am mostly using my phone to take pictures but I am still subscribed to their newsfeed.
 
 If I were to look for a replacement for my aging camera, I'm not sure which site would provide the same quality of technical reviews...
