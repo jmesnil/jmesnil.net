@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 
 gem 'json'
 gem 'awestruct'
+gem 'webrick'
 # Markdown support
 gem 'rdiscount'
 gem 'rake'
@@ -10,3 +11,4 @@ gem 'rake'
 gem 'uglifier'
 gem 'htmlcompressor'
 gem 'minify'
+
