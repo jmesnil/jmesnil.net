@@ -20,10 +20,10 @@
     - for entry in page.entries
       %entry
         - if entry.link
-          %title{:type=>"html"}= escape_once( escape_once ("#{site.linked_list.link} #{entry.title}"))
+          %title{:type=>"html"}= html_escape( "#{site.linked_list.link} #{entry.title}")
           %link{:rel=>"alternate", :type=>"text/html", :href=>entry.link }
         - else
-          %title{:type=>"html"}= escape_once (entry.title)
+          %title{:type=>"html"}= html_escape (entry.title)
           %link{:rel=>"alternate", :type=>"text/html", :href=>"#{site.atom_base_url}#{entry.url}" }
 
         %id #{site.atom_base_url}#{entry.url}
