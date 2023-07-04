@@ -17,17 +17,8 @@ My managers and colleagues at Red Hat were also very supportive so that I could 
 When my boot was finally removed, I caught sight of my foot for the first time, revealing a 15cm scar that I could proudly boast about if I were on the "Jaws" boat :)
 
 <figure class="portrait">
-<picture>
-  <!--[if IE 9]><video style="display: none;"><![endif]-->
-  <source srcset="#{ site.img_base_url }images/2023-07-04-health-update.jpeg, #{ site.img_base_url }images/2023-07-04-health-update.jpeg 2x" media="(min-width: 768px)">
-  <source srcset="#{ site.img_base_url }images/2023-07-04-health-update.jpeg, #{ site.img_base_url }images/2023-07-04-health-update.jpeg 2x">
-  <!--[if IE 9]></video><![endif]-->
-  <img srcset="#{ site.img_base_url }images/2023-07-04-health-update.jpegg, #{ site.img_base_url }images/2023-07-04-health-update.jpeg 2x" alt="Scar of my Achilles tendon">
-</picture>
-<noscript>
-  <img src="#{ site.img_base_url }images/2023-07-04-health-update.jpeg" alt="Scar of my Achilles tendon">
-</noscript>
-<figcaption>&nbsp;Scar of my Achilles tendon
+<img src="#{ site.img_base_url }images/2023-07-04-health-update.jpeg" alt="Scar of my Achilles tendon">
+<figcaption>Scar of my Achilles tendon
   <span class="copyright">&copy;&nbsp;#{ site.author.name.sub " ", "&nbsp;" }</span>
 </figcaption>
 </figure>
