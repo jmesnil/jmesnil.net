@@ -19,7 +19,7 @@ When my boot was finally removed, I caught sight of my foot for the first time, 
 <figure class="portrait">
 <img src="#{ site.img_base_url }images/2023-07-04-health-update.jpeg" alt="Scar of my Achilles tendon">
 <figcaption>Scar of my Achilles tendon
-  <span class="copyright">&copy;&nbsp;#{ site.author.name.sub " ", "&nbsp;" }</span>
+  <span class="copyright">&copy;&nbsp;Jeff Mesnil</span>
 </figcaption>
 </figure>
 

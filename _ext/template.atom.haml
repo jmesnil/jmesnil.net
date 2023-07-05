@@ -38,7 +38,7 @@
             - else
               %name= entry.author
         %content{:type=>'html'}
-          = clean_html( html_escape( fully_qualify_urls( site.atom_base_url, find_and_preserve( entry.content ) ) ) )
+          = clean_html( html_escape( find_and_preserve( entry.content ) ) )
 
           - if entry.link
             - permalink = capture_haml(site, entry) do |site, entry|
