@@ -23,7 +23,7 @@ profiles:
   production:
     deploy:
       type: s3
-      bucket: s3://www.jmesnil.net/
+      bucket: s3://jmesnil.net/
 
 generation:
   in_threads: 2
