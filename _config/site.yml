@@ -6,10 +6,10 @@ author :
   twitter : jmesnil
 
 interpolate: true
-img_base_url: http://media.jmesnil.net/
+img_base_url: https://media.jmesnil.net/
 # replace by / to test with local assets
 #assets_url: /
-assets_url: http://media.jmesnil.net/
+assets_url: https://media.jmesnil.net/
 
 atom_base_url: http://jmesnil.net
 
