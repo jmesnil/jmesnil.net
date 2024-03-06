@@ -319,7 +319,7 @@ cd target/wildfly-gitops-server/wildfly
 
 # Use Dependabot to Be Notified of WildFly Updates
 
-WildFly provisioning is using Maven artifacts. We can take advantage of this to add a "symbolic" dependency to one of this artifact in our `pom.xml` so that Dependabot will periodically check and propose updates when new versions of WildFly are available:
+WildFly provisioning is using Maven artifacts. We can take advantage of this to add a "symbolic" dependency to the WildFly Galleon Pack artifact in our `pom.xml` so that Dependabot will periodically check and propose updates when new versions of WildFly are available:
 
 ```xml
 <project>
