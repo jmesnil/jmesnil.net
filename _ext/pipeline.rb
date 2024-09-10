@@ -4,7 +4,7 @@ require 'posts_archiver'
 
 Awestruct::Extensions::Pipeline.new do
   extension Awestruct::Extensions::Posts.new '/weblog'
-  extension Awestruct::Extensions::Paginator.new :posts, '/weblog/index', :per_page => 20
+  extension Awestruct::Extensions::Paginator.new :posts, '/weblog/index', :per_page => 10
   extension Awestruct::Extensions::PostsArchiver.new '/weblog/archive', :posts, :archive
   extension Awestruct::Extensions::Indexifier.new
 
