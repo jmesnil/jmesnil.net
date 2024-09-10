@@ -1,5 +1,5 @@
 ---
-date: '2004-06-11 11:44:29'
+date: '2004-06-11 11:40:29'
 layout: post
 slug: distributed-computing-is-not-an-afterthought
 status: publish
