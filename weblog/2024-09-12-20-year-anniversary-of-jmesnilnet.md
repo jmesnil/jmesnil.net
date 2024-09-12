@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "20-year anniversary of jmesnil.net"
-date: '2024-09-11 12:17:15'
+date: '2024-09-12 12:17:15'
 ---
 
 I missed the date but I posted [the first article on this blog](/weblog/2004/06/11/distributed-computing-is-not-an-afterthought/) on June, 11th 2024.
