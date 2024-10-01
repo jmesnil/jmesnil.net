@@ -3,7 +3,7 @@ require 'fileutils'
 namespace :post do
 
   # Usage: rake post:new title="A Title" [date="2012-02-09"]
-  desc "Begin a new post in #{CONFIG['posts']}"
+  desc "Begin a new post in #{CONFIG['posts']} (with title, date & link options)"
   task :new do
     abort("rake aborted: '#{CONFIG['posts']}' directory not found.") unless FileTest.directory?(CONFIG['posts'])
     title = ENV["title"] || "new-post"
