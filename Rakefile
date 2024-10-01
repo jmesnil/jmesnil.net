@@ -4,7 +4,8 @@ require 'time'
 
 CONFIG = {
   'posts' => 'weblog/',
-  'post_ext' => 'md'
+  'post_ext' => 'md',
+  's3_url' => "s3://media.jmesnil.net/"
 }
 
 task :default => :dev
